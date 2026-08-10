@@ -1283,17 +1283,30 @@
     "urlTemplate": "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/{zoom}/{y}/{x}"
   },
   "Crook-2023": {
-    "attributionHtml": "<a href=\"https://co.crook.or.us/gis\" target=\"_blank\" rel=\"noopener\">Crook County GIS</a>",
+    "attributionHtml": "<a href=\"https://crookcountyor.gov/\" target=\"_blank\" rel=\"noopener\">Crook County GIS</a>",
     "attributionText": "Crook County GIS",
-    "attributionUrl": "https://co.crook.or.us/gis",
+    "attributionUrl": "https://crookcountyor.gov/",
     "endDate": "2023",
-    "icon": "https://co.crook.or.us/sites/default/files/styles/full_node_primary/public/imageattachments/tech/page/14110/crook_county_logo.png",
+    "icon": "https://crookcountyor.gov/ImageRepository/Document?documentID=4371",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/or/Crook.pdf",
     "startDate": "2023",
     "tiles": [
       "https://gis.crookcountyor.gov/server/rest/services/Hosted/Crook_2023_Imagery/MapServer/tile/{z}/{y}/{x}"
     ],
     "urlTemplate": "https://gis.crookcountyor.gov/server/rest/services/Hosted/Crook_2023_Imagery/MapServer/tile/{zoom}/{y}/{x}"
+  },
+  "Crook-2026": {
+    "attributionHtml": "<a href=\"https://crookcountyor.gov/\" target=\"_blank\" rel=\"noopener\">Crook County GIS</a>",
+    "attributionText": "Crook County GIS",
+    "attributionUrl": "https://crookcountyor.gov/",
+    "endDate": "2026",
+    "icon": "https://crookcountyor.gov/ImageRepository/Document?documentID=4371",
+    "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/or/Crook.pdf",
+    "startDate": "2026",
+    "tiles": [
+      "https://gis.crookcountyor.gov/server/rest/services/Hosted/Crook_County_2026_Imagery/MapServer/tile/{z}/{y}/{x}"
+    ],
+    "urlTemplate": "https://gis.crookcountyor.gov/server/rest/services/Hosted/Crook_County_2026_Imagery/MapServer/tile/{zoom}/{y}/{x}"
   },
   "CT_ECO_Ortho_2019_RGB": {
     "attributionHtml": "<a href=\"https://cteco.uconn.edu/data/imagery/index.htm\" target=\"_blank\" rel=\"noopener\">Connecticut Environmental Conditions Online</a>",
@@ -2587,9 +2600,9 @@
     "licenseUrl": "https://henrico.gov/transparency/terms-of-use/",
     "startDate": "2024",
     "tiles": [
-      "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&dpi=96&format=jpg&transparent=true&layers=show:96,100&f=image"
+      "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&dpi=96&format=jpg&transparent=true&layers=show:2024&f=image"
     ],
-    "urlTemplate": "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&dpi=96&format=jpg&transparent=true&layers=show:96,100&f=image"
+    "urlTemplate": "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&dpi=96&format=jpg&transparent=true&layers=show:2024&f=image"
   },
   "Henrico_VA_2025": {
     "attributionHtml": "<a href=\"https://henrico.gov/it/gis/\" target=\"_blank\" rel=\"noopener\">Henrico County Government</a>",
@@ -2604,9 +2617,26 @@
     "licenseUrl": "https://henrico.gov/transparency/terms-of-use/",
     "startDate": "2025",
     "tiles": [
-      "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&dpi=96&format=jpg&transparent=true&layers=show:102&f=image"
+      "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&dpi=96&format=jpg&transparent=true&layers=show:2025&f=image"
     ],
-    "urlTemplate": "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&dpi=96&format=jpg&transparent=true&layers=show:102&f=image"
+    "urlTemplate": "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&dpi=96&format=jpg&transparent=true&layers=show:2025&f=image"
+  },
+  "Henrico_VA_2026": {
+    "attributionHtml": "<a href=\"https://henrico.gov/it/gis/\" target=\"_blank\" rel=\"noopener\">Henrico County Government</a>",
+    "attributionText": "Henrico County Government",
+    "attributionUrl": "https://henrico.gov/it/gis/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:2924",
+      "EPSG:3857"
+    ],
+    "endDate": "2026",
+    "licenseUrl": "https://henrico.gov/transparency/terms-of-use/",
+    "startDate": "2026",
+    "tiles": [
+      "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&dpi=96&format=jpg&transparent=true&layers=show:2026&f=image"
+    ],
+    "urlTemplate": "https://portal.henrico.gov/mapping/rest/services/Imagery/AerialPhotosAll/MapServer/export?bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&dpi=96&format=jpg&transparent=true&layers=show:2026&f=image"
   },
   "Hillsborough_Ortho_2023": {
     "attributionHtml": "<a href=\"https://www.hillsboroughcounty.org/en/about-hillsborough/open-data/geospatial-services\" target=\"_blank\" rel=\"noopener\">Hillsborough County Zoning Information & Counseling</a>",

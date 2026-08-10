@@ -4450,8 +4450,8 @@
         -119.8791,
         44.48711
       ],
-      "best": true,
-      "category": "photo",
+      "best": false,
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -4463,6 +4463,31 @@
       "maxzoom": 20,
       "minzoom": 11,
       "name": "Crook County Orthoimagery (2023)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -121.11831,
+        43.99413,
+        -119.8791,
+        44.48711
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "617431d959151b40",
+      "id": "Crook-2026",
+      "maxzoom": 20,
+      "minzoom": 11,
+      "name": "Crook County Orthoimagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -13575,7 +13600,7 @@
         -77.14806,
         37.72882
       ],
-      "best": true,
+      "best": false,
       "category": "photo",
       "continents": [
         "north-america"
@@ -13588,6 +13613,31 @@
       "maxzoom": 21,
       "minzoom": 1,
       "name": "Henrico County Aerial Imagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -77.66031,
+        37.34026,
+        -77.16939,
+        37.72064
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "d174de300ec3512a",
+      "id": "Henrico_VA_2026",
+      "maxzoom": 21,
+      "minzoom": 1,
+      "name": "Henrico County Aerial Imagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -20106,7 +20156,7 @@
       "geometryId": "d29ee8ac38b5dbf8",
       "id": "MSB_Aerial_2019",
       "maxzoom": 19,
-      "name": "MSB Aerial Imagery - Area 1(2019)",
+      "name": "MSB Aerial Imagery - Area 1 (2019)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,

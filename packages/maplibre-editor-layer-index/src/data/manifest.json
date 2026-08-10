@@ -7,11 +7,11 @@
     },
     "geometries": 952,
     "geometryShards": 7,
-    "published": 1639,
-    "upstream": 1657
+    "published": 1641,
+    "upstream": 1659
   },
-  "generatedAt": "2026-08-05T08:13:08.974Z",
+  "generatedAt": "2026-08-10T08:02:20.726Z",
   "source": "https://osmlab.github.io/editor-layer-index/imagery.geojson",
-  "sourceCommit": "ac5d4d15eb2113100a0ac468c5353c6bc34f29bd",
-  "sourceVersion": "W/\"6a6ecba4-657835\""
+  "sourceCommit": "3b6e8095fe5fd87493467d279c9f21cd854bcb8d",
+  "sourceVersion": "W/\"6a773246-659373\""
 }

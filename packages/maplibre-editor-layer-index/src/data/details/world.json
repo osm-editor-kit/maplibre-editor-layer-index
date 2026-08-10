@@ -333,9 +333,9 @@
     "urlTemplate": "https://www.opensnowmap.org/pistes/{zoom}/{x}/{y}.png"
   },
   "OpenTopoMap": {
-    "attributionHtml": "<a href=\"https://tile.opentopomap.org/about#verwendung\" target=\"_blank\" rel=\"noopener\">Kartendaten: © OpenStreetMap-Mitwirkende, SRTM | Kartendarstellung: © OpenTopoMap (CC-BY-SA)</a>",
+    "attributionHtml": "<a href=\"https://opentopomap.org/about#verwendung\" target=\"_blank\" rel=\"noopener\">Kartendaten: © OpenStreetMap-Mitwirkende, SRTM | Kartendarstellung: © OpenTopoMap (CC-BY-SA)</a>",
     "attributionText": "Kartendaten: © OpenStreetMap-Mitwirkende, SRTM | Kartendarstellung: © OpenTopoMap (CC-BY-SA)",
-    "attributionUrl": "https://tile.opentopomap.org/about#verwendung",
+    "attributionUrl": "https://opentopomap.org/about#verwendung",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenTopoMap.png",
     "tiles": [
       "https://a.tile.opentopomap.org/{z}/{x}/{y}.png",
