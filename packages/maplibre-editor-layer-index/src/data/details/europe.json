@@ -2302,8 +2302,8 @@
     "urlTemplate": "http://{switch:a,b,c}.tile.openstreetmap.fr/bdtopo/{zoom}/{x}/{y}.png"
   },
   "fr.ign.mnslidarhd": {
-    "attributionHtml": "<a href=\"https://geoservices.ign.fr/lidarhd\" target=\"_blank\" rel=\"noopener\">IGN MNS LIDAR HD</a>",
-    "attributionText": "IGN MNS LIDAR HD",
+    "attributionHtml": "<a href=\"https://geoservices.ign.fr/lidarhd\" target=\"_blank\" rel=\"noopener\">IGN MNS LiDAR HD</a>",
+    "attributionText": "IGN MNS LiDAR HD",
     "attributionUrl": "https://geoservices.ign.fr/lidarhd",
     "endDate": "2025",
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
@@ -2315,8 +2315,8 @@
     "urlTemplate": "https://data.geopf.fr/tms/1.0.0/IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW/{zoom}/{x}/{y}.png"
   },
   "fr.ign.mntlidarhd": {
-    "attributionHtml": "<a href=\"https://geoservices.ign.fr/lidarhd\" target=\"_blank\" rel=\"noopener\">IGN MNT LIDAR HD</a>",
-    "attributionText": "IGN MNT LIDAR HD",
+    "attributionHtml": "<a href=\"https://geoservices.ign.fr/lidarhd\" target=\"_blank\" rel=\"noopener\">MNT LiDAR HD IGN</a>",
+    "attributionText": "MNT LiDAR HD IGN",
     "attributionUrl": "https://geoservices.ign.fr/lidarhd",
     "endDate": "2025",
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
@@ -6559,8 +6559,7 @@
       "EPSG:4258",
       "EPSG:4326",
       "EPSG:5555",
-      "EPSG:25832",
-      "EPSG:31466"
+      "EPSG:25832"
     ],
     "endDate": "2024-07-09",
     "licenseUrl": "https://www.govdata.de/dl-de/zero-2-0",

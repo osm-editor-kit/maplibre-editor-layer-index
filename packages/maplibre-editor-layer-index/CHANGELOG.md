@@ -1,5 +1,17 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.1.7
+
+### Patch Changes
+
+- Update Editor Layer Index data (automated refresh).
+
+  ### Updated (4)
+  - **Köln TrueDOP 2024** (`Koeln-TrueDOP-2024`)
+  - **MNS LiDAR HD IGN** (`fr.ign.mnslidarhd`)
+  - **MNT LiDAR HD IGN** (`fr.ign.mntlidarhd`)
+  - **SANDAG 2020 Aerial Imagery** (`SANDAG_2020`)
+
 ## 0.1.6
 
 ### Patch Changes
