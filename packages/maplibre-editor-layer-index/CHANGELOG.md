@@ -1,5 +1,57 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.1.8
+
+### Patch Changes
+
+- Update Editor Layer Index data (upstream [`bd0af36`](https://github.com/osmlab/editor-layer-index/commit/bd0af364c4393e91fc745735e04cd6ad559dce39)).
+
+  ### Added (12)
+  - **City of Maple Ridge Orthoimagery (2025)** (`Maple-Ridge-RGB-2025`)
+  - **FÖMI orthophoto 2016 (WEBP)** (`FOMI_2016`)
+  - **FÖMI orthophoto 2016 leaf-off 20cm (webp)** (`FOMI_2016_leafoff_20cm`)
+  - **GeoDK Aerial Imagery** (`GeoDanmark_Orthophoto_Spring_Septima`)
+  - **GST Cadastral Parcels Map INSPIRE** (`Geodatastyrelsen_Cadastral_Parcels_INSPIRE`)
+  - **KDS Screen Map** (`Klimadatastyrelsen_Screen_Map`)
+  - **KDS Surface Shadow Map (40 cm)** (`Klimadatastyrelsen_Surface_Shadow_40cm`)
+  - **KDS Terrain Shadow Map (40 cm)** (`Klimadatastyrelsen_Terrain_Shadow_40cm`)
+  - **KDS Topography Map (DTK25)** (`Klimadatastyrelsen_Topography_DTK25`)
+  - **Los Alamos County Orthoimagery (2018)** (`Los_Alamos_2018`)
+  - **Los Alamos County Orthoimagery (2022)** (`Los_Alamos_2022`)
+  - **Los Alamos County Orthoimagery (2025)** (`Los_Alamos_2025`)
+
+  ### Updated (12)
+  - **CAPCOG Imagery (2022)** (`capcog_2022`)
+  - **City of Maple Ridge Orthoimagery (2023)** (`Maple-Ridge-RGB-2023`)
+  - **ETCOG Imagery (2024)** (`ETCOG24_NC_6in`)
+  - **National Agriculture Imagery Program** (`USDA-NAIP`)
+  - **OpenStreetMap GPS traces** (`osm-gps`)
+  - **Sóskút, Pusztazámor, Tárnok, Diósd orthophoto 2017** (`Soskut_Pusztazamor_Tarnok_Diosd_orto_2017`)
+  - **StratMap Balmorhea & Davis Mountain State Parks Imagery (2020)** (`StratMap20_NC_6in_Balmorhea_Davis_Mountians`)
+  - **StratMap Brazos County Imagery (2019)** (`brazos_county_2019_wms`)
+  - **StratMap CapArea & McLennan Imagery (Natural Color 2020)** (`Stratmap20_NCCIR_CapArea_McLennan`)
+  - **StratMap CapArea Imagery (2019)** (`caparea_2019_wms`)
+  - **StratMap CapArea, Brazos & Kerr Imagery (Natural Color 2021)** (`StratMap21_NCCIR_CapArea_Brazos_Kerr`)
+  - **TX: Smith County Imagery 2019** (`smith_county_2019_wms`)
+
+  ### Removed (16)
+  - **Los Alamos County Orthoimagery 2018 (1in)** (`Los_Alamos_1in_2018`)
+  - **Los Alamos County Orthoimagery 2018 (3in)** (`Los_Alamos_3in_2018`)
+  - **Los Alamos County Orthoimagery 2022 (3in)** (`Los_Alamos_3in_2022`)
+  - **Northern New Mexico NAIP 2022 (Infrared)** (`Los_Alamos_NAIP_CIR_2022`)
+  - **SDFI Aerial Imagery** (`Geodatastyrelsen_Denmark`)
+  - **SDFI Cadastral Parcels INSPIRE View** (`Geodatastyrelsen_Cadastral_Parcels_INSPIRE_View`)
+  - **SDFI DTK Map25** (`Geodatastyrelsen_DTK_Kort25`)
+  - **SDFI Screenmap** (`Geodatastyrelsen_Skaermkort`)
+  - **SDFI Surface Shadow Map (40 cm)** (`SDFE_Overflade_Skyggekort_40cm`)
+  - **SDFI Terrain Shadow Map (40 cm)** (`SDFE_Terraen_Skyggekort_40cm`)
+  - **TX: City of Amarillo Imagery 2015** (`amarillo_2016_wms`)
+  - **TX: City of El Paso Imagery 2015** (`el_paso_2015_wms`)
+  - **TX: City of Georgetown Imagery 2015** (`georgetown_2016_wms`)
+  - **TX: City of Lubbock Imagery 2015** (`lubbock_2016_wms`)
+  - **TX: Dallas and Fort Worth Imagery 2015** (`dallas_fort_worth_2016_wms`)
+  - **TX: San Antonio River Authority Imagery 2016** (`san_antonio_river_2016_wms`)
+
 ## 0.1.7
 
 ### Patch Changes

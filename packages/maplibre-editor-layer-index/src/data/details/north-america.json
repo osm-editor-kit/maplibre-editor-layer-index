@@ -87,23 +87,6 @@
     ],
     "urlTemplate": "https://gis.allencountyohio.com/arcgis/rest/services/Imagery/2021Aerial_20X/MapServer/tile/{zoom}/{y}/{x}"
   },
-  "amarillo_2016_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/c4045402-55b8-41ee-a911-adbda2a2c4aa\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). City of Amarillo Imagery, 2015-03-13</a>",
-    "attributionText": "Strategic Mapping Program (StratMap). City of Amarillo Imagery, 2015-03-13",
-    "attributionUrl": "https://data.tnris.org/collection/c4045402-55b8-41ee-a911-adbda2a2c4aa",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2015",
-    "licenseUrl": "https://data.tnris.org/collection/c4045402-55b8-41ee-a911-adbda2a2c4aa",
-    "startDate": "2015",
-    "tiles": [
-      "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_Amarillo/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-    ],
-    "urlTemplate": "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_Amarillo/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-  },
   "Arapahoe-County-Aerials-Latest": {
     "attributionHtml": "<a href=\"https://gis.arapahoegov.com/\" target=\"_blank\" rel=\"noopener\">Arapahoe County GIS</a>",
     "attributionText": "Arapahoe County GIS",
@@ -225,21 +208,21 @@
     "urlTemplate": "https://gisweb.bozeman.net/image/services/COB_20250503_WebMercator/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "brazos_county_2019_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/?c=aa2cd74e-9c2d-4f00-bae5-609b5e898093\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). Brazos County Imagery, 2019-01-29</a>",
+    "attributionHtml": "<a href=\"https://data.geographic.texas.gov/collection/?c=aa2cd74e-9c2d-4f00-bae5-609b5e898093\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). Brazos County Imagery, 2019-01-29</a>",
     "attributionText": "Strategic Mapping Program (StratMap). Brazos County Imagery, 2019-01-29",
-    "attributionUrl": "https://data.tnris.org/collection/?c=aa2cd74e-9c2d-4f00-bae5-609b5e898093",
+    "attributionUrl": "https://data.geographic.texas.gov/collection/?c=aa2cd74e-9c2d-4f00-bae5-609b5e898093",
     "availableProjections": [
       "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
     "endDate": "2019",
-    "licenseUrl": "https://data.tnris.org/collection/?c=aa2cd74e-9c2d-4f00-bae5-609b5e898093",
+    "licenseUrl": "https://data.geographic.texas.gov/collection/?c=aa2cd74e-9c2d-4f00-bae5-609b5e898093",
     "startDate": "2019",
     "tiles": [
-      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_6in_Brazos/ImageServer/WMSServer?LAYERS=StratMap19_NCCIR_6in_Brazos&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_6in_Brazos/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_6in_Brazos/ImageServer/WMSServer?LAYERS=StratMap19_NCCIR_6in_Brazos&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_6in_Brazos/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "Brevard_Ortho_2021": {
     "attributionHtml": "<a href=\"https://www.brevardfl.gov/GISMapsAndApplications\" target=\"_blank\" rel=\"noopener\">Brevard County Board of County Commissioners</a>",
@@ -643,9 +626,9 @@
     "urlTemplate": "https://maps.geogratis.gc.ca/wms/canvec_fr?LAYERS=canvec&STYLES=&FORMAT=image/png&TRANSPARENT=TRUE&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "caparea_2019_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/?c=f84442b8-ac2a-4708-b5c0-9d15515f4483\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). CapArea Imagery, 2019-01-29</a>",
+    "attributionHtml": "<a href=\"https://data.geographic.texas.gov/collection/?c=f84442b8-ac2a-4708-b5c0-9d15515f4483\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). CapArea Imagery, 2019-01-29</a>",
     "attributionText": "Strategic Mapping Program (StratMap). CapArea Imagery, 2019-01-29",
-    "attributionUrl": "https://data.tnris.org/collection/?c=f84442b8-ac2a-4708-b5c0-9d15515f4483",
+    "attributionUrl": "https://data.geographic.texas.gov/collection/?c=f84442b8-ac2a-4708-b5c0-9d15515f4483",
     "availableProjections": [
       "CRS:84",
       "EPSG:3857",
@@ -653,19 +636,19 @@
     ],
     "endDate": "2019",
     "icon": "https://cdn.tnris.org/images/tnris_logo.svg",
-    "licenseUrl": "https://data.tnris.org/collection/?c=f84442b8-ac2a-4708-b5c0-9d15515f4483",
+    "licenseUrl": "https://data.geographic.texas.gov/collection/?c=f84442b8-ac2a-4708-b5c0-9d15515f4483",
     "startDate": "2019",
     "tiles": [
-      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_CapArea/ImageServer/WMSServer?LAYERS=StratMap19_NCCIR_CapArea&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_CapArea/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_CapArea/ImageServer/WMSServer?LAYERS=StratMap19_NCCIR_CapArea&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_CapArea/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "capcog_2022": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/?c=a15f67db-9535-464e-9058-f447325b6251\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). CAPCOG Imagery, 2022-01-22</a>",
-    "attributionText": "Strategic Mapping Program (StratMap). CAPCOG Imagery, 2022-01-22",
-    "attributionUrl": "https://data.tnris.org/collection/?c=a15f67db-9535-464e-9058-f447325b6251",
+    "attributionHtml": "<a href=\"https://regional-open-data-capcog.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Capital Area Council of Governments (CAPCOG)</a>",
+    "attributionText": "Capital Area Council of Governments (CAPCOG)",
+    "attributionUrl": "https://regional-open-data-capcog.opendata.arcgis.com/",
     "endDate": "2022-01-22",
-    "icon": "https://cdn.tnris.org/images/tnris_logo.svg",
+    "icon": "https://www.capcog.org/wp-content/uploads/2024/01/CAPCOG-Logo.png",
     "licenseUrl": "https://api.tnris.org/api/v1/collections/a15f67db-9535-464e-9058-f447325b6251",
     "startDate": "2022-01-22",
     "tiles": [
@@ -1386,23 +1369,6 @@
     ],
     "urlTemplate": "https://gis.cuyahogacounty.us/server/rest/services/IMAGERY/2023_Spring_Ortho/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "dallas_fort_worth_2016_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/1849447b-4f62-4318-81d3-9fef9c31482c\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). Dallas and Fort Worth Imagery, 2015-01-01</a>",
-    "attributionText": "Strategic Mapping Program (StratMap). Dallas and Fort Worth Imagery, 2015-01-01",
-    "attributionUrl": "https://data.tnris.org/collection/1849447b-4f62-4318-81d3-9fef9c31482c",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2015",
-    "licenseUrl": "https://data.tnris.org/collection/1849447b-4f62-4318-81d3-9fef9c31482c",
-    "startDate": "2015",
-    "tiles": [
-      "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_Dallas_FtWorth/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-    ],
-    "urlTemplate": "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_Dallas_FtWorth/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-  },
   "DC_From_Above_Ortho_2019": {
     "attributionHtml": "<a href=\"https://opendata.dc.gov/datasets/DCGIS::aerial-photography-orthophoto-2019/about\" target=\"_blank\" rel=\"noopener\">OCTO, DCGIS</a>",
     "attributionText": "OCTO, DCGIS",
@@ -1991,23 +1957,6 @@
     ],
     "urlTemplate": "https://imagery.pasda.psu.edu/arcgis/services/pasda/DVRPC2025/MapServer/WMSServer?format=image/jpeg&version=1.3.0&service=wms&request=getmap&layers=0&styles=&crs={proj}&width={width}&height={height}&bbox={bbox}"
   },
-  "el_paso_2015_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/8870dbdd-d3fb-4c06-a3d1-c4e407428218\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). City of El Paso Imagery, 2015-10-25</a>",
-    "attributionText": "Strategic Mapping Program (StratMap). City of El Paso Imagery, 2015-10-25",
-    "attributionUrl": "https://data.tnris.org/collection/8870dbdd-d3fb-4c06-a3d1-c4e407428218",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2015",
-    "licenseUrl": "https://data.tnris.org/collection/8870dbdd-d3fb-4c06-a3d1-c4e407428218",
-    "startDate": "2015",
-    "tiles": [
-      "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_ElPaso/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-    ],
-    "urlTemplate": "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_ElPaso/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-  },
   "Escambia_Ortho_2019": {
     "attributionHtml": "<a href=\"https://www.fdot.gov/gis/aerialmain.shtm\" target=\"_blank\" rel=\"noopener\">Florida Department of Transportation</a>",
     "attributionText": "Florida Department of Transportation",
@@ -2046,9 +1995,9 @@
     "licenseUrl": "https://data.geographic.texas.gov/collection/?c=f98a9f76-2ee8-49e3-a7c1-d68df93afeee",
     "startDate": "2024-01-20",
     "tiles": [
-      "https://imagery.geographic.texas.gov/server/services/ETCOG/ETCOG24_NC_6in/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=ETCOG24_NC_6in&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://imagery.geographic.texas.gov/server/services/ETCOG/ETCOG24_NC_6in/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/ETCOG/ETCOG24_NC_6in/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=ETCOG24_NC_6in&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/ETCOG/ETCOG24_NC_6in/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "Eureka_CA_2023": {
     "attributionHtml": "<a href=\"https://www.eurekaca.gov/\" target=\"_blank\" rel=\"noopener\">City of Eureka</a>",
@@ -2401,23 +2350,6 @@
       "https://cartes.geogratis.gc.ca/wms/roads_fr?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=routes&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
     "urlTemplate": "https://cartes.geogratis.gc.ca/wms/roads_fr?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=routes&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "georgetown_2016_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/a665d1fe-47f4-497c-b467-bb1535a02c9d\" target=\"_blank\" rel=\"noopener\">Texas Natural Resources Information System (TNRIS). City of Georgetown Imagery, 2015-03-06</a>",
-    "attributionText": "Texas Natural Resources Information System (TNRIS). City of Georgetown Imagery, 2015-03-06",
-    "attributionUrl": "https://data.tnris.org/collection/a665d1fe-47f4-497c-b467-bb1535a02c9d",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2015",
-    "licenseUrl": "https://data.tnris.org/collection/a665d1fe-47f4-497c-b467-bb1535a02c9d",
-    "startDate": "2015",
-    "tiles": [
-      "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_6in_Georgetown/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-    ],
-    "urlTemplate": "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_6in_Georgetown/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "Greene_OH_2022": {
     "attributionHtml": "<a href=\"https://www.greenecountyohio.gov/\" target=\"_blank\" rel=\"noopener\">Greene County, State of Ohio</a>",
@@ -3222,24 +3154,7 @@
     ],
     "urlTemplate": "https://tiles.arcgis.com/tiles/vGBb7WYV10mOJRNM/arcgis/rest/services/2024_Spring_Aerials/MapServer/tile/{zoom}/{y}/{x}"
   },
-  "Los_Alamos_1in_2018": {
-    "attributionHtml": "<a href=\"https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services\" target=\"_blank\" rel=\"noopener\">Los Alamos County GIS Services</a>",
-    "attributionText": "Los Alamos County GIS Services",
-    "attributionUrl": "https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857"
-    ],
-    "endDate": "2018-09",
-    "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6435726/Templates/Images/logo.png",
-    "licenseUrl": "https://wiki.openstreetmap.org/wiki/New_Mexico/Los_Alamos_County_Orthoimagery",
-    "startDate": "2018-09",
-    "tiles": [
-      "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_drone_1_inch/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
-    ],
-    "urlTemplate": "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_drone_1_inch/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
-  },
-  "Los_Alamos_3in_2018": {
+  "Los_Alamos_2018": {
     "attributionHtml": "<a href=\"https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services\" target=\"_blank\" rel=\"noopener\">Los Alamos County GIS Services</a>",
     "attributionText": "Los Alamos County GIS Services",
     "attributionUrl": "https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services",
@@ -3256,7 +3171,7 @@
     ],
     "urlTemplate": "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_pictometry_3in_2018/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
-  "Los_Alamos_3in_2022": {
+  "Los_Alamos_2022": {
     "attributionHtml": "<a href=\"https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services\" target=\"_blank\" rel=\"noopener\">Los Alamos County GIS Services</a>",
     "attributionText": "Los Alamos County GIS Services",
     "attributionUrl": "https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services",
@@ -3273,7 +3188,7 @@
     ],
     "urlTemplate": "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_pictometry_3in_2022/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
-  "Los_Alamos_NAIP_CIR_2022": {
+  "Los_Alamos_2025": {
     "attributionHtml": "<a href=\"https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services\" target=\"_blank\" rel=\"noopener\">Los Alamos County GIS Services</a>",
     "attributionText": "Los Alamos County GIS Services",
     "attributionUrl": "https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services",
@@ -3281,14 +3196,14 @@
       "CRS:84",
       "EPSG:3857"
     ],
-    "endDate": "2022",
+    "endDate": "2025-08",
     "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6435726/Templates/Images/logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/New_Mexico/Los_Alamos_County_Orthoimagery",
-    "startDate": "2022",
+    "startDate": "2025-08",
     "tiles": [
-      "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_pictometry_3in_2022/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+      "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_pictometry_1in_2025/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
     ],
-    "urlTemplate": "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_pictometry_3in_2022/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+    "urlTemplate": "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_pictometry_1in_2025/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
   "Loudoun_VA_2021": {
     "attributionHtml": "<a href=\"https://geohub-loudoungis.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Loudoun County Government</a>",
@@ -3357,23 +3272,6 @@
       "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2024_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
     ],
     "urlTemplate": "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2024_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
-  },
-  "lubbock_2016_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/a5307ec2-8a8b-4647-9d02-87625aeb5cf9\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). City of Lubbock Imagery, 2015-03-22</a>",
-    "attributionText": "Strategic Mapping Program (StratMap). City of Lubbock Imagery, 2015-03-22",
-    "attributionUrl": "https://data.tnris.org/collection/a5307ec2-8a8b-4647-9d02-87625aeb5cf9",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2015",
-    "licenseUrl": "https://data.tnris.org/collection/a5307ec2-8a8b-4647-9d02-87625aeb5cf9",
-    "startDate": "2015",
-    "tiles": [
-      "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_Lubbock/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-    ],
-    "urlTemplate": "https://imagery.tnris.org/server/services/StratMap/StratMap15_NCCIR_12in_NGA_Lubbock/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "Lucas_OH_2023": {
     "attributionHtml": "<a href=\"https://co.lucas.oh.us/\" target=\"_blank\" rel=\"noopener\">Lucas County, State of Ohio</a>",
@@ -3591,6 +3489,22 @@
       "https://geoservices.mapleridge.ca/image/rest/services/Orthoimagery/2023_7_5cm/ImageServer/exportImage?f=image&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&format=jpgpng"
     ],
     "urlTemplate": "https://geoservices.mapleridge.ca/image/rest/services/Orthoimagery/2023_7_5cm/ImageServer/exportImage?f=image&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&format=jpgpng"
+  },
+  "Maple-Ridge-RGB-2025": {
+    "attributionHtml": "<a href=\"https://www.mapleridge.ca/terms-use#OpenGovernmentLicenceMapleRidge\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence – Maple Ridge</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence – Maple Ridge",
+    "attributionUrl": "https://www.mapleridge.ca/terms-use#OpenGovernmentLicenceMapleRidge",
+    "availableProjections": [
+      "EPSG:3857",
+      "EPSG:4326"
+    ],
+    "endDate": "2025",
+    "licenseUrl": "https://osmfoundation.org/wiki/OGL_Canada_and_local_variants",
+    "startDate": "2025",
+    "tiles": [
+      "https://geoservices.mapleridge.ca/image/rest/services/Orthoimagery/2025_7_5cm/ImageServer/exportImage?f=image&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&format=jpgpng"
+    ],
+    "urlTemplate": "https://geoservices.mapleridge.ca/image/rest/services/Orthoimagery/2025_7_5cm/ImageServer/exportImage?f=image&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&format=jpgpng"
   },
   "Marco_Island_FL_Ortho_2023": {
     "attributionHtml": "<a href=\"https://www.cityofmarcoisland.com/info-tech/page/gis-servicesmaps\" target=\"_blank\" rel=\"noopener\">Collier County Property Appraiser’s Office, City of Marco Island</a>",
@@ -6252,23 +6166,6 @@
     ],
     "urlTemplate": "https://tiles.arcgis.com/tiles/UZU5YYWrSlE9YWnx/arcgis/rest/services/2026_Aerial_Imagery_EV/MapServer/tile/{zoom}/{y}/{x}"
   },
-  "san_antonio_river_2016_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/bfdb7a76-a36c-4e9b-ba18-e8c8b259ed91\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). San Antonio River Authority Imagery, 2016-08-01</a>",
-    "attributionText": "Strategic Mapping Program (StratMap). San Antonio River Authority Imagery, 2016-08-01",
-    "attributionUrl": "https://data.tnris.org/collection/bfdb7a76-a36c-4e9b-ba18-e8c8b259ed91",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2016",
-    "licenseUrl": "https://data.tnris.org/collection/bfdb7a76-a36c-4e9b-ba18-e8c8b259ed91",
-    "startDate": "2016",
-    "tiles": [
-      "https://imagery.tnris.org/server/services/StratMap/StratMap16_NCCIR_12in_SARA/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-    ],
-    "urlTemplate": "https://imagery.tnris.org/server/services/StratMap/StratMap16_NCCIR_12in_SARA/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
-  },
   "San_Bernardino_CA_2023": {
     "attributionHtml": "<a href=\"https://open.sbcounty.gov/\" target=\"_blank\" rel=\"noopener\">San Bernardino County</a>",
     "attributionText": "San Bernardino County",
@@ -6766,21 +6663,22 @@
     "urlTemplate": "https://tiles.arcgis.com/tiles/b8eHPJ5KRnX3dHNa/arcgis/rest/services/2023_Orth_Map/MapServer/tile/{zoom}/{y}/{x}"
   },
   "smith_county_2019_wms": {
-    "attributionHtml": "<a href=\"https://data.tnris.org/collection/38f1b2e7-6fc7-4357-80a4-1ee33d7abaaf\" target=\"_blank\" rel=\"noopener\">Smith County (Smith). Smith County Imagery, 2019-12-11</a>",
+    "attributionHtml": "<a href=\"https://data.geographic.texas.gov/collection/?c=38f1b2e7-6fc7-4357-80a4-1ee33d7abaaf\" target=\"_blank\" rel=\"noopener\">Smith County (Smith). Smith County Imagery, 2019-12-11</a>",
     "attributionText": "Smith County (Smith). Smith County Imagery, 2019-12-11",
-    "attributionUrl": "https://data.tnris.org/collection/38f1b2e7-6fc7-4357-80a4-1ee33d7abaaf",
+    "attributionUrl": "https://data.geographic.texas.gov/collection/?c=38f1b2e7-6fc7-4357-80a4-1ee33d7abaaf",
     "availableProjections": [
       "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
     "endDate": "2019",
-    "licenseUrl": "https://data.tnris.org/collection/38f1b2e7-6fc7-4357-80a4-1ee33d7abaaf",
+    "icon": "https://www.smith-county.com/ImageRepository/Document?documentID=89",
+    "licenseUrl": "https://data.geographic.texas.gov/collection/?c=38f1b2e7-6fc7-4357-80a4-1ee33d7abaaf",
     "startDate": "2019",
     "tiles": [
-      "https://imagery.geographic.texas.gov/server/services/Smith_County/SmithCo_2020_NCCIR_6in/ImageServer/WMSServer?LAYERS=SmithCo_2020_NCCIR_6in&STYLES=default&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://imagery.geographic.texas.gov/server/services/Smith_County/SmithCo_2020_NCCIR_6in/ImageServer/WMSServer?LAYERS=0&STYLES=default&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/Smith_County/SmithCo_2020_NCCIR_6in/ImageServer/WMSServer?LAYERS=SmithCo_2020_NCCIR_6in&STYLES=default&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/Smith_County/SmithCo_2020_NCCIR_6in/ImageServer/WMSServer?LAYERS=0&STYLES=default&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "Snohomish_WA_2020": {
     "attributionHtml": "<a href=\"https://snohomishcountywa.gov/1402/Maps-GIS\" target=\"_blank\" rel=\"noopener\">Snohomish County GIS</a>",
@@ -6917,17 +6815,17 @@
     ],
     "endDate": "2020-01-05",
     "icon": "https://cdn.tnris.org/images/tnris_logo.svg",
-    "licenseUrl": "https://data.tnris.org/collection?c=80846f36-8db1-4140-8a08-32fda77b0f89",
+    "licenseUrl": "https://data.geographic.texas.gov/collection/?c=80846f36-8db1-4140-8a08-32fda77b0f89",
     "startDate": "2020-01-05",
     "tiles": [
-      "https://imagery.tnris.org/server/rest/services/StratMap/StratMap20_NC_6in_Balmorhea_Davis_Mountians/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap20_NC_6in_Balmorhea_Davis_Mountians/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
     ],
-    "urlTemplate": "https://imagery.tnris.org/server/rest/services/StratMap/StratMap20_NC_6in_Balmorhea_Davis_Mountians/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap20_NC_6in_Balmorhea_Davis_Mountians/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
   "Stratmap20_NCCIR_CapArea_McLennan": {
-    "attributionHtml": "<a href=\"https://tnris.org/stratmap/\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). CapArea & McLennan Imagery</a>",
+    "attributionHtml": "<a href=\"https://geographic.texas.gov/stratmap/\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). CapArea & McLennan Imagery</a>",
     "attributionText": "Strategic Mapping Program (StratMap). CapArea & McLennan Imagery",
-    "attributionUrl": "https://tnris.org/stratmap/",
+    "attributionUrl": "https://geographic.texas.gov/stratmap/",
     "availableProjections": [
       "CRS:84",
       "EPSG:3857",
@@ -6935,17 +6833,17 @@
     ],
     "endDate": "2020-01-29",
     "icon": "https://cdn.tnris.org/images/tnris_logo.svg",
-    "licenseUrl": "https://data.tnris.org/collection/?c=db231fff-9b85-4ba9-9428-e780ac72ddd2",
+    "licenseUrl": "https://data.geographic.texas.gov/collection/?c=db231fff-9b85-4ba9-9428-e780ac72ddd2",
     "startDate": "2020-01-29",
     "tiles": [
-      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap20_NCCIR_CapArea_McLennan/ImageServer/WMSServer?LAYERS=StratMap20_NCCIR_CapArea_McLennan&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap20_NCCIR_CapArea_McLennan/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap20_NCCIR_CapArea_McLennan/ImageServer/WMSServer?LAYERS=StratMap20_NCCIR_CapArea_McLennan&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap20_NCCIR_CapArea_McLennan/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "StratMap21_NCCIR_CapArea_Brazos_Kerr": {
-    "attributionHtml": "<a href=\"https://tnris.org/stratmap/\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). CapArea, Brazos & Kerr Imagery</a>",
+    "attributionHtml": "<a href=\"https://geographic.texas.gov/stratmap/\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). CapArea, Brazos & Kerr Imagery</a>",
     "attributionText": "Strategic Mapping Program (StratMap). CapArea, Brazos & Kerr Imagery",
-    "attributionUrl": "https://tnris.org/stratmap/",
+    "attributionUrl": "https://geographic.texas.gov/stratmap/",
     "availableProjections": [
       "CRS:84",
       "EPSG:3857",
@@ -6953,12 +6851,12 @@
     ],
     "endDate": "2021-01-17",
     "icon": "https://cdn.tnris.org/images/tnris_logo.svg",
-    "licenseUrl": "https://data.tnris.org/collection/?c=3e1530dc-d5be-4683-811b-9d4b162f0aa9",
+    "licenseUrl": "https://data.geographic.texas.gov/collection/?c=3e1530dc-d5be-4683-811b-9d4b162f0aa9",
     "startDate": "2021-01-17",
     "tiles": [
-      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap21_NCCIR_CapArea_Brazos_Kerr/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=StratMap21_NCCIR_CapArea_Brazos_Kerr&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap21_NCCIR_CapArea_Brazos_Kerr/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap21_NCCIR_CapArea_Brazos_Kerr/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=StratMap21_NCCIR_CapArea_Brazos_Kerr&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap21_NCCIR_CapArea_Brazos_Kerr/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "Suan_Juan_WA_2019": {
     "attributionHtml": "<a href=\"https://sjcgis.maps.arcgis.com/home/index.html\" target=\"_blank\" rel=\"noopener\">San Juan County GIS</a>",
@@ -7303,14 +7201,19 @@
     "attributionHtml": "<a href=\"https://naip-usdaonline.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://naip-usdaonline.hub.arcgis.com/",
-    "endDate": "2023",
+    "availableProjections": [
+      "EPSG:3857",
+      "EPSG:4326",
+      "CRS:84"
+    ],
+    "endDate": "2025",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2021",
+    "startDate": "2024",
     "tiles": [
-      "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{z}/{y}/{x}"
+      "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{zoom}/{y}/{x}"
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "USDA-NAIP-HI": {
     "attributionHtml": "<a href=\"https://naip-usdaonline.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",

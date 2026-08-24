@@ -415,10 +415,10 @@
     "urlTemplate": "https://tools.geofabrik.de/osmi/tiles/tagging/{zoom}/{x}/{y}.png"
   },
   "osm-gps": {
-    "attributionHtml": "<span style='display: inline-block; padding: 0 8px; background-color: rgba(0,0,0,0.5);'><span style='color: #eee;'>GPS Direction:</span> <span style='font-size: 15px; padding-left: 2px; font-weight: bold;'> <span style='color: #0ee;'>&larr;</span> <span style='color: #96f;'>&darr;</span> <span style='color: #6e0;'>&uarr;</span> <span style='color: #f63;'>&rarr;</span> </span></span> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>.",
+    "attributionHtml": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">© OpenStreetMap contributors</a>",
     "attributionText": "© OpenStreetMap contributors",
     "attributionUrl": "https://www.openstreetmap.org/copyright",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.png",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.svg",
     "licenseUrl": "https://wiki.osmfoundation.org/wiki/Terms_of_Use",
     "tiles": [
       "https://a.gps-tile.openstreetmap.org/lines/{z}/{x}/{y}.png",

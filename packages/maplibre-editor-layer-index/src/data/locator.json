@@ -783,30 +783,6 @@
     },
     {
       "bbox": [
-        -102.00628,
-        35.11123,
-        -101.60837,
-        35.38766
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "dc629e58b3a0cbf1",
-      "id": "amarillo_2016_wms",
-      "minzoom": 5,
-      "name": "TX: City of Amarillo Imagery 2015",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
         28.73743,
         46.94169,
         28.92487,
@@ -2272,7 +2248,7 @@
         30.99
       ],
       "best": true,
-      "category": "photo",
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -5005,30 +4981,6 @@
     },
     {
       "bbox": [
-        -97.64111,
-        32.36827,
-        -96.35881,
-        33.26346
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "796b6a5bd7fac34e",
-      "id": "dallas_fort_worth_2016_wms",
-      "minzoom": 3,
-      "name": "TX: Dallas and Fort Worth Imagery 2015",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
         6.00369,
         47.39124,
         15.03926,
@@ -7665,31 +7617,6 @@
     },
     {
       "bbox": [
-        -106.65456,
-        31.48921,
-        -106.1108,
-        32.02781
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "MX",
-        "US"
-      ],
-      "geometryId": "f0969f6c483fd36a",
-      "id": "el_paso_2015_wms",
-      "minzoom": 4,
-      "name": "TX: City of El Paso Imagery 2015",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
         7.53675,
         48.433,
         7.89675,
@@ -8467,6 +8394,56 @@
       "maxzoom": 19,
       "minzoom": 8,
       "name": "FÖMI orthophoto 2015 leaf-off 20cm (webp)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        17.82131,
+        45.87737,
+        21.09528,
+        48.25067
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "HU"
+      ],
+      "geometryId": "717ca7b14f799cb1",
+      "id": "FOMI_2016",
+      "maxzoom": 18,
+      "minzoom": 5,
+      "name": "FÖMI orthophoto 2016 (WEBP)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        16.50201,
+        45.81278,
+        22.15958,
+        48.54444
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "HU"
+      ],
+      "geometryId": "0a6f0ce06967f2c4",
+      "id": "FOMI_2016_leafoff_20cm",
+      "maxzoom": 19,
+      "minzoom": 8,
+      "name": "FÖMI orthophoto 2016 leaf-off 20cm (webp)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -10081,6 +10058,32 @@
     },
     {
       "bbox": [
+        8.01851,
+        54.46817,
+        15.30992,
+        57.82289
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "DE",
+        "DK",
+        "SE"
+      ],
+      "geometryId": "df9165825ea6a33a",
+      "id": "GeoDanmark_Orthophoto_Spring_Septima",
+      "maxzoom": 21,
+      "name": "GeoDK Aerial Imagery",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
         28.7662,
         46.97432,
         28.86075,
@@ -10652,87 +10655,9 @@
         "SE"
       ],
       "geometryId": "df9165825ea6a33a",
-      "id": "Geodatastyrelsen_Cadastral_Parcels_INSPIRE_View",
+      "id": "Geodatastyrelsen_Cadastral_Parcels_INSPIRE",
       "maxzoom": 19,
-      "name": "SDFI Cadastral Parcels INSPIRE View",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        8.01851,
-        54.46817,
-        15.30992,
-        57.82289
-      ],
-      "best": true,
-      "category": "photo",
-      "continents": [
-        "europe"
-      ],
-      "countryCodes": [
-        "DE",
-        "DK",
-        "SE"
-      ],
-      "geometryId": "df9165825ea6a33a",
-      "id": "Geodatastyrelsen_Denmark",
-      "maxzoom": 21,
-      "name": "SDFI Aerial Imagery",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "tms"
-    },
-    {
-      "bbox": [
-        8.01851,
-        54.46817,
-        15.30992,
-        57.82289
-      ],
-      "best": false,
-      "category": "map",
-      "continents": [
-        "europe"
-      ],
-      "countryCodes": [
-        "DE",
-        "DK",
-        "SE"
-      ],
-      "geometryId": "df9165825ea6a33a",
-      "id": "Geodatastyrelsen_DTK_Kort25",
-      "maxzoom": 19,
-      "name": "SDFI DTK Map25",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        8.01851,
-        54.46817,
-        15.30992,
-        57.82289
-      ],
-      "best": false,
-      "category": "map",
-      "continents": [
-        "europe"
-      ],
-      "countryCodes": [
-        "DE",
-        "DK",
-        "SE"
-      ],
-      "geometryId": "df9165825ea6a33a",
-      "id": "Geodatastyrelsen_Skaermkort",
-      "maxzoom": 19,
-      "name": "SDFI Screenmap",
+      "name": "GST Cadastral Parcels Map INSPIRE",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -11616,30 +11541,6 @@
       "maxzoom": 23,
       "name": "Geoportal 2: water pipes WMS",
       "overlay": true,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        -98.00135,
-        30.54571,
-        -97.52981,
-        31.0324
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "0021b3e281c4d377",
-      "id": "georgetown_2016_wms",
-      "minzoom": 3,
-      "name": "TX: City of Georgetown Imagery 2015",
-      "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
       "type": "wms"
@@ -15597,6 +15498,110 @@
     },
     {
       "bbox": [
+        8.01851,
+        54.46817,
+        15.30992,
+        57.82289
+      ],
+      "best": false,
+      "category": "map",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "DE",
+        "DK",
+        "SE"
+      ],
+      "geometryId": "df9165825ea6a33a",
+      "id": "Klimadatastyrelsen_Screen_Map",
+      "maxzoom": 19,
+      "name": "KDS Screen Map",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        8.01851,
+        54.46817,
+        15.30992,
+        57.82289
+      ],
+      "best": false,
+      "category": "elevation",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "DE",
+        "DK",
+        "SE"
+      ],
+      "geometryId": "df9165825ea6a33a",
+      "id": "Klimadatastyrelsen_Surface_Shadow_40cm",
+      "maxzoom": 20,
+      "name": "KDS Surface Shadow Map (40 cm)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        8.01851,
+        54.46817,
+        15.30992,
+        57.82289
+      ],
+      "best": false,
+      "category": "elevation",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "DE",
+        "DK",
+        "SE"
+      ],
+      "geometryId": "df9165825ea6a33a",
+      "id": "Klimadatastyrelsen_Terrain_Shadow_40cm",
+      "maxzoom": 20,
+      "name": "KDS Terrain Shadow Map (40 cm)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        8.01851,
+        54.46817,
+        15.30992,
+        57.82289
+      ],
+      "best": false,
+      "category": "map",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "DE",
+        "DK",
+        "SE"
+      ],
+      "geometryId": "df9165825ea6a33a",
+      "id": "Klimadatastyrelsen_Topography_DTK25",
+      "maxzoom": 19,
+      "name": "KDS Topography Map (DTK25)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
         6.76947,
         50.82849,
         7.18403,
@@ -16872,30 +16877,6 @@
     },
     {
       "bbox": [
-        -106.3234,
-        35.8186,
-        -106.17873,
-        35.90822
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "de20f3a99c5e9455",
-      "id": "Los_Alamos_1in_2018",
-      "maxzoom": 21,
-      "name": "Los Alamos County Orthoimagery 2018 (1in)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
         -106.40369,
         35.77479,
         -106.15411,
@@ -16910,9 +16891,9 @@
         "US"
       ],
       "geometryId": "27ce9d814bb11780",
-      "id": "Los_Alamos_3in_2018",
+      "id": "Los_Alamos_2018",
       "maxzoom": 20,
-      "name": "Los Alamos County Orthoimagery 2018 (3in)",
+      "name": "Los Alamos County Orthoimagery (2018)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -16924,6 +16905,30 @@
         35.77479,
         -106.15411,
         35.92712
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "27ce9d814bb11780",
+      "id": "Los_Alamos_2022",
+      "maxzoom": 20,
+      "name": "Los Alamos County Orthoimagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -106.42285,
+        35.74739,
+        -106.09315,
+        35.97946
       ],
       "best": true,
       "category": "photo",
@@ -16933,34 +16938,10 @@
       "countryCodes": [
         "US"
       ],
-      "geometryId": "27ce9d814bb11780",
-      "id": "Los_Alamos_3in_2022",
+      "geometryId": "fc0bf178dc6bc27e",
+      "id": "Los_Alamos_2025",
       "maxzoom": 20,
-      "name": "Los Alamos County Orthoimagery 2022 (3in)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        -107.62588,
-        34.99479,
-        -103.61977,
-        36.99995
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "e4bcf7d76b1694f1",
-      "id": "Los_Alamos_NAIP_CIR_2022",
-      "maxzoom": 20,
-      "name": "Northern New Mexico NAIP 2022 (Infrared)",
+      "name": "Los Alamos County Orthoimagery (2025)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -17611,30 +17592,6 @@
       "id": "lubaczowski-buildings",
       "maxzoom": 19,
       "name": "Powiat lubaczowski: Buildings",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        -102.14153,
-        33.48616,
-        -101.73398,
-        33.76372
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "57915a64c521f7f7",
-      "id": "lubbock_2016_wms",
-      "minzoom": 5,
-      "name": "TX: City of Lubbock Imagery 2015",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -18470,7 +18427,7 @@
         -122.41355,
         49.28683
       ],
-      "best": true,
+      "best": false,
       "category": "photo",
       "continents": [
         "north-america"
@@ -18482,6 +18439,30 @@
       "id": "Maple-Ridge-RGB-2023",
       "maxzoom": 24,
       "name": "City of Maple Ridge Orthoimagery (2023)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -122.6782,
+        49.16354,
+        -122.41355,
+        49.28683
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b256993638871583",
+      "id": "Maple-Ridge-RGB-2025",
+      "maxzoom": 24,
+      "name": "City of Maple Ridge Orthoimagery (2025)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -33578,30 +33559,6 @@
     },
     {
       "bbox": [
-        -97.54806,
-        27.84267,
-        -96.37364,
-        28.56362
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "a86f63c3581023b7",
-      "id": "san_antonio_river_2016_wms",
-      "minzoom": 3,
-      "name": "TX: San Antonio River Authority Imagery 2016",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
         -117.82142,
         33.86642,
         -115.81142,
@@ -34415,58 +34372,6 @@
       "requiresKeys": [],
       "tileSize": 256,
       "type": "tms"
-    },
-    {
-      "bbox": [
-        8.01851,
-        54.46817,
-        15.30992,
-        57.82289
-      ],
-      "best": false,
-      "category": "elevation",
-      "continents": [
-        "europe"
-      ],
-      "countryCodes": [
-        "DE",
-        "DK",
-        "SE"
-      ],
-      "geometryId": "df9165825ea6a33a",
-      "id": "SDFE_Overflade_Skyggekort_40cm",
-      "maxzoom": 20,
-      "name": "SDFI Surface Shadow Map (40 cm)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        8.01851,
-        54.46817,
-        15.30992,
-        57.82289
-      ],
-      "best": false,
-      "category": "elevation",
-      "continents": [
-        "europe"
-      ],
-      "countryCodes": [
-        "DE",
-        "DK",
-        "SE"
-      ],
-      "geometryId": "df9165825ea6a33a",
-      "id": "SDFE_Terraen_Skyggekort_40cm",
-      "maxzoom": 20,
-      "name": "SDFI Terrain Shadow Map (40 cm)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
     },
     {
       "bbox": [
@@ -35449,7 +35354,7 @@
       "geometryId": "2c0031895fe40c3d",
       "id": "Soskut_Pusztazamor_Tarnok_Diosd_orto_2017",
       "maxzoom": 21,
-      "name": "Sóskút, Pusztazámor, Tárnok, Diósd ortophoto 2017",
+      "name": "Sóskút, Pusztazámor, Tárnok, Diósd orthophoto 2017",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -39134,7 +39039,7 @@
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
-      "type": "tms"
+      "type": "wms"
     },
     {
       "bbox": [
