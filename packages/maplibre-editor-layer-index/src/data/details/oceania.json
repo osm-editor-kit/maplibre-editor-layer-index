@@ -1152,6 +1152,42 @@
     ],
     "urlTemplate": "https://cogeoxyz.b-cdn.net/6b6f479fbacd9a42e9e38bc5c0c6889f009beae13b07742ec4a1648f/{zoom}/{x}/{y}.jpg"
   },
+  "NRCS_Marshall_Islands_2023": {
+    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2023-08-08",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2018-04-11",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/marshall_islands_vivid_2023_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/marshall_islands_vivid_2023_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "NRCS_Palau_2022": {
+    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2022-06-18",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2019-03-06",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/palau_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/palau_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
   "NSW_DCS_SS_HAPE_Imagery_1943": {
     "attributionHtml": "<a href=\"https://www.spatial.nsw.gov.au/\" target=\"_blank\" rel=\"noopener\">© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.</a>",
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
@@ -1751,24 +1787,6 @@
     ],
     "urlTemplate": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/{zoom}/{y}/{x}.png"
   },
-  "USDA_Marshall_Islands_2023": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2023-08-08",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2018-04-11",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/marshall_islands_vivid_2023_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=marshall_islands_vivid_2023_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/marshall_islands_vivid_2023_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=marshall_islands_vivid_2023_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
   "USDA_Micronesia_2023": {
     "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
     "attributionText": "U.S. Department of Agriculture",
@@ -1786,24 +1804,6 @@
       "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/micronesia_vivid_2023_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=micronesia_vivid_2023_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
     "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/micronesia_vivid_2023_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=micronesia_vivid_2023_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "USDA_Palau_2022": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2022-06-18",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2019-03-06",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/rest/services/ortho_imagery/palau_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/rest/services/ortho_imagery/palau_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
   },
   "Vicmap-address_no": {
     "attributionHtml": "<a href=\"https://discover.data.vic.gov.au/dataset/vicmap-address-address-point\" target=\"_blank\" rel=\"noopener\">The State of Victoria Department of Energy, Environment and Climate Action 2026</a>",

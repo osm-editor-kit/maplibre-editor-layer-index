@@ -207,6 +207,24 @@
     ],
     "urlTemplate": "https://gisweb.bozeman.net/image/services/COB_20250503_WebMercator/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
+  "Bozeman_MT_2026": {
+    "attributionHtml": "<a href=\"https://public-bozeman.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">City of Bozeman GIS Department</a>",
+    "attributionText": "City of Bozeman GIS Department",
+    "attributionUrl": "https://public-bozeman.opendata.arcgis.com/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857",
+      "EPSG:4326"
+    ],
+    "endDate": "2026-04-08",
+    "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
+    "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
+    "startDate": "2026-04-08",
+    "tiles": [
+      "https://gisweb.bozeman.net/image/services/COB_20260408_WebMercator/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+    ],
+    "urlTemplate": "https://gisweb.bozeman.net/image/services/COB_20260408_WebMercator/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+  },
   "brazos_county_2019_wms": {
     "attributionHtml": "<a href=\"https://data.geographic.texas.gov/collection/?c=aa2cd74e-9c2d-4f00-bae5-609b5e898093\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). Brazos County Imagery, 2019-01-29</a>",
     "attributionText": "Strategic Mapping Program (StratMap). Brazos County Imagery, 2019-01-29",
@@ -1692,7 +1710,6 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -1815,7 +1832,6 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:4326"
     ],
     "endDate": "2025",
@@ -1898,6 +1914,7 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
       "CRS:84",
+      "EPSG:3857",
       "EPSG:4326"
     ],
     "endDate": "2025",
@@ -2012,9 +2029,9 @@
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
-      "https://arcgis-svr.ci.eureka.ca.gov/arcgis/rest/services/2023_mosaic/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+      "https://gis.eurekaca.gov/server/rest/services/ImageryServices/Imagery_Aerial_2023/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://arcgis-svr.ci.eureka.ca.gov/arcgis/rest/services/2023_mosaic/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+    "urlTemplate": "https://gis.eurekaca.gov/server/rest/services/ImageryServices/Imagery_Aerial_2023/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "Fairfax_VA_2025": {
     "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
@@ -2823,6 +2840,58 @@
     ],
     "urlTemplate": "https://geoportal.kelowna.ca/imagehost/rest/services/Orthos_2023/MapServer/export?bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&format=jpgpng&transparent=true&f=image"
   },
+  "Kendall_IL_2020": {
+    "attributionHtml": "<a href=\"https://geodata.kendallcountyil.gov/\" target=\"_blank\" rel=\"noopener\">Kendall County GIS</a>",
+    "attributionText": "Kendall County GIS",
+    "attributionUrl": "https://geodata.kendallcountyil.gov/",
+    "endDate": "2020",
+    "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
+    "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2020-aerial.html",
+    "startDate": "2020",
+    "tiles": [
+      "https://tiles.kendallcountyil.gov/2020/{z}/{x}/{y}.jpg"
+    ],
+    "urlTemplate": "https://tiles.kendallcountyil.gov/2020/{zoom}/{x}/{y}.jpg"
+  },
+  "Kendall_IL_2022": {
+    "attributionHtml": "<a href=\"https://geodata.kendallcountyil.gov/\" target=\"_blank\" rel=\"noopener\">Kendall County GIS</a>",
+    "attributionText": "Kendall County GIS",
+    "attributionUrl": "https://geodata.kendallcountyil.gov/",
+    "endDate": "2022",
+    "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
+    "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2022-aerial.html",
+    "startDate": "2022",
+    "tiles": [
+      "https://tiles.kendallcountyil.gov/2022/{z}/{x}/{y}.jpg"
+    ],
+    "urlTemplate": "https://tiles.kendallcountyil.gov/2022/{zoom}/{x}/{y}.jpg"
+  },
+  "Kendall_IL_2024": {
+    "attributionHtml": "<a href=\"https://geodata.kendallcountyil.gov/\" target=\"_blank\" rel=\"noopener\">Kendall County GIS</a>",
+    "attributionText": "Kendall County GIS",
+    "attributionUrl": "https://geodata.kendallcountyil.gov/",
+    "endDate": "2024",
+    "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
+    "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2024-aerial.html",
+    "startDate": "2024",
+    "tiles": [
+      "https://tiles.kendallcountyil.gov/2024/{z}/{x}/{y}.jpg"
+    ],
+    "urlTemplate": "https://tiles.kendallcountyil.gov/2024/{zoom}/{x}/{y}.jpg"
+  },
+  "Kendall_IL_2026": {
+    "attributionHtml": "<a href=\"https://geodata.kendallcountyil.gov/\" target=\"_blank\" rel=\"noopener\">Kendall County GIS</a>",
+    "attributionText": "Kendall County GIS",
+    "attributionUrl": "https://geodata.kendallcountyil.gov/",
+    "endDate": "2026",
+    "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
+    "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2026-aerial.html",
+    "startDate": "2026",
+    "tiles": [
+      "https://tiles.kendallcountyil.gov/2026/{z}/{x}/{y}.jpg"
+    ],
+    "urlTemplate": "https://tiles.kendallcountyil.gov/2026/{zoom}/{x}/{y}.jpg"
+  },
   "King_WA_2019": {
     "attributionHtml": "<a href=\"https://kingcounty.gov/services/gis.aspx\" target=\"_blank\" rel=\"noopener\">King County Geographic Information System</a>",
     "attributionText": "King County Geographic Information System",
@@ -3273,6 +3342,40 @@
     ],
     "urlTemplate": "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2024_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
+  "Loudoun_VA_2025": {
+    "attributionHtml": "<a href=\"https://geohub-loudoungis.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Loudoun County Government</a>",
+    "attributionText": "Loudoun County Government",
+    "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:2924",
+      "EPSG:3857"
+    ],
+    "endDate": "2025-03",
+    "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
+    "startDate": "2025-03",
+    "tiles": [
+      "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2025_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+    ],
+    "urlTemplate": "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2025_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+  },
+  "Loudoun_VA_2026": {
+    "attributionHtml": "<a href=\"https://geohub-loudoungis.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Loudoun County Government</a>",
+    "attributionText": "Loudoun County Government",
+    "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:2924",
+      "EPSG:3857"
+    ],
+    "endDate": "2026-03",
+    "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
+    "startDate": "2026-03",
+    "tiles": [
+      "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2026_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+    ],
+    "urlTemplate": "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2026_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+  },
   "Lucas_OH_2023": {
     "attributionHtml": "<a href=\"https://co.lucas.oh.us/\" target=\"_blank\" rel=\"noopener\">Lucas County, State of Ohio</a>",
     "attributionText": "Lucas County, State of Ohio",
@@ -3403,13 +3506,30 @@
       "EPSG:3857"
     ],
     "endDate": "2024-10",
-    "icon": "https://www.manteca.gov/home/showpublishedimage/906/637945998633470000",
+    "icon": "https://www.manteca.gov/ImageRepository/Document?documentID=106",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024-10",
     "tiles": [
-      "https://gisweb.ci.manteca.ca.us/server/rest/services/Basemaps/2024/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+      "https://mantecagisweb.ci.manteca.ca.us/server/rest/services/Basemaps/2024/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://gisweb.ci.manteca.ca.us/server/rest/services/Basemaps/2024/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+    "urlTemplate": "https://mantecagisweb.ci.manteca.ca.us/server/rest/services/Basemaps/2024/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "Manteca_CA_2025": {
+    "attributionHtml": "<a href=\"https://www.manteca.gov/\" target=\"_blank\" rel=\"noopener\">City of Manteca</a>",
+    "attributionText": "City of Manteca",
+    "attributionUrl": "https://www.manteca.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2025",
+    "icon": "https://www.manteca.gov/ImageRepository/Document?documentID=106",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
+    "startDate": "2025",
+    "tiles": [
+      "https://mantecagisweb.ci.manteca.ca.us/server/rest/services/Basemaps/2025/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://mantecagisweb.ci.manteca.ca.us/server/rest/services/Basemaps/2025/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "Maple-Ridge-1978": {
     "attributionHtml": "<a href=\"https://www.mapleridge.ca/terms-use#OpenGovernmentLicenceMapleRidge\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence – Maple Ridge</a>",
@@ -4987,6 +5107,168 @@
     ],
     "urlTemplate": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=dtm-hillshade&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
+  "NRCS_Alaska_2023": {
+    "attributionHtml": "<a href=\"https://www.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://www.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2023-10-19",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2002-05-20",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/services/ortho_imagery/alaska_vivid_2023_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=alaska_vivid_2023_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/services/ortho_imagery/alaska_vivid_2023_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=alaska_vivid_2023_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+  },
+  "NRCS_American_Samoa_2022": {
+    "attributionHtml": "<a href=\"https://www.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://www.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2022-06-10",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2018-04-07",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/american_samoa_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/american_samoa_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "NRCS_American_Samoa_2024": {
+    "attributionHtml": "<a href=\"https://www.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://www.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2024-07-18",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2019-06-07",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/ortho_imagery/american_samoa_vivid_2024_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=american_samoa_vivid_2024_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/ortho_imagery/american_samoa_vivid_2024_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=american_samoa_vivid_2024_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+  },
+  "NRCS_CNMI_2022": {
+    "attributionHtml": "<a href=\"https://www.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://www.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2022-06-03",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2012-03-12",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/cnmi_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/cnmi_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "NRCS_CNMI_2024": {
+    "attributionHtml": "<a href=\"https://www.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://www.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2024-08-08",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2019-12-26",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/services/ortho_imagery/cnmi_vivid_2024_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=cnmi_vivid_2024_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/services/ortho_imagery/cnmi_vivid_2024_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=cnmi_vivid_2024_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+  },
+  "NRCS_Delta_Junction_2021": {
+    "attributionHtml": "<a href=\"https://www.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://www.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2021-08-01",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2021-06-06",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/alaska_delta_junction_2021_15cm/ImageServer/exportImage?f=image&image=jpg&imageSR=3857&bbox={bbox-epsg-3857}&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/alaska_delta_junction_2021_15cm/ImageServer/exportImage?f=image&image=jpg&imageSR={wkid}&bbox={bbox}&bboxSR={wkid}&size={width},{height}"
+  },
+  "NRCS_Guam_2022": {
+    "attributionHtml": "<a href=\"https://www.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://www.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2022-07-19",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2020-09-19",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/guam_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/guam_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "NRCS_Hawaii_2022": {
+    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2020-10-11",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2014-12-06",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/hawaii_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/hawaii_vivid_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "NRCS_Northwest_Hawaiian_Islands_2022": {
+    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
+    "attributionText": "U.S. Department of Agriculture",
+    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2022-06-30",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+    "licenseUrl": "https://www.usda.gov/policies-and-links/",
+    "startDate": "2020-05-29",
+    "tiles": [
+      "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/northwest_hawaiian_islands_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://apps.geo.fpac.usda.gov/nrcs-imagery/rest/services/ortho_imagery/northwest_hawaiian_islands_2022_30cm/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
   "NYS_Statewide_Hillshade": {
     "attributionHtml": "<a href=\"https://data.gis.ny.gov/maps/sharegisny::nys-statewide-hillshade/about\" target=\"_blank\" rel=\"noopener\">New York State Information Technology Services Geospatial Services</a>",
     "attributionText": "New York State Information Technology Services Geospatial Services",
@@ -5999,6 +6281,23 @@
     ],
     "urlTemplate": "https://ags.roseville.ca.us/arcgis/rest/services/PublicServices/CityOrtho2025/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
+  "Roseville_CA_2026": {
+    "attributionHtml": "<a href=\"https://www.roseville.ca.us/\" target=\"_blank\" rel=\"noopener\">City of Roseville</a>",
+    "attributionText": "City of Roseville",
+    "attributionUrl": "https://www.roseville.ca.us/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2026",
+    "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_7964838/Image/Roseville-230.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
+    "startDate": "2026",
+    "tiles": [
+      "https://ags.roseville.ca.us/arcgis/rest/services/PublicServices/CityOrtho2026/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://ags.roseville.ca.us/arcgis/rest/services/PublicServices/CityOrtho2026/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
   "Sacramento_CA_2022": {
     "attributionHtml": "<a href=\"https://data.saccounty.gov/\" target=\"_blank\" rel=\"noopener\">Sacramento County</a>",
     "attributionText": "Sacramento County",
@@ -6175,13 +6474,13 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
-    "icon": "https://www.sbcounty.gov/uploads/cao/OpenData/SBCoLOGO-White.png",
+    "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
-      "https://maps.sbcounty.gov/arcgis/rest/services/Y2023_pua_cache/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+      "https://maps.sbcounty.gov/img/rest/services/y2023_IS/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://maps.sbcounty.gov/arcgis/rest/services/Y2023_pua_cache/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+    "urlTemplate": "https://maps.sbcounty.gov/img/rest/services/y2023_IS/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "San_Bernardino_CA_2024": {
     "attributionHtml": "<a href=\"https://open.sbcounty.gov/\" target=\"_blank\" rel=\"noopener\">San Bernardino County</a>",
@@ -6192,13 +6491,47 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
-    "icon": "https://www.sbcounty.gov/uploads/cao/OpenData/SBCoLOGO-White.png",
+    "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
     "tiles": [
-      "https://maps.sbcounty.gov/arcgis/rest/services/Y2024_pua_cache/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+      "https://maps.sbcounty.gov/img/rest/services/y2024_IS/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://maps.sbcounty.gov/arcgis/rest/services/Y2024_pua_cache/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+    "urlTemplate": "https://maps.sbcounty.gov/img/rest/services/y2024_IS/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "San_Bernardino_CA_2025": {
+    "attributionHtml": "<a href=\"https://open.sbcounty.gov/\" target=\"_blank\" rel=\"noopener\">San Bernardino County</a>",
+    "attributionText": "San Bernardino County",
+    "attributionUrl": "https://open.sbcounty.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2025",
+    "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
+    "startDate": "2025",
+    "tiles": [
+      "https://maps.sbcounty.gov/img/rest/services/y2025_COG/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.sbcounty.gov/img/rest/services/y2025_COG/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "San_Bernardino_CA_2026": {
+    "attributionHtml": "<a href=\"https://open.sbcounty.gov/\" target=\"_blank\" rel=\"noopener\">San Bernardino County</a>",
+    "attributionText": "San Bernardino County",
+    "attributionUrl": "https://open.sbcounty.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2026",
+    "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
+    "startDate": "2026",
+    "tiles": [
+      "https://maps.sbcounty.gov/img/rest/services/y2026_COG/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.sbcounty.gov/img/rest/services/y2026_COG/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "San_Francisco_2022": {
     "attributionHtml": "<a href=\"https://www.sf.gov/\" target=\"_blank\" rel=\"noopener\">City and County of San Francisco</a>",
@@ -6531,10 +6864,10 @@
       "CRS:84",
       "EPSG:3857"
     ],
-    "endDate": "2025",
+    "endDate": "2025-04",
     "icon": "https://www.srcity.org/ImageRepository/Document?documentID=32",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
-    "startDate": "2025",
+    "startDate": "2025-04",
     "tiles": [
       "https://ags2maps.srcity.org/arcgis/rest/services/Aerial_2025_SR/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
@@ -6786,23 +7119,35 @@
     ],
     "urlTemplate": "https://tiles.arcgis.com/tiles/SCn6czzcqKAFwdGU/arcgis/rest/services/Aerial2025_WGS84/MapServer/tile/{zoom}/{y}/{x}"
   },
+  "Sonoma_CA_2025": {
+    "attributionHtml": "<a href=\"https://sonomacounty.gov/\" target=\"_blank\" rel=\"noopener\">Sonoma County</a>",
+    "attributionText": "Sonoma County",
+    "attributionUrl": "https://sonomacounty.gov/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2025",
+    "icon": "https://sonomacounty.gov/Main%20County%20Site/General/Web%20Team/Images/county_seal_200.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
+    "startDate": "2025",
+    "tiles": [
+      "https://ags2maps.srcity.org/arcgis/rest/services/Aerial_2025_County/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://ags2maps.srcity.org/arcgis/rest/services/Aerial_2025_County/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
   "Stockton_CA_2023": {
     "attributionHtml": "<a href=\"https://stocktonca.gov/\" target=\"_blank\" rel=\"noopener\">City of Stockton</a>",
     "attributionText": "City of Stockton",
     "attributionUrl": "https://stocktonca.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
     "endDate": "2023",
     "icon": "https://cms3.revize.com/revize/stockton/_assets_/images/logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
-      "https://gisportal.stocktonca.gov/arcgis/services/Aerials/Aerials_2023/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/{z}/{y}/{x}"
     ],
-    "urlTemplate": "https://gisportal.stocktonca.gov/arcgis/services/Aerials/Aerials_2023/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/{zoom}/{y}/{x}"
   },
   "StratMap20_NC_6in_Balmorhea_Davis_Mountians": {
     "attributionHtml": "<a href=\"https://tnris.org/stratmap/\" target=\"_blank\" rel=\"noopener\">Strategic Mapping Program (StratMap). Balmorhea & Davis Mountain State Parks Imagery/Lidar</a>",
@@ -7089,114 +7434,6 @@
     ],
     "urlTemplate": "https://{switch:a,b,c,d}.tiles.mapbox.com/styles/v1/openstreetmapus/clr406aa300w401pdgc14fxmh/tiles/256/{zoom}/{x}/{y}?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcHVzIiwiYSI6ImNsbWw5cDdsbjA4ZjQyb3FlN2RtZHZhanAifQ.5cfwbNF6RW1td7H1_LLQTQ"
   },
-  "USDA_American_Samoa_2022": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2022-06-10",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2018-04-07",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/american_samoa_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=american_samoa_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/american_samoa_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=american_samoa_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "USDA_CNMI_2022": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2022-06-03",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2012-03-12",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/cnmi_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=cnmi_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/cnmi_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=cnmi_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "USDA_Delta_Junction_2021": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2021",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2021",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/alaska_delta_junction_2021/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=alaska_delta_junction_2021:NaturalColor_4Band_Vivid_NoStretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/alaska_delta_junction_2021/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=alaska_delta_junction_2021:NaturalColor_4Band_Vivid_NoStretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "USDA_Guam_2022": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2022-07-19",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2020-09-19",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/guam_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=guam_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/guam_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=guam_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "USDA_Hawaii_2022": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2020-10-11",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2014-12-06",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/hawaii_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=hawaii_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/hawaii_vivid_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=hawaii_vivid_2022_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "USDA_Northwest_Hawaiian_Islands_2022": {
-    "attributionHtml": "<a href=\"https://datagateway.nrcs.usda.gov/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://datagateway.nrcs.usda.gov/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
-    ],
-    "endDate": "2022-06-30",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2020-05-29",
-    "tiles": [
-      "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/northwest_hawaiian_islands_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=northwest_hawaiian_islands_2022_30cm:Natural Color No Stretch&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://nrcsgeoservices.sc.egov.usda.gov/arcgis/services/ortho_imagery/northwest_hawaiian_islands_2022_30cm/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=northwest_hawaiian_islands_2022_30cm:Natural Color No Stretch&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
   "USDA-NAIP": {
     "attributionHtml": "<a href=\"https://naip-usdaonline.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
     "attributionText": "U.S. Department of Agriculture",
@@ -7219,27 +7456,33 @@
     "attributionHtml": "<a href=\"https://naip-usdaonline.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://naip-usdaonline.hub.arcgis.com/",
+    "availableProjections": [
+      "EPSG:3857"
+    ],
     "endDate": "2023",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2021",
     "tiles": [
-      "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/{z}/{y}/{x}"
+      "https://imagery.geoplatform.gov/iipp/rest/services/NAIP/NAIP2021_Hawaii/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/{zoom}/{y}/{x}"
+    "urlTemplate": "https://imagery.geoplatform.gov/iipp/rest/services/NAIP/NAIP2021_Hawaii/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
   },
   "USDA-NAIP-PR": {
     "attributionHtml": "<a href=\"https://naip-usdaonline.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://naip-usdaonline.hub.arcgis.com/",
+    "availableProjections": [
+      "EPSG:3857"
+    ],
     "endDate": "2023",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2021",
     "tiles": [
-      "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/{z}/{y}/{x}"
+      "https://imagery.geoplatform.gov/iipp/rest/services/NAIP/NAIP2021_PuertoRico/ImageServer/exportImage?f=image&format=jpg&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/{zoom}/{y}/{x}"
+    "urlTemplate": "https://imagery.geoplatform.gov/iipp/rest/services/NAIP/NAIP2021_PuertoRico/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
   },
   "USGS-3DEP": {
     "availableProjections": [

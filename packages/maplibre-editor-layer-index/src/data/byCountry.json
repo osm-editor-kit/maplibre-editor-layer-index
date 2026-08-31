@@ -1299,7 +1299,6 @@
     "route500",
     "route500hydro",
     "Surrey-Air_Survey",
-    "USDA-NAIP-PR",
     "Wales_LIDAR_DSM_1m_2020_2023"
   ],
   "GR": [
@@ -1634,7 +1633,7 @@
     "osmim-imagicode-S2A_R136_N41_20150831T093006"
   ],
   "MH": [
-    "USDA_Marshall_Islands_2023"
+    "NRCS_Marshall_Islands_2023"
   ],
   "MK": [
     "AL_DPGJC_ASIG_SistemiAdresave",
@@ -1893,7 +1892,7 @@
     "ORTOSAT_DGT_2023_RGB"
   ],
   "PW": [
-    "USDA_Palau_2022"
+    "NRCS_Palau_2022"
   ],
   "RO": [
     "bg-maf-orthophoto-latest",
@@ -2220,6 +2219,7 @@
     "Bozeman_MT_2023",
     "Bozeman_MT_2024",
     "Bozeman_MT_2025",
+    "Bozeman_MT_2026",
     "brazos_county_2019_wms",
     "Brevard_Ortho_2021",
     "Brevard_Ortho_2022",
@@ -2351,6 +2351,10 @@
     "Kansas_NG911_2021",
     "Kansas_NG911_2024",
     "Kansas_NG911_2024_CIR",
+    "Kendall_IL_2020",
+    "Kendall_IL_2022",
+    "Kendall_IL_2024",
+    "Kendall_IL_2026",
     "King_WA_2019",
     "King_WA_2021",
     "King_WA_2023",
@@ -2379,6 +2383,8 @@
     "Loudoun_VA_2022",
     "Loudoun_VA_2023",
     "Loudoun_VA_2024",
+    "Loudoun_VA_2025",
+    "Loudoun_VA_2026",
     "Lucas_OH_2023",
     "Maine_2021",
     "Manatee_Ortho_2021",
@@ -2388,6 +2394,7 @@
     "Manatee_Ortho_Latest",
     "Manhattan_Beach_CA_2023",
     "Manteca_CA_2024",
+    "Manteca_CA_2025",
     "Marco_Island_FL_Ortho_2023",
     "Marco_Island_FL_Ortho_2024",
     "Marco_Island_FL_Ortho_Post-Ian_2022",
@@ -2476,6 +2483,15 @@
     "NOAA_West_2026",
     "NRCan-HRDEM-DSM",
     "NRCan-HRDEM-DTM",
+    "NRCS_Alaska_2023",
+    "NRCS_American_Samoa_2022",
+    "NRCS_American_Samoa_2024",
+    "NRCS_CNMI_2022",
+    "NRCS_CNMI_2024",
+    "NRCS_Delta_Junction_2021",
+    "NRCS_Guam_2022",
+    "NRCS_Hawaii_2022",
+    "NRCS_Northwest_Hawaiian_Islands_2022",
     "NYS_Statewide_Hillshade",
     "NYSDOP_Latest",
     "NYSDOP_Latest_CIR",
@@ -2534,6 +2550,7 @@
     "Roseville_CA_2023",
     "Roseville_CA_2024",
     "Roseville_CA_2025",
+    "Roseville_CA_2026",
     "Sacramento_CA_2022",
     "Saint_Johns_Basemap",
     "Saint_Johns_Ortho_2021",
@@ -2550,6 +2567,8 @@
     "Saint_Lucie_Ortho_2026",
     "San_Bernardino_CA_2023",
     "San_Bernardino_CA_2024",
+    "San_Bernardino_CA_2025",
+    "San_Bernardino_CA_2026",
     "San_Francisco_2022",
     "San_Francisco_2022_CIR",
     "San_Francisco_2023",
@@ -2589,6 +2608,7 @@
     "Solano_CA_2023",
     "Solano_CA_2024",
     "Solano_CA_2025",
+    "Sonoma_CA_2025",
     "Stockton_CA_2023",
     "StratMap20_NC_6in_Balmorhea_Davis_Mountians",
     "Stratmap20_NCCIR_CapArea_McLennan",
@@ -2609,12 +2629,6 @@
     "US-TIGER-Roads-2021",
     "US-TIGER-Roads-2022",
     "US-TIGER-Roads-2023",
-    "USDA_American_Samoa_2022",
-    "USDA_CNMI_2022",
-    "USDA_Delta_Junction_2021",
-    "USDA_Guam_2022",
-    "USDA_Hawaii_2022",
-    "USDA_Northwest_Hawaiian_Islands_2022",
     "USDA-NAIP",
     "USDA-NAIP-HI",
     "USDA-NAIP-PR",

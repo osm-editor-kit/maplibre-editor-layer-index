@@ -1746,10 +1746,10 @@
     },
     {
       "bbox": [
-        7.29506,
-        46.92032,
-        7.49657,
-        46.99148
+        7.28119,
+        46.91497,
+        7.50426,
+        46.99605
       ],
       "best": true,
       "category": "photo",
@@ -1759,7 +1759,7 @@
       "countryCodes": [
         "CH"
       ],
-      "geometryId": "5276eadd5b5e7578",
+      "geometryId": "1a564a95ec0c4a83",
       "id": "Bern-Orthofotos",
       "minzoom": 4,
       "name": "Stadt Bern 10cm (2023)",
@@ -2152,7 +2152,7 @@
         45.75132
       ],
       "best": false,
-      "category": "photo",
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -2163,6 +2163,30 @@
       "id": "Bozeman_MT_2025",
       "maxzoom": 19,
       "name": "City of Bozeman Aerial Photography (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -111.16263,
+        45.5802,
+        -110.95404,
+        45.75132
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "ca4e12dee4c2403c",
+      "id": "Bozeman_MT_2026",
+      "maxzoom": 19,
+      "name": "City of Bozeman Aerial Photography (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -15402,6 +15426,102 @@
     },
     {
       "bbox": [
+        -88.60725,
+        41.45478,
+        -88.24803,
+        41.72732
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "ed7a0abe0d6115db",
+      "id": "Kendall_IL_2020",
+      "maxzoom": 19,
+      "name": "Kendall County 2020 Aerial Imagery",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -88.60725,
+        41.45478,
+        -88.24803,
+        41.72732
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "ed7a0abe0d6115db",
+      "id": "Kendall_IL_2022",
+      "maxzoom": 19,
+      "name": "Kendall County 2022 Aerial Imagery",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -88.60725,
+        41.45478,
+        -88.24803,
+        41.72732
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "ed7a0abe0d6115db",
+      "id": "Kendall_IL_2024",
+      "maxzoom": 19,
+      "name": "Kendall County 2024 Aerial Imagery",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -88.60725,
+        41.45478,
+        -88.24803,
+        41.72732
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "ed7a0abe0d6115db",
+      "id": "Kendall_IL_2026",
+      "maxzoom": 19,
+      "name": "Kendall County 2026 Aerial Imagery",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
         -122.54845,
         47.05978,
         -121.038,
@@ -17030,7 +17150,7 @@
         39.3346
       ],
       "best": false,
-      "category": "photo",
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -17042,6 +17162,56 @@
       "maxzoom": 18,
       "minzoom": 1,
       "name": "Loudoun County Orthoimagery (2024)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -77.98239,
+        38.83868,
+        -77.31272,
+        39.3346
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "cd3bde8b8a7ad5a0",
+      "id": "Loudoun_VA_2025",
+      "maxzoom": 18,
+      "minzoom": 1,
+      "name": "Loudoun County Orthoimagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -77.98239,
+        38.83868,
+        -77.31272,
+        39.3346
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "cd3bde8b8a7ad5a0",
+      "id": "Loudoun_VA_2026",
+      "maxzoom": 18,
+      "minzoom": 1,
+      "name": "Loudoun County Orthoimagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -18260,7 +18430,7 @@
         37.87501
       ],
       "best": false,
-      "category": "photo",
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -18271,6 +18441,30 @@
       "id": "Manteca_CA_2024",
       "maxzoom": 23,
       "name": "City of Manteca Orthoimagery (2024)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -121.4155,
+        37.7417,
+        -121.10884,
+        37.87501
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "7c3c3722d34a3603",
+      "id": "Manteca_CA_2025",
+      "maxzoom": 23,
+      "name": "City of Manteca Orthoimagery (2025)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -23673,6 +23867,281 @@
       "geometryId": "d75823da5e90be32",
       "id": "NRCan-HRDEM-DTM",
       "name": "High Resolution Digital Elevation Model Mosaic (DTM)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -179.69889,
+        50.29613,
+        179.87993,
+        72.05806
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "c1d31f8ea36aa522",
+      "id": "NRCS_Alaska_2023",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Alaska Imagery (2023)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -171.33908,
+        -14.77159,
+        -167.86322,
+        -10.80533
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "1e70adefd5e043b8",
+      "id": "NRCS_American_Samoa_2022",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS American Samoa Imagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -171.33908,
+        -14.77159,
+        -167.86322,
+        -10.80533
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "1e70adefd5e043b8",
+      "id": "NRCS_American_Samoa_2024",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS American Samoa Imagery (2024)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        144.66588,
+        13.77812,
+        146.56473,
+        20.75561
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "28885e95d179af9c",
+      "id": "NRCS_CNMI_2022",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Northern Mariana Islands Imagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        144.66588,
+        13.77812,
+        146.56473,
+        20.75561
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "28885e95d179af9c",
+      "id": "NRCS_CNMI_2024",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Northern Mariana Islands Imagery (2024)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -146.2517,
+        63.62307,
+        -144.49846,
+        64.37475
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "4b4059e1626e230b",
+      "id": "NRCS_Delta_Junction_2021",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Delta Junction Orthoimagery (2021)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        144.43254,
+        13.10904,
+        145.16312,
+        13.84765
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "fe57113ad0a4e95a",
+      "id": "NRCS_Guam_2022",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Guam Imagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -160.33913,
+        18.84504,
+        -154.73745,
+        22.3188
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "c5c0f9ef7b95dbd8",
+      "id": "NRCS_Hawaii_2022",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Hawaii Imagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        159.42144,
+        4.33661,
+        172.58617,
+        15.4541
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "oceania"
+      ],
+      "countryCodes": [
+        "MH"
+      ],
+      "geometryId": "747da3eba99ee536",
+      "id": "NRCS_Marshall_Islands_2023",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Marshall Islands Imagery (2023)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -178.79629,
+        21.87262,
+        -161.47491,
+        29.1713
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "24ea8a932d28e690",
+      "id": "NRCS_Northwest_Hawaiian_Islands_2022",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Northwest Hawaiian Islands Imagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        130.16381,
+        2.30511,
+        135.35829,
+        8.45659
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "oceania"
+      ],
+      "countryCodes": [
+        "PW"
+      ],
+      "geometryId": "467f4fd67026d137",
+      "id": "NRCS_Palau_2022",
+      "maxzoom": 20,
+      "minzoom": 12,
+      "name": "NRCS Palau Imagery (2022)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -32967,7 +33436,7 @@
         38.83194
       ],
       "best": false,
-      "category": "photo",
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -32978,6 +33447,30 @@
       "id": "Roseville_CA_2025",
       "maxzoom": 23,
       "name": "City of Roseville Orthoimagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -121.45329,
+        38.71457,
+        -121.21345,
+        38.83194
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "22b20772f880a037",
+      "id": "Roseville_CA_2026",
+      "maxzoom": 23,
+      "name": "City of Roseville Orthoimagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -33589,7 +34082,7 @@
         35.08336
       ],
       "best": false,
-      "category": "photo",
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -33600,6 +34093,54 @@
       "id": "San_Bernardino_CA_2024",
       "maxzoom": 23,
       "name": "San Bernardino County Orthoimagery (2024)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -117.82142,
+        33.86642,
+        -115.81142,
+        35.08336
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "fe247ed9d20fe8d2",
+      "id": "San_Bernardino_CA_2025",
+      "maxzoom": 23,
+      "name": "San Bernardino County Orthoimagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -117.82142,
+        33.86642,
+        -115.81142,
+        35.08336
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "fe247ed9d20fe8d2",
+      "id": "San_Bernardino_CA_2026",
+      "maxzoom": 23,
+      "name": "San Bernardino County Orthoimagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -35338,6 +35879,30 @@
     },
     {
       "bbox": [
+        -123.64351,
+        38.10363,
+        -122.34437,
+        38.85579
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "6ddc77332c5e37bd",
+      "id": "Sonoma_CA_2025",
+      "maxzoom": 23,
+      "name": "Sonoma County Orthoimagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
         18.75631,
         47.33841,
         18.96316,
@@ -36322,7 +36887,7 @@
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
-      "type": "wms"
+      "type": "tms"
     },
     {
       "bbox": [
@@ -38791,156 +39356,6 @@
     },
     {
       "bbox": [
-        -171.33908,
-        -14.77159,
-        -167.86322,
-        -10.80533
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "1e70adefd5e043b8",
-      "id": "USDA_American_Samoa_2022",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA American Samoa Imagery (2022)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        144.66588,
-        13.77812,
-        146.56473,
-        20.75561
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "28885e95d179af9c",
-      "id": "USDA_CNMI_2022",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA Northern Mariana Islands Imagery (2022)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        -146.2517,
-        63.62307,
-        -144.49846,
-        64.37475
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "4b4059e1626e230b",
-      "id": "USDA_Delta_Junction_2021",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA Delta Junction Orthoimagery (2021)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        144.43254,
-        13.10904,
-        145.16312,
-        13.84765
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "fe57113ad0a4e95a",
-      "id": "USDA_Guam_2022",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA Guam Imagery (2022)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        -160.33913,
-        18.84504,
-        -154.73745,
-        22.3188
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "c5c0f9ef7b95dbd8",
-      "id": "USDA_Hawaii_2022",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA Hawaii Imagery (2022)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        159.42144,
-        4.33661,
-        172.58617,
-        15.4541
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "oceania"
-      ],
-      "countryCodes": [
-        "MH"
-      ],
-      "geometryId": "747da3eba99ee536",
-      "id": "USDA_Marshall_Islands_2023",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA Marshall Islands Imagery (2023)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
         136.56922,
         -2.5359,
         163.51457,
@@ -38959,56 +39374,6 @@
       "maxzoom": 20,
       "minzoom": 12,
       "name": "USDA Micronesia Imagery (2023)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        -178.79629,
-        21.87262,
-        -161.47491,
-        29.1713
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "24ea8a932d28e690",
-      "id": "USDA_Northwest_Hawaiian_Islands_2022",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA Northwest Hawaiian Islands Imagery (2022)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        130.16381,
-        2.30511,
-        135.35829,
-        8.45659
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "oceania"
-      ],
-      "countryCodes": [
-        "PW"
-      ],
-      "geometryId": "467f4fd67026d137",
-      "id": "USDA_Palau_2022",
-      "maxzoom": 20,
-      "minzoom": 12,
-      "name": "USDA Palau Imagery (2022)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -39064,34 +39429,32 @@
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
-      "type": "tms"
+      "type": "wms"
     },
     {
       "bbox": [
-        -67.9737,
-        17.59628,
-        -64.38691,
-        18.64807
+        -67.34826,
+        17.73353,
+        -65.39195,
+        18.64083
       ],
       "best": false,
       "category": "photo",
       "continents": [
-        "europe",
         "north-america"
       ],
       "countryCodes": [
-        "GB",
         "US"
       ],
-      "geometryId": "345922d2cfe0bd9b",
+      "geometryId": "da5de1e36adedc5b",
       "id": "USDA-NAIP-PR",
       "maxzoom": 19,
       "minzoom": 8,
-      "name": "National Agriculture Imagery Program (PR/USVI)",
+      "name": "National Agriculture Imagery Program (PR)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
-      "type": "tms"
+      "type": "wms"
     },
     {
       "bbox": [

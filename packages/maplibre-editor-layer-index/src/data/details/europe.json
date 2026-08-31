@@ -2125,7 +2125,7 @@
       "EPSG:32636",
       "EPSG:54004"
     ],
-    "icon": "https://www.fiskeridir.no/_/asset/no.seeds.fiskeridir:0000019be524d150/images/icons/favicon-96x96.png",
+    "icon": "https://www.fiskeridir.no/_/image/434a88f5-6b85-43b4-b520-75010b48a8d6:2c71df53a881af3ee11e7b6b31ab98f8c3d45bdd/width-180/favicon-96x96.png",
     "licenseUrl": "https://web.archive.org/web/20240114010218/https://lists.nuug.no/pipermail/kart/2018-January/006347.html",
     "tiles": [
       "https://gis.fiskeridir.no/server/services/fiskeridirWMS_akva/MapServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=flate_ihht_akvakulturregisteret,akvakultur_lokaliteter&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -4206,9 +4206,9 @@
     "urlTemplate": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaUzbrojeniaTerenu?LAYERS=przewod_wodociagowy&STYLES=default&FORMAT=image/png&TRANSPARENT=TRUE&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DGM-CL": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=5e0f6071-008e-4d57-810e-48a8362acf04\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/5e0f6071-008e-4d57-810e-48a8362acf04\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=5e0f6071-008e-4d57-810e-48a8362acf04",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/5e0f6071-008e-4d57-810e-48a8362acf04",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4234,9 +4234,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_hoehe/guest?LAYERS=hoehenlinien_50m,hoehenlinien_25m,hoehenlinien_20m,hoehenlinien_5m,hoehenlinien_2_5m&STYLES=&FORMAT=image/png&transparent=true&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DGM-SG": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=5e0f6071-008e-4d57-810e-48a8362acf04\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/5e0f6071-008e-4d57-810e-48a8362acf04\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=5e0f6071-008e-4d57-810e-48a8362acf04",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/5e0f6071-008e-4d57-810e-48a8362acf04",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4262,9 +4262,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_hoehe/guest?LAYERS=relief_standard&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-2005": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=3f38c3f3-03db-4a2a-b6da-2704b9a1d5f0\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/3f38c3f3-03db-4a2a-b6da-2704b9a1d5f0\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=3f38c3f3-03db-4a2a-b6da-2704b9a1d5f0",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/3f38c3f3-03db-4a2a-b6da-2704b9a1d5f0",
     "availableProjections": [
       "CRS:84",
       "EPSG:2180",
@@ -4293,9 +4293,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop-2005/guest?LAYERS=dop_2005&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-2006_2008": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=64943fad-2794-49a3-806b-64b4247a847e\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/64943fad-2794-49a3-806b-64b4247a847e\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=64943fad-2794-49a3-806b-64b4247a847e",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/64943fad-2794-49a3-806b-64b4247a847e",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4323,9 +4323,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop_2006_2008/guest?LAYERS=dop_2006_2008_rgb&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-2009_2011": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=13c6d72f-af11-48c6-b3bb-c669f4a4d1c1\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/13c6d72f-af11-48c6-b3bb-c669f4a4d1c1\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=13c6d72f-af11-48c6-b3bb-c669f4a4d1c1",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/13c6d72f-af11-48c6-b3bb-c669f4a4d1c1",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4353,9 +4353,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop_2009_2011/guest?LAYERS=dop_2009_2011_rgb&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-2012_2014": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=8c276e3c-88af-462f-8128-6900bc7dd4f8\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/8c276e3c-88af-462f-8128-6900bc7dd4f8\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=8c276e3c-88af-462f-8128-6900bc7dd4f8",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/8c276e3c-88af-462f-8128-6900bc7dd4f8",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4383,9 +4383,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop_2012_2014/guest?LAYERS=dop_2012_2014_rgb&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-2015_2017": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=8dbabd0c-b357-49e5-9b10-b792620159e5\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/8dbabd0c-b357-49e5-9b10-b792620159e5\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=8dbabd0c-b357-49e5-9b10-b792620159e5",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/8dbabd0c-b357-49e5-9b10-b792620159e5",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4473,9 +4473,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop_2021_2022/guest?LAYERS=dop_2021_2022_rgb&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-2023_2024": {
-    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/8fe04e3b-e444-407f-bf4a-531751132899\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/d21e8bbb-5ff5-4c9c-b6dd-da18122edbf8\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/8fe04e3b-e444-407f-bf4a-531751132899",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/d21e8bbb-5ff5-4c9c-b6dd-da18122edbf8",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4503,9 +4503,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop_2023_2024/guest?LAYERS=dop_2023_2024_rgb&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-CIR": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_portal.html?id=ba87bbed-4cb5-4539-a9f5-f863de752f52\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/ba87bbed-4cb5-4539-a9f5-f863de752f52\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_portal.html?id=ba87bbed-4cb5-4539-a9f5-f863de752f52",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/ba87bbed-4cb5-4539-a9f5-f863de752f52",
     "availableProjections": [
       "CRS:84",
       "EPSG:2180",
@@ -4534,9 +4534,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop-cir/guest?LAYERS=sn_dop_020_cir&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-DOP-RGB": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=26df8686-08cd-4dc2-b459-4d51b9badfe8\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/26df8686-08cd-4dc2-b459-4d51b9badfe8\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=26df8686-08cd-4dc2-b459-4d51b9badfe8",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/26df8686-08cd-4dc2-b459-4d51b9badfe8",
     "availableProjections": [
       "CRS:84",
       "EPSG:2180",
@@ -4565,9 +4565,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_dop-rgb/guest?LAYERS=sn_dop_020&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-Flurstuecke": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=a55d5e28-998a-4d8f-916d-33f922381d1a\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/a55d5e28-998a-4d8f-916d-33f922381d1a\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=a55d5e28-998a-4d8f-916d-33f922381d1a",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/a55d5e28-998a-4d8f-916d-33f922381d1a",
     "availableProjections": [
       "CRS:84",
       "EPSG:2180",
@@ -4594,9 +4594,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_flurstuecke/guest?LAYERS=Flurstueck,Gemarkung,Gemarkungsname&STYLES=&FORMAT=image/png&transparent=true&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-ROHDOP-RGB": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_seite.html?id=0fe7859e-a5e0-4e8d-a48a-ce29db7b5717\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/0fe7859e-a5e0-4e8d-a48a-ce29db7b5717\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_seite.html?id=0fe7859e-a5e0-4e8d-a48a-ce29db7b5717",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/0fe7859e-a5e0-4e8d-a48a-ce29db7b5717",
     "availableProjections": [
       "EPSG:2180",
       "EPSG:3034",
@@ -4624,9 +4624,9 @@
     "urlTemplate": "https://geodienste.sachsen.de/wms_geosn_rohdop-rgb/guest?LAYERS=sn_rohdop_020&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "GEOSN-WebAtlas": {
-    "attributionHtml": "<a href=\"https://geoportal.sachsen.de/cps/metadaten_portal.html?id=475a9197-620f-4dcb-b8aa-7f71b626443f\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
+    "attributionHtml": "<a href=\"https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/475a9197-620f-4dcb-b8aa-7f71b626443f\" target=\"_blank\" rel=\"noopener\">Staatsbetrieb Geobasisinformation und Vermessung Sachsen</a>",
     "attributionText": "Staatsbetrieb Geobasisinformation und Vermessung Sachsen",
-    "attributionUrl": "https://geoportal.sachsen.de/cps/metadaten_portal.html?id=475a9197-620f-4dcb-b8aa-7f71b626443f",
+    "attributionUrl": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/475a9197-620f-4dcb-b8aa-7f71b626443f",
     "availableProjections": [
       "EPSG:3034",
       "EPSG:3035",
@@ -6633,7 +6633,8 @@
       "EPSG:4258",
       "EPSG:4326",
       "EPSG:5555",
-      "EPSG:25832"
+      "EPSG:25832",
+      "EPSG:31466"
     ],
     "endDate": "2024-07-09",
     "licenseUrl": "https://www.govdata.de/dl-de/zero-2-0",
@@ -6780,7 +6781,7 @@
       "EPSG:25833",
       "EPSG:32633"
     ],
-    "icon": "https://www.kystverket.no/UI/favicon/safari-pinned-tab.svg",
+    "icon": "https://www.kystverket.no/UI/favicon/favicon.svg",
     "licenseUrl": "https://web.archive.org/web/20210606205810/https://lists.nuug.no/pipermail/kart/2017-December/006320.html",
     "tiles": [
       "https://nfs.kystverket.no/arcgis/services/nfs/NFSSistOperativ/MapServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=13,12,10,8,6,5,4,3&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -9501,9 +9502,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
     "startDate": "2014",
     "tiles": [
-      "https://wms.zh.ch/OGDLidarZH?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDLidarZH?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDLidarZH-DOM-2017": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Oberflächenschummerung",
@@ -9520,9 +9521,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
     "startDate": "2017",
     "tiles": [
-      "https://wms.zh.ch/OGDLidarZH?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDLidarZH?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDLidarZH-DTM": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Terrainschummerung",
@@ -9539,9 +9540,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
     "startDate": "2014",
     "tiles": [
-      "https://wms.zh.ch/OGDLidarZH?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDLidarZH?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDLidarZH-DTM-2017": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Terrainschummerung",
@@ -9558,9 +9559,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
     "startDate": "2017",
     "tiles": [
-      "https://wms.zh.ch/OGDLidarZH?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDLidarZH?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDOrthoZH2015": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2014/15 RGB",
@@ -9577,9 +9578,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2014",
     "tiles": [
-      "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_s_2014&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_s_2014&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_s_2014&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_s_2014&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "OGDOrthoZH2016": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Frühjahr 2015/16 RGB",
@@ -9596,9 +9597,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2015",
     "tiles": [
-      "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "OGDOrthoZH2018": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2018 RGB",
@@ -9615,9 +9616,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2018",
     "tiles": [
-      "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2018&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2018&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2018&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2018&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "OGDOrthoZH2020": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2020 RGB",
@@ -9634,9 +9635,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2020",
     "tiles": [
-      "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2020&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2020&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDOrthoZH?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2020&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2020&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "OGDOrthoZH2021": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Frühjahr 2021 RGB 5cm",
@@ -9653,9 +9654,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/orthofoto-fruhjahr-rgb-infrarot-2021",
     "startDate": "2021",
     "tiles": [
-      "https://wms.zh.ch/OGDOrthoZH?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDOrthoZH?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDOrthoZH2024": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2024 RGB 5cm",
@@ -9672,9 +9673,9 @@
     "licenseUrl": "https://opendata.swiss/de/dataset/orthofoto-fruhjahr-rgb-infrarot-2021",
     "startDate": "2024",
     "tiles": [
-      "https://wms.zh.ch/OGDOrthoZH?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OGDOrthoZH?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "openlabs-geoportal-public-transport": {
     "attributionHtml": "<a href=\"https://geoportal.openlabs.cc/\" target=\"_blank\" rel=\"noopener\">Data provided by the Muncipality of Tirana hosted by Open Labs</a>",
@@ -13756,19 +13757,6 @@
       "https://geoservices-grid.irisnet.be/geoserver/urbisgrid/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image/png&TRANSPARENT=true&LAYERS=Relief&WIDTH=256&HEIGHT=256&CRS=EPSG:3857&STYLES=&BBOX={bbox-epsg-3857}"
     ],
     "urlTemplate": "https://geoservices-grid.irisnet.be/geoserver/urbisgrid/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image/png&TRANSPARENT=true&LAYERS=Relief&WIDTH={width}&HEIGHT={height}&CRS={proj}&STYLES=&BBOX={bbox}"
-  },
-  "USDA-NAIP-PR": {
-    "attributionHtml": "<a href=\"https://naip-usdaonline.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">U.S. Department of Agriculture</a>",
-    "attributionText": "U.S. Department of Agriculture",
-    "attributionUrl": "https://naip-usdaonline.hub.arcgis.com/",
-    "endDate": "2023",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
-    "licenseUrl": "https://www.usda.gov/policies-and-links/",
-    "startDate": "2021",
-    "tiles": [
-      "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/{z}/{y}/{x}"
-    ],
-    "urlTemplate": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/{zoom}/{y}/{x}"
   },
   "USSR-Latvia": {
     "availableProjections": [

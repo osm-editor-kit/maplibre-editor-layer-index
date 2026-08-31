@@ -5,13 +5,13 @@
       "bing": 1,
       "wms_endpoint": 17
     },
-    "geometries": 947,
+    "geometries": 950,
     "geometryShards": 7,
-    "published": 1637,
-    "upstream": 1655
+    "published": 1652,
+    "upstream": 1670
   },
-  "generatedAt": "2026-08-24T07:18:01.901Z",
+  "generatedAt": "2026-08-31T13:42:09.311Z",
   "source": "https://osmlab.github.io/editor-layer-index/imagery.geojson",
-  "sourceCommit": "bd0af364c4393e91fc745735e04cd6ad559dce39",
-  "sourceVersion": "W/\"6a8b75fd-641c8b\""
+  "sourceCommit": "5df1a638d1a16b0c5cb5af07585910ae64845274",
+  "sourceVersion": "W/\"6a941f17-6492f2\""
 }

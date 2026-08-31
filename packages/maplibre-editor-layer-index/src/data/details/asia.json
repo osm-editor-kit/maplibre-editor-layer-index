@@ -79,7 +79,7 @@
     "urlTemplate": "https://cyberjapandata.gsi.go.jp/xyz/std/{zoom}/{x}/{y}.png"
   },
   "India-PMGSY": {
-    "attributionHtml": "<a href='https://geosadak-pmgsy.nic.in/opendata/' target='_blank'>PMGSY Rural Connectivity Dataset, Government Open Data License</a> | <a href='https://www.mapbox.com/about/maps/' target='_blank' title='Mapbox' aria-label='Mapbox'>© Mapbox</a> | <a href='https://www.openstreetmap.org/about/' target='_blank' title='OpenStreetMap' aria-label='OpenStreetMap'>© OpenStreetMap</a> | <a href='https://www.maxar.com/' target='_blank' title='Maxar' aria-label='Maxar'>© Maxar</a>",
+    "attributionHtml": "<a href=\"https://geosadak-pmgsy.nic.in/OpenData\" target=\"_blank\" rel=\"noopener\">PMGSY National GIS - Open Data</a>",
     "attributionText": "PMGSY National GIS - Open Data",
     "attributionUrl": "https://geosadak-pmgsy.nic.in/OpenData",
     "availableProjections": [
