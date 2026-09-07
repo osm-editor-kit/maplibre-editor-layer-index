@@ -1283,6 +1283,54 @@
     ],
     "urlTemplate": "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/{zoom}/{y}/{x}"
   },
+  "Courtenay_2016": {
+    "attributionHtml": "<a href=\"https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - City of Courtenay</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
+    "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "endDate": "2016",
+    "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "startDate": "2016",
+    "tiles": [
+      "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/2016orthotiles/MapServer/tile/{z}/{y}/{x}"
+    ],
+    "urlTemplate": "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/2016orthotiles/MapServer/tile/{zoom}/{y}/{x}"
+  },
+  "Courtenay_2018": {
+    "attributionHtml": "<a href=\"https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - City of Courtenay</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
+    "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "endDate": "2018",
+    "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "startDate": "2018",
+    "tiles": [
+      "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/2018_Ortho_Tiles/MapServer/tile/{z}/{y}/{x}"
+    ],
+    "urlTemplate": "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/2018_Ortho_Tiles/MapServer/tile/{zoom}/{y}/{x}"
+  },
+  "Courtenay_2020": {
+    "attributionHtml": "<a href=\"https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - City of Courtenay</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
+    "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "endDate": "2020-03",
+    "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "startDate": "2020-03",
+    "tiles": [
+      "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/Ortho2020_AGOLtiles/MapServer/tile/{z}/{y}/{x}"
+    ],
+    "urlTemplate": "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/Ortho2020_AGOLtiles/MapServer/tile/{zoom}/{y}/{x}"
+  },
+  "Courtenay_2022": {
+    "attributionHtml": "<a href=\"https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - City of Courtenay</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
+    "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "endDate": "2022-03",
+    "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
+    "startDate": "2022-03",
+    "tiles": [
+      "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/2022_Ortho_Tiles/MapServer/tile/{z}/{y}/{x}"
+    ],
+    "urlTemplate": "https://tiles.arcgis.com/tiles/PwS5hVLYsEN2U36s/arcgis/rest/services/2022_Ortho_Tiles/MapServer/tile/{zoom}/{y}/{x}"
+  },
   "Crook-2023": {
     "attributionHtml": "<a href=\"https://crookcountyor.gov/\" target=\"_blank\" rel=\"noopener\">Crook County GIS</a>",
     "attributionText": "Crook County GIS",
@@ -1637,6 +1685,142 @@
     ],
     "urlTemplate": "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/{zoom}/{y}/{x}"
   },
+  "Delta_2006": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2006",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2006",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2006/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2006/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Delta_2008": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2008",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2008",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2008/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2008/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Delta_2010": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2010",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2010",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2010/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2010/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Delta_2012": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2012",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2012",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2012/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2012/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Delta_2016": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2016",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2016",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2016/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2016/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Delta_2018": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2018",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2018",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2018/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2018/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Delta_2020": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2020",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2020",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2020/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2020/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Delta_2022": {
+    "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Delta",
+    "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:4326",
+      "EPSG:3857"
+    ],
+    "endDate": "2022",
+    "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
+    "startDate": "2022",
+    "tiles": [
+      "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2022/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://maps.delta.ca/orthophotos/rest/services/Orthophotography/2022/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
   "DOGAMI-Lidar": {
     "attributionHtml": "<a href=\"https://www.oregon.gov/dogami\" target=\"_blank\" rel=\"noopener\">Oregon Department of Geology and Mineral Industries</a>",
     "attributionText": "Oregon Department of Geology and Mineral Industries",
@@ -1710,6 +1894,7 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
+      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2995,6 +3180,21 @@
       "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer/tile/{z}/{y}/{x}"
     ],
     "urlTemplate": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer/tile/{zoom}/{y}/{x}"
+  },
+  "Langley_City_2025": {
+    "attributionHtml": "<a href=\"https://www.langleycity.ca/open-data-license\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - City of Langley</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - City of Langley",
+    "attributionUrl": "https://www.langleycity.ca/open-data-license",
+    "availableProjections": [
+      "EPSG:3857"
+    ],
+    "endDate": "2025",
+    "licenseUrl": "https://www.langleycity.ca/open-data-license",
+    "startDate": "2025",
+    "tiles": [
+      "https://maps.langleycity.ca/server/rest/services/Maps/Imagery2025/MapServer?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&format=jpeg&f=image"
+    ],
+    "urlTemplate": "https://maps.langleycity.ca/server/rest/services/Maps/Imagery2025/MapServer?bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}&format=jpeg&f=image"
   },
   "Langley_Township_2025": {
     "attributionHtml": "<a href=\"https://www.tol.ca/en/connect/open-data-licence.aspx\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Township of Langley</a>",

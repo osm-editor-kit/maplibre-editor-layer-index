@@ -1,5 +1,36 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.1.10
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`5df1a63`](https://github.com/osmlab/editor-layer-index/commit/5df1a638d1a16b0c5cb5af07585910ae64845274) → [`729485b`](https://github.com/osmlab/editor-layer-index/commit/729485b2ca83e8c57db4e10161a53cbf29fa85c7), [compare](https://github.com/osmlab/editor-layer-index/compare/5df1a638d1a16b0c5cb5af07585910ae64845274...729485b2ca83e8c57db4e10161a53cbf29fa85c7)).
+
+  Upstream commits:
+
+  - [`1493758`](https://github.com/osmlab/editor-layer-index/commit/1493758890e4a9e4712fd8c76ab424ff7b3982cc) Add Langley City 2025 imagery ([#3046](https://github.com/osmlab/editor-layer-index/pull/3046))
+  - [`44a5892`](https://github.com/osmlab/editor-layer-index/commit/44a58928eee1547d328207b416b48767b47c6a48) Add City of Courtenay Orthoimagery 2016-2022 ([#3049](https://github.com/osmlab/editor-layer-index/pull/3049))
+  - [`a581c56`](https://github.com/osmlab/editor-layer-index/commit/a581c560c69c651feda02fe30adc6ed161648993) Add Delta, BC Orthoimagery 2008-2022 ([#3050](https://github.com/osmlab/editor-layer-index/pull/3050))
+  - [`729485b`](https://github.com/osmlab/editor-layer-index/commit/729485b2ca83e8c57db4e10161a53cbf29fa85c7) Sync WMS sources [skip travis] ([#3055](https://github.com/osmlab/editor-layer-index/pull/3055))
+
+  ### Added (13)
+  - **City of Courtenay Orthoimagery (2016)** (`Courtenay_2016`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2016.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2016.geojson)
+  - **City of Courtenay Orthoimagery (2018)** (`Courtenay_2018`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2018.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2018.geojson)
+  - **City of Courtenay Orthoimagery (2020)** (`Courtenay_2020`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2020.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2020.geojson)
+  - **City of Courtenay Orthoimagery (2022)** (`Courtenay_2022`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2022.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Courtenay_2022.geojson)
+  - **City of Langley Aerial Imagery (2025)** (`Langley_City_2025`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/City_Of_Langley_2025.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/City_Of_Langley_2025.geojson)
+  - **Delta Orthoimagery (2006)** (`Delta_2006`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2006.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2006.geojson)
+  - **Delta Orthoimagery (2008)** (`Delta_2008`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2008.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2008.geojson)
+  - **Delta Orthoimagery (2010)** (`Delta_2010`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2010.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2010.geojson)
+  - **Delta Orthoimagery (2012)** (`Delta_2012`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2012.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2012.geojson)
+  - **Delta Orthoimagery (2016)** (`Delta_2016`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2016.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2016.geojson)
+  - **Delta Orthoimagery (2018)** (`Delta_2018`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2018.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2018.geojson)
+  - **Delta Orthoimagery (2020)** (`Delta_2020`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2020.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2020.geojson)
+  - **Delta Orthoimagery (2022)** (`Delta_2022`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2022.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/ca/bc/Delta_2022.geojson)
+
+  ### Updated (1)
+  - **DVRPC Orthoimagery 2020 - Camden County (1ft)** (`DVRPC_2020_CamdenNJ`) — [source](https://github.com/osmlab/editor-layer-index/blob/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/us/nj/DVRPC_2020_CamdenNJ.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/729485b2ca83e8c57db4e10161a53cbf29fa85c7/sources/north-america/us/nj/DVRPC_2020_CamdenNJ.geojson)
+
 ## 0.1.9
 
 ### Patch Changes

@@ -4374,6 +4374,106 @@
     },
     {
       "bbox": [
+        -125.032,
+        49.64941,
+        -124.93317,
+        49.741
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "36c3e1d782598ba6",
+      "id": "Courtenay_2016",
+      "maxzoom": 19,
+      "minzoom": 13,
+      "name": "City of Courtenay Orthoimagery (2016)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -125.032,
+        49.64941,
+        -124.93317,
+        49.741
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "36c3e1d782598ba6",
+      "id": "Courtenay_2018",
+      "maxzoom": 19,
+      "minzoom": 12,
+      "name": "City of Courtenay Orthoimagery (2018)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -125.032,
+        49.64941,
+        -124.93317,
+        49.741
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "36c3e1d782598ba6",
+      "id": "Courtenay_2020",
+      "maxzoom": 21,
+      "minzoom": 12,
+      "name": "City of Courtenay Orthoimagery (2020)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -125.032,
+        49.64941,
+        -124.93317,
+        49.741
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "36c3e1d782598ba6",
+      "id": "Courtenay_2022",
+      "maxzoom": 21,
+      "minzoom": 12,
+      "name": "City of Courtenay Orthoimagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
         2.27029,
         44.74051,
         4.76621,
@@ -6449,6 +6549,206 @@
       "requiresKeys": [],
       "tileSize": 256,
       "type": "tms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2006",
+      "maxzoom": 20,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2006)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2008",
+      "maxzoom": 20,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2008)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2010",
+      "maxzoom": 20,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2010)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2012",
+      "maxzoom": 20,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2012)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2016",
+      "maxzoom": 21,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2016)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2018",
+      "maxzoom": 21,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2018)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2020",
+      "maxzoom": 21,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2020)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -123.18862,
+        49.00207,
+        -122.89018,
+        49.18824
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "b7102b145f656a38",
+      "id": "Delta_2022",
+      "maxzoom": 20,
+      "minzoom": 10,
+      "name": "Delta Orthoimagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
     },
     {
       "bbox": [
@@ -16094,6 +16394,29 @@
       "id": "lancucki-buildings",
       "maxzoom": 19,
       "name": "Powiat łańcucki: Buildings",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -122.69844,
+        49.06273,
+        -122.61671,
+        49.13044
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "437bb88487f3114e",
+      "id": "Langley_City_2025",
+      "name": "City of Langley Aerial Imagery (2025)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
