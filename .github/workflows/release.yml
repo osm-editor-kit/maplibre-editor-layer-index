@@ -183,7 +183,7 @@ jobs:
 
       - name: Upload Pages artifact
         if: steps.plan.outputs.release == 'true'
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: apps/preview/dist
 
