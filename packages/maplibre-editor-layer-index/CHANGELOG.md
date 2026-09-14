@@ -1,5 +1,31 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.1.11
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`729485b`](https://github.com/osmlab/editor-layer-index/commit/729485b2ca83e8c57db4e10161a53cbf29fa85c7) → [`f74ebdd`](https://github.com/osmlab/editor-layer-index/commit/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80), [compare](https://github.com/osmlab/editor-layer-index/compare/729485b2ca83e8c57db4e10161a53cbf29fa85c7...f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80)).
+
+  Upstream commits:
+
+  - [`0f0cd9f`](https://github.com/osmlab/editor-layer-index/commit/0f0cd9f14fd7ca829494955ef55902ea397b1a85) Bump regex from 2026.7.19 to 2026.9.3 ([#3057](https://github.com/osmlab/editor-layer-index/pull/3057))
+  - [`f1cc1c0`](https://github.com/osmlab/editor-layer-index/commit/f1cc1c0cabd5f3f5de3cbf07589ba472f039d44d) Update Fairfax imagery URL ([#3056](https://github.com/osmlab/editor-layer-index/pull/3056))
+  - [`bec6708`](https://github.com/osmlab/editor-layer-index/commit/bec6708e4db68bc7e528050f42643d8886dae0ed) Add City of Parksville 2025 imagery ([#3053](https://github.com/osmlab/editor-layer-index/pull/3053))
+  - [`f74ebdd`](https://github.com/osmlab/editor-layer-index/commit/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80) Sync WMS sources [skip travis] ([#3058](https://github.com/osmlab/editor-layer-index/pull/3058))
+
+  ### Added (2)
+  - **City of Parksville Orthoimagery (2025)** (`City_of_Parksville_2025`) — [source](https://github.com/osmlab/editor-layer-index/blob/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/ca/bc/City_of_Parksville_2025.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/ca/bc/City_of_Parksville_2025.geojson)
+  - **Fairfax County Orthoimagery (Latest)** (`Fairfax_VA_Most_Recent`) — [source](https://github.com/osmlab/editor-layer-index/blob/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/va/Fairfax_VA_Most_Recent.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/va/Fairfax_VA_Most_Recent.geojson)
+
+  ### Updated (4)
+  - **DVRPC Orthoimagery 2020 - Bucks County (1ft)** (`DVRPC_2020_BucksPA`) — [source](https://github.com/osmlab/editor-layer-index/blob/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/pa/DVRPC_2020_BucksPA.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/pa/DVRPC_2020_BucksPA.geojson)
+  - **DVRPC Orthoimagery 2020 - Delaware County (1ft)** (`DVRPC_2020_DelawarePA`) — [source](https://github.com/osmlab/editor-layer-index/blob/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/pa/DVRPC_2020_DelawarePA.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/pa/DVRPC_2020_DelawarePA.geojson)
+  - **DVRPC Orthoimagery 2025 - Bucks County (1ft)** (`DVRPC_2025_BucksPA`) — [source](https://github.com/osmlab/editor-layer-index/blob/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/pa/DVRPC_2025_BucksPA.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/pa/DVRPC_2025_BucksPA.geojson)
+  - **DVRPC Orthoimagery 2025 - Gloucestor County (1ft)** (`DVRPC_2025_GloucestorNJ`) — [source](https://github.com/osmlab/editor-layer-index/blob/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/nj/DVRPC_2025_GloucestorNJ.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/f74ebdd1ed2f8ef5b13d06c6238e51e7cc069a80/sources/north-america/us/nj/DVRPC_2025_GloucestorNJ.geojson)
+
+  ### Removed (1)
+  - **Fairfax County Orthoimagery (2025)** (`Fairfax_VA_2025`)
+
 ## 0.1.10
 
 ### Patch Changes

@@ -3689,6 +3689,31 @@
     },
     {
       "bbox": [
+        -124.41656,
+        49.28901,
+        -124.23838,
+        49.35881
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "46eefa1e3fd9cc07",
+      "id": "City_of_Parksville_2025",
+      "maxzoom": 22,
+      "minzoom": 10,
+      "name": "City of Parksville Orthoimagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
         -81.98477,
         40.74606,
         -81.8845,
@@ -8467,10 +8492,10 @@
         "US"
       ],
       "geometryId": "dcae00efdbd92fdd",
-      "id": "Fairfax_VA_2025",
-      "maxzoom": 23,
-      "minzoom": 9,
-      "name": "Fairfax County Orthoimagery (2025)",
+      "id": "Fairfax_VA_Most_Recent",
+      "maxzoom": 20,
+      "minzoom": 10,
+      "name": "Fairfax County Orthoimagery (Latest)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,

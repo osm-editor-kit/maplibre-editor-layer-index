@@ -941,6 +941,18 @@
     ],
     "urlTemplate": "https://arcgis.mansfieldcity.com/server/rest/services/Imagery/Imagery_2022/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
+  "City_of_Parksville_2025": {
+    "attributionHtml": "<a href=\"https://city-parksville.maps.arcgis.com/sharing/rest/content/items/b360ee0115dd41519fc482dc9dfe8a86/data\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - City of Parksville</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - City of Parksville",
+    "attributionUrl": "https://city-parksville.maps.arcgis.com/sharing/rest/content/items/b360ee0115dd41519fc482dc9dfe8a86/data",
+    "endDate": "2025",
+    "licenseUrl": "https://city-parksville.maps.arcgis.com/sharing/rest/content/items/b360ee0115dd41519fc482dc9dfe8a86/data",
+    "startDate": "2025",
+    "tiles": [
+      "https://tiles.arcgis.com/tiles/6Ys1qjTn2qXd9VRQ/arcgis/rest/services/2025OrthoDetailedOnline/MapServer/tile/{z}/{y}/{x}"
+    ],
+    "urlTemplate": "https://tiles.arcgis.com/tiles/6Ys1qjTn2qXd9VRQ/arcgis/rest/services/2025OrthoDetailedOnline/MapServer/tile/{zoom}/{y}/{x}"
+  },
   "City_of_Wooster_OH_2021": {
     "attributionHtml": "<a href=\"https://www.woosteroh.com/\" target=\"_blank\" rel=\"noopener\">City of Wooster, State of Ohio</a>",
     "attributionText": "City of Wooster, State of Ohio",
@@ -1860,6 +1872,7 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
+      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -1929,7 +1942,6 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2017,6 +2029,7 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
       "CRS:84",
+      "EPSG:3857",
       "EPSG:4326"
     ],
     "endDate": "2025",
@@ -2099,7 +2112,6 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:4326"
     ],
     "endDate": "2025",
@@ -2218,17 +2230,17 @@
     ],
     "urlTemplate": "https://gis.eurekaca.gov/server/rest/services/ImageryServices/Imagery_Aerial_2023/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "Fairfax_VA_2025": {
+  "Fairfax_VA_Most_Recent": {
     "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
     "attributionText": "Government of Fairfax County, Virginia",
     "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
-    "endDate": "2025",
+    "endDate": "2026",
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
-    "startDate": "2025",
+    "startDate": "2026",
     "tiles": [
-      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2025AerialPhotographyCached/ImageServer/tile/{z}/{y}/{x}"
+      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/MostRecentAerialPhotographyCached/ImageServer/tile/{z}/{y}/{x}"
     ],
-    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2025AerialPhotographyCached/ImageServer/tile/{zoom}/{y}/{x}"
+    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/MostRecentAerialPhotographyCached/ImageServer/tile/{zoom}/{y}/{x}"
   },
   "Florida_DEP_Ortho_2020": {
     "attributionHtml": "<a href=\"https://floridadep.gov/\" target=\"_blank\" rel=\"noopener\">Florida Department of Environmental Protection</a>",
