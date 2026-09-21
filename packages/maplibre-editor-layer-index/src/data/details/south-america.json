@@ -1,4 +1,19 @@
 {
+  "ac3-flynorth-valle-del-cauca-2026": {
+    "attributionHtml": "<a href=\"https://flynorthgroup.com\" target=\"_blank\" rel=\"noopener\">Ortofotos © Fly North S.A.S. — flynorthgroup.com (2026)</a>",
+    "attributionText": "Ortofotos © Fly North S.A.S. — flynorthgroup.com (2026)",
+    "attributionUrl": "https://flynorthgroup.com",
+    "availableProjections": [
+      "EPSG:3857"
+    ],
+    "endDate": "2026-08",
+    "licenseUrl": "https://wiki.openstreetmap.org/w/images/2/21/FlyNorth_permission_to_use_orthophotos.pdf",
+    "startDate": "2026-08",
+    "tiles": [
+      "https://geoserver.osm.lat/geoserver/gwc/service/tms/1.0.0/FlyNorth:FlyNorth-ValleDelCauca@EPSG:900913@png/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geoserver.osm.lat/geoserver/gwc/service/tms/1.0.0/FlyNorth:FlyNorth-ValleDelCauca@EPSG:900913@png/{zoom}/{x}/{-y}.png"
+  },
   "BDGEx_ctm_multi": {
     "attributionHtml": "<a href=\"https://bdgex.eb.mil.br/\" target=\"_blank\" rel=\"noopener\">BDGEx</a>",
     "attributionText": "BDGEx",

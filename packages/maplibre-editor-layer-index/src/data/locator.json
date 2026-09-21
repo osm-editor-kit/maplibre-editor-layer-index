@@ -287,6 +287,32 @@
     },
     {
       "bbox": [
+        -76.53202,
+        3.81232,
+        -76.0373,
+        4.91471
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "south-america"
+      ],
+      "countryCodes": [
+        "CO"
+      ],
+      "geometryId": "cddf7a3f24d9faa9",
+      "id": "ac3-flynorth-valle-del-cauca-2026",
+      "maxzoom": 22,
+      "minzoom": 8,
+      "name": "AC3 Fly North Valle del Cauca (sismo 2026)",
+      "overlay": false,
+      "requiresKeys": [],
+      "scheme": "tms",
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
         -83.50433,
         33.83506,
         -83.20633,
@@ -8483,6 +8509,102 @@
         -77.03919,
         39.06239
       ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "dcae00efdbd92fdd",
+      "id": "Fairfax_VA_2022",
+      "maxzoom": 20,
+      "name": "Fairfax County Orthoimagery (2022)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -77.53884,
+        38.6101,
+        -77.03919,
+        39.06239
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "dcae00efdbd92fdd",
+      "id": "Fairfax_VA_2023",
+      "maxzoom": 20,
+      "name": "Fairfax County Orthoimagery (2023)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -77.53884,
+        38.6101,
+        -77.03919,
+        39.06239
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "dcae00efdbd92fdd",
+      "id": "Fairfax_VA_2024",
+      "maxzoom": 20,
+      "name": "Fairfax County Orthoimagery (2024)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -77.53884,
+        38.6101,
+        -77.03919,
+        39.06239
+      ],
+      "best": false,
+      "category": "historicphoto",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "dcae00efdbd92fdd",
+      "id": "Fairfax_VA_2025",
+      "maxzoom": 20,
+      "name": "Fairfax County Orthoimagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -77.53884,
+        38.6101,
+        -77.03919,
+        39.06239
+      ],
       "best": true,
       "category": "photo",
       "continents": [
@@ -8492,14 +8614,13 @@
         "US"
       ],
       "geometryId": "dcae00efdbd92fdd",
-      "id": "Fairfax_VA_Most_Recent",
+      "id": "Fairfax_VA_2026",
       "maxzoom": 20,
-      "minzoom": 10,
-      "name": "Fairfax County Orthoimagery (Latest)",
+      "name": "Fairfax County Orthoimagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
-      "type": "tms"
+      "type": "wms"
     },
     {
       "bbox": [
@@ -26184,10 +26305,10 @@
     },
     {
       "bbox": [
-        -80.39046,
-        43.28151,
-        -74.24362,
-        46.33333
+        -83.30731,
+        41.57546,
+        -74.19289,
+        46.58335
       ],
       "best": false,
       "category": "photo",
@@ -26198,32 +26319,7 @@
         "CA",
         "US"
       ],
-      "geometryId": "e5606ad752042534",
-      "id": "Ontario_Mosaic_2023-2027_CIR",
-      "maxzoom": 20,
-      "name": "Ontario Orthophotography Mosaic 2023-2027 (CIR)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bbox": [
-        -80.39046,
-        43.28151,
-        -74.24362,
-        46.33333
-      ],
-      "best": false,
-      "category": "photo",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "CA",
-        "US"
-      ],
-      "geometryId": "e5606ad752042534",
+      "geometryId": "fe7adb60a0148970",
       "id": "Ontario_Mosaic_2023-2027_RGB",
       "maxzoom": 20,
       "name": "Ontario Orthophotography Mosaic 2023-2027 (RGB)",
@@ -27147,6 +27243,1626 @@
       "overlay": false,
       "requiresKeys": [],
       "scheme": "tms",
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.68724,
+        54.45967,
+        -5.61264,
+        55.32095
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB"
+      ],
+      "geometryId": "59681d18f09fdb72",
+      "id": "os1ed_6inch_antrim",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Antrim, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.89907,
+        54.01322,
+        -6.23714,
+        54.52806
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "8aff95115a2350a1",
+      "id": "os1ed_6inch_armagh",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Armagh, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.13012,
+        52.44765,
+        -6.46614,
+        52.9263
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "c86fafcad42fc1d7",
+      "id": "os1ed_6inch_carlow",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Carlow, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.0643,
+        53.76211,
+        -6.7456,
+        54.31002
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "a6a2b51551d3df8d",
+      "id": "os1ed_6inch_cavan",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Cavan, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -9.95876,
+        52.54275,
+        -8.26995,
+        53.17621
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "e2100d25badfa4c2",
+      "id": "os1ed_6inch_clare",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Clare, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.2705,
+        51.40285,
+        -7.73918,
+        52.40787
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "be2571ce408b64fa",
+      "id": "os1ed_6inch_cork",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Cork, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.44529,
+        54.61941,
+        -6.42047,
+        55.22257
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "45f6bd6567575412",
+      "id": "os1ed_6inch_derry",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Derry/Londonderry, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.86116,
+        54.43611,
+        -6.83624,
+        55.42162
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "de8db03d8cc59f7d",
+      "id": "os1ed_6inch_donegal",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Donegal, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.44348,
+        54.00253,
+        -5.34484,
+        54.70638
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "6cc565e8075c7a00",
+      "id": "os1ed_6inch_down",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Down, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.55918,
+        53.17148,
+        -5.97724,
+        53.65848
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "43077bd1a9d29d3b",
+      "id": "os1ed_6inch_dublin",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Dublin, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.2164,
+        54.09404,
+        -7.11227,
+        54.63531
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "bb9e8fd3f5c0a0ec",
+      "id": "os1ed_6inch_fermanagh",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Fermanagh, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.31238,
+        52.90435,
+        -7.94637,
+        53.72983
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "14f2b51d5476dea9",
+      "id": "os1ed_6inch_galway",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Galway, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.67459,
+        51.66404,
+        -9.05616,
+        52.61264
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "8d90ca8b67c95f43",
+      "id": "os1ed_6inch_kerry",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Kerry, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.1878,
+        52.83845,
+        -6.427,
+        53.45903
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "1edd260d69bf1d94",
+      "id": "os1ed_6inch_kildare",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Kildare, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.70622,
+        52.23159,
+        -6.89117,
+        52.90849
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "9f262c4292ecb06a",
+      "id": "os1ed_6inch_kilkenny",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Kilkenny, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.74673,
+        52.76248,
+        -6.88224,
+        53.22947
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "094ccd3677e6199c",
+      "id": "os1ed_6inch_laois",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Laois (née Queen's County), Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.44333,
+        53.79457,
+        -7.5531,
+        54.487
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "fbae94c31a7bb63d",
+      "id": "os1ed_6inch_leitrim",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Leitrim, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -9.41528,
+        52.24,
+        -8.11306,
+        52.76788
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "54533f607beccea6",
+      "id": "os1ed_6inch_limerick",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Limerick, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.03684,
+        53.51644,
+        -7.34882,
+        53.95165
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "8acf7f10652a3ba4",
+      "id": "os1ed_6inch_longford",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Longford, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.72603,
+        53.68451,
+        -6.08093,
+        54.12302
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "f0954f4b716fc9d9",
+      "id": "os1ed_6inch_louth",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Louth, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.31341,
+        53.46537,
+        -8.50238,
+        54.37696
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "2a0e89ef635d2509",
+      "id": "os1ed_6inch_mayo",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Mayo, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.35534,
+        53.37023,
+        -6.19079,
+        53.92659
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "39acd5bcab5350cf",
+      "id": "os1ed_6inch_meath",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Meath, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.36358,
+        53.88856,
+        -6.52793,
+        54.43332
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "fa3c2a2998923411",
+      "id": "os1ed_6inch_monaghan",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Monaghan, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.10516,
+        52.82559,
+        -6.94747,
+        53.42938
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "2006afa8c403dedb",
+      "id": "os1ed_6inch_offaly",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Offaly (née Kings County), Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.83163,
+        53.26645,
+        -7.83943,
+        54.13871
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "c8e1ff68f68a37de",
+      "id": "os1ed_6inch_roscommon",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Roscommon, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -9.18594,
+        53.90293,
+        -8.12679,
+        54.48401
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "2b4f30433e6240d3",
+      "id": "os1ed_6inch_sligo",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Sligo, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.49449,
+        52.19372,
+        -7.32238,
+        53.18547
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "8b03d854c2dfe783",
+      "id": "os1ed_6inch_tipperary",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Tipperary, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.928,
+        54.30271,
+        -6.473,
+        54.95574
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "d5d9af60d2cad5b1",
+      "id": "os1ed_6inch_tyrone",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Tyrone, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.22498,
+        51.88964,
+        -6.95,
+        52.37644
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "794894cbdd43b747",
+      "id": "os1ed_6inch_waterford",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Waterford, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.99461,
+        53.31365,
+        -6.91623,
+        53.8039
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "597f4b526afb9592",
+      "id": "os1ed_6inch_westmeath",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Westmeath, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.02781,
+        52.10567,
+        -6.11114,
+        52.81563
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "e5723d27de89af6b",
+      "id": "os1ed_6inch_wexford",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Wexford, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.80603,
+        52.66098,
+        -5.9745,
+        53.24981
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "16ee61bf3aad4802",
+      "id": "os1ed_6inch_wicklow",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 1st Ed. 6-inch. Wicklow, Ireland (1840s-1880s) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.68724,
+        54.45967,
+        -5.61264,
+        55.32095
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB"
+      ],
+      "geometryId": "59681d18f09fdb72",
+      "id": "os2ed_6inch_antrim",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Antrim, Ireland (1880-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.89907,
+        54.01322,
+        -6.23714,
+        54.52806
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "8aff95115a2350a1",
+      "id": "os2ed_6inch_armagh",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Armagh, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.13012,
+        52.44765,
+        -6.46614,
+        52.9263
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "c86fafcad42fc1d7",
+      "id": "os2ed_6inch_carlow",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Carlow, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.0643,
+        53.76211,
+        -6.7456,
+        54.31002
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "a6a2b51551d3df8d",
+      "id": "os2ed_6inch_cavan",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Cavan, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -9.95876,
+        52.54275,
+        -8.26995,
+        53.17621
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "e2100d25badfa4c2",
+      "id": "os2ed_6inch_clare",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Clare, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.2705,
+        51.40285,
+        -7.73918,
+        52.40787
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "be2571ce408b64fa",
+      "id": "os2ed_6inch_cork",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Cork, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.44529,
+        54.61941,
+        -6.42047,
+        55.22257
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "45f6bd6567575412",
+      "id": "os2ed_6inch_derry",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Derry/Londonderry, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.86116,
+        54.43611,
+        -6.83624,
+        55.42162
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "de8db03d8cc59f7d",
+      "id": "os2ed_6inch_donegal",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Donegal, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.44348,
+        54.00253,
+        -5.34484,
+        54.70638
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "6cc565e8075c7a00",
+      "id": "os2ed_6inch_down",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Down, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.55918,
+        53.17148,
+        -5.97724,
+        53.65848
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "43077bd1a9d29d3b",
+      "id": "os2ed_6inch_dublin",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Dublin, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.2164,
+        54.09404,
+        -7.11227,
+        54.63531
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "bb9e8fd3f5c0a0ec",
+      "id": "os2ed_6inch_fermanagh",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Fermanagh, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.31238,
+        52.90435,
+        -7.94637,
+        53.72983
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "14f2b51d5476dea9",
+      "id": "os2ed_6inch_galway",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Galway, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.67459,
+        51.66404,
+        -9.05616,
+        52.61264
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "8d90ca8b67c95f43",
+      "id": "os2ed_6inch_kerry",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Kerry, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.1878,
+        52.83845,
+        -6.427,
+        53.45903
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "1edd260d69bf1d94",
+      "id": "os2ed_6inch_kildare",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Kildare, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.70622,
+        52.23159,
+        -6.89117,
+        52.90849
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "9f262c4292ecb06a",
+      "id": "os2ed_6inch_kilkenny",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Kilkenny, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.74673,
+        52.76248,
+        -6.88224,
+        53.22947
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "094ccd3677e6199c",
+      "id": "os2ed_6inch_laois",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Laois (née Queen's County), Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.44333,
+        53.79457,
+        -7.5531,
+        54.487
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "fbae94c31a7bb63d",
+      "id": "os2ed_6inch_leitrim",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Leitrim, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -9.41528,
+        52.24,
+        -8.11306,
+        52.76788
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "54533f607beccea6",
+      "id": "os2ed_6inch_limerick",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Limerick, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.03684,
+        53.51644,
+        -7.34882,
+        53.95165
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "8acf7f10652a3ba4",
+      "id": "os2ed_6inch_longford",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Longford, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.72603,
+        53.68451,
+        -6.08093,
+        54.12302
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "f0954f4b716fc9d9",
+      "id": "os2ed_6inch_louth",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Louth, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -10.31341,
+        53.46537,
+        -8.50238,
+        54.37696
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "2a0e89ef635d2509",
+      "id": "os2ed_6inch_mayo",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Mayo, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.35534,
+        53.37023,
+        -6.19079,
+        53.92659
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "39acd5bcab5350cf",
+      "id": "os2ed_6inch_meath",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Meath, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.36358,
+        53.88856,
+        -6.52793,
+        54.43332
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "fa3c2a2998923411",
+      "id": "os2ed_6inch_monaghan",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Monaghan, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.10516,
+        52.82559,
+        -6.94747,
+        53.42938
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "2006afa8c403dedb",
+      "id": "os2ed_6inch_offaly",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Offaly (née Kings County), Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.83163,
+        53.26645,
+        -7.83943,
+        54.13871
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "c8e1ff68f68a37de",
+      "id": "os2ed_6inch_roscommon",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Roscommon, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -9.18594,
+        53.90293,
+        -8.12679,
+        54.48401
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "2b4f30433e6240d3",
+      "id": "os2ed_6inch_sligo",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Sligo, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.49449,
+        52.19372,
+        -7.32238,
+        53.18547
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "8b03d854c2dfe783",
+      "id": "os2ed_6inch_tipperary",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Tipperary, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.928,
+        54.30271,
+        -6.473,
+        54.95574
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "GB",
+        "IE"
+      ],
+      "geometryId": "d5d9af60d2cad5b1",
+      "id": "os2ed_6inch_tyrone",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Tyrone, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -8.22498,
+        51.88964,
+        -6.95,
+        52.37644
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "794894cbdd43b747",
+      "id": "os2ed_6inch_waterford",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Waterford, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.99461,
+        53.31365,
+        -6.91623,
+        53.8039
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "597f4b526afb9592",
+      "id": "os2ed_6inch_westmeath",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Westmeath, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -7.02781,
+        52.10567,
+        -6.11114,
+        52.81563
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "e5723d27de89af6b",
+      "id": "os2ed_6inch_wexford",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Wexford, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "tms"
+    },
+    {
+      "bbox": [
+        -6.80603,
+        52.66098,
+        -5.9745,
+        53.24981
+      ],
+      "best": false,
+      "category": "historicmap",
+      "continents": [
+        "europe"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
+      "geometryId": "16ee61bf3aad4802",
+      "id": "os2ed_6inch_wicklow",
+      "maxzoom": 17,
+      "minzoom": 6,
+      "name": "OS 2nd Ed. 6-inch. Wicklow, Ireland (1888-1915) (NLS)",
+      "overlay": false,
+      "requiresKeys": [],
       "tileSize": 256,
       "type": "tms"
     },
@@ -32702,6 +34418,81 @@
       "id": "Polk_Ortho_2023",
       "maxzoom": 23,
       "name": "Polk County Orthoimagery (2023)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -122.80696,
+        49.21356,
+        -122.70306,
+        49.28933
+      ],
+      "best": false,
+      "category": "other",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "13ff663605691ec4",
+      "id": "Port_Coquitlam_Addresses_2025",
+      "maxzoom": 21,
+      "minzoom": 19,
+      "name": "City of Port Coquitlam Addresses (2025)",
+      "overlay": true,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -122.80696,
+        49.21356,
+        -122.70306,
+        49.28933
+      ],
+      "best": false,
+      "category": "other",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "13ff663605691ec4",
+      "id": "Port_Coquitlam_Cadastre_2025",
+      "maxzoom": 21,
+      "minzoom": 17,
+      "name": "City of Port Coquitlam Cadastre (2025)",
+      "overlay": true,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -122.80696,
+        49.21356,
+        -122.70306,
+        49.28933
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "CA"
+      ],
+      "geometryId": "13ff663605691ec4",
+      "id": "Port_Coquitlam_Orthoimagery_2025",
+      "maxzoom": 21,
+      "minzoom": 10,
+      "name": "City of Port Coquitlam Orthoimagery and Cadastral Boundaries (2025)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,

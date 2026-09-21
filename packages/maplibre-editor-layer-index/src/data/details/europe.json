@@ -10039,6 +10039,774 @@
     ],
     "urlTemplate": "https://geo.nls.uk/maps/towns/cupar1854/{zoom}/{x}/{-y}.png"
   },
+  "os1ed_6inch_antrim": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/antrim/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/antrim/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_armagh": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/armagh/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/armagh/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_carlow": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/carlow/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/carlow/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_cavan": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/cavan/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/cavan/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_clare": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/clare/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/clare/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_cork": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/cork/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/cork/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_derry": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/londonderry/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/londonderry/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_donegal": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/donegal/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/donegal/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_down": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/down/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/down/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_dublin": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/dublin/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/dublin/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_fermanagh": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/fermanagh/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/fermanagh/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_galway": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/galway/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/galway/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_kerry": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kerry/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kerry/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_kildare": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kildare/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kildare/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_kilkenny": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kilkenny/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kilkenny/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_laois": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/queens/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/queens/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_leitrim": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/leitrim/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/leitrim/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_limerick": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/limerick/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/limerick/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_longford": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/longford/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/longford/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_louth": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/louth/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/louth/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_mayo": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/mayo/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/mayo/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_meath": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/meath/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/meath/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_monaghan": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/monaghan/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/monaghan/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_offaly": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kings/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kings/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_roscommon": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/roscommon/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/roscommon/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_sligo": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/sligo/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/sligo/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_tipperary": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/tipperary/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/tipperary/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_tyrone": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/tyrone/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/tyrone/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_waterford": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/waterford/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/waterford/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_westmeath": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/westmeath/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/westmeath/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_wexford": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/wexford/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/wexford/{zoom}/{x}/{y}.png"
+  },
+  "os1ed_6inch_wicklow": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1880",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1840",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/wicklow/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/wicklow/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_antrim": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/antrim_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/antrim_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_armagh": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/armagh_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/armagh_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_carlow": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/carlow_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/carlow_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_cavan": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/cavan_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/cavan_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_clare": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/clare_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/clare_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_cork": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/cork_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/cork_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_derry": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/londonderry_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/londonderry_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_donegal": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/donegal_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/donegal_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_down": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/down_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/down_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_dublin": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/dublin_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/dublin_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_fermanagh": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/fermanagh_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/fermanagh_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_galway": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/galway_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/galway_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_kerry": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kerry_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kerry_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_kildare": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kildare_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kildare_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_kilkenny": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kilkenny_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kilkenny_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_laois": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/queens_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/queens_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_leitrim": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/leitrim_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/leitrim_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_limerick": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/limerick_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/limerick_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_longford": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/longford_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/longford_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_louth": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/louth_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/louth_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_mayo": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/mayo_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/mayo_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_meath": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/meath_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/meath_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_monaghan": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/monaghan_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/monaghan_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_offaly": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/kings_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/kings_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_roscommon": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/roscommon_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/roscommon_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_sligo": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/sligo_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/sligo_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_tipperary": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/tipperary_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/tipperary_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_tyrone": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/tyrone_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/tyrone_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_waterford": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/waterford_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/waterford_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_westmeath": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/westmeath_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/westmeath_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_wexford": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/wexford_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/wexford_2nd/{zoom}/{x}/{y}.png"
+  },
+  "os2ed_6inch_wicklow": {
+    "attributionHtml": "<a href=\"https://maps.nls.uk/\" target=\"_blank\" rel=\"noopener\">National Library of Scotland Historic Maps</a>",
+    "attributionText": "National Library of Scotland Historic Maps",
+    "attributionUrl": "https://maps.nls.uk/",
+    "endDate": "1915",
+    "licenseUrl": "https://maps.nls.uk/copyright.html",
+    "startDate": "1888",
+    "tiles": [
+      "https://geo.nls.uk/maps/os/sixinchireland/wicklow_2nd/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://geo.nls.uk/maps/os/sixinchireland/wicklow_2nd/{zoom}/{x}/{y}.png"
+  },
   "OS7": {
     "endDate": "1960",
     "tiles": [

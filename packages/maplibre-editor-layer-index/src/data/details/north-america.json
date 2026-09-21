@@ -1872,7 +1872,6 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -1942,6 +1941,7 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
+      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -1959,7 +1959,6 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2230,17 +2229,85 @@
     ],
     "urlTemplate": "https://gis.eurekaca.gov/server/rest/services/ImageryServices/Imagery_Aerial_2023/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "Fairfax_VA_Most_Recent": {
+  "Fairfax_VA_2022": {
     "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
     "attributionText": "Government of Fairfax County, Virginia",
     "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2022",
+    "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
+    "startDate": "2022",
+    "tiles": [
+      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2022AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+    ],
+    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2022AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+  },
+  "Fairfax_VA_2023": {
+    "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
+    "attributionText": "Government of Fairfax County, Virginia",
+    "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2023",
+    "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
+    "startDate": "2023",
+    "tiles": [
+      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2023AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+    ],
+    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2023AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+  },
+  "Fairfax_VA_2024": {
+    "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
+    "attributionText": "Government of Fairfax County, Virginia",
+    "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2024",
+    "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
+    "startDate": "2024",
+    "tiles": [
+      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2024AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+    ],
+    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2024AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+  },
+  "Fairfax_VA_2025": {
+    "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
+    "attributionText": "Government of Fairfax County, Virginia",
+    "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
+    "endDate": "2025",
+    "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
+    "startDate": "2025",
+    "tiles": [
+      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2025AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
+    ],
+    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2025AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
+  },
+  "Fairfax_VA_2026": {
+    "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
+    "attributionText": "Government of Fairfax County, Virginia",
+    "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857"
+    ],
     "endDate": "2026",
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2026",
     "tiles": [
-      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/MostRecentAerialPhotographyCached/ImageServer/tile/{z}/{y}/{x}"
+      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2026AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
     ],
-    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/MostRecentAerialPhotographyCached/ImageServer/tile/{zoom}/{y}/{x}"
+    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2026AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
   "Florida_DEP_Ortho_2020": {
     "attributionHtml": "<a href=\"https://floridadep.gov/\" target=\"_blank\" rel=\"noopener\">Florida Department of Environmental Protection</a>",
@@ -5660,23 +5727,6 @@
     ],
     "urlTemplate": "https://ws.geoservices.lrc.gov.on.ca/arcgis5/services/AerialImagery/GEO_Imagery_Data_Service_2018to2022/ImageServer/WMSServer/?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=GEO_Imagery_Data_Service_2018to2022:None&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
-  "Ontario_Mosaic_2023-2027_CIR": {
-    "attributionHtml": "<a href=\"https://www.ontario.ca/page/open-government-licence-ontario\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence – Ontario</a>",
-    "attributionText": "Contains information licensed under the Open Government Licence – Ontario",
-    "attributionUrl": "https://www.ontario.ca/page/open-government-licence-ontario",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2027",
-    "licenseUrl": "https://osmfoundation.org/wiki/OGL_Canada_and_local_variants",
-    "startDate": "2023-04-08",
-    "tiles": [
-      "https://ws.geoservices.lrc.gov.on.ca/arcgis5/services/AerialImagery/GEO_Imagery_Data_Service_2023to2027/ImageServer/WMSServer/?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=GEO_Imagery_Data_Service_2023to2027:NaturalResource_FalseColourComposite&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://ws.geoservices.lrc.gov.on.ca/arcgis5/services/AerialImagery/GEO_Imagery_Data_Service_2023to2027/ImageServer/WMSServer/?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=GEO_Imagery_Data_Service_2023to2027:NaturalResource_FalseColourComposite&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
   "Ontario_Mosaic_2023-2027_RGB": {
     "attributionHtml": "<a href=\"https://www.ontario.ca/page/open-government-licence-ontario\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence – Ontario</a>",
     "attributionText": "Contains information licensed under the Open Government Licence – Ontario",
@@ -6297,6 +6347,54 @@
       "https://gis.polk-county.net/image/rest/services/Aerials/Aerial_2023/ImageServer/exportImage?f=image&format=jpg&layers=show,6&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
     "urlTemplate": "https://gis.polk-county.net/image/rest/services/Aerials/Aerial_2023/ImageServer/exportImage?f=image&format=jpg&layers=show,6&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+  },
+  "Port_Coquitlam_Addresses_2025": {
+    "attributionHtml": "<a href=\"https://data-poco.hub.arcgis.com/pages/terms\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Port Coquitlam</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Port Coquitlam",
+    "attributionUrl": "https://data-poco.hub.arcgis.com/pages/terms",
+    "availableProjections": [
+      "EPSG:3857",
+      "EPSG:26910"
+    ],
+    "endDate": "2025",
+    "licenseUrl": "https://data-poco.hub.arcgis.com/pages/terms",
+    "startDate": "2025",
+    "tiles": [
+      "https://maps.portcoquitlam.ca/server/rest/services/Basemap_Ortho2025_Legal/MapServer/export?f=image&format=png32&transparent=true&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256&layers=show:5,6,9,10,13,14,17,18"
+    ],
+    "urlTemplate": "https://maps.portcoquitlam.ca/server/rest/services/Basemap_Ortho2025_Legal/MapServer/export?f=image&format=png32&transparent=true&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}&layers=show:5,6,9,10,13,14,17,18"
+  },
+  "Port_Coquitlam_Cadastre_2025": {
+    "attributionHtml": "<a href=\"https://data-poco.hub.arcgis.com/pages/terms\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Port Coquitlam</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Port Coquitlam",
+    "attributionUrl": "https://data-poco.hub.arcgis.com/pages/terms",
+    "availableProjections": [
+      "EPSG:3857",
+      "EPSG:26910"
+    ],
+    "endDate": "2025",
+    "licenseUrl": "https://data-poco.hub.arcgis.com/pages/terms",
+    "startDate": "2025",
+    "tiles": [
+      "https://maps.portcoquitlam.ca/server/rest/services/Basemap_Ortho2025_Legal/MapServer/export?f=image&format=png32&transparent=true&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256&layers=show:0"
+    ],
+    "urlTemplate": "https://maps.portcoquitlam.ca/server/rest/services/Basemap_Ortho2025_Legal/MapServer/export?f=image&format=png32&transparent=true&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}&layers=show:0"
+  },
+  "Port_Coquitlam_Orthoimagery_2025": {
+    "attributionHtml": "<a href=\"https://data-poco.hub.arcgis.com/pages/terms\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Port Coquitlam</a>",
+    "attributionText": "Contains information licensed under the Open Government Licence - Port Coquitlam",
+    "attributionUrl": "https://data-poco.hub.arcgis.com/pages/terms",
+    "availableProjections": [
+      "EPSG:3857",
+      "EPSG:26910"
+    ],
+    "endDate": "2025",
+    "licenseUrl": "https://data-poco.hub.arcgis.com/pages/terms",
+    "startDate": "2025",
+    "tiles": [
+      "https://maps.portcoquitlam.ca/server/rest/services/Basemap_Ortho2025_Legal/MapServer/export?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256&layers=show:20"
+    ],
+    "urlTemplate": "https://maps.portcoquitlam.ca/server/rest/services/Basemap_Ortho2025_Legal/MapServer/export?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}&layers=show:20"
   },
   "PortlandMaps": {
     "attributionHtml": "<a href=\"https://www.portlandmaps.com/\" target=\"_blank\" rel=\"noopener\">City of Portland, Oregon</a>",
