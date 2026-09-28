@@ -1,5 +1,19 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.1.13
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`51c4960`](https://github.com/osmlab/editor-layer-index/commit/51c49600ebbf27c8b3aa57f46b444c5d054ede9c) → [`7232a0b`](https://github.com/osmlab/editor-layer-index/commit/7232a0be41a74e3e31650e9290000a3a3bee7bcc), [compare](https://github.com/osmlab/editor-layer-index/compare/51c49600ebbf27c8b3aa57f46b444c5d054ede9c...7232a0be41a74e3e31650e9290000a3a3bee7bcc)).
+
+  Upstream commits:
+
+  - [`7232a0b`](https://github.com/osmlab/editor-layer-index/commit/7232a0be41a74e3e31650e9290000a3a3bee7bcc) Sync WMS sources [skip travis] ([#3068](https://github.com/osmlab/editor-layer-index/pull/3068))
+
+  ### Updated (2)
+  - **DVRPC Orthoimagery 2020 - Delaware County (1ft)** (`DVRPC_2020_DelawarePA`) — [source](https://github.com/osmlab/editor-layer-index/blob/7232a0be41a74e3e31650e9290000a3a3bee7bcc/sources/north-america/us/pa/DVRPC_2020_DelawarePA.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/7232a0be41a74e3e31650e9290000a3a3bee7bcc/sources/north-america/us/pa/DVRPC_2020_DelawarePA.geojson)
+  - **DVRPC Orthoimagery 2020 - Gloucestor County (1ft)** (`DVRPC_2020_GloucestorNJ`) — [source](https://github.com/osmlab/editor-layer-index/blob/7232a0be41a74e3e31650e9290000a3a3bee7bcc/sources/north-america/us/nj/DVRPC_2020_GloucestorNJ.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/7232a0be41a74e3e31650e9290000a3a3bee7bcc/sources/north-america/us/nj/DVRPC_2020_GloucestorNJ.geojson)
+
 ## 0.1.12
 
 ### Patch Changes
