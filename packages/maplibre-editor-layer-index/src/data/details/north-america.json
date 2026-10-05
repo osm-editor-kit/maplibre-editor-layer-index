@@ -1872,6 +1872,7 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
+      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -4504,6 +4505,25 @@
       "https://imageserverintra.miamidade.gov/arcgis/services/Woolpert2021/ImageServer/WMSServer?format=image/jpeg&version=1.3.0&service=wms&request=getmap&layers=0&styles=&crs=EPSG:3857&width=256&height=256&bbox={bbox-epsg-3857}"
     ],
     "urlTemplate": "https://imageserverintra.miamidade.gov/arcgis/services/Woolpert2021/ImageServer/WMSServer?format=image/jpeg&version=1.3.0&service=wms&request=getmap&layers=0&styles=&crs={proj}&width={width}&height={height}&bbox={bbox}"
+  },
+  "Miami-Dade_Ortho_2026": {
+    "attributionHtml": "<a href=\"https://gis-mdc.opendata.arcgis.com/pages/imagery\" target=\"_blank\" rel=\"noopener\">Miami-Dade County</a>",
+    "attributionText": "Miami-Dade County",
+    "attributionUrl": "https://gis-mdc.opendata.arcgis.com/pages/imagery",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857",
+      "EPSG:4326",
+      "EPSG:6438"
+    ],
+    "endDate": "2026",
+    "icon": "https://www.miamidade.gov/resources/global/images/md-logo-color.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
+    "startDate": "2026",
+    "tiles": [
+      "https://imageserverintra.miamidade.gov/arcgis/rest/services/Woolpert2026/ImageServer/exportImage?f=image&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://imageserverintra.miamidade.gov/arcgis/rest/services/Woolpert2026/ImageServer/exportImage?f=image&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "Miami-Dade_Ortho_Latest": {
     "attributionHtml": "<a href=\"https://gis-mdc.opendata.arcgis.com/pages/imagery\" target=\"_blank\" rel=\"noopener\">Miami-Dade County</a>",

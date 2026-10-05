@@ -13717,7 +13717,7 @@
       ],
       "geometryId": "5855317ef9d47ba5",
       "id": "Hamburg-DOP20-unbelaubt",
-      "name": "Hamburg 20cm (HH LGV DOP20 unbelaubt 2025)",
+      "name": "Hamburg 20cm (HH LGV DOP20 unbelaubt 2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -20179,6 +20179,31 @@
       "maxzoom": 19,
       "minzoom": 5,
       "name": "Miami-Dade County Orthoimagery (2021)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bbox": [
+        -80.94289,
+        25.13093,
+        -80.10552,
+        26.02482
+      ],
+      "best": true,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "7b7031e25ab41c55",
+      "id": "Miami-Dade_Ortho_2026",
+      "maxzoom": 19,
+      "minzoom": 5,
+      "name": "Miami-Dade County Orthoimagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,

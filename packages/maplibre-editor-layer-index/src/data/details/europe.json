@@ -6633,8 +6633,7 @@
       "EPSG:4258",
       "EPSG:4326",
       "EPSG:5555",
-      "EPSG:25832",
-      "EPSG:31466"
+      "EPSG:25832"
     ],
     "endDate": "2024-07-09",
     "licenseUrl": "https://www.govdata.de/dl-de/zero-2-0",

@@ -1,5 +1,25 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.1.14
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`7232a0b`](https://github.com/osmlab/editor-layer-index/commit/7232a0be41a74e3e31650e9290000a3a3bee7bcc) → [`077f681`](https://github.com/osmlab/editor-layer-index/commit/077f6811ac2aaf5e6098ed8a452de9ab2e339281), [compare](https://github.com/osmlab/editor-layer-index/compare/7232a0be41a74e3e31650e9290000a3a3bee7bcc...077f6811ac2aaf5e6098ed8a452de9ab2e339281)).
+
+  Upstream commits:
+
+  - [`3bf78da`](https://github.com/osmlab/editor-layer-index/commit/3bf78dabd7796684b1bc5a829098be424014673a) Update year for Hamburg DOP20 dataset ([#3065](https://github.com/osmlab/editor-layer-index/pull/3065))
+  - [`b672b12`](https://github.com/osmlab/editor-layer-index/commit/b672b12dd8583563c201ad6c0813016df968cd4d) Add Miami-Dade County Orthoimagery 2026 GeoJSON ([#3066](https://github.com/osmlab/editor-layer-index/pull/3066))
+  - [`077f681`](https://github.com/osmlab/editor-layer-index/commit/077f6811ac2aaf5e6098ed8a452de9ab2e339281) Sync WMS sources [skip travis] ([#3073](https://github.com/osmlab/editor-layer-index/pull/3073))
+
+  ### Added (1)
+  - **Miami-Dade County Orthoimagery (2026)** (`Miami-Dade_Ortho_2026`) — [source](https://github.com/osmlab/editor-layer-index/blob/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/north-america/us/fl/Miami-Dade_Ortho_2026.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/north-america/us/fl/Miami-Dade_Ortho_2026.geojson)
+
+  ### Updated (3)
+  - **DVRPC Orthoimagery 2020 - Bucks County (1ft)** (`DVRPC_2020_BucksPA`) — [source](https://github.com/osmlab/editor-layer-index/blob/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/north-america/us/pa/DVRPC_2020_BucksPA.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/north-america/us/pa/DVRPC_2020_BucksPA.geojson)
+  - **Hamburg 20cm (HH LGV DOP20 unbelaubt 2026)** (`Hamburg-DOP20-unbelaubt`) — [source](https://github.com/osmlab/editor-layer-index/blob/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/europe/de/Hamburg-DOP20-unbelaubt.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/europe/de/Hamburg-DOP20-unbelaubt.geojson)
+  - **Köln TrueDOP 2024** (`Koeln-TrueDOP-2024`) — [source](https://github.com/osmlab/editor-layer-index/blob/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/europe/de/Köln-TrueDOP-2024.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/077f6811ac2aaf5e6098ed8a452de9ab2e339281/sources/europe/de/Köln-TrueDOP-2024.geojson)
+
 ## 0.1.13
 
 ### Patch Changes
