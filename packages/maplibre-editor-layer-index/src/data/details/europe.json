@@ -14794,28 +14794,6 @@
     ],
     "urlTemplate": "https://vogis.cnv.at/mapserver/mapserv?MAP=i_luftbilder_r_wms.map&LAYERS=wi2015_20cm&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
-  "Wales_LIDAR_DSM_1m_2020_2023": {
-    "attributionHtml": "<a href=\"https://datamap.gov.wales/layers/geonode:wales_lidar_dsm_1m_hillshade_cog\" target=\"_blank\" rel=\"noopener\">Welsh Government</a>",
-    "attributionText": "Welsh Government",
-    "attributionUrl": "https://datamap.gov.wales/layers/geonode:wales_lidar_dsm_1m_hillshade_cog",
-    "availableProjections": [
-      "EPSG:3785",
-      "EPSG:3857",
-      "EPSG:32736",
-      "EPSG:900913",
-      "EPSG:4326",
-      "EPSG:32647",
-      "CRS:84",
-      "EPSG:27700"
-    ],
-    "endDate": "2023",
-    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-    "startDate": "2020",
-    "tiles": [
-      "https://datamap.gov.wales/geoserver/ows?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=geonode:wales_lidar_dsm_1m_hillshade_cog&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&STYLES=https://datamap.gov.wales/geoserver/ows?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=geonode:wales_lidar_dsm_1m_hillshade_cog&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&STYLES=geonode:default_raster"
-    ],
-    "urlTemplate": "https://datamap.gov.wales/geoserver/ows?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=geonode:wales_lidar_dsm_1m_hillshade_cog&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&STYLES=https://datamap.gov.wales/geoserver/ows?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=geonode:wales_lidar_dsm_1m_hillshade_cog&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&STYLES=geonode:default_raster"
-  },
   "wien.gv.at-aerial_image": {
     "attributionHtml": "<a href=\"https://data.wien.gv.at\" target=\"_blank\" rel=\"noopener\">Stadt Wien</a>",
     "attributionText": "Stadt Wien",

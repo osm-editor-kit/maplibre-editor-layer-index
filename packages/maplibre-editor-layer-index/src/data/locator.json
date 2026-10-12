@@ -2489,7 +2489,7 @@
         -80.44624,
         28.79149
       ],
-      "best": false,
+      "best": true,
       "category": "photo",
       "continents": [
         "north-america"
@@ -42415,29 +42415,6 @@
       "requiresKeys": [],
       "tileSize": 256,
       "type": "tms"
-    },
-    {
-      "bbox": [
-        -5.42725,
-        51.32314,
-        -2.5708,
-        53.46695
-      ],
-      "best": false,
-      "category": "elevation",
-      "continents": [
-        "europe"
-      ],
-      "countryCodes": [
-        "GB"
-      ],
-      "geometryId": "1cba6bd564df7a7c",
-      "id": "Wales_LIDAR_DSM_1m_2020_2023",
-      "name": "Wales LiDAR Digital Surface Model 1m Hillshade (2020-2023)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
     },
     {
       "bbox": [

@@ -1,5 +1,23 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.1.15
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`077f681`](https://github.com/osmlab/editor-layer-index/commit/077f6811ac2aaf5e6098ed8a452de9ab2e339281) → [`7785898`](https://github.com/osmlab/editor-layer-index/commit/7785898dd4f3e9d1f7432bea0cf441f15548b164), [compare](https://github.com/osmlab/editor-layer-index/compare/077f6811ac2aaf5e6098ed8a452de9ab2e339281...7785898dd4f3e9d1f7432bea0cf441f15548b164)).
+
+  Upstream commits:
+
+  - [`f354476`](https://github.com/osmlab/editor-layer-index/commit/f3544762e767768c1d5390f1c1b3dc84f1e0fdd5) Revert "add Wales greyscale DSM (#2853)" ([#2853](https://github.com/osmlab/editor-layer-index/pull/2853)) ([#3075](https://github.com/osmlab/editor-layer-index/pull/3075))
+  - [`e0fdd81`](https://github.com/osmlab/editor-layer-index/commit/e0fdd819341ec4ca84dad57c36446f59e2bf3649) Bump regex from 2026.9.10 to 2026.9.29 ([#3074](https://github.com/osmlab/editor-layer-index/pull/3074))
+  - [`7785898`](https://github.com/osmlab/editor-layer-index/commit/7785898dd4f3e9d1f7432bea0cf441f15548b164) Add 'best' property to Brevard_Ortho_2026.geojson ([#3077](https://github.com/osmlab/editor-layer-index/pull/3077))
+
+  ### Updated (1)
+  - **Brevard County Orthoimagery (2026)** (`Brevard_Ortho_2026`) — [source](https://github.com/osmlab/editor-layer-index/blob/7785898dd4f3e9d1f7432bea0cf441f15548b164/sources/north-america/us/fl/Brevard_Ortho_2026.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/7785898dd4f3e9d1f7432bea0cf441f15548b164/sources/north-america/us/fl/Brevard_Ortho_2026.geojson)
+
+  ### Removed (1)
+  - **Wales LiDAR Digital Surface Model 1m Hillshade (2020-2023)** (`Wales_LIDAR_DSM_1m_2020_2023`) — `sources/europe/gb/Wales-LiDAR-DSM-1m-2020-2023.geojson`
+
 ## 0.1.14
 
 ### Patch Changes
