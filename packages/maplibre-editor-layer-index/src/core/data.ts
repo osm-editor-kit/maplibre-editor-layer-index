@@ -45,10 +45,12 @@ const geometryLoaders = {
     import('../data/geometries/south-america.json', { with: { type: 'json' } }),
 } as const
 
+let layersById: Map<string, EliLocatorLayer> | undefined
+
 const detailsById = new Map<string, EliLayerDetails>()
 const detailPromises = new Map<EliContinent, Promise<void>>()
 
-let geometriesCache: EliGeometries = {}
+const geometriesCache: EliGeometries = {}
 const geometryPromises = new Map<GeometryContinent, Promise<void>>()
 
 /** All published ELI locator rows (filter fields only, no tile URLs). */
@@ -58,7 +60,8 @@ export function getLayers(): EliLocatorLayer[] {
 
 /** Look up a single locator row by its ELI id. */
 export function getLayer(id: string): EliLocatorLayer | undefined {
-  return locator.layers.find((layer) => layer.id === id)
+  layersById ??= new Map(locator.layers.map((layer) => [layer.id, layer]))
+  return layersById.get(id)
 }
 
 /** Build provenance for the bundled data. */
@@ -93,6 +96,8 @@ async function loadDetailShard(continent: EliContinent): Promise<void> {
     }
   })
   detailPromises.set(continent, promise)
+  // Don't cache a failed chunk load — the next call retries.
+  promise.catch(() => detailPromises.delete(continent))
   return promise
 }
 
@@ -104,6 +109,24 @@ export async function ensureDetailsForContinents(continents: EliContinent[]): Pr
 /** Load `world` plus the regional detail shard for the viewport center. */
 export async function ensureDetailsForViewport(bounds: ViewportBounds): Promise<void> {
   await ensureDetailsForContinents(continentsForViewport(bounds))
+}
+
+/**
+ * Load the detail shards these locator rows are filed under, so every one of them
+ * can be hydrated. Unlike {@link ensureDetailsForViewport} this follows the rows
+ * rather than guessing a continent from the map center — the guess is wrong along
+ * continent borders (Turkey, Israel, North Africa) and for views spanning two.
+ */
+export async function ensureDetailsForLayers(rows: EliLocatorLayer[]): Promise<void> {
+  const needed = new Set<EliContinent>()
+  for (const row of rows) {
+    if (detailsById.has(row.id)) continue
+    if (row.continents.some((c) => needed.has(c))) continue
+    // A layer's details sit in each of its shards; prefer one already on its way.
+    const continent = row.continents.find((c) => detailPromises.has(c)) ?? row.continents[0]
+    if (continent) needed.add(continent)
+  }
+  await ensureDetailsForContinents([...needed])
 }
 
 /** Merge a locator row with loaded details, or `undefined` when details are not loaded yet. */
@@ -137,9 +160,10 @@ async function loadGeometryShard(continent: GeometryContinent): Promise<void> {
 
   const promise = geometryLoaders[continent]().then((mod) => {
     const shard = (mod.default ?? mod) as EliGeometries
-    geometriesCache = { ...geometriesCache, ...shard }
+    Object.assign(geometriesCache, shard)
   })
   geometryPromises.set(continent, promise)
+  promise.catch(() => geometryPromises.delete(continent))
   return promise
 }
 
@@ -165,6 +189,9 @@ export async function loadGeometries(): Promise<EliGeometries> {
     allGeometriesPromise = ensureGeometriesForContinents(shardsMeta.continents).then(
       () => geometriesCache,
     )
+    allGeometriesPromise.catch(() => {
+      allGeometriesPromise = undefined
+    })
   }
   return allGeometriesPromise
 }
@@ -181,6 +208,9 @@ export async function loadByCountry(): Promise<EliByCountry> {
     byCountryPromise = import('../data/byCountry.json', { with: { type: 'json' } }).then(
       (mod) => (mod.default ?? mod) as EliByCountry,
     )
+    byCountryPromise.catch(() => {
+      byCountryPromise = undefined
+    })
   }
   return byCountryPromise
 }

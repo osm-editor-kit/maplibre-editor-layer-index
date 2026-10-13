@@ -1,4 +1,22 @@
-import { defineConfig } from 'tsup'
+import { readFile } from 'node:fs/promises'
+import { defineConfig, type Options } from 'tsup'
+
+type Plugin = NonNullable<Options['esbuildPlugins']>[number]
+
+/**
+ * Emit JSON data as a compact `JSON.parse('…')` string instead of esbuild's
+ * pretty-printed object literal: about half the bytes, and engines parse JSON
+ * much faster than the equivalent JS literal for multi-megabyte shards.
+ */
+const compactJson: Plugin = {
+  name: 'compact-json',
+  setup(build) {
+    build.onLoad({ filter: /\.json$/ }, async ({ path }) => {
+      const compact = JSON.stringify(JSON.parse(await readFile(path, 'utf8')))
+      return { contents: `export default JSON.parse(${JSON.stringify(compact)})`, loader: 'js' }
+    })
+  },
+}
 
 export default defineConfig({
   entry: {
@@ -18,4 +36,5 @@ export default defineConfig({
   // the entry chunks; details/<continent>.json and geometries/<continent>.json are
   // reached via dynamic import() so bundlers code-split and load by map region.
   external: ['react', 'react-map-gl', 'maplibre-gl'],
+  esbuildPlugins: [compactJson],
 })

@@ -1,7 +1,7 @@
 import { hasRequiredKeys, type EliApiKeys } from './apiKeys'
 import type { ViewportBounds } from './bounds'
 import { toBBox } from './bounds'
-import { ensureDetailsForViewport, getLayers, hydrateLayers, loadByCountry } from './data'
+import { ensureDetailsForLayers, getLayers, hydrateLayers, loadByCountry } from './data'
 import type { BBox, EliCategory, EliLayer, EliLayerType, EliLocatorLayer } from './types'
 
 export type { ViewportBounds } from './bounds'
@@ -105,12 +105,12 @@ export async function layersForCountry(
   return getLayers().filter((layer) => ids.has(layer.id))
 }
 
-/** Viewport-filter synchronously, load regional detail shards, then hydrate matches. */
+/** Viewport-filter synchronously, load the matches' detail shards, then hydrate them. */
 export async function loadLayersInViewport(
   bounds: ViewportBounds,
   options: FilterOptions = {},
 ): Promise<EliLayer[]> {
   const matched = layersInViewport(bounds, options)
-  await ensureDetailsForViewport(bounds)
+  await ensureDetailsForLayers(matched)
   return hydrateLayers(matched)
 }

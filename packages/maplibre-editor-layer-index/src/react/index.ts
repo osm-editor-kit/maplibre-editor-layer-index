@@ -1,13 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useMap } from 'react-map-gl/maplibre'
-import {
-  ensureDetailsForContinents,
-  ensureDetailsForViewport,
-  getShardsMeta,
-  hydrateLayers,
-} from '../core/data'
+import { ensureDetailsForLayers, hydrateLayers } from '../core/data'
 import { filterLayers, layersInViewport, type FilterOptions } from '../core/filter'
-import type { EliLayer } from '../core/types'
+import type { EliLayer, EliLocatorLayer } from '../core/types'
 
 /** The map capabilities the hook needs — satisfied by maplibre-gl and react-map-gl maps. */
 type MapWithBounds = {
@@ -35,8 +30,11 @@ export type UseEditorLayerIndexOptions = {
 export type UseEditorLayerIndexResult = {
   /** ELI layers covering the current viewport (or all, when `viewportFilter` is false). */
   layers: EliLayer[]
-  /** `loading` while detail shards are being fetched; `ready` once hydrated. */
-  status: 'loading' | 'ready'
+  /**
+   * `loading` while detail shards are being fetched, `ready` once hydrated, `error`
+   * when a shard failed to load (retried on the next map move or filter change).
+   */
+  status: 'loading' | 'ready' | 'error'
 }
 
 /**
@@ -61,37 +59,36 @@ export function useEditorLayerIndex(
   const filterKey = JSON.stringify(filter ?? {})
 
   const [layers, setLayers] = useState<EliLayer[]>([])
-  const [status, setStatus] = useState<'loading' | 'ready'>('loading')
+  const [status, setStatus] = useState<UseEditorLayerIndexResult['status']>('loading')
   const timer = useRef<ReturnType<typeof setTimeout>>(undefined)
   const generation = useRef(0)
 
   useEffect(() => {
     setStatus('loading')
 
-    if (!viewportFilter) {
+    const hydrate = (locators: EliLocatorLayer[]) => {
       const gen = ++generation.current
-      const locators = filterLayers(filter)
-      void ensureDetailsForContinents(getShardsMeta().continents).then(() => {
-        if (gen !== generation.current) return
-        setLayers(hydrateLayers(locators))
-        setStatus('ready')
-      })
+      setStatus('loading')
+      ensureDetailsForLayers(locators).then(
+        () => {
+          if (gen !== generation.current) return
+          setLayers(hydrateLayers(locators))
+          setStatus('ready')
+        },
+        () => {
+          if (gen === generation.current) setStatus('error')
+        },
+      )
+    }
+
+    if (!viewportFilter) {
+      hydrate(filterLayers(filter))
       return
     }
 
     if (!map) return
 
-    const recompute = () => {
-      const gen = ++generation.current
-      setStatus('loading')
-      const bounds = map.getBounds()
-      const locators = layersInViewport(bounds, filter)
-      void ensureDetailsForViewport(bounds).then(() => {
-        if (gen !== generation.current) return
-        setLayers(hydrateLayers(locators))
-        setStatus('ready')
-      })
-    }
+    const recompute = () => hydrate(layersInViewport(map.getBounds(), filter))
 
     const onMoveEnd = () => {
       clearTimeout(timer.current)
@@ -135,6 +132,7 @@ export {
   continentsForCenter,
   continentsForViewport,
   ensureDetailsForContinents,
+  ensureDetailsForLayers,
   ensureDetailsForViewport,
   getGeometry,
   getLayer,

@@ -10,7 +10,7 @@ import {
   loadCoverageFeatures,
   loadGeometries,
 } from '../src/core/data'
-import { layersForCountry, loadLayersInViewport } from '../src/core/filter'
+import { layersForCountry, layersInViewport, loadLayersInViewport } from '../src/core/filter'
 
 // Smoke tests against the real, committed src/data/*.json.
 describe('bundled data', () => {
@@ -91,5 +91,15 @@ describe('bundled data', () => {
     const deOnly = await layersForCountry('DE', { includeWorldwide: false })
     expect(deOnly.every((l) => l.geometryId !== 'world')).toBe(true)
     expect(deOnly.length).toBeLessThan(de.length)
+  })
+
+  // The map-center continent guess says "asia" for Guam, but its layers are filed
+  // under "north-america" (US) — hydration has to follow the layers, not the guess.
+  it('hydrates every viewport match, also where the center guess is wrong', async () => {
+    const guam = { west: 144.6, south: 13.2, east: 145.0, north: 13.7 }
+    const matched = layersInViewport(guam)
+    expect(matched.map((l) => l.id)).toContain('NRCS_Guam_2022')
+    const hydrated = await loadLayersInViewport(guam)
+    expect(hydrated.map((l) => l.id)).toEqual(matched.map((l) => l.id))
   })
 })

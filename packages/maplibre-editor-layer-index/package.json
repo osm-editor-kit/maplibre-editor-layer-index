@@ -32,15 +32,15 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "default": "./dist/index.js"
     },
     "./react": {
       "types": "./dist/react/index.d.ts",
-      "import": "./dist/react/index.js"
+      "default": "./dist/react/index.js"
     },
     "./maplibre": {
       "types": "./dist/maplibre/index.d.ts",
-      "import": "./dist/maplibre/index.js"
+      "default": "./dist/maplibre/index.js"
     },
     "./package.json": "./package.json"
   },

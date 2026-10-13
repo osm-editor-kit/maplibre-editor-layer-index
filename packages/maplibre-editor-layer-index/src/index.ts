@@ -34,6 +34,7 @@ export {
   continentsForCenter,
   continentsForViewport,
   ensureDetailsForContinents,
+  ensureDetailsForLayers,
   ensureDetailsForViewport,
   getGeometry,
   getLayer,

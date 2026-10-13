@@ -38,6 +38,7 @@ function Layers() {
     mapId: 'main',
     filter: { categories: ['photo'] },
   })
+  // 'loading' | 'ready' | 'error' (a data chunk failed to load; retried on the next map move)
   if (status === 'loading') return null
   return layers.map((l) => (
     <Fragment key={l.id}>
