@@ -92,7 +92,40 @@ const locatorRows = layersInViewport(map.getBounds()) // EliLocatorLayer[] — n
 | `filterLayers(options)`                                          | Predicate-only filter on locator rows.                                                           |
 | `getRasterSourceSpec(layer)` / `getRasterLayerSpec(layer, opts)` | MapLibre style specs (needs a hydrated layer).                                                   |
 | `getGeometry(layer)` / `loadGeometries()`                        | Lazily load continent geometry shards — only when you draw coverage.                             |
+| `groupLayers(layers)`                                            | Collapse time series into one entry with date variants.                                          |
 | `getManifest()`                                                  | Build provenance (source, version, counts).                                                      |
+
+## Time series (one entry, many dates)
+
+ELI lists every capture date as its own layer: Berlin has eleven `Berlin/Geoportal DOP20RGB (…)`
+entries. Layers that show the same area and differ only by year, month or season carry a `group`
+(in the lazy details, next to `startDate`):
+
+```ts
+layer.group // { id: 'berlin-geoportal-dop20rgb', name: 'Berlin/Geoportal DOP20RGB', label: '2025 Sommer', order: 9 }
+```
+
+`groupLayers()` turns a hydrated layer list into list entries — a series becomes one entry:
+
+```tsx
+import { groupLayers } from '@osm-editor-kit/maplibre-editor-layer-index'
+
+for (const entry of groupLayers(layers)) {
+  entry.name // 'Berlin/Geoportal DOP20RGB' (or the plain layer name)
+  entry.variants // newest first; one element for a standalone layer
+  entry.defaultVariant // ELI's `best`, else the newest
+  entry.variants.map((v) => v.group?.label) // ['2026', '2025 Sommer', '2025', …]
+}
+```
+
+Show the dates as always-visible buttons rather than a dropdown, so switching year is one click (see
+the preview app). Group after viewport filtering and a series only offers the dates that cover the
+view.
+
+ELI has no grouping field, so membership is derived at build time: equal name once the date part is
+removed, near-identical coverage (bbox overlap ≥ 80 %), same overlay flag, and `photo`/`historicphoto`
+(and `map`/`historicmap`) counted as one. Series whose coverage changes between dates stay separate
+entries, e.g. ACTmapi (whole territory vs. urban Canberra).
 
 ## Other renderers (iD, Rapid, Leaflet)
 

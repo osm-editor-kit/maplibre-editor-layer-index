@@ -13,6 +13,7 @@ import type {
 import { CONTINENTS, continentsForCountryCodes, countryToContinent } from './continents'
 import { countryCodesForGeometry } from './countries'
 import { geometryBBox, geometryId, WORLD_BBOX, WORLD_GEOMETRY_ID } from './geometry'
+import { assignGroups } from './grouping'
 import { eliFeatureCollectionSchema, type EliFeature } from './schema'
 import { convertTileUrl } from './url'
 
@@ -58,6 +59,7 @@ function toLayerDetails(layer: EliLayer): EliLayerDetails {
     icon: layer.icon,
     startDate: layer.startDate,
     endDate: layer.endDate,
+    group: layer.group,
   }
 }
 
@@ -229,6 +231,8 @@ export function transform(raw: unknown): TransformResult {
 
   // Deterministic ordering so regenerated output diffs only on real changes.
   layers.sort((a, b) => a.id.localeCompare(b.id))
+
+  assignGroups(layers)
 
   const { locatorLayers, detailsByContinent, geometriesByContinent, shardsMeta } = shardLayers(
     layers,

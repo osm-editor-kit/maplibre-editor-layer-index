@@ -97,6 +97,12 @@ hydrated **`EliLayer`** (locator row + loaded details):
 | `overlay`       | `overlay`                           | identical                                                                                         |
 | `icon`          | `icon`                              | identical — requires hydration                                                                    |
 | `tileSize`      | `tileSize`                          | identical                                                                                         |
+| _(new)_         | `group`                             | time-series membership (`id`, `name`, `label`, `order`) — requires hydration, see below           |
+
+`group` replaces iD's name-regex grouping of dated imagery
+([iD#12985](https://github.com/openstreetmap/iD/pull/12985)): members of a series share `group.id`,
+`group.label` is the date part to show (`2025`, `Mar 2026`, `Spring 2024`) and `group.order` sorts
+them oldest → newest. `groupLayers()` does the collapsing if you don't want to do it yourself.
 
 The mapping is now **lossless** for the fields iD uses (the only ELI types this package omits are
 non-MapLibre ones — see [gaps](#gaps--mitigations)).

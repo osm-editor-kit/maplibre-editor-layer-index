@@ -59,6 +59,24 @@ export type EliLayerDetails = {
   icon?: string
   startDate?: string
   endDate?: string
+  /** Set when this layer is one date of a time series, see {@link EliLayerGroup}. */
+  group?: EliLayerGroup
+}
+
+/**
+ * Membership in a time series: layers that cover the same area and differ only
+ * by capture date (year, month or season). Derived at build time from the layer
+ * name and coverage, because ELI has no such field.
+ */
+export type EliLayerGroup = {
+  /** Shared by all members of the series, e.g. `berlin-geoportal-dop20rgb`. */
+  id: string
+  /** Series name without the date part, e.g. `Berlin/Geoportal DOP20RGB`. */
+  name: string
+  /** What tells this member apart, e.g. `2025`, `2025 Sommer`, `Mar 2026`. */
+  label: string
+  /** Position within the series, `0` = oldest. */
+  order: number
 }
 
 /**

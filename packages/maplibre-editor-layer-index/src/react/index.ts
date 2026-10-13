@@ -122,6 +122,7 @@ export {
   type RasterSourceSpec,
 } from '../core/specs'
 export { continentForLngLat } from '../core/continents'
+export { groupLayers, type EliLayerEntry } from '../core/groups'
 export {
   filterLayers,
   layersForCountry,
@@ -161,6 +162,7 @@ export type {
   EliContinent,
   EliLayer,
   EliLayerDetails,
+  EliLayerGroup,
   EliLayerType,
   EliLocatorLayer,
   EliShardsMeta,

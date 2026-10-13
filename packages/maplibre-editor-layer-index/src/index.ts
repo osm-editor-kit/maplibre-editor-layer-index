@@ -8,6 +8,7 @@ export type {
   EliIndex,
   EliLayer,
   EliLayerDetails,
+  EliLayerGroup,
   EliLayerType,
   EliLocatorIndex,
   EliLocatorLayer,
@@ -55,6 +56,8 @@ export {
   loadLayersInViewport,
   type FilterOptions,
 } from './core/filter'
+
+export { groupLayers, type EliLayerEntry } from './core/groups'
 
 export {
   applyWmsPixelRatio,
