@@ -26,6 +26,7 @@
       },
       "devDependencies": {
         "@tanstack/router-plugin": "^1.168.23",
+        "@types/geojson": "^7946.0.16",
         "@types/react": "^19.2.17",
         "@types/react-dom": "^19.2.3",
         "@vitejs/plugin-react": "^6.0.4",
@@ -35,7 +36,7 @@
     },
     "packages/maplibre-editor-layer-index": {
       "name": "@osm-editor-kit/maplibre-editor-layer-index",
-      "version": "0.1.4",
+      "version": "0.1.15",
       "dependencies": {
         "@types/geojson": "^7946.0.16",
       },

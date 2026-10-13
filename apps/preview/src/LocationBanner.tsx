@@ -1,48 +1,32 @@
 import * as countryCoder from '@rapideditor/country-coder'
-import { useSearch } from '@tanstack/react-router'
-import { useMemo } from 'react'
 
 /**
- * Demonstrates what the map centre "resolves to" using @rapideditor/country-coder
- * — the same dataset @rapideditor/location-conflation is built on. This is wired up
- * directly in the demo app (NOT re-exported by the package): the package keeps a
- * zero-runtime-dependency footprint and only uses this data at build time.
+ * Says which countries the layer list is for. The demo detects the countries in
+ * view with @rapideditor/country-coder and hands their codes to the package as
+ * `filter.countryCodes`; the package itself ships no country lookup.
  */
-export function LocationBanner() {
-  // `strict: false` — read lat/lng from whichever map route is mounted. The root
-  // route has no validateSearch, so values arrive as raw strings; coerce here.
-  const search = useSearch({ strict: false }) as { lat?: unknown; lng?: unknown }
-  const lat = Number(search.lat)
-  const lng = Number(search.lng)
-
-  const regions = useMemo(() => {
-    if (!Number.isFinite(lat) || !Number.isFinite(lng)) return []
-    return countryCoder.featuresContaining([lng, lat])
-  }, [lat, lng])
-
-  const country = regions.find((r) => r.properties.level === 'country')
-
+export function LocationBanner({ codes }: { codes: string[] }) {
   return (
     <div className="loco-banner">
-      <span className="loco-label">location-conflation exposes</span>
-      {regions.length === 0 ? (
-        <span className="loco-empty">no land at this point (open water)</span>
+      <span className="loco-label">Listing layers for</span>
+      {codes.length === 0 ? (
+        <span className="loco-empty">no country in view — every layer whose box overlaps</span>
       ) : (
         <span className="loco-regions">
-          {country?.properties.iso1A2 && (
-            <span className="loco-flag">{countryCoder.emojiFlag(country.properties.iso1A2)}</span>
-          )}
-          {regions.map((r, i) => (
-            <span key={r.properties.id ?? r.properties.nameEn}>
-              {i > 0 && <span className="loco-sep"> › </span>}
-              <span className={r.properties.level === 'country' ? 'loco-primary' : undefined}>
-                {r.properties.nameEn}
-              </span>
+          {codes.map((code) => (
+            <span className="loco-country" key={code}>
+              {countryCoder.emojiFlag(code)} {countryCoder.feature(code)?.properties.nameEn ?? code}
             </span>
           ))}
+          <span className="loco-country">🌍 worldwide layers</span>
         </span>
       )}
-      <span className="loco-note">via @rapideditor/country-coder (demo only)</span>
+      <span
+        className="loco-note"
+        title="The package matches layers by bounding box, which also catches layers from far away whose box happens to overlap. Passing the countries in view as filter.countryCodes removes those. This demo finds the countries with @rapideditor/country-coder; the package has no country lookup built in."
+      >
+        Countries in view are detected by this demo (country-coder), not by the package ⓘ
+      </span>
     </div>
   )
 }
