@@ -22,7 +22,8 @@
   "author": "Tobias Jordans",
   "repository": {
     "type": "git",
-    "url": "https://github.com/osm-editor-kit/maplibre-editor-layer-index"
+    "url": "https://github.com/osm-editor-kit/maplibre-editor-layer-index",
+    "directory": "packages/maplibre-editor-layer-index"
   },
   "files": [
     "dist"

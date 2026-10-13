@@ -23,11 +23,11 @@ This is a Bun-workspaces monorepo:
 
 Data is generated at release time into three tiers:
 
-- **`locator.json` (~820 KB)** — always loaded. Filter fields only (`bbox`, `countryCodes`,
+- **`locator.json` (~550 KB shipped, ~75 KB gzipped)** — always loaded. Filter fields only (`bbox`, `countryCodes`,
   `continents`, zooms, …). No tile URLs, attribution, or polygon coordinates. Enough for
   sync `layersInViewport()`.
 - **`details/<continent>.json`** — lazy. Tile URLs, `urlTemplate`, attribution, icons. Loaded for
-  `world` plus the continent under the map center (via a tiny shard router).
+  the continents of the layers in view.
 - **`geometries/<continent>.json`** — lazy. Deduplicated coverage polygons. Only loaded when you
   draw coverage outlines.
 
@@ -53,7 +53,7 @@ bun install
 bun run eli:build      # fetch + validate + transform ELI → packages/maplibre-editor-layer-index/src/data
 bun run build          # build the package (tsup, ESM + d.ts)
 bun run test           # vitest
-bun run check-exports  # attw (ESM resolution validation)
+bun run check-exports  # attw; ignores three CJS/resolution rules that don't apply to an ESM-only package
 bun run dev            # preview app
 ```
 
