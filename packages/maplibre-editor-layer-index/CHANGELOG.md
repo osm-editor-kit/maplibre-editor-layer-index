@@ -1,5 +1,28 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.2.0
+
+### Minor Changes
+
+- 347540f: Group imagery that only differs by capture date. Layers of one time series (e.g. the eleven
+  `Berlin/Geoportal DOP20RGB` years) now carry a `group` with a shared id, the series name, a date
+  label (`2025`, `Mar 2026`, `2025 Sommer`) and a sort order. The new `groupLayers()` helper turns a
+  layer list into entries with date variants, so a UI can list a series once and offer its dates as a
+  one-click picker.
+
+### Patch Changes
+
+- 4f6fda0: Make lazy loading reliable and lighter:
+
+  - Layers no longer go missing along continent borders (Guam, Turkey, Israel, North Africa) or in
+    views spanning two continents. Details are now loaded for the layers in view
+    (`ensureDetailsForLayers()`) instead of for a continent guessed from the map center.
+  - A data chunk that failed to load is retried on the next call instead of failing until reload, and
+    `useEditorLayerIndex()` reports `status: 'error'` instead of staying on `'loading'`.
+  - Data chunks ship as compact JSON: the published package shrinks from 13.7 MB to 5.6 MB and large
+    shards parse faster.
+  - The package can now be loaded with `require()` on Node 22+ (`default` export condition).
+
 ## 0.1.15
 
 ### Patch Changes
