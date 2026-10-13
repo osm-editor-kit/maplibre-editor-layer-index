@@ -17,6 +17,12 @@
     "attributionHtml": "AGIS OF2014",
     "attributionText": "AGIS OF2014",
     "endDate": "2014",
+    "group": {
+      "id": "kanton-aargau-25cm-agis",
+      "label": "2014",
+      "name": "Kanton Aargau 25cm (AGIS)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2014",
     "tiles": [
@@ -38,6 +44,12 @@
     "attributionHtml": "AGIS OF2016",
     "attributionText": "AGIS OF2016",
     "endDate": "2016",
+    "group": {
+      "id": "kanton-aargau-25cm-agis",
+      "label": "2016",
+      "name": "Kanton Aargau 25cm (AGIS)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2016",
     "tiles": [
@@ -49,6 +61,12 @@
     "attributionHtml": "AGIS OF2017",
     "attributionText": "AGIS OF2017",
     "endDate": "2017",
+    "group": {
+      "id": "kanton-aargau-25cm-agis",
+      "label": "2017",
+      "name": "Kanton Aargau 25cm (AGIS)",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2017",
     "tiles": [
@@ -60,6 +78,12 @@
     "attributionHtml": "AGIS OF2019",
     "attributionText": "AGIS OF2019",
     "endDate": "2019",
+    "group": {
+      "id": "kanton-aargau-25cm-agis",
+      "label": "2019",
+      "name": "Kanton Aargau 25cm (AGIS)",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2019",
     "tiles": [
@@ -71,6 +95,12 @@
     "attributionHtml": "AGIS OF2020",
     "attributionText": "AGIS OF2020",
     "endDate": "2020",
+    "group": {
+      "id": "kanton-aargau-20cm-agis",
+      "label": "2020",
+      "name": "Kanton Aargau 20cm (AGIS)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2020",
     "tiles": [
@@ -82,6 +112,12 @@
     "attributionHtml": "AGIS OF2021",
     "attributionText": "AGIS OF2021",
     "endDate": "2021",
+    "group": {
+      "id": "kanton-aargau-20cm-agis",
+      "label": "2021",
+      "name": "Kanton Aargau 20cm (AGIS)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2021",
     "tiles": [
@@ -93,6 +129,12 @@
     "attributionHtml": "AGIS OF2022",
     "attributionText": "AGIS OF2022",
     "endDate": "2022",
+    "group": {
+      "id": "kanton-aargau-20cm-agis",
+      "label": "2022",
+      "name": "Kanton Aargau 20cm (AGIS)",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2022",
     "tiles": [
@@ -104,6 +146,12 @@
     "attributionHtml": "AGIS OF2023",
     "attributionText": "AGIS OF2023",
     "endDate": "2023",
+    "group": {
+      "id": "kanton-aargau-20cm-agis",
+      "label": "2023",
+      "name": "Kanton Aargau 20cm (AGIS)",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2023",
     "tiles": [
@@ -115,6 +163,12 @@
     "attributionHtml": "AGIS OF2025",
     "attributionText": "AGIS OF2025",
     "endDate": "2025",
+    "group": {
+      "id": "kanton-aargau-20cm-agis",
+      "label": "2025",
+      "name": "Kanton Aargau 20cm (AGIS)",
+      "order": 4
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Switzerland/AGIS",
     "startDate": "2025",
     "tiles": [
@@ -364,6 +418,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige Orthophotos 2017 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige Orthophotos 2017 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2017-03-28",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2017",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2017-03-27",
@@ -376,6 +436,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige Orthophotos 2018 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige Orthophotos 2018 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2018-04-07",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2018",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2018-03-19",
@@ -388,6 +454,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige Orthophotos 2019 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige Orthophotos 2019 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2019-04-06",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2019",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2019-04-01",
@@ -400,6 +472,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2020 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2020 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2020-08",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2020",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2020-08",
@@ -424,6 +502,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige Orthophotos 2021 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige Orthophotos 2021 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2021-02-22",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2021",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2021-02-22",
@@ -436,6 +520,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2022 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2022 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2022-03-09",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2022",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 5
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2022-03-01",
@@ -448,6 +538,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2023 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2023 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2023",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2023",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 6
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2023",
@@ -460,6 +556,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2024 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2024 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2024",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2024",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 7
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2024",
@@ -472,6 +574,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige Orthophotos 2025 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige Orthophotos 2025 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2025",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2025",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 8
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2025",
@@ -484,6 +592,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2025 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige TrueOrthophotos 2025 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2025",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2025 Sommer",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 9
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2025",
@@ -496,6 +610,12 @@
     "attributionHtml": "Geoportal Berlin/Digitale farbige Orthophotos 2026 (DOP20RGB) (codefor.de mirror)",
     "attributionText": "Geoportal Berlin/Digitale farbige Orthophotos 2026 (DOP20RGB) (codefor.de mirror)",
     "endDate": "2026",
+    "group": {
+      "id": "berlin-geoportal-dop20rgb",
+      "label": "2026",
+      "name": "Berlin/Geoportal DOP20RGB",
+      "order": 10
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Berlin.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:2019-06-03_Datenlizenz_Deutschland_Berlin_OSM.pdf",
     "startDate": "2026",
@@ -677,6 +797,12 @@
     "attributionText": "© Comune di Bologna cc-by 4.0 ODbL compliant",
     "attributionUrl": "http://dati.comune.bologna.it/node/3449",
     "endDate": "2017",
+    "group": {
+      "id": "bologna-ortofoto",
+      "label": "2017",
+      "name": "Bologna ortofoto",
+      "order": 0
+    },
     "licenseUrl": "http://dati.comune.bologna.it/node/3449",
     "startDate": "2017",
     "tiles": [
@@ -689,6 +815,12 @@
     "attributionText": "© Comune di Bologna cc-by 4.0 ODbL compliant",
     "attributionUrl": "http://dati.comune.bologna.it/node/3449",
     "endDate": "2022",
+    "group": {
+      "id": "bologna-ortofoto",
+      "label": "2022",
+      "name": "Bologna ortofoto",
+      "order": 1
+    },
     "licenseUrl": "http://dati.comune.bologna.it/node/3449",
     "startDate": "2022",
     "tiles": [
@@ -701,6 +833,12 @@
     "attributionText": "© Comune di Bologna ODbL",
     "attributionUrl": "https://opendata.comune.bologna.it/explore/dataset/tile-server-ortofoto-comune-di-bologna/information/",
     "endDate": "2024",
+    "group": {
+      "id": "bologna-ortofoto",
+      "label": "2024",
+      "name": "Bologna ortofoto",
+      "order": 2
+    },
     "licenseUrl": "https://opendata.comune.bologna.it/explore/dataset/tile-server-ortofoto-comune-di-bologna/information/",
     "startDate": "2024",
     "tiles": [
@@ -713,6 +851,12 @@
     "attributionText": "© Comune di Bologna ODbL",
     "attributionUrl": "https://opendata.comune.bologna.it/explore/dataset/tile-server-ortofoto-comune-di-bologna/information/",
     "endDate": "2025",
+    "group": {
+      "id": "bologna-ortofoto",
+      "label": "2025",
+      "name": "Bologna ortofoto",
+      "order": 3
+    },
     "licenseUrl": "https://opendata.comune.bologna.it/explore/dataset/tile-server-ortofoto-comune-di-bologna/information/",
     "startDate": "2025",
     "tiles": [
@@ -724,6 +868,12 @@
     "attributionHtml": "Communauté urbaine de Bordeaux - 2012",
     "attributionText": "Communauté urbaine de Bordeaux - 2012",
     "endDate": "2012",
+    "group": {
+      "id": "bordeaux",
+      "label": "2012",
+      "name": "Bordeaux",
+      "order": 0
+    },
     "licenseUrl": "https://openstreetmap.fr/outils",
     "startDate": "2012",
     "tiles": [
@@ -735,6 +885,12 @@
     "attributionHtml": "Bordeaux Métropole - 2016",
     "attributionText": "Bordeaux Métropole - 2016",
     "endDate": "2016",
+    "group": {
+      "id": "bordeaux",
+      "label": "2016",
+      "name": "Bordeaux",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Bordeaux",
     "startDate": "2016",
     "tiles": [
@@ -746,6 +902,12 @@
     "attributionHtml": "Bordeaux Métropole - 2020",
     "attributionText": "Bordeaux Métropole - 2020",
     "endDate": "2020",
+    "group": {
+      "id": "bordeaux",
+      "label": "2020",
+      "name": "Bordeaux",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Bordeaux",
     "startDate": "2020",
     "tiles": [
@@ -867,6 +1029,12 @@
       "EPSG:23700"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "budapest-district-xi-orthophoto",
+      "label": "2015",
+      "name": "Budapest district XI orthophoto",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#Budapest_XI._ker%C3%BClet",
     "startDate": "2015",
     "tiles": [
@@ -885,6 +1053,12 @@
       "EPSG:23700"
     ],
     "endDate": "2017-03",
+    "group": {
+      "id": "budapest-district-xi-orthophoto",
+      "label": "2017",
+      "name": "Budapest district XI orthophoto",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#Budapest_XI._ker%C3%BClet",
     "startDate": "2017-03",
     "tiles": [
@@ -903,6 +1077,12 @@
       "EPSG:23700"
     ],
     "endDate": "2019-03",
+    "group": {
+      "id": "budapest-district-xi-orthophoto",
+      "label": "2019",
+      "name": "Budapest district XI orthophoto",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#Budapest_XI._ker%C3%BClet",
     "startDate": "2019-03",
     "tiles": [
@@ -921,6 +1101,12 @@
       "EPSG:23700"
     ],
     "endDate": "2021-03",
+    "group": {
+      "id": "budapest-district-xi-orthophoto",
+      "label": "2021",
+      "name": "Budapest district XI orthophoto",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#Budapest_XI._ker%C3%BClet",
     "startDate": "2021-03",
     "tiles": [
@@ -939,6 +1125,12 @@
       "EPSG:23700"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "budapest-district-xi-orthophoto",
+      "label": "2023",
+      "name": "Budapest district XI orthophoto",
+      "order": 4
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#Budapest_XI._ker%C3%BClet",
     "startDate": "2023",
     "tiles": [
@@ -957,6 +1149,12 @@
       "EPSG:23700"
     ],
     "endDate": "2025-03-19",
+    "group": {
+      "id": "budapest-district-xi-orthophoto",
+      "label": "2025",
+      "name": "Budapest district XI orthophoto",
+      "order": 5
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#Budapest_XI._ker%C3%BClet",
     "startDate": "2025-03-19",
     "tiles": [
@@ -974,6 +1172,12 @@
       "EPSG:2180"
     ],
     "endDate": "2012",
+    "group": {
+      "id": "bytom-orthophotomap-aerial-image",
+      "label": "2012",
+      "name": "Bytom: Orthophotomap (aerial image)",
+      "order": 0
+    },
     "licenseUrl": "https://www.bytom.pl/main/zastrzezenia",
     "startDate": "2012",
     "tiles": [
@@ -1010,6 +1214,12 @@
       "EPSG:2180"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "bytom-orthophotomap-aerial-image",
+      "label": "2016",
+      "name": "Bytom: Orthophotomap (aerial image)",
+      "order": 1
+    },
     "licenseUrl": "https://www.bytom.pl/main/zastrzezenia",
     "startDate": "2016",
     "tiles": [
@@ -1029,6 +1239,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "bytom-orthophotomap-aerial-image",
+      "label": "2018",
+      "name": "Bytom: Orthophotomap (aerial image)",
+      "order": 2
+    },
     "licenseUrl": "https://www.bytom.pl/main/zastrzezenia",
     "startDate": "2018",
     "tiles": [
@@ -1048,6 +1264,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "bytom-orthophotomap-aerial-image",
+      "label": "2021",
+      "name": "Bytom: Orthophotomap (aerial image)",
+      "order": 3
+    },
     "licenseUrl": "https://www.bytom.pl/main/zastrzezenia",
     "startDate": "2021",
     "tiles": [
@@ -1266,6 +1488,12 @@
       "EPSG:4326"
     ],
     "endDate": "2013",
+    "group": {
+      "id": "auvergne-25cm-craig",
+      "label": "2013",
+      "name": "Auvergne 25cm CRAIG",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_France/CRAIG",
     "startDate": "2013",
     "tiles": [
@@ -1287,6 +1515,12 @@
       "EPSG:4326"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "auvergne-25cm-craig",
+      "label": "2016",
+      "name": "Auvergne 25cm CRAIG",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_France/CRAIG",
     "startDate": "2016",
     "tiles": [
@@ -1421,6 +1655,12 @@
       "EPSG:2177"
     ],
     "endDate": "2011",
+    "group": {
+      "id": "częstochowa-orthophotomap-aerial-image",
+      "label": "2011",
+      "name": "Częstochowa: Orthophotomap (aerial image)",
+      "order": 0
+    },
     "startDate": "2011",
     "tiles": [
       "http://geoportal.czestochowa.um.gov.pl/isdp/scripts/isdp.dll/wms?LAYERS=orto_2011&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -1434,6 +1674,12 @@
       "EPSG:2177"
     ],
     "endDate": "2013",
+    "group": {
+      "id": "częstochowa-orthophotomap-aerial-image",
+      "label": "2013",
+      "name": "Częstochowa: Orthophotomap (aerial image)",
+      "order": 1
+    },
     "startDate": "2013",
     "tiles": [
       "http://geoportal.czestochowa.um.gov.pl/isdp/scripts/isdp.dll/wms?LAYERS=Orto_2013&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -1447,6 +1693,12 @@
       "EPSG:2177"
     ],
     "endDate": "2014",
+    "group": {
+      "id": "częstochowa-orthophotomap-aerial-image",
+      "label": "2014",
+      "name": "Częstochowa: Orthophotomap (aerial image)",
+      "order": 2
+    },
     "startDate": "2014",
     "tiles": [
       "http://geoportal.czestochowa.um.gov.pl/isdp/scripts/isdp.dll/wms?LAYERS=Orto_2014&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -1460,6 +1712,12 @@
       "EPSG:2177"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "częstochowa-orthophotomap-aerial-image",
+      "label": "2015",
+      "name": "Częstochowa: Orthophotomap (aerial image)",
+      "order": 3
+    },
     "startDate": "2015",
     "tiles": [
       "http://geoportal.czestochowa.um.gov.pl/isdp/scripts/isdp.dll/wms?LAYERS=Orto_2015&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -1473,6 +1731,12 @@
       "EPSG:2177"
     ],
     "endDate": "2016-11-08",
+    "group": {
+      "id": "częstochowa-orthophotomap-aerial-image",
+      "label": "2016",
+      "name": "Częstochowa: Orthophotomap (aerial image)",
+      "order": 4
+    },
     "startDate": "2016-11-05",
     "tiles": [
       "http://geoportal.czestochowa.um.gov.pl/isdp/scripts/isdp.dll/wms?LAYERS=Orto_2016&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -1486,6 +1750,12 @@
       "EPSG:2177"
     ],
     "endDate": "2017-11-19",
+    "group": {
+      "id": "częstochowa-orthophotomap-aerial-image",
+      "label": "2017",
+      "name": "Częstochowa: Orthophotomap (aerial image)",
+      "order": 5
+    },
     "startDate": "2017-11-18",
     "tiles": [
       "http://geoportal.czestochowa.um.gov.pl/isdp/scripts/isdp.dll/wms?LAYERS=Orto_2017&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -1527,6 +1797,12 @@
       "EPSG:4326"
     ],
     "endDate": "2013-11",
+    "group": {
+      "id": "deutsche-bahn-vzg-lines",
+      "label": "January 2017",
+      "name": "Deutsche Bahn VzG lines",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/DeutscheBahn.png",
     "startDate": "2013-11",
     "tiles": [
@@ -1548,6 +1824,12 @@
       "EPSG:4326"
     ],
     "endDate": "2015-11",
+    "group": {
+      "id": "deutsche-bahn-vzg-lines",
+      "label": "Nov 2015",
+      "name": "Deutsche Bahn VzG lines",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/DeutscheBahn.png",
     "startDate": "2015-11",
     "tiles": [
@@ -1581,6 +1863,12 @@
       "EPSG:4326"
     ],
     "endDate": "2011",
+    "group": {
+      "id": "dgu-hr-croatia-aerial-imagery",
+      "label": "2011",
+      "name": "dgu.hr: Croatia aerial imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/dgu.png",
     "licenseUrl": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_02_25_403.html",
     "startDate": "2011",
@@ -1602,6 +1890,12 @@
       "EPSG:4326"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "dgu-hr-croatia-aerial-imagery",
+      "label": "2014-2016",
+      "name": "dgu.hr: Croatia aerial imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/dgu.png",
     "licenseUrl": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_02_25_403.html",
     "startDate": "2014",
@@ -1623,6 +1917,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dgu-hr-croatia-aerial-imagery",
+      "label": "2019-2020",
+      "name": "dgu.hr: Croatia aerial imagery",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/dgu.png",
     "licenseUrl": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_02_25_403.html",
     "startDate": "2019",
@@ -1644,6 +1944,12 @@
       "EPSG:4326"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "dgu-hr-croatia-aerial-imagery",
+      "label": "2021-2022",
+      "name": "dgu.hr: Croatia aerial imagery",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/dgu.png",
     "licenseUrl": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_02_25_403.html",
     "startDate": "2021",
@@ -1686,6 +1992,12 @@
       "EPSG:4326"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "dgu-hr-croatia-aerial-imagery",
+      "label": "2023-2024",
+      "name": "dgu.hr: Croatia aerial imagery",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/dgu.png",
     "licenseUrl": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_02_25_403.html",
     "startDate": "2023",
@@ -2137,6 +2449,12 @@
     "attributionText": "Földmérési és Távérzékelési Intézet",
     "attributionUrl": "https://www.fomi.hu",
     "endDate": "2000",
+    "group": {
+      "id": "fömi-orthophoto",
+      "label": "2000",
+      "name": "FÖMI orthophoto",
+      "order": 0
+    },
     "licenseUrl": "https://e.tile.openstreetmap.hu/ortofoto2000/license.txt",
     "startDate": "2000",
     "tiles": [
@@ -2149,6 +2467,12 @@
     "attributionText": "Földmérési és Távérzékelési Intézet",
     "attributionUrl": "https://www.fomi.hu",
     "endDate": "2005",
+    "group": {
+      "id": "fömi-orthophoto",
+      "label": "2005",
+      "name": "FÖMI orthophoto",
+      "order": 1
+    },
     "licenseUrl": "https://e.tile.openstreetmap.hu/ortofoto2005/license.txt",
     "startDate": "2005",
     "tiles": [
@@ -2161,6 +2485,12 @@
     "attributionText": "Földmérési és Távérzékelési Intézet",
     "attributionUrl": "https://www.fomi.hu",
     "endDate": "2010",
+    "group": {
+      "id": "fömi-orthophoto",
+      "label": "2007–2010",
+      "name": "FÖMI orthophoto",
+      "order": 2
+    },
     "licenseUrl": "https://e.tile.openstreetmap.hu/ortofoto-2007-2010/license.txt",
     "startDate": "2007",
     "tiles": [
@@ -2173,6 +2503,12 @@
     "attributionText": "Lechner Tudásközpont",
     "attributionUrl": "https://lechnerkozpont.hu/oldal/ortofotok-es-legifelvetelek",
     "endDate": "2014-06-10",
+    "group": {
+      "id": "fömi-orthophoto-webp",
+      "label": "2011–2014",
+      "name": "FÖMI orthophoto (WEBP)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#F%C3%96MI_ortofot%C3%B3k",
     "startDate": "2011-08-11",
     "tiles": [
@@ -2185,6 +2521,12 @@
     "attributionText": "Lechner Tudásközpont",
     "attributionUrl": "https://lechnerkozpont.hu/oldal/ortofotok-es-legifelvetelek",
     "endDate": "2015-07-10",
+    "group": {
+      "id": "fömi-orthophoto-webp",
+      "label": "2015",
+      "name": "FÖMI orthophoto (WEBP)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Hungary/Ortofot%C3%B3k#F%C3%96MI_ortofot%C3%B3k",
     "startDate": "2015-05-08",
     "tiles": [
@@ -2356,6 +2698,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/services-web-experts-ortho",
     "endDate": "2023",
+    "group": {
+      "id": "ortho-express",
+      "label": "2023",
+      "name": "Ortho Express",
+      "order": 0
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2023",
@@ -2395,6 +2743,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS",
     "endDate": "2026-08-31",
+    "group": {
+      "id": "ortho-express",
+      "label": "2026",
+      "name": "Ortho Express",
+      "order": 1
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2018/11/open-licence.pdf",
     "startDate": "2026-04-16",
@@ -2421,6 +2775,12 @@
     "attributionText": "IGN, CRAIG, Mégalis Bretagne",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2013",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2013",
+      "name": "Ortho HR",
+      "order": 0
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2013",
@@ -2434,6 +2794,12 @@
     "attributionText": "IGN, Mégalis Bretagne",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2014",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2014",
+      "label": "2014",
+      "name": "Ortho HR",
+      "order": 0
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2014",
@@ -2460,6 +2826,12 @@
     "attributionText": "IGN, CRAIG, Mégalis Bretagne",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2016",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2016",
+      "label": "2016",
+      "name": "Ortho HR",
+      "order": 0
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2016",
@@ -2473,6 +2845,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2017",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2017",
+      "name": "Ortho HR",
+      "order": 1
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2017",
@@ -2486,6 +2864,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2018",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2018",
+      "label": "2018",
+      "name": "Ortho HR",
+      "order": 0
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2018",
@@ -2512,6 +2896,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2020",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2014",
+      "label": "2020",
+      "name": "Ortho HR",
+      "order": 1
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2020",
@@ -2538,6 +2928,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2022",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2022",
+      "name": "Ortho HR",
+      "order": 2
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2022",
@@ -2551,6 +2947,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2023",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2016",
+      "label": "2023",
+      "name": "Ortho HR",
+      "order": 1
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2023",
@@ -2564,6 +2966,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2024",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2018",
+      "label": "2024",
+      "name": "Ortho HR",
+      "order": 1
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2024",
@@ -2600,6 +3008,12 @@
       "EPSG:31467"
     ],
     "endDate": "2016-05-06",
+    "group": {
+      "id": "frankfurt-am-main-luftbild",
+      "label": "2016",
+      "name": "Frankfurt am Main Luftbild",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Frankfurt-am-Main.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Frankfurt_am_Main/amtliche_Daten_f%C3%BCr_OSM",
     "startDate": "2016-05-06",
@@ -2621,6 +3035,12 @@
       "EPSG:31467"
     ],
     "endDate": "2017-07-06",
+    "group": {
+      "id": "frankfurt-am-main-luftbild",
+      "label": "2017",
+      "name": "Frankfurt am Main Luftbild",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Frankfurt-am-Main.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Frankfurt_am_Main/amtliche_Daten_f%C3%BCr_OSM",
     "startDate": "2017-06-11",
@@ -2642,6 +3062,12 @@
       "EPSG:31467"
     ],
     "endDate": "2018-04-14",
+    "group": {
+      "id": "frankfurt-am-main-luftbild",
+      "label": "2018",
+      "name": "Frankfurt am Main Luftbild",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Frankfurt-am-Main.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Frankfurt_am_Main/amtliche_Daten_f%C3%BCr_OSM",
     "startDate": "2018-04-08",
@@ -2663,6 +3089,12 @@
       "EPSG:31467"
     ],
     "endDate": "2019-04-16",
+    "group": {
+      "id": "frankfurt-am-main-luftbild",
+      "label": "2019",
+      "name": "Frankfurt am Main Luftbild",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Frankfurt-am-Main.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Frankfurt_am_Main/amtliche_Daten_f%C3%BCr_OSM",
     "startDate": "2019-04-16",
@@ -2770,6 +3202,12 @@
       "EPSG:4326"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "canton-de-génève-mna-relief-ombre-surface-sitg",
+      "label": "2017",
+      "name": "Canton de Génève, MNA RELIEF OMBRE SURFACE (SITG)",
+      "order": 0
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2017",
     "tiles": [
@@ -2788,6 +3226,12 @@
       "EPSG:4326"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "canton-de-génève-mna-relief-ombre-surface-sitg",
+      "label": "2019",
+      "name": "Canton de Génève, MNA RELIEF OMBRE SURFACE (SITG)",
+      "order": 1
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2019",
     "tiles": [
@@ -2806,6 +3250,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "canton-de-génève-mna-relief-ombre-surface-sitg",
+      "label": "2023",
+      "name": "Canton de Génève, MNA RELIEF OMBRE SURFACE (SITG)",
+      "order": 2
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2023",
     "tiles": [
@@ -2824,6 +3274,12 @@
       "EPSG:4326"
     ],
     "endDate": "2014",
+    "group": {
+      "id": "canton-de-génève-mna-relief-ombre-terrain-sitg",
+      "label": "2014",
+      "name": "Canton de Génève, MNA RELIEF OMBRE TERRAIN (SITG)",
+      "order": 0
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2014",
     "tiles": [
@@ -2842,6 +3298,12 @@
       "EPSG:4326"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "canton-de-génève-mna-relief-ombre-terrain-sitg",
+      "label": "2017",
+      "name": "Canton de Génève, MNA RELIEF OMBRE TERRAIN (SITG)",
+      "order": 1
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2017",
     "tiles": [
@@ -2860,6 +3322,12 @@
       "EPSG:4326"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "canton-de-génève-mna-relief-ombre-terrain-sitg",
+      "label": "2019",
+      "name": "Canton de Génève, MNA RELIEF OMBRE TERRAIN (SITG)",
+      "order": 2
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2019",
     "tiles": [
@@ -2878,6 +3346,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "canton-de-génève-mna-relief-ombre-terrain-sitg",
+      "label": "2023",
+      "name": "Canton de Génève, MNA RELIEF OMBRE TERRAIN (SITG)",
+      "order": 3
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2023",
     "tiles": [
@@ -2889,6 +3363,12 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "endDate": "2016",
+    "group": {
+      "id": "canton-de-génève-orthophoto-5cm-sitg",
+      "label": "2016",
+      "name": "Canton de Génève, Orthophoto (5cm) (SITG)",
+      "order": 0
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2016",
     "tiles": [
@@ -2900,6 +3380,12 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "endDate": "2018",
+    "group": {
+      "id": "canton-de-génève-orthophoto-20cm-sitg",
+      "label": "2018",
+      "name": "Canton de Génève, Orthophoto (20cm) (SITG)",
+      "order": 0
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2018",
     "tiles": [
@@ -2911,6 +3397,12 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "endDate": "2019",
+    "group": {
+      "id": "canton-de-génève-orthophoto-5cm-sitg",
+      "label": "2019",
+      "name": "Canton de Génève, Orthophoto (5cm) (SITG)",
+      "order": 1
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2019",
     "tiles": [
@@ -2922,6 +3414,12 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "endDate": "2020",
+    "group": {
+      "id": "canton-de-génève-orthophoto-10cm-sitg",
+      "label": "2020",
+      "name": "Canton de Génève, Orthophoto (10cm) (SITG)",
+      "order": 0
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2020",
     "tiles": [
@@ -2933,6 +3431,12 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "endDate": "2021",
+    "group": {
+      "id": "canton-de-génève-orthophoto-20cm-sitg",
+      "label": "2021",
+      "name": "Canton de Génève, Orthophoto (20cm) (SITG)",
+      "order": 1
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2021",
     "tiles": [
@@ -2944,6 +3448,12 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "endDate": "2023",
+    "group": {
+      "id": "canton-de-génève-orthophoto-10cm-sitg",
+      "label": "2023",
+      "name": "Canton de Génève, Orthophoto (10cm) (SITG)",
+      "order": 1
+    },
     "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
     "startDate": "2023",
     "tiles": [
@@ -3275,6 +3785,12 @@
       "EPSG:4326"
     ],
     "endDate": "2007",
+    "group": {
+      "id": "moldova-orthophoto",
+      "label": "2007",
+      "name": "Moldova Orthophoto",
+      "order": 0
+    },
     "icon": "https://geoportalinds.gov.md/geonetwork/images/logos/favicon.png",
     "licenseUrl": "https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/031bdbda-9765-42ef-82ee-44f3148c4e15",
     "tiles": [
@@ -3383,6 +3899,12 @@
       "EPSG:4326"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "moldova-orthophoto",
+      "label": "2016",
+      "name": "Moldova Orthophoto",
+      "order": 1
+    },
     "icon": "https://geoportalinds.gov.md/geonetwork/images/logos/favicon.png",
     "licenseUrl": "https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/409360c7-49fb-46ed-83a5-96a8bd0db77b",
     "tiles": [
@@ -4284,6 +4806,12 @@
       "EPSG:31468"
     ],
     "endDate": "2005",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2005",
+      "name": "Saxony historical aerial imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2005",
@@ -4314,6 +4842,12 @@
       "EPSG:31468"
     ],
     "endDate": "2008",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2006-2008",
+      "name": "Saxony historical aerial imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2006",
@@ -4344,6 +4878,12 @@
       "EPSG:31468"
     ],
     "endDate": "2011",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2009-2011",
+      "name": "Saxony historical aerial imagery",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2009",
@@ -4374,6 +4914,12 @@
       "EPSG:31468"
     ],
     "endDate": "2014",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2012-2014",
+      "name": "Saxony historical aerial imagery",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2012",
@@ -4404,6 +4950,12 @@
       "EPSG:31468"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2015-2017",
+      "name": "Saxony historical aerial imagery",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2015",
@@ -4434,6 +4986,12 @@
       "EPSG:31468"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2018-2020",
+      "name": "Saxony historical aerial imagery",
+      "order": 5
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2018",
@@ -4464,6 +5022,12 @@
       "EPSG:31468"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2021-2022",
+      "name": "Saxony historical aerial imagery",
+      "order": 6
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2021",
@@ -4494,6 +5058,12 @@
       "EPSG:31468"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "saxony-historical-aerial-imagery",
+      "label": "2023-2024",
+      "name": "Saxony historical aerial imagery",
+      "order": 7
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Saxony.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoSN_Open_Data",
     "startDate": "2023",
@@ -4689,6 +5259,12 @@
       "EPSG:4326"
     ],
     "endDate": "2012",
+    "group": {
+      "id": "gis-rijeka-rijeka-aerial-imagery",
+      "label": "2012",
+      "name": "gis-rijeka: Rijeka aerial imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/rijeka.png",
     "licenseUrl": "https://imamopravoznati.org/request/grad_rijeka_koristenje_podataka#incoming-8517",
     "startDate": "2012",
@@ -4702,6 +5278,12 @@
     "attributionText": "Sadrži podatke Geografskog informacijskog sustava Grada Rijeke",
     "attributionUrl": "https://data.rijeka.hr/hr/dataset/gis-grad-rijeka",
     "endDate": "2020",
+    "group": {
+      "id": "gis-rijeka-rijeka-aerial-imagery",
+      "label": "2020",
+      "name": "gis-rijeka: Rijeka aerial imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/rijeka.png",
     "licenseUrl": "https://imamopravoznati.org/request/grad_rijeka_koristenje_podataka#incoming-8517",
     "startDate": "2020",
@@ -4769,6 +5351,12 @@
       "EPSG:900913"
     ],
     "endDate": "2003",
+    "group": {
+      "id": "gliwice-orthophotomap-aerial-image",
+      "label": "2003",
+      "name": "Gliwice: Orthophotomap (aerial image)",
+      "order": 0
+    },
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "startDate": "2003",
     "tiles": [
@@ -4789,6 +5377,12 @@
       "EPSG:4326"
     ],
     "endDate": "2009",
+    "group": {
+      "id": "gliwice-orthophotomap-aerial-image",
+      "label": "2009",
+      "name": "Gliwice: Orthophotomap (aerial image)",
+      "order": 1
+    },
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "startDate": "2009",
     "tiles": [
@@ -4809,6 +5403,12 @@
       "EPSG:4326"
     ],
     "endDate": "2013",
+    "group": {
+      "id": "gliwice-orthophotomap-aerial-image",
+      "label": "2013",
+      "name": "Gliwice: Orthophotomap (aerial image)",
+      "order": 2
+    },
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "startDate": "2013",
     "tiles": [
@@ -4829,6 +5429,12 @@
       "EPSG:4326"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "gliwice-orthophotomap-aerial-image",
+      "label": "2017",
+      "name": "Gliwice: Orthophotomap (aerial image)",
+      "order": 3
+    },
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "startDate": "2017",
     "tiles": [
@@ -4849,6 +5455,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "gliwice-orthophotomap-aerial-image",
+      "label": "2018",
+      "name": "Gliwice: Orthophotomap (aerial image)",
+      "order": 4
+    },
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "startDate": "2018",
     "tiles": [
@@ -4869,6 +5481,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "gliwice-orthophotomap-aerial-image",
+      "label": "2020",
+      "name": "Gliwice: Orthophotomap (aerial image)",
+      "order": 5
+    },
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "startDate": "2020",
     "tiles": [
@@ -4889,6 +5507,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "gliwice-orthophotomap-aerial-image",
+      "label": "2021",
+      "name": "Gliwice: Orthophotomap (aerial image)",
+      "order": 6
+    },
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "startDate": "2021",
     "tiles": [
@@ -4964,6 +5588,12 @@
       "EPSG:4326"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "gothenburg-orthophoto",
+      "label": "2015",
+      "name": "Gothenburg Orthophoto",
+      "order": 0
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png/206px-G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png",
     "licenseUrl": "https://catalog.goteborg.se/catalog/6/datasets/892",
     "startDate": "2015",
@@ -4984,6 +5614,12 @@
       "EPSG:4326"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "gothenburg-orthophoto",
+      "label": "2017",
+      "name": "Gothenburg Orthophoto",
+      "order": 1
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png/206px-G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png",
     "licenseUrl": "https://catalog.goteborg.se/catalog/6/datasets/892",
     "startDate": "2017",
@@ -5004,6 +5640,12 @@
       "EPSG:4326"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "gothenburg-orthophoto",
+      "label": "2019",
+      "name": "Gothenburg Orthophoto",
+      "order": 2
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png/206px-G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png",
     "licenseUrl": "https://catalog.goteborg.se/catalog/6/datasets/892",
     "startDate": "2019",
@@ -5024,6 +5666,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "gothenburg-orthophoto",
+      "label": "2021",
+      "name": "Gothenburg Orthophoto",
+      "order": 3
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png/206px-G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png",
     "licenseUrl": "https://catalog.goteborg.se/catalog/6/datasets/892",
     "startDate": "2021",
@@ -5088,6 +5736,12 @@
     "attributionText": "GrandNancy Orthophotographie 1994",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "1994",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "1994",
+      "name": "Nancy - Orthophoto",
+      "order": 0
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "1994",
     "tiles": [
@@ -5100,6 +5754,12 @@
     "attributionText": "GrandNancy Orthophotographie 1999",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "1999",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "1999",
+      "name": "Nancy - Orthophoto",
+      "order": 1
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "1999",
     "tiles": [
@@ -5112,6 +5772,12 @@
     "attributionText": "GrandNancy Orthophotographie 2001",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "2001",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2001",
+      "name": "Nancy - Orthophoto",
+      "order": 2
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2001",
     "tiles": [
@@ -5124,6 +5790,12 @@
     "attributionText": "GrandNancy Orthophotographie 2002",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "2002",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2002",
+      "name": "Nancy - Orthophoto",
+      "order": 3
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2002",
     "tiles": [
@@ -5136,6 +5808,12 @@
     "attributionText": "GrandNancy Orthophotographie 2005",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "2005",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2005",
+      "name": "Nancy - Orthophoto",
+      "order": 4
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2005",
     "tiles": [
@@ -5148,6 +5826,12 @@
     "attributionText": "GrandNancy Orthophotographie 2008",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "2008",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2008",
+      "name": "Nancy - Orthophoto",
+      "order": 5
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2008",
     "tiles": [
@@ -5160,6 +5844,12 @@
     "attributionText": "GrandNancy Orthophotographie 2012",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "2012",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2012",
+      "name": "Nancy - Orthophoto",
+      "order": 6
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2012",
     "tiles": [
@@ -5172,6 +5862,12 @@
     "attributionText": "GrandNancy Orthophotographie 2016",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Nancy/Orthophotographie",
     "endDate": "2016",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2016",
+      "name": "Nancy - Orthophoto",
+      "order": 7
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2016",
     "tiles": [
@@ -5199,6 +5895,12 @@
       "EPSG:32632"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2022",
+      "name": "Nancy - Orthophoto",
+      "order": 8
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2022",
     "tiles": [
@@ -5219,6 +5921,12 @@
       "EPSG:27561"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2023",
+      "name": "Nancy - Orthophoto",
+      "order": 9
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2023",
     "tiles": [
@@ -5246,6 +5954,12 @@
       "EPSG:32632"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2024",
+      "name": "Nancy - Orthophoto",
+      "order": 10
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2024",
     "tiles": [
@@ -5273,6 +5987,12 @@
       "EPSG:32632"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "nancy-orthophoto",
+      "label": "2025",
+      "name": "Nancy - Orthophoto",
+      "order": 11
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2025",
     "tiles": [
@@ -6726,6 +7446,12 @@
     "attributionHtml": "Geodaten Kanton Basel-Stadt OF 2017",
     "attributionText": "Geodaten Kanton Basel-Stadt OF 2017",
     "endDate": "2017",
+    "group": {
+      "id": "kanton-basel-stadt",
+      "label": "2017",
+      "name": "Kanton Basel-Stadt",
+      "order": 0
+    },
     "licenseUrl": "https://www.geo.bs.ch/nutzung/nutzungsbedingungen.html",
     "startDate": "2017",
     "tiles": [
@@ -6744,6 +7470,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020-03",
+    "group": {
+      "id": "kanton-basel-stadt",
+      "label": "2020",
+      "name": "Kanton Basel-Stadt",
+      "order": 1
+    },
     "licenseUrl": "https://www.geo.bs.ch/nutzung/nutzungsbedingungen.html",
     "startDate": "2020-03",
     "tiles": [
@@ -6762,6 +7494,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023-05",
+    "group": {
+      "id": "kanton-basel-stadt",
+      "label": "2023",
+      "name": "Kanton Basel-Stadt",
+      "order": 2
+    },
     "licenseUrl": "https://www.geo.bs.ch/nutzung/nutzungsbedingungen.html",
     "startDate": "2023-05",
     "tiles": [
@@ -6937,6 +7675,12 @@
       "EPSG:2177"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "łódź-orthophotomap-aerial-image",
+      "label": "2015",
+      "name": "Łódź: Orthophotomap (aerial image)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/pl/dOrthophotomap2017(aerialimage).png",
     "startDate": "2015",
     "tiles": [
@@ -6955,6 +7699,12 @@
       "EPSG:4326"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "łódź-orthophotomap-aerial-image",
+      "label": "2017",
+      "name": "Łódź: Orthophotomap (aerial image)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/pl/dOrthophotomap2017(aerialimage).png",
     "startDate": "2017",
     "tiles": [
@@ -7243,6 +7993,12 @@
       "EPSG:3857"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "ludwigshafen",
+      "label": "2019",
+      "name": "Ludwigshafen",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Ludwigshafen.png",
     "licenseUrl": "https://ludwigshafen.de/buergerservice/dienstleistungen/geodatendienste-wms",
     "startDate": "2019",
@@ -7261,6 +8017,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "ludwigshafen",
+      "label": "2022",
+      "name": "Ludwigshafen",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Ludwigshafen.png",
     "licenseUrl": "https://ludwigshafen.de/buergerservice/dienstleistungen/geodatendienste-wms",
     "startDate": "2022",
@@ -7330,6 +8092,12 @@
       "EPSG:4326"
     ],
     "endDate": "2011-12-31",
+    "group": {
+      "id": "orthophoto-1-5000-latvia",
+      "label": "2010-2011",
+      "name": "Orthophoto, 1:5000, Latvia",
+      "order": 0
+    },
     "licenseUrl": "https://www.lgia.gov.lv/en/color-orthophoto-map-2010-2011-cycle-4",
     "startDate": "2010-01-01",
     "tiles": [
@@ -7347,6 +8115,12 @@
       "EPSG:4326"
     ],
     "endDate": "2015-12-31",
+    "group": {
+      "id": "orthophoto-1-5000-latvia",
+      "label": "2013-2015",
+      "name": "Orthophoto, 1:5000, Latvia",
+      "order": 1
+    },
     "licenseUrl": "https://www.lgia.gov.lv/en/color-orthophoto-map-2013-2015-cycle-5",
     "startDate": "2013-01-01",
     "tiles": [
@@ -7364,6 +8138,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018-12-31",
+    "group": {
+      "id": "orthophoto-1-5000-latvia",
+      "label": "2016–2018",
+      "name": "Orthophoto, 1:5000, Latvia",
+      "order": 2
+    },
     "licenseUrl": "https://www.lgia.gov.lv/en/color-orthophoto-map-2016-2018-cycle-6",
     "startDate": "2016-01-01",
     "tiles": [
@@ -7732,6 +8512,12 @@
       "EPSG:31469"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "mecklenburg-vorpommern-dop20",
+      "label": "2019",
+      "name": "Mecklenburg-Vorpommern DOP20",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Mecklenburg-Vorpommern-ORKa.MV.png",
     "licenseUrl": "https://www.laiv-mv.de/Geoinformation/FAQ/",
     "startDate": "2019",
@@ -7877,6 +8663,12 @@
       "EPSG:31469"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "mecklenburg-vorpommern-dop20",
+      "label": "2024",
+      "name": "Mecklenburg-Vorpommern DOP20",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Mecklenburg-Vorpommern-ORKa.MV.png",
     "licenseUrl": "https://www.laiv-mv.de/Geoinformation/FAQ/",
     "startDate": "2024",
@@ -8575,6 +9367,12 @@
     "attributionText": "National Library of Scotland - Kirkcaldy 1855",
     "attributionUrl": "https://maps.nls.uk/townplans/kirkcaldy_1.html",
     "endDate": "1856",
+    "group": {
+      "id": "os-town-plans-kirkcaldy-nls",
+      "label": "1855",
+      "name": "OS Town Plans, Kirkcaldy (NLS)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1855",
     "tiles": [
@@ -8587,6 +9385,12 @@
     "attributionText": "National Library of Scotland - Kirkcaldy 1894",
     "attributionUrl": "https://maps.nls.uk/townplans/kirkcaldy_2.html",
     "endDate": "1895",
+    "group": {
+      "id": "os-town-plans-kirkcaldy-nls",
+      "label": "1894",
+      "name": "OS Town Plans, Kirkcaldy (NLS)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1894",
     "tiles": [
@@ -8839,6 +9643,12 @@
     "attributionText": "National Library of Scotland - St Andrews 1854",
     "attributionUrl": "https://maps.nls.uk/townplans/st-andrews_1.html",
     "endDate": "1855",
+    "group": {
+      "id": "os-town-plans-st-andrews-nls",
+      "label": "1854",
+      "name": "OS Town Plans, St Andrews (NLS)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1854",
     "tiles": [
@@ -8851,6 +9661,12 @@
     "attributionText": "National Library of Scotland - St Andrews 1893",
     "attributionUrl": "https://maps.nls.uk/townplans/st-andrews_2.html",
     "endDate": "1894",
+    "group": {
+      "id": "os-town-plans-st-andrews-nls",
+      "label": "1893",
+      "name": "OS Town Plans, St Andrews (NLS)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1893",
     "tiles": [
@@ -8887,6 +9703,12 @@
     "attributionText": "National Library of Scotland - Stranraer 1847",
     "attributionUrl": "https://maps.nls.uk/townplans/stranraer_1.html",
     "endDate": "1848",
+    "group": {
+      "id": "os-town-plans-stranraer-nls",
+      "label": "1847",
+      "name": "OS Town Plans, Stranraer (NLS)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1847",
     "tiles": [
@@ -8899,6 +9721,12 @@
     "attributionText": "National Library of Scotland - Stranraer 1863-1877",
     "attributionUrl": "https://maps.nls.uk/townplans/stranraer_1a.html",
     "endDate": "1878",
+    "group": {
+      "id": "os-town-plans-stranraer-nls",
+      "label": "1863-1877",
+      "name": "OS Town Plans, Stranraer (NLS)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1863",
     "tiles": [
@@ -8947,6 +9775,12 @@
     "attributionText": "National Library of Scotland - Wigtown 1848",
     "attributionUrl": "https://maps.nls.uk/townplans/wigtown_1.html",
     "endDate": "1849",
+    "group": {
+      "id": "os-town-plans-wigtown-nls",
+      "label": "1848",
+      "name": "OS Town Plans, Wigtown (NLS)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1848",
     "tiles": [
@@ -8959,6 +9793,12 @@
     "attributionText": "National Library of Scotland - Wigtown 1894",
     "attributionUrl": "https://maps.nls.uk/townplans/wigtown_2.html",
     "endDate": "1895",
+    "group": {
+      "id": "os-town-plans-wigtown-nls",
+      "label": "1894",
+      "name": "OS Town Plans, Wigtown (NLS)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
     "startDate": "1894",
     "tiles": [
@@ -9574,6 +10414,12 @@
       "EPSG:21781"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "kanton-zurich-orthofoto-zh-rgb-10cm",
+      "label": "Sommer 2014/15",
+      "name": "Kanton Zurich, Orthofoto ZH RGB 10cm",
+      "order": 0
+    },
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2014",
     "tiles": [
@@ -9593,6 +10439,12 @@
       "EPSG:21781"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "kanton-zurich-orthofoto-zh-rgb-10cm",
+      "label": "Frühjahr 2015/16",
+      "name": "Kanton Zurich, Orthofoto ZH RGB 10cm",
+      "order": 1
+    },
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2015",
     "tiles": [
@@ -9612,6 +10464,12 @@
       "EPSG:21781"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "kanton-zurich-orthofoto-zh-rgb-10cm",
+      "label": "Sommer 2018",
+      "name": "Kanton Zurich, Orthofoto ZH RGB 10cm",
+      "order": 2
+    },
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2018",
     "tiles": [
@@ -9631,6 +10489,12 @@
       "EPSG:21781"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "kanton-zurich-orthofoto-zh-rgb-5cm",
+      "label": "Sommer 2020",
+      "name": "Kanton Zurich, Orthofoto ZH RGB 5cm",
+      "order": 0
+    },
     "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
     "startDate": "2020",
     "tiles": [
@@ -9650,6 +10514,12 @@
       "EPSG:21781"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "kanton-zurich-orthofoto-zh-rgb-5cm",
+      "label": "Frühjahr 2021",
+      "name": "Kanton Zurich, Orthofoto ZH RGB 5cm",
+      "order": 1
+    },
     "licenseUrl": "https://opendata.swiss/de/dataset/orthofoto-fruhjahr-rgb-infrarot-2021",
     "startDate": "2021",
     "tiles": [
@@ -9669,6 +10539,12 @@
       "EPSG:21781"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "kanton-zurich-orthofoto-zh-rgb-5cm",
+      "label": "Sommer 2024",
+      "name": "Kanton Zurich, Orthofoto ZH RGB 5cm",
+      "order": 2
+    },
     "licenseUrl": "https://opendata.swiss/de/dataset/orthofoto-fruhjahr-rgb-infrarot-2021",
     "startDate": "2024",
     "tiles": [
@@ -9754,6 +10630,12 @@
     "attributionText": "Métropole de Lyon DINSI 2015",
     "attributionUrl": "https://data.grandlyon.com/portail/fr/jeux-de-donnees/orthophotographie-2015-metropole-lyon-format-ecw/info",
     "endDate": "2015-05",
+    "group": {
+      "id": "lyon-orthophoto-8cm",
+      "label": "2015",
+      "name": "Lyon Orthophoto (8cm)",
+      "order": 0
+    },
     "licenseUrl": "https://data.grandlyon.com/portail/fr/assets/licences/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2015-05",
     "tiles": [
@@ -9777,6 +10659,12 @@
       "EPSG:27572"
     ],
     "endDate": "2018-04-20",
+    "group": {
+      "id": "lyon-orthophoto-8cm",
+      "label": "2018",
+      "name": "Lyon Orthophoto (8cm)",
+      "order": 1
+    },
     "licenseUrl": "https://data.grandlyon.com/portail/fr/assets/licences/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2018-04-17",
     "tiles": [
@@ -9926,6 +10814,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "orthophotos-of-mainland-portugal-25-cm-dgt",
+      "label": "2018",
+      "name": "Orthophotos of mainland Portugal - 25 cm - (DGT)",
+      "order": 0
+    },
     "licenseUrl": "https://snig.dgterritorio.gov.pt/rndg/srv/por/catalog.search#/metadata/daf5479d-29c8-4e0c-b7b8-0e1791891186",
     "startDate": "2018",
     "tiles": [
@@ -9962,6 +10856,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025-07",
+    "group": {
+      "id": "orthophotos-of-mainland-portugal-25-cm-dgt",
+      "label": "2025",
+      "name": "Orthophotos of mainland Portugal - 25 cm - (DGT)",
+      "order": 1
+    },
     "licenseUrl": "https://snig.dgterritorio.gov.pt/rndg/srv/por/catalog.search#/metadata/96d83932-f957-40d6-a2ea-3a25751c4b2d",
     "startDate": "2025-03",
     "tiles": [
@@ -10861,6 +11761,12 @@
     "attributionText": "Grad Zagreb, Gradski ured za strategijsko planiranje i razvoj Grada",
     "attributionUrl": "https://geoportal.zagreb.hr/",
     "endDate": "2012",
+    "group": {
+      "id": "osm-hr-zagreb-aerial-imagery",
+      "label": "2012",
+      "name": "osm-hr: Zagreb Aerial imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/osm-hr.png",
     "licenseUrl": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_02_25_403.html",
     "startDate": "2012",
@@ -10874,6 +11780,12 @@
     "attributionText": "Grad Zagreb, Gradski ured za strategijsko planiranje i razvoj Grada",
     "attributionUrl": "https://geoportal.zagreb.hr/",
     "endDate": "2018",
+    "group": {
+      "id": "osm-hr-zagreb-aerial-imagery",
+      "label": "2018",
+      "name": "osm-hr: Zagreb Aerial imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/osm-hr.png",
     "licenseUrl": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_02_25_403.html",
     "startDate": "2018",
@@ -11234,6 +12146,12 @@
     "attributionText": "imagico.de OSM images for mapping",
     "attributionUrl": "https://imagico.de/maps/#osmim",
     "endDate": "2016-09-25",
+    "group": {
+      "id": "imagico-de-north-sea-coast",
+      "label": "2016",
+      "name": "imagico.de: North Sea Coast",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
     "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
     "startDate": "2016-09-25",
@@ -11247,6 +12165,12 @@
     "attributionText": "imagico.de OSM images for mapping",
     "attributionUrl": "https://imagico.de/maps/#osmim",
     "endDate": "2017-06-02",
+    "group": {
+      "id": "imagico-de-north-sea-coast",
+      "label": "2017",
+      "name": "imagico.de: North Sea Coast",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
     "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
     "startDate": "2017-06-02",
@@ -11260,6 +12184,12 @@
     "attributionText": "imagico.de OSM images for mapping",
     "attributionUrl": "https://imagico.de/maps/#osmim",
     "endDate": "2018-05-08",
+    "group": {
+      "id": "imagico-de-north-sea-coast",
+      "label": "spring 2018",
+      "name": "imagico.de: North Sea Coast",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
     "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
     "startDate": "2018-05-08",
@@ -11364,6 +12294,12 @@
     "attributionText": "imagico.de OSM images for mapping",
     "attributionUrl": "https://imagico.de/maps/#osmim",
     "endDate": "2020-08-31",
+    "group": {
+      "id": "imagico-de-ushakov-island",
+      "label": "August 2020",
+      "name": "imagico.de: Ushakov Island",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
     "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
     "startDate": "2020-08-31",
@@ -11377,6 +12313,12 @@
     "attributionText": "imagico.de OSM images for mapping",
     "attributionUrl": "https://imagico.de/maps/#osmim",
     "endDate": "2016-08-12",
+    "group": {
+      "id": "imagico-de-ushakov-island",
+      "label": "August 2016",
+      "name": "imagico.de: Ushakov Island",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
     "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
     "startDate": "2016-08-12",
@@ -11518,6 +12460,12 @@
       "EPSG:4806"
     ],
     "endDate": "2006",
+    "group": {
+      "id": "pcn-italy",
+      "label": "2006",
+      "name": "PCN - Italy",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Italy/PCN",
     "startDate": "2006",
     "tiles": [
@@ -11544,6 +12492,12 @@
       "EPSG:4806"
     ],
     "endDate": "2012",
+    "group": {
+      "id": "pcn-italy",
+      "label": "2012",
+      "name": "PCN - Italy",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Italy/PCN",
     "startDate": "2012",
     "tiles": [
@@ -11666,6 +12620,12 @@
       "EPSG:4326"
     ],
     "endDate": "2014",
+    "group": {
+      "id": "poznań-orthophotomap-aerial-image",
+      "label": "2014",
+      "name": "Poznań: Orthophotomap (aerial image)",
+      "order": 0
+    },
     "licenseUrl": "https://bip.geopoz.poznan.pl/gpb/ponowne-wykorzystywanie/1788,Ponowne-wykorzystywanie-informacji-sektora-publicznego.html",
     "startDate": "2014",
     "tiles": [
@@ -11684,6 +12644,12 @@
       "EPSG:4326"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "poznań-orthophotomap-aerial-image",
+      "label": "2016",
+      "name": "Poznań: Orthophotomap (aerial image)",
+      "order": 1
+    },
     "licenseUrl": "https://bip.geopoz.poznan.pl/gpb/ponowne-wykorzystywanie/1788,Ponowne-wykorzystywanie-informacji-sektora-publicznego.html",
     "startDate": "2016",
     "tiles": [
@@ -11797,6 +12763,12 @@
     "attributionText": "Mégalis Bretagne et Collectivités Territoriales Bretonnes",
     "attributionUrl": "https://public.sig.rennesmetropole.fr/geonetwork/srv/fre/catalog.search#/metadata/02a468e1-a970-40bc-9ffa-72e1beef74e6",
     "endDate": "2014-09-11",
+    "group": {
+      "id": "rennes-orthophotographie-20-cm-via-osm-france",
+      "label": "2014",
+      "name": "Rennes orthophotographie (20 cm) via OSM France",
+      "order": 0
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
     "startDate": "2014-07-02",
     "tiles": [
@@ -11845,6 +12817,12 @@
     "attributionText": "Ortho Express 2020 - IGNF",
     "attributionUrl": "https://public.sig.rennesmetropole.fr/geonetwork/srv/fre/catalog.search#/metadata/329859b4-84cd-497e-af48-4bd35c8ea209",
     "endDate": "2020-09-14",
+    "group": {
+      "id": "rennes-orthophotographie-20-cm-via-osm-france",
+      "label": "2020",
+      "name": "Rennes orthophotographie (20 cm) via OSM France",
+      "order": 1
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
     "startDate": "2020-08-07",
     "tiles": [
@@ -12414,6 +13392,12 @@
       "EPSG:4326"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "kanton-solothurn-orthofoto-rgb",
+      "label": "2015",
+      "name": "Kanton Solothurn, Orthofoto RGB",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/SOGIS_WMS",
     "startDate": "2015",
     "tiles": [
@@ -12448,6 +13432,12 @@
       "EPSG:4326"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "kanton-solothurn-orthofoto-rgb",
+      "label": "2017",
+      "name": "Kanton Solothurn, Orthofoto RGB",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/SOGIS_WMS",
     "startDate": "2017",
     "tiles": [
@@ -12711,6 +13701,12 @@
       "EPSG:32632"
     ],
     "endDate": "2015-11",
+    "group": {
+      "id": "south-tyrol-orthofoto",
+      "label": "2014/2015",
+      "name": "South Tyrol Orthofoto",
+      "order": 0
+    },
     "licenseUrl": "https://geoportal.buergernetz.bz.it/veroeffentlichungen.asp?publ_action=300&publ_image_id=394227",
     "startDate": "2014-07",
     "tiles": [
@@ -12750,6 +13746,12 @@
       "EPSG:32632"
     ],
     "endDate": "2020-10-13",
+    "group": {
+      "id": "south-tyrol-orthofoto",
+      "label": "2020",
+      "name": "South Tyrol Orthofoto",
+      "order": 1
+    },
     "licenseUrl": "https://geoportal.buergernetz.bz.it/veroeffentlichungen.asp?publ_action=300&publ_image_id=394227",
     "startDate": "2020-10-13",
     "tiles": [
@@ -12768,6 +13770,12 @@
       "EPSG:32632"
     ],
     "endDate": "2023-09-15",
+    "group": {
+      "id": "south-tyrol-orthofoto",
+      "label": "2023",
+      "name": "South Tyrol Orthofoto",
+      "order": 2
+    },
     "licenseUrl": "https://geoportal.buergernetz.bz.it/veroeffentlichungen.asp?publ_action=300&publ_image_id=394227",
     "startDate": "2023-09-15",
     "tiles": [
@@ -12859,6 +13867,12 @@
       "EPSG:31370"
     ],
     "endDate": "2010",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2009-2010",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2009",
@@ -12877,6 +13891,12 @@
       "EPSG:31370"
     ],
     "endDate": "2013",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2012-2013",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2012",
@@ -12895,6 +13915,12 @@
       "EPSG:31370"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2015",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2015",
@@ -12913,6 +13939,12 @@
       "EPSG:31370"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2016",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2016",
@@ -12931,6 +13963,12 @@
       "EPSG:31370"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2018",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2018",
@@ -12949,6 +13987,12 @@
       "EPSG:31370"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2019",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 5
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2019",
@@ -12967,6 +14011,12 @@
       "EPSG:31370"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2020",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 6
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2020",
@@ -12985,6 +14035,12 @@
       "EPSG:31370"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "spw-allonie-aerial-imagery",
+      "label": "2021",
+      "name": "SPW(allonie) aerial imagery",
+      "order": 7
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/SPW.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:OSM_license_for_SPW_WMS_usage.pdf",
     "startDate": "2021",
@@ -13472,6 +14528,12 @@
       "EPSG:3857"
     ],
     "endDate": "2013-09",
+    "group": {
+      "id": "törökbálint-orthophoto",
+      "label": "2013",
+      "name": "Törökbálint orthophoto",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_Hungary/Ortofot%C3%B3k#T.C3.B6r.C3.B6kb.C3.A1lint",
     "startDate": "2013-09",
     "tiles": [
@@ -13489,6 +14551,12 @@
       "EPSG:3857"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "törökbálint-orthophoto",
+      "label": "2015",
+      "name": "Törökbálint orthophoto",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_Hungary/Ortofot%C3%B3k#T.C3.B6r.C3.B6kb.C3.A1lint",
     "startDate": "2015",
     "tiles": [
@@ -13506,6 +14574,12 @@
       "EPSG:3857"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "törökbálint-orthophoto",
+      "label": "2018",
+      "name": "Törökbálint orthophoto",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_Hungary/Ortofot%C3%B3k#T.C3.B6r.C3.B6kb.C3.A1lint",
     "startDate": "2018",
     "tiles": [
@@ -13523,6 +14597,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "törökbálint-orthophoto",
+      "label": "2021",
+      "name": "Törökbálint orthophoto",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_Hungary/Ortofot%C3%B3k#T.C3.B6r.C3.B6kb.C3.A1lint",
     "startDate": "2021",
     "tiles": [
@@ -13547,6 +14627,12 @@
     "attributionText": "Orthophotoplan 2011 - Toulouse Métropole, 20/09/2012, sous license ODbL",
     "attributionUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2011/information/",
     "endDate": "2011",
+    "group": {
+      "id": "toulouse-orthophotoplan",
+      "label": "2011",
+      "name": "Toulouse - Orthophotoplan",
+      "order": 0
+    },
     "licenseUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2011/information/",
     "startDate": "2011",
     "tiles": [
@@ -13559,6 +14645,12 @@
     "attributionText": "Orthophotoplan 2013 - Toulouse Métropole, 31/12/2013, sous license ODbL",
     "attributionUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2013/information/",
     "endDate": "2013",
+    "group": {
+      "id": "toulouse-orthophotoplan",
+      "label": "2013",
+      "name": "Toulouse - Orthophotoplan",
+      "order": 1
+    },
     "licenseUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2013/information/",
     "startDate": "2013",
     "tiles": [
@@ -13571,6 +14663,12 @@
     "attributionText": "Orthophotoplan 2015 - Toulouse Métropole, 14/12/2015, sous license ODbL",
     "attributionUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2015/information/",
     "endDate": "2015",
+    "group": {
+      "id": "toulouse-orthophotoplan",
+      "label": "2015",
+      "name": "Toulouse - Orthophotoplan",
+      "order": 2
+    },
     "licenseUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2015/information/",
     "startDate": "2015",
     "tiles": [
@@ -13583,6 +14681,12 @@
     "attributionText": "Orthophotoplan 2017 - Toulouse Métropole, 04/07/2018, sous license ODbL",
     "attributionUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2017/information/",
     "endDate": "2017",
+    "group": {
+      "id": "toulouse-orthophotoplan",
+      "label": "2017",
+      "name": "Toulouse - Orthophotoplan",
+      "order": 3
+    },
     "licenseUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2017/information/",
     "startDate": "2017",
     "tiles": [
@@ -13595,6 +14699,12 @@
     "attributionText": "Orthophotoplan 2019 - Toulouse Métropole, 2021, Licence Ouverte v2.0 (Etalab)",
     "attributionUrl": "https://data.toulouse-metropole.fr/explore/dataset/orthophotoplan-2019/information/",
     "endDate": "2019",
+    "group": {
+      "id": "toulouse-orthophotoplan",
+      "label": "2019",
+      "name": "Toulouse - Orthophotoplan",
+      "order": 4
+    },
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2019",
     "tiles": [
@@ -13607,6 +14717,12 @@
     "attributionText": "Orthophoto Tour(s) Plus 2008",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Tours/Orthophoto",
     "endDate": "2011",
+    "group": {
+      "id": "tours-orthophotos",
+      "label": "2008-2010",
+      "name": "Tours - Orthophotos",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Tours/Orthophoto",
     "startDate": "2008",
     "tiles": [
@@ -13619,6 +14735,12 @@
     "attributionText": "Orthophoto Tour(s)plus 2013",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Tours/Orthophoto",
     "endDate": "2013",
+    "group": {
+      "id": "tours-orthophotos",
+      "label": "2013",
+      "name": "Tours - Orthophotos",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Tours/Orthophoto",
     "startDate": "2013",
     "tiles": [
@@ -13863,6 +14985,12 @@
     "attributionText": "© Геопортал містобудівного кадастру міста Черкаси",
     "attributionUrl": "https://mgis.chmr.gov.ua/portal/home/",
     "endDate": "2015-05",
+    "group": {
+      "id": "ukraine-cherkasy",
+      "label": "2015",
+      "name": "Ukraine - Cherkasy",
+      "order": 0
+    },
     "icon": "https://commons.wikimedia.org/wiki/File:COA_Cherkasy,_Cherkaska,_Ukraine.svg#/media/Файл:COA_Cherkasy,_Cherkaska,_Ukraine.svg",
     "licenseUrl": "https://zakon.rada.gov.ua/laws/show/2939-17",
     "startDate": "2015-04",
@@ -13876,6 +15004,12 @@
     "attributionText": "© Геопортал містобудівного кадастру міста Черкаси",
     "attributionUrl": "https://mgis.chmr.gov.ua/portal/home/",
     "endDate": "2021-05",
+    "group": {
+      "id": "ukraine-cherkasy",
+      "label": "2021",
+      "name": "Ukraine - Cherkasy",
+      "order": 1
+    },
     "icon": "https://commons.wikimedia.org/wiki/File:COA_Cherkasy,_Cherkaska,_Ukraine.svg#/media/Файл:COA_Cherkasy,_Cherkaska,_Ukraine.svg",
     "licenseUrl": "https://zakon.rada.gov.ua/laws/show/2939-17",
     "startDate": "2021-04",
@@ -13981,6 +15115,12 @@
       "EPSG:31370"
     ],
     "endDate": "2009",
+    "group": {
+      "id": "urbis-aerial-imagery",
+      "label": "2009",
+      "name": "URBIS aerial imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2009",
@@ -14003,6 +15143,12 @@
       "EPSG:31370"
     ],
     "endDate": "2012",
+    "group": {
+      "id": "urbis-aerial-imagery",
+      "label": "2012",
+      "name": "URBIS aerial imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2012",
@@ -14025,6 +15171,12 @@
       "EPSG:31370"
     ],
     "endDate": "2014",
+    "group": {
+      "id": "urbis-aerial-imagery",
+      "label": "2014",
+      "name": "URBIS aerial imagery",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2014",
@@ -14047,6 +15199,12 @@
       "EPSG:31370"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "urbis-aerial-imagery",
+      "label": "2015",
+      "name": "URBIS aerial imagery",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2015",
@@ -14189,6 +15347,12 @@
       "EPSG:31370"
     ],
     "endDate": "2004",
+    "group": {
+      "id": "urbis-ortho",
+      "label": "2004",
+      "name": "UrbIS-Ortho",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2004",
@@ -14211,6 +15375,12 @@
       "EPSG:31370"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "urbis-ortho",
+      "label": "2016",
+      "name": "UrbIS-Ortho",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2016",
@@ -14233,6 +15403,12 @@
       "EPSG:31370"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "urbis-ortho",
+      "label": "2017",
+      "name": "UrbIS-Ortho",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2017",
@@ -14255,6 +15431,12 @@
       "EPSG:31370"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "urbis-ortho",
+      "label": "2018",
+      "name": "UrbIS-Ortho",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2018",
@@ -14277,6 +15459,12 @@
       "EPSG:31370"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "urbis-ortho",
+      "label": "2019",
+      "name": "UrbIS-Ortho",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2019",
@@ -14299,6 +15487,12 @@
       "EPSG:31370"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "urbis-ortho",
+      "label": "2020",
+      "name": "UrbIS-Ortho",
+      "order": 5
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2020",
@@ -14321,6 +15515,12 @@
       "EPSG:31370"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "urbis-ortho-rgb-east-west",
+      "label": "2021",
+      "name": "UrbIS-Ortho (RGB east-west)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2021",
@@ -14343,6 +15543,12 @@
       "EPSG:31370"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "urbis-ortho-rgb-north-south",
+      "label": "2021",
+      "name": "UrbIS-Ortho (RGB north-south)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2021",
@@ -14365,6 +15571,12 @@
       "EPSG:31370"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "urbis-ortho-rgb-east-west",
+      "label": "2022",
+      "name": "UrbIS-Ortho (RGB east-west)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2022",
@@ -14387,6 +15599,12 @@
       "EPSG:31370"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "urbis-ortho-rgb-north-south",
+      "label": "2022",
+      "name": "UrbIS-Ortho (RGB north-south)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2022",
@@ -14431,6 +15649,12 @@
       "EPSG:31370"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "urbis-ortho-rgb-east-west",
+      "label": "2024",
+      "name": "UrbIS-Ortho (RGB east-west)",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2024",
@@ -14497,6 +15721,12 @@
       "EPSG:31370"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "urbis-ortho-rgb-north-south",
+      "label": "2024",
+      "name": "UrbIS-Ortho (RGB north-south)",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/be/UrbIS.png",
     "licenseUrl": "https://bric.brussels/en/our-solutions/urbis-solutions/Licence_Open_data_Fr_v4.pdf",
     "startDate": "2024",
@@ -14682,6 +15912,12 @@
       "EPSG:32632"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "vogis-echtfarbenbild-10cm",
+      "label": "2015",
+      "name": "VoGIS: Echtfarbenbild (10cm)",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/at/VoGISFlchenwidmungsplan.png",
     "licenseUrl": "http://data.vorarlberg.gv.at/ogd/nutzungsbedingungen/nutzungsbedingungen.htm",
     "startDate": "2015",
@@ -14708,6 +15944,12 @@
       "EPSG:32632"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "vogis-echtfarbenbild-10cm",
+      "label": "2018",
+      "name": "VoGIS: Echtfarbenbild (10cm)",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/at/VoGISFlchenwidmungsplan.png",
     "licenseUrl": "http://data.vorarlberg.gv.at/ogd/nutzungsbedingungen/nutzungsbedingungen.htm",
     "startDate": "2018",
@@ -14734,6 +15976,12 @@
       "EPSG:32632"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "vogis-echtfarbenbild-10cm",
+      "label": "2020",
+      "name": "VoGIS: Echtfarbenbild (10cm)",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/at/VoGISFlchenwidmungsplan.png",
     "licenseUrl": "http://data.vorarlberg.gv.at/ogd/nutzungsbedingungen/nutzungsbedingungen.htm",
     "startDate": "2020",
@@ -14760,6 +16008,12 @@
       "EPSG:32632"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "vogis-echtfarbenbild-10cm",
+      "label": "2022",
+      "name": "VoGIS: Echtfarbenbild (10cm)",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/at/VoGISFlchenwidmungsplan.png",
     "licenseUrl": "http://data.vorarlberg.gv.at/ogd/nutzungsbedingungen/nutzungsbedingungen.htm",
     "startDate": "2022",
@@ -14867,6 +16121,12 @@
       "EPSG:25832"
     ],
     "endDate": "2003",
+    "group": {
+      "id": "worms",
+      "label": "2003",
+      "name": "Worms",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Worms.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/Luftbild_Worms",
     "startDate": "2003",
@@ -14885,6 +16145,12 @@
       "EPSG:25832"
     ],
     "endDate": "2008",
+    "group": {
+      "id": "worms",
+      "label": "2008",
+      "name": "Worms",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Worms.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/Luftbild_Worms",
     "startDate": "2008",
@@ -14903,6 +16169,12 @@
       "EPSG:25832"
     ],
     "endDate": "2012",
+    "group": {
+      "id": "worms",
+      "label": "2012",
+      "name": "Worms",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Worms.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/Luftbild_Worms",
     "startDate": "2012",
@@ -14921,6 +16193,12 @@
       "EPSG:25832"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "worms",
+      "label": "2016",
+      "name": "Worms",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Worms.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/Luftbild_Worms",
     "startDate": "2016",
@@ -14939,6 +16217,12 @@
       "EPSG:25832"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "worms",
+      "label": "2020",
+      "name": "Worms",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Worms.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/Luftbild_Worms",
     "startDate": "2020",
@@ -14957,6 +16241,12 @@
       "EPSG:25832"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "worms",
+      "label": "2025",
+      "name": "Worms",
+      "order": 5
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Worms.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/Luftbild_Worms",
     "startDate": "2025",
@@ -14976,6 +16266,12 @@
       "EPSG:4326"
     ],
     "endDate": "2015-06-06",
+    "group": {
+      "id": "wrocław-orthophotomap-aerial-image",
+      "label": "2015",
+      "name": "Wrocław: Orthophotomap (aerial image)",
+      "order": 0
+    },
     "icon": "https://i.imgur.com/PRqROXB.png",
     "startDate": "2015-06-05",
     "tiles": [
@@ -14994,6 +16290,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018-04-07",
+    "group": {
+      "id": "wrocław-orthophotomap-aerial-image",
+      "label": "2018",
+      "name": "Wrocław: Orthophotomap (aerial image)",
+      "order": 1
+    },
     "icon": "https://i.imgur.com/PRqROXB.png",
     "startDate": "2018-04-06",
     "tiles": [
@@ -15020,6 +16322,12 @@
     "attributionHtml": "Stadt Zürich Luftbild 2011",
     "attributionText": "Stadt Zürich Luftbild 2011",
     "endDate": "2011",
+    "group": {
+      "id": "stadt-zürich-luftbild",
+      "label": "2011",
+      "name": "Stadt Zürich Luftbild",
+      "order": 0
+    },
     "licenseUrl": "https://data.stadt-zuerich.ch/dataset/geo_orthofoto_2011_stadt_zuerich___fruehling",
     "startDate": "2011",
     "tiles": [
@@ -15037,6 +16345,12 @@
       "EPSG:4326"
     ],
     "endDate": "2013",
+    "group": {
+      "id": "stadt-zürich-luftbild",
+      "label": "2013",
+      "name": "Stadt Zürich Luftbild",
+      "order": 1
+    },
     "licenseUrl": "https://data.stadt-zuerich.ch/dataset/geo_orthofoto_2013_stadt_zuerich___fruehling",
     "startDate": "2013",
     "tiles": [

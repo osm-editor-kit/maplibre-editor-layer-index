@@ -55,6 +55,12 @@
     "attributionText": "Alachua County Property Appraiser’s Office",
     "attributionUrl": "https://maps.acpafl.org/",
     "endDate": "2020",
+    "group": {
+      "id": "alachua-county-orthoimagery",
+      "label": "2020",
+      "name": "Alachua County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2020",
     "tiles": [
@@ -67,6 +73,12 @@
     "attributionText": "Alachua County Property Appraiser’s Office",
     "attributionUrl": "https://maps.acpafl.org/",
     "endDate": "2023",
+    "group": {
+      "id": "alachua-county-orthoimagery",
+      "label": "2023",
+      "name": "Alachua County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
@@ -145,6 +157,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021-04-17",
+    "group": {
+      "id": "city-of-bozeman-aerial-photography",
+      "label": "2021",
+      "name": "City of Bozeman Aerial Photography",
+      "order": 0
+    },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
     "startDate": "2021-04-17",
@@ -163,6 +181,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023-04-30",
+    "group": {
+      "id": "city-of-bozeman-aerial-photography",
+      "label": "2023",
+      "name": "City of Bozeman Aerial Photography",
+      "order": 1
+    },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
     "startDate": "2023-04-30",
@@ -181,6 +205,12 @@
       "EPSG:4326"
     ],
     "endDate": "2024-04-22",
+    "group": {
+      "id": "city-of-bozeman-aerial-photography",
+      "label": "2024",
+      "name": "City of Bozeman Aerial Photography",
+      "order": 2
+    },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
     "startDate": "2024-04-22",
@@ -199,6 +229,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025-05-03",
+    "group": {
+      "id": "city-of-bozeman-aerial-photography",
+      "label": "2025",
+      "name": "City of Bozeman Aerial Photography",
+      "order": 3
+    },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
     "startDate": "2025-05-03",
@@ -217,6 +253,12 @@
       "EPSG:4326"
     ],
     "endDate": "2026-04-08",
+    "group": {
+      "id": "city-of-bozeman-aerial-photography",
+      "label": "2026",
+      "name": "City of Bozeman Aerial Photography",
+      "order": 4
+    },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
     "startDate": "2026-04-08",
@@ -252,6 +294,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "brevard-county-orthoimagery",
+      "label": "2021",
+      "name": "Brevard County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
@@ -270,6 +318,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "brevard-county-orthoimagery",
+      "label": "2022",
+      "name": "Brevard County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022",
@@ -288,6 +342,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "brevard-county-orthoimagery",
+      "label": "2023",
+      "name": "Brevard County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
@@ -306,6 +366,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "brevard-county-orthoimagery",
+      "label": "2024",
+      "name": "Brevard County Orthoimagery",
+      "order": 3
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
@@ -324,6 +390,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "brevard-county-orthoimagery",
+      "label": "2025",
+      "name": "Brevard County Orthoimagery",
+      "order": 4
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
@@ -342,6 +414,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "brevard-county-orthoimagery",
+      "label": "2026",
+      "name": "Brevard County Orthoimagery",
+      "order": 5
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2026",
@@ -359,6 +437,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "broward-county-orthoimagery",
+      "label": "2021",
+      "name": "Broward County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.broward.org/Style%20Library/V7/img/Broward_logo_white2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
@@ -376,6 +460,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "broward-county-orthoimagery",
+      "label": "2022",
+      "name": "Broward County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.broward.org/Style%20Library/V7/img/Broward_logo_white2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022",
@@ -393,6 +483,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "broward-county-orthoimagery",
+      "label": "2023",
+      "name": "Broward County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.broward.org/Style%20Library/V7/img/Broward_logo_white2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
@@ -410,6 +506,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "broward-county-orthoimagery",
+      "label": "2024",
+      "name": "Broward County Orthoimagery",
+      "order": 3
+    },
     "icon": "https://www.broward.org/Style%20Library/V7/img/Broward_logo_white2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
@@ -427,6 +529,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "broward-county-orthoimagery",
+      "label": "2025",
+      "name": "Broward County Orthoimagery",
+      "order": 4
+    },
     "icon": "https://www.broward.org/Style%20Library/V7/img/Broward_logo_white2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
@@ -444,6 +552,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "broward-county-orthoimagery",
+      "label": "2026",
+      "name": "Broward County Orthoimagery",
+      "order": 5
+    },
     "icon": "https://www.broward.org/Style%20Library/V7/img/Broward_logo_white2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2026",
@@ -457,6 +571,12 @@
     "attributionText": "City of Burbank",
     "attributionUrl": "https://gis.burbankca.gov/",
     "endDate": "2021-03-16",
+    "group": {
+      "id": "city-of-burbank-orthoimagery",
+      "label": "2021",
+      "name": "City of Burbank Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.burbankca.gov/o/gov-burbankca-theme/images/R1_Logo_Package_B-CoB_Color_Horizontal_2.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2021-02-04",
@@ -474,6 +594,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-03-16",
+    "group": {
+      "id": "city-of-burbank-orthoimagery",
+      "label": "2024",
+      "name": "City of Burbank Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.burbankca.gov/o/gov-burbankca-theme/images/R1_Logo_Package_B-CoB_Color_Horizontal_2.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024-02-04",
@@ -503,6 +629,12 @@
     "attributionText": "Calaveras County",
     "attributionUrl": "https://www.calaverasgov.us/",
     "endDate": "2022",
+    "group": {
+      "id": "calaveras-county-orthoimagery",
+      "label": "2022",
+      "name": "Calaveras County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.calaverasgov.us/portals/0/Images/County%20Seal.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2022",
@@ -516,6 +648,12 @@
     "attributionText": "Calaveras County",
     "attributionUrl": "https://www.calaverasgov.us/",
     "endDate": "2024",
+    "group": {
+      "id": "calaveras-county-orthoimagery",
+      "label": "2024",
+      "name": "Calaveras County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.calaverasgov.us/portals/0/Images/County%20Seal.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -683,6 +821,12 @@
       "EPSG:3857"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "cattaraugus-county-orthoimagery",
+      "label": "2020",
+      "name": "Cattaraugus County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.cattco.org/sites/default/files/inline-images/cattcoseal_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/New_York_(state)/Cattaraugus_County_Orthoimagery",
     "startDate": "2020",
@@ -700,6 +844,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "cattaraugus-county-orthoimagery",
+      "label": "2023",
+      "name": "Cattaraugus County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.cattco.org/sites/default/files/inline-images/cattcoseal_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/New_York_(state)/Cattaraugus_County_Orthoimagery",
     "startDate": "2023",
@@ -765,6 +915,12 @@
       "EPSG:3857"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "charlotte-county-orthoimagery",
+      "label": "2020",
+      "name": "Charlotte County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2020",
     "tiles": [
@@ -797,6 +953,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "charlotte-county-orthoimagery",
+      "label": "2023",
+      "name": "Charlotte County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
@@ -845,6 +1007,12 @@
       "EPSG:3857"
     ],
     "endDate": "2020-02",
+    "group": {
+      "id": "citrus-county-orthoimagery",
+      "label": "2020",
+      "name": "Citrus County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2019-12",
     "tiles": [
@@ -861,6 +1029,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023-02",
+    "group": {
+      "id": "citrus-county-orthoimagery",
+      "label": "2023",
+      "name": "Citrus County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023-01",
     "tiles": [
@@ -891,6 +1065,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "city-of-fairfield-orthoimagery",
+      "label": "2020",
+      "name": "City of Fairfield Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.fairfield-city.org/ImageRepository/Document?documentID=6061",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2020",
@@ -904,6 +1084,12 @@
     "attributionText": "City of Fairfield, State of Ohio",
     "attributionUrl": "https://www.fairfield-city.org/",
     "endDate": "2023",
+    "group": {
+      "id": "city-of-fairfield-orthoimagery",
+      "label": "2023",
+      "name": "City of Fairfield Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.fairfield-city.org/ImageRepository/Document?documentID=6061",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2023",
@@ -1012,6 +1198,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "cook-county-orthoimagery",
+      "label": "2020",
+      "name": "Cook County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
     "startDate": "2020",
@@ -1031,6 +1223,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "cook-county-orthoimagery",
+      "label": "2021",
+      "name": "Cook County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
     "startDate": "2021",
@@ -1050,6 +1248,12 @@
       "EPSG:4326"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "cook-county-orthoimagery",
+      "label": "2022",
+      "name": "Cook County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
     "startDate": "2022",
@@ -1069,6 +1273,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "cook-county-orthoimagery",
+      "label": "2023",
+      "name": "Cook County Orthoimagery",
+      "order": 3
+    },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
     "startDate": "2023",
@@ -1088,6 +1298,12 @@
       "EPSG:4326"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "cook-county-orthoimagery",
+      "label": "2024",
+      "name": "Cook County Orthoimagery",
+      "order": 4
+    },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
     "startDate": "2024",
@@ -1107,6 +1323,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "cook-county-orthoimagery",
+      "label": "2025",
+      "name": "Cook County Orthoimagery",
+      "order": 5
+    },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
     "startDate": "2025",
@@ -1120,6 +1342,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2003",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2003",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 0
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2003",
     "tiles": [
@@ -1132,6 +1360,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2006",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2006",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 1
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2006",
     "tiles": [
@@ -1144,6 +1378,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2009",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2009",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 2
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2009",
     "tiles": [
@@ -1156,6 +1396,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2012",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2012",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 3
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2012",
     "tiles": [
@@ -1168,6 +1414,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2014",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2014",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 4
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2014",
     "tiles": [
@@ -1180,6 +1432,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2016",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2016",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 5
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2016",
     "tiles": [
@@ -1192,6 +1450,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2017",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2017",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 6
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2017",
     "tiles": [
@@ -1204,6 +1468,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2018",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2018",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 7
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2018",
     "tiles": [
@@ -1216,6 +1486,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2019",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2019",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 8
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2019",
     "tiles": [
@@ -1228,6 +1504,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2020",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2020",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 9
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2020",
     "tiles": [
@@ -1240,6 +1522,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2021",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2021",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 10
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2021",
     "tiles": [
@@ -1252,6 +1540,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2022",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2022",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 11
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2022",
     "tiles": [
@@ -1264,6 +1558,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2023",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2023",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 12
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2023",
     "tiles": [
@@ -1276,6 +1576,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2024",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2024",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 13
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2024",
     "tiles": [
@@ -1288,6 +1594,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Coquitlam",
     "attributionUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "endDate": "2025",
+    "group": {
+      "id": "city-of-coquitlam-aerial-imagery",
+      "label": "2025",
+      "name": "City of Coquitlam Aerial Imagery",
+      "order": 14
+    },
     "licenseUrl": "https://www.coquitlam.ca/894/Open-Government-Licence",
     "startDate": "2025",
     "tiles": [
@@ -1300,6 +1612,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
     "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "endDate": "2016",
+    "group": {
+      "id": "city-of-courtenay-orthoimagery",
+      "label": "2016",
+      "name": "City of Courtenay Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "startDate": "2016",
     "tiles": [
@@ -1312,6 +1630,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
     "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "endDate": "2018",
+    "group": {
+      "id": "city-of-courtenay-orthoimagery",
+      "label": "2018",
+      "name": "City of Courtenay Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "startDate": "2018",
     "tiles": [
@@ -1324,6 +1648,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
     "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "endDate": "2020-03",
+    "group": {
+      "id": "city-of-courtenay-orthoimagery",
+      "label": "2020",
+      "name": "City of Courtenay Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "startDate": "2020-03",
     "tiles": [
@@ -1336,6 +1666,12 @@
     "attributionText": "Contains information licensed under the Open Government Licence - City of Courtenay",
     "attributionUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "endDate": "2022-03",
+    "group": {
+      "id": "city-of-courtenay-orthoimagery",
+      "label": "2022",
+      "name": "City of Courtenay Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://data-courtenay.opendata.arcgis.com/pages/city-of-courtenay-open-data-licence",
     "startDate": "2022-03",
     "tiles": [
@@ -1348,6 +1684,12 @@
     "attributionText": "Crook County GIS",
     "attributionUrl": "https://crookcountyor.gov/",
     "endDate": "2023",
+    "group": {
+      "id": "crook-county-orthoimagery",
+      "label": "2023",
+      "name": "Crook County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://crookcountyor.gov/ImageRepository/Document?documentID=4371",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/or/Crook.pdf",
     "startDate": "2023",
@@ -1361,6 +1703,12 @@
     "attributionText": "Crook County GIS",
     "attributionUrl": "https://crookcountyor.gov/",
     "endDate": "2026",
+    "group": {
+      "id": "crook-county-orthoimagery",
+      "label": "2026",
+      "name": "Crook County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://crookcountyor.gov/ImageRepository/Document?documentID=4371",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/or/Crook.pdf",
     "startDate": "2026",
@@ -1374,6 +1722,12 @@
     "attributionText": "Connecticut Environmental Conditions Online",
     "attributionUrl": "https://cteco.uconn.edu/data/imagery/index.htm",
     "endDate": "2019-04-25",
+    "group": {
+      "id": "ct-eco-orthoimagery",
+      "label": "2019",
+      "name": "CT ECO Orthoimagery",
+      "order": 0
+    },
     "icon": "https://cteco.uconn.edu/images/logos/cteco-logo.png",
     "licenseUrl": "https://cteco.uconn.edu/metadata/dep/document/ortho_2019_fgdc_plus.htm",
     "startDate": "2019-03-24",
@@ -1387,6 +1741,12 @@
     "attributionText": "Connecticut Environmental Conditions Online",
     "attributionUrl": "https://cteco.uconn.edu/data/imagery/index.htm",
     "endDate": "2023-04-13",
+    "group": {
+      "id": "ct-eco-orthoimagery",
+      "label": "2023",
+      "name": "CT ECO Orthoimagery",
+      "order": 1
+    },
     "icon": "https://cteco.uconn.edu/images/logos/cteco-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/ct/CTECO.pdf",
     "startDate": "2023-03-27",
@@ -1405,6 +1765,12 @@
       "EPSG:3857"
     ],
     "endDate": "2016-04-16",
+    "group": {
+      "id": "ct-eco-shaded-relief",
+      "label": "2016",
+      "name": "CT ECO Shaded Relief",
+      "order": 0
+    },
     "icon": "https://cteco.uconn.edu/images/logos/cteco-logo.png",
     "licenseUrl": "https://cteco.uconn.edu/metadata/dep/document/lidarDEM_2016_fgdc_plus.htm",
     "startDate": "2016-03-11",
@@ -1423,6 +1789,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023-04-13",
+    "group": {
+      "id": "ct-eco-shaded-relief",
+      "label": "2023",
+      "name": "CT ECO Shaded Relief",
+      "order": 1
+    },
     "icon": "https://cteco.uconn.edu/images/logos/cteco-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/ct/CTECO.pdf",
     "startDate": "2023-03-27",
@@ -1458,6 +1830,12 @@
       "EPSG:26985"
     ],
     "endDate": "2019-04-23",
+    "group": {
+      "id": "dc-from-above-orthophoto",
+      "label": "2019",
+      "name": "DC From Above Orthophoto",
+      "order": 0
+    },
     "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
     "startDate": "2019-04-23",
@@ -1477,6 +1855,12 @@
       "EPSG:26985"
     ],
     "endDate": "2021-03-11",
+    "group": {
+      "id": "dc-from-above-orthophoto",
+      "label": "2021",
+      "name": "DC From Above Orthophoto",
+      "order": 1
+    },
     "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
     "startDate": "2021-03-11",
@@ -1496,6 +1880,12 @@
       "EPSG:26985"
     ],
     "endDate": "2023-05-10",
+    "group": {
+      "id": "dc-from-above-orthophoto",
+      "label": "2023",
+      "name": "DC From Above Orthophoto",
+      "order": 2
+    },
     "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
     "startDate": "2023-05-06",
@@ -1515,6 +1905,12 @@
       "EPSG:26985"
     ],
     "endDate": "2025-03-27",
+    "group": {
+      "id": "dc-from-above-orthophoto",
+      "label": "2025",
+      "name": "DC From Above Orthophoto",
+      "order": 3
+    },
     "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
     "startDate": "2025-03-27",
@@ -1534,6 +1930,12 @@
       "EPSG:26915"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "dakota-county-gis-leaf-off-6-inch",
+      "label": "2017 Fall",
+      "name": "Dakota County GIS Leaf-Off 6-Inch",
+      "order": 0
+    },
     "icon": "https://www.co.dakota.mn.us//SiteAssets/DakotaCountyLogo_W.png",
     "licenseUrl": "https://www.co.dakota.mn.us/HomeProperty/MappingServices/GISData/Pages/default.aspx",
     "startDate": "2017",
@@ -1553,6 +1955,12 @@
       "EPSG:26915"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "dakota-county-gis-leaf-off-6-inch",
+      "label": "2019 Spring",
+      "name": "Dakota County GIS Leaf-Off 6-Inch",
+      "order": 1
+    },
     "icon": "https://www.co.dakota.mn.us//SiteAssets/DakotaCountyLogo_W.png",
     "licenseUrl": "https://www.co.dakota.mn.us/HomeProperty/MappingServices/GISData/Pages/default.aspx",
     "startDate": "2019",
@@ -1599,6 +2007,12 @@
     "attributionText": "Hexagon, FirstMap",
     "attributionUrl": "https://firstmap.delaware.gov",
     "endDate": "2021-10-19",
+    "group": {
+      "id": "delaware-firstmap",
+      "label": "2021",
+      "name": "Delaware FirstMap",
+      "order": 0
+    },
     "icon": "https://firstmap.delaware.gov/contentFolder/images/FirstmapLogo.jpg",
     "licenseUrl": "https://firstmap.delaware.gov/pdfs/public/DEImageryMetadata.pdf",
     "startDate": "2021-06-29",
@@ -1612,6 +2026,12 @@
     "attributionText": "Sanborn Map Company, FirstMap",
     "attributionUrl": "https://firstmap.delaware.gov",
     "endDate": "2022-03-29",
+    "group": {
+      "id": "delaware-firstmap",
+      "label": "2022",
+      "name": "Delaware FirstMap",
+      "order": 1
+    },
     "icon": "https://firstmap.delaware.gov/contentFolder/images/FirstmapLogo.jpg",
     "licenseUrl": "https://firstmap.delaware.gov/pdfs/public/DEImageryMetadata.pdf",
     "startDate": "2022-03-11",
@@ -1625,6 +2045,12 @@
     "attributionText": "Sanborn Map Company, FirstMap",
     "attributionUrl": "https://firstmap.delaware.gov",
     "endDate": "2024",
+    "group": {
+      "id": "delaware-firstmap",
+      "label": "2024",
+      "name": "Delaware FirstMap",
+      "order": 2
+    },
     "icon": "https://firstmap.delaware.gov/contentFolder/images/FirstmapLogo.jpg",
     "licenseUrl": "https://firstmap.delaware.gov/pdfs/public/DEImageryMetadata.pdf",
     "startDate": "2024",
@@ -1638,6 +2064,12 @@
     "attributionText": "Delaware County, State of Ohio",
     "attributionUrl": "https://co.delaware.oh.us/",
     "endDate": "2021",
+    "group": {
+      "id": "delaware-county-orthoimagery",
+      "label": "2021",
+      "name": "Delaware County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://co.delaware.oh.us/wp-content/uploads/2017/11/logo.png",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2021",
@@ -1651,6 +2083,12 @@
     "attributionText": "Delaware County, State of Ohio",
     "attributionUrl": "https://co.delaware.oh.us/",
     "endDate": "2022",
+    "group": {
+      "id": "delaware-county-orthoimagery",
+      "label": "2022",
+      "name": "Delaware County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://co.delaware.oh.us/wp-content/uploads/2017/11/logo.png",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2022",
@@ -1664,6 +2102,12 @@
     "attributionText": "Delaware County, State of Ohio",
     "attributionUrl": "https://co.delaware.oh.us/",
     "endDate": "2023",
+    "group": {
+      "id": "delaware-county-orthoimagery",
+      "label": "2023",
+      "name": "Delaware County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://co.delaware.oh.us/wp-content/uploads/2017/11/logo.png",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2023",
@@ -1707,6 +2151,12 @@
       "EPSG:3857"
     ],
     "endDate": "2006",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2006",
+      "name": "Delta Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2006",
     "tiles": [
@@ -1724,6 +2174,12 @@
       "EPSG:3857"
     ],
     "endDate": "2008",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2008",
+      "name": "Delta Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2008",
     "tiles": [
@@ -1741,6 +2197,12 @@
       "EPSG:3857"
     ],
     "endDate": "2010",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2010",
+      "name": "Delta Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2010",
     "tiles": [
@@ -1758,6 +2220,12 @@
       "EPSG:3857"
     ],
     "endDate": "2012",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2012",
+      "name": "Delta Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2012",
     "tiles": [
@@ -1775,6 +2243,12 @@
       "EPSG:3857"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2016",
+      "name": "Delta Orthoimagery",
+      "order": 4
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2016",
     "tiles": [
@@ -1792,6 +2266,12 @@
       "EPSG:3857"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2018",
+      "name": "Delta Orthoimagery",
+      "order": 5
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2018",
     "tiles": [
@@ -1809,6 +2289,12 @@
       "EPSG:3857"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2020",
+      "name": "Delta Orthoimagery",
+      "order": 6
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2020",
     "tiles": [
@@ -1826,6 +2312,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "delta-orthoimagery",
+      "label": "2022",
+      "name": "Delta Orthoimagery",
+      "order": 7
+    },
     "licenseUrl": "https://www.delta.ca/Open-Government-Licence",
     "startDate": "2022",
     "tiles": [
@@ -1877,6 +2369,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-bucks-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Bucks County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -1894,6 +2392,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-burlington-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Burlington County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -1912,6 +2416,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-camden-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Camden County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -1929,6 +2439,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-chester-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Chester County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -1946,6 +2462,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-delaware-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Delaware County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -1964,6 +2486,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-gloucestor-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Gloucestor County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -1982,6 +2510,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-mercer-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Mercer County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -1999,6 +2533,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-montgomery-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Montgomery County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -2016,6 +2556,12 @@
       "EPSG:6347"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "dvrpc-orthoimagery-philadelphia-county-1ft",
+      "label": "2020",
+      "name": "DVRPC Orthoimagery - Philadelphia County (1ft)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2020",
     "tiles": [
@@ -2033,6 +2579,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-bucks-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Bucks County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2050,6 +2602,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-burlington-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Burlington County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2066,6 +2624,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-camden-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Camden County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2083,6 +2647,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-chester-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Chester County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2099,6 +2669,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-delaware-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Delaware County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2115,6 +2691,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-gloucestor-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Gloucestor County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2132,6 +2714,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-mercer-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Mercer County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2148,6 +2736,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-montgomery-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Montgomery County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2164,6 +2758,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "dvrpc-orthoimagery-philadelphia-county-1ft",
+      "label": "2025",
+      "name": "DVRPC Orthoimagery - Philadelphia County (1ft)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Delaware_Valley_Regional_Planning_Commission",
     "startDate": "2025",
     "tiles": [
@@ -2176,6 +2776,12 @@
     "attributionText": "Florida Department of Transportation",
     "attributionUrl": "https://www.fdot.gov/gis/aerialmain.shtm",
     "endDate": "2019",
+    "group": {
+      "id": "escambia-county-orthoimagery",
+      "label": "2019",
+      "name": "Escambia County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2019",
     "tiles": [
@@ -2188,6 +2794,12 @@
     "attributionText": "Florida Department of Transportation",
     "attributionUrl": "https://www.fdot.gov/gis/aerialmain.shtm",
     "endDate": "2022",
+    "group": {
+      "id": "escambia-county-orthoimagery",
+      "label": "2022",
+      "name": "Escambia County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022",
     "tiles": [
@@ -2239,6 +2851,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "fairfax-county-orthoimagery",
+      "label": "2022",
+      "name": "Fairfax County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2022",
     "tiles": [
@@ -2255,6 +2873,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "fairfax-county-orthoimagery",
+      "label": "2023",
+      "name": "Fairfax County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2023",
     "tiles": [
@@ -2271,6 +2895,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "fairfax-county-orthoimagery",
+      "label": "2024",
+      "name": "Fairfax County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2024",
     "tiles": [
@@ -2287,6 +2917,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "fairfax-county-orthoimagery",
+      "label": "2025",
+      "name": "Fairfax County Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2025",
     "tiles": [
@@ -2303,6 +2939,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "fairfax-county-orthoimagery",
+      "label": "2026",
+      "name": "Fairfax County Orthoimagery",
+      "order": 4
+    },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2026",
     "tiles": [
@@ -2364,6 +3006,12 @@
     "attributionText": "Franklin County Auditor, State of Ohio",
     "attributionUrl": "https://auditor-fca.opendata.arcgis.com/",
     "endDate": "2021",
+    "group": {
+      "id": "franklin-county-orthoimagery",
+      "label": "2021",
+      "name": "Franklin County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://commissioners.franklincountyohio.gov/COMM-website/media/Assets/seal-franklin-county.png",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2021",
@@ -2377,6 +3025,12 @@
     "attributionText": "Franklin County Auditor, State of Ohio",
     "attributionUrl": "https://auditor-fca.opendata.arcgis.com/",
     "endDate": "2023",
+    "group": {
+      "id": "franklin-county-orthoimagery",
+      "label": "2023",
+      "name": "Franklin County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://commissioners.franklincountyohio.gov/COMM-website/media/Assets/seal-franklin-county.png",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2023",
@@ -2643,6 +3297,12 @@
       "EPSG:3754"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "greene-county-orthoimagery",
+      "label": "2022",
+      "name": "Greene County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.greenecountyohio.gov/ImageRepository/Document?documentId=29996",
     "licenseUrl": "https://gis.greenecountyohio.gov/webgis2/rest/services/Aerials/Aerial_2022_Summer/MapServer",
     "startDate": "2022",
@@ -2661,6 +3321,12 @@
       "EPSG:3754"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "greene-county-orthoimagery",
+      "label": "2023",
+      "name": "Greene County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.greenecountyohio.gov/ImageRepository/Document?documentId=29996",
     "licenseUrl": "https://gis.greenecountyohio.gov/webgis2/rest/services/Aerials/Aerial_2023/MapServer",
     "startDate": "2023",
@@ -2679,6 +3345,12 @@
       "EPSG:3754"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "greene-county-orthoimagery",
+      "label": "2024",
+      "name": "Greene County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.greenecountyohio.gov/ImageRepository/Document?documentId=29996",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2024",
@@ -2698,6 +3370,12 @@
       "EPSG:26915"
     ],
     "endDate": "2020-03",
+    "group": {
+      "id": "hennepin-county-orthoimagery",
+      "label": "2020",
+      "name": "Hennepin County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.hennepin.us/branding-assets/img/h-logo-blue.png",
     "licenseUrl": "https://metrogis.org/getmedia/3847b6d1-9609-4223-8f1c-591a7780fabb/HennepinCountyResolution_2014_02_11.pdf.aspx",
     "startDate": "2020-03",
@@ -2717,6 +3395,12 @@
       "EPSG:26915"
     ],
     "endDate": "2021-03",
+    "group": {
+      "id": "hennepin-county-orthoimagery",
+      "label": "2021",
+      "name": "Hennepin County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.hennepin.us/branding-assets/img/h-logo-blue.png",
     "licenseUrl": "https://metrogis.org/getmedia/3847b6d1-9609-4223-8f1c-591a7780fabb/HennepinCountyResolution_2014_02_11.pdf.aspx",
     "startDate": "2021-03",
@@ -2736,6 +3420,12 @@
       "EPSG:26915"
     ],
     "endDate": "2022-03",
+    "group": {
+      "id": "hennepin-county-orthoimagery",
+      "label": "2022",
+      "name": "Hennepin County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.hennepin.us/branding-assets/img/h-logo-blue.png",
     "licenseUrl": "https://metrogis.org/getmedia/3847b6d1-9609-4223-8f1c-591a7780fabb/HennepinCountyResolution_2014_02_11.pdf.aspx",
     "startDate": "2022-03",
@@ -2755,6 +3445,12 @@
       "EPSG:26915"
     ],
     "endDate": "2023-03",
+    "group": {
+      "id": "hennepin-county-orthoimagery",
+      "label": "2023",
+      "name": "Hennepin County Orthoimagery",
+      "order": 3
+    },
     "icon": "https://www.hennepin.us/branding-assets/img/h-logo-blue.png",
     "licenseUrl": "https://metrogis.org/getmedia/3847b6d1-9609-4223-8f1c-591a7780fabb/HennepinCountyResolution_2014_02_11.pdf.aspx",
     "startDate": "2023-03",
@@ -2774,6 +3470,12 @@
       "EPSG:26915"
     ],
     "endDate": "2024-03",
+    "group": {
+      "id": "hennepin-county-orthoimagery",
+      "label": "2024",
+      "name": "Hennepin County Orthoimagery",
+      "order": 4
+    },
     "icon": "https://www.hennepin.us/branding-assets/img/h-logo-blue.png",
     "licenseUrl": "https://metrogis.org/getmedia/3847b6d1-9609-4223-8f1c-591a7780fabb/HennepinCountyResolution_2014_02_11.pdf.aspx",
     "startDate": "2024-03",
@@ -2793,6 +3495,12 @@
       "EPSG:26915"
     ],
     "endDate": "2025-03",
+    "group": {
+      "id": "hennepin-county-orthoimagery",
+      "label": "2025",
+      "name": "Hennepin County Orthoimagery",
+      "order": 5
+    },
     "icon": "https://www.hennepin.us/branding-assets/img/h-logo-blue.png",
     "licenseUrl": "https://metrogis.org/getmedia/3847b6d1-9609-4223-8f1c-591a7780fabb/HennepinCountyResolution_2014_02_11.pdf.aspx",
     "startDate": "2025-03",
@@ -2811,6 +3519,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "henrico-county-aerial-imagery",
+      "label": "2024",
+      "name": "Henrico County Aerial Imagery",
+      "order": 0
+    },
     "licenseUrl": "https://henrico.gov/transparency/terms-of-use/",
     "startDate": "2024",
     "tiles": [
@@ -2828,6 +3542,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "henrico-county-aerial-imagery",
+      "label": "2025",
+      "name": "Henrico County Aerial Imagery",
+      "order": 1
+    },
     "licenseUrl": "https://henrico.gov/transparency/terms-of-use/",
     "startDate": "2025",
     "tiles": [
@@ -2845,6 +3565,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "henrico-county-aerial-imagery",
+      "label": "2026",
+      "name": "Henrico County Aerial Imagery",
+      "order": 2
+    },
     "licenseUrl": "https://henrico.gov/transparency/terms-of-use/",
     "startDate": "2026",
     "tiles": [
@@ -2950,6 +3676,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "city-of-irvine-orthoimagery",
+      "label": "2023",
+      "name": "City of Irvine Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.cityofirvine.org/sites/all/themes/irvine_theme/assets/images/city-of-irvine-logo.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
@@ -2967,6 +3699,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "city-of-irvine-orthoimagery",
+      "label": "2024",
+      "name": "City of Irvine Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.cityofirvine.org/sites/all/themes/irvine_theme/assets/images/city-of-irvine-logo.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -2984,6 +3722,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "city-of-irvine-orthoimagery",
+      "label": "2025",
+      "name": "City of Irvine Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.cityofirvine.org/sites/all/themes/irvine_theme/assets/images/city-of-irvine-logo.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025",
@@ -3001,6 +3745,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "city-of-irvine-orthoimagery",
+      "label": "2026",
+      "name": "City of Irvine Orthoimagery",
+      "order": 3
+    },
     "icon": "https://www.cityofirvine.org/sites/all/themes/irvine_theme/assets/images/city-of-irvine-logo.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2026",
@@ -3018,6 +3768,12 @@
       "EPSG:3857"
     ],
     "endDate": "2014",
+    "group": {
+      "id": "kansas-ng911-orthoimagery",
+      "label": "2014",
+      "name": "Kansas NG911 Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.kansas911.org/wp-content/uploads/2022/03/10TH_Anniversary_Logo_RGB.png",
     "licenseUrl": "https://www.kansas911.org/wp-content/uploads/2020/09/KSNG911GISUserGroup_2020_Q3.pdf#page=4",
     "startDate": "2014",
@@ -3034,6 +3790,12 @@
       "EPSG:3857"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "kansas-ng911-orthoimagery",
+      "label": "2018",
+      "name": "Kansas NG911 Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.kansas911.org/wp-content/uploads/2022/03/10TH_Anniversary_Logo_RGB.png",
     "licenseUrl": "https://www.kansas911.org/wp-content/uploads/2020/09/KSNG911GISUserGroup_2020_Q3.pdf#page=4",
     "startDate": "2018",
@@ -3050,6 +3812,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "kansas-ng911-orthoimagery",
+      "label": "2021",
+      "name": "Kansas NG911 Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.kansas911.org/wp-content/uploads/2022/03/10TH_Anniversary_Logo_RGB.png",
     "licenseUrl": "https://portal.kansas911.org/portal_doc.cfm?kid=7446#page=3",
     "startDate": "2021",
@@ -3110,6 +3878,12 @@
     "attributionText": "Kendall County GIS",
     "attributionUrl": "https://geodata.kendallcountyil.gov/",
     "endDate": "2020",
+    "group": {
+      "id": "kendall-county-aerial-imagery",
+      "label": "2020",
+      "name": "Kendall County Aerial Imagery",
+      "order": 0
+    },
     "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
     "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2020-aerial.html",
     "startDate": "2020",
@@ -3123,6 +3897,12 @@
     "attributionText": "Kendall County GIS",
     "attributionUrl": "https://geodata.kendallcountyil.gov/",
     "endDate": "2022",
+    "group": {
+      "id": "kendall-county-aerial-imagery",
+      "label": "2022",
+      "name": "Kendall County Aerial Imagery",
+      "order": 1
+    },
     "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
     "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2022-aerial.html",
     "startDate": "2022",
@@ -3136,6 +3916,12 @@
     "attributionText": "Kendall County GIS",
     "attributionUrl": "https://geodata.kendallcountyil.gov/",
     "endDate": "2024",
+    "group": {
+      "id": "kendall-county-aerial-imagery",
+      "label": "2024",
+      "name": "Kendall County Aerial Imagery",
+      "order": 2
+    },
     "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
     "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2024-aerial.html",
     "startDate": "2024",
@@ -3149,6 +3935,12 @@
     "attributionText": "Kendall County GIS",
     "attributionUrl": "https://geodata.kendallcountyil.gov/",
     "endDate": "2026",
+    "group": {
+      "id": "kendall-county-aerial-imagery",
+      "label": "2026",
+      "name": "Kendall County Aerial Imagery",
+      "order": 3
+    },
     "icon": "https://discourse.kendallcountyil.gov/uploads/default/optimized/1X/212467d6d2e5387df962b45890a757609740e7d8_2_300x300.png",
     "licenseUrl": "https://geodata.kendallcountyil.gov/catalog/raster/2026-aerial.html",
     "startDate": "2026",
@@ -3162,6 +3954,12 @@
     "attributionText": "King County Geographic Information System",
     "attributionUrl": "https://kingcounty.gov/services/gis.aspx",
     "endDate": "2019",
+    "group": {
+      "id": "king-county-orthoimagery",
+      "label": "2019",
+      "name": "King County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://kingcounty.gov/img/KClogo-horiz-black-lg.gif",
     "licenseUrl": "https://kingcounty.gov/services/gis/Maps/terms-of-use.aspx",
     "startDate": "2019",
@@ -3175,6 +3973,12 @@
     "attributionText": "King County Geographic Information System",
     "attributionUrl": "https://kingcounty.gov/services/gis.aspx",
     "endDate": "2021",
+    "group": {
+      "id": "king-county-orthoimagery",
+      "label": "2021",
+      "name": "King County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://kingcounty.gov/img/KClogo-horiz-black-lg.gif",
     "licenseUrl": "https://kingcounty.gov/services/gis/Maps/terms-of-use.aspx",
     "startDate": "2021",
@@ -3188,6 +3992,12 @@
     "attributionText": "King County Geographic Information System",
     "attributionUrl": "https://kingcounty.gov/services/gis.aspx",
     "endDate": "2023",
+    "group": {
+      "id": "king-county-orthoimagery",
+      "label": "2023",
+      "name": "King County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://cds.kingcounty.gov/KClogo-black.gif",
     "licenseUrl": "https://kingcounty.gov/services/gis/Maps/terms-of-use.aspx",
     "startDate": "2023",
@@ -3201,6 +4011,12 @@
     "attributionText": "King County Geographic Information System",
     "attributionUrl": "https://kingcounty.gov/services/gis.aspx",
     "endDate": "2025",
+    "group": {
+      "id": "king-county-orthoimagery",
+      "label": "2025",
+      "name": "King County Orthoimagery",
+      "order": 3
+    },
     "icon": "https://cds.kingcounty.gov/KClogo-black.gif",
     "licenseUrl": "https://kingcounty.gov/services/gis/Maps/terms-of-use.aspx",
     "startDate": "2025",
@@ -3231,6 +4047,12 @@
     "attributionText": "KyFromAbove",
     "attributionUrl": "https://kyfromabove.ky.gov/",
     "endDate": "2022",
+    "group": {
+      "id": "kyfromabove-aerial-imagery",
+      "label": "2018-2022",
+      "name": "KyFromAbove Aerial Imagery",
+      "order": 0
+    },
     "licenseUrl": "https://kygeonet.ky.gov/kyfromabove/pdfs/KyFromAboveDistributionPolicy.pdf",
     "startDate": "2018",
     "tiles": [
@@ -3243,6 +4065,12 @@
     "attributionText": "KyFromAbove",
     "attributionUrl": "https://kyfromabove.ky.gov/",
     "endDate": "2024",
+    "group": {
+      "id": "kyfromabove-aerial-imagery",
+      "label": "2022-2024",
+      "name": "KyFromAbove Aerial Imagery",
+      "order": 1
+    },
     "licenseUrl": "https://kygeonet.ky.gov/kyfromabove/pdfs/KyFromAboveDistributionPolicy.pdf",
     "startDate": "2022",
     "tiles": [
@@ -3301,6 +4129,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021-03-08",
+    "group": {
+      "id": "lee-county-orthoimagery",
+      "label": "2021",
+      "name": "Lee County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/ccd6da9acc7143ce822661ba11ee2017/resources/Lee-County-icon.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021-01-01",
@@ -3355,6 +4189,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023-01-29",
+    "group": {
+      "id": "lee-county-orthoimagery",
+      "label": "2023",
+      "name": "Lee County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/ccd6da9acc7143ce822661ba11ee2017/resources/Lee-County-icon.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023-01-05",
@@ -3373,6 +4213,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-03-11",
+    "group": {
+      "id": "lee-county-orthoimagery",
+      "label": "2024",
+      "name": "Lee County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/ccd6da9acc7143ce822661ba11ee2017/resources/Lee-County-icon.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024-01-08",
@@ -3386,6 +4232,12 @@
     "attributionText": "Tallahassee - Leon County GIS, Leon County Property Appraiser’s Office, Leon County Board of County Commissioners",
     "attributionUrl": "https://cms.leoncountyfl.gov/Home/Departments/MIS-GIS/Tallahassee-Leon-County-GIS",
     "endDate": "2022-02",
+    "group": {
+      "id": "tallahassee-leon-county-orthoimagery-cir",
+      "label": "2022",
+      "name": "Tallahassee - Leon County Orthoimagery (CIR)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022-02",
     "tiles": [
@@ -3398,6 +4250,12 @@
     "attributionText": "Tallahassee - Leon County GIS, Leon County Property Appraiser’s Office, Leon County Board of County Commissioners",
     "attributionUrl": "https://cms.leoncountyfl.gov/Home/Departments/MIS-GIS/Tallahassee-Leon-County-GIS",
     "endDate": "2022-02",
+    "group": {
+      "id": "tallahassee-leon-county-orthoimagery-rgb",
+      "label": "2022",
+      "name": "Tallahassee - Leon County Orthoimagery (RGB)",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022-02",
     "tiles": [
@@ -3410,6 +4268,12 @@
     "attributionText": "Tallahassee - Leon County GIS, Leon County Property Appraiser’s Office, Leon County Board of County Commissioners",
     "attributionUrl": "https://cms.leoncountyfl.gov/Home/Departments/MIS-GIS/Tallahassee-Leon-County-GIS",
     "endDate": "2024-02",
+    "group": {
+      "id": "tallahassee-leon-county-orthoimagery-cir",
+      "label": "2024",
+      "name": "Tallahassee - Leon County Orthoimagery (CIR)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024-02",
     "tiles": [
@@ -3422,6 +4286,12 @@
     "attributionText": "Tallahassee - Leon County GIS, Leon County Property Appraiser’s Office, Leon County Board of County Commissioners",
     "attributionUrl": "https://cms.leoncountyfl.gov/Home/Departments/MIS-GIS/Tallahassee-Leon-County-GIS",
     "endDate": "2024-02",
+    "group": {
+      "id": "tallahassee-leon-county-orthoimagery-rgb",
+      "label": "2024",
+      "name": "Tallahassee - Leon County Orthoimagery (RGB)",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024-02",
     "tiles": [
@@ -3512,6 +4382,12 @@
       "EPSG:3857"
     ],
     "endDate": "2018-08",
+    "group": {
+      "id": "los-alamos-county-orthoimagery",
+      "label": "2018",
+      "name": "Los Alamos County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6435726/Templates/Images/logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/New_Mexico/Los_Alamos_County_Orthoimagery",
     "startDate": "2018-08",
@@ -3529,6 +4405,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-08",
+    "group": {
+      "id": "los-alamos-county-orthoimagery",
+      "label": "2022",
+      "name": "Los Alamos County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6435726/Templates/Images/logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/New_Mexico/Los_Alamos_County_Orthoimagery",
     "startDate": "2022-08",
@@ -3564,6 +4446,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021-03",
+    "group": {
+      "id": "loudoun-county-orthoimagery",
+      "label": "2021",
+      "name": "Loudoun County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2021-03",
     "tiles": [
@@ -3581,6 +4469,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-03",
+    "group": {
+      "id": "loudoun-county-orthoimagery",
+      "label": "2022",
+      "name": "Loudoun County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2022-03",
     "tiles": [
@@ -3598,6 +4492,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023-03",
+    "group": {
+      "id": "loudoun-county-orthoimagery",
+      "label": "2023",
+      "name": "Loudoun County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2023-03",
     "tiles": [
@@ -3615,6 +4515,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-03",
+    "group": {
+      "id": "loudoun-county-orthoimagery",
+      "label": "2024",
+      "name": "Loudoun County Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2024-03",
     "tiles": [
@@ -3632,6 +4538,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025-03",
+    "group": {
+      "id": "loudoun-county-orthoimagery",
+      "label": "2025",
+      "name": "Loudoun County Orthoimagery",
+      "order": 4
+    },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2025-03",
     "tiles": [
@@ -3649,6 +4561,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026-03",
+    "group": {
+      "id": "loudoun-county-orthoimagery",
+      "label": "2026",
+      "name": "Loudoun County Orthoimagery",
+      "order": 5
+    },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2026-03",
     "tiles": [
@@ -3706,6 +4624,12 @@
       "EPSG:6443"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "manatee-county-orthoimagery",
+      "label": "2021",
+      "name": "Manatee County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
     "tiles": [
@@ -3718,6 +4642,12 @@
     "attributionText": "Manatee County GIS",
     "attributionUrl": "https://www.mymanatee.org/departments/information_technology_services/geographic_information_systems",
     "endDate": "2022",
+    "group": {
+      "id": "manatee-county-orthoimagery",
+      "label": "2022",
+      "name": "Manatee County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022",
     "tiles": [
@@ -3742,6 +4672,12 @@
     "attributionText": "Manatee County GIS",
     "attributionUrl": "https://www.mymanatee.org/departments/information_technology_services/geographic_information_systems",
     "endDate": "2023-03-16",
+    "group": {
+      "id": "manatee-county-orthoimagery",
+      "label": "2023",
+      "name": "Manatee County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022-11-18",
     "tiles": [
@@ -3786,6 +4722,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-10",
+    "group": {
+      "id": "city-of-manteca-orthoimagery",
+      "label": "2024",
+      "name": "City of Manteca Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.manteca.gov/ImageRepository/Document?documentID=106",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024-10",
@@ -3803,6 +4745,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "city-of-manteca-orthoimagery",
+      "label": "2025",
+      "name": "City of Manteca Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.manteca.gov/ImageRepository/Document?documentID=106",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025",
@@ -3835,6 +4783,12 @@
       "EPSG:4326"
     ],
     "endDate": "2016",
+    "group": {
+      "id": "city-of-maple-ridge-orthoimagery--Maple-Ridge-RGB-2016",
+      "label": "2016",
+      "name": "City of Maple Ridge Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://osmfoundation.org/wiki/OGL_Canada_and_local_variants",
     "startDate": "2016",
     "tiles": [
@@ -3851,6 +4805,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "city-of-maple-ridge-orthoimagery--Maple-Ridge-RGB-2016",
+      "label": "2018",
+      "name": "City of Maple Ridge Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://osmfoundation.org/wiki/OGL_Canada_and_local_variants",
     "startDate": "2018",
     "tiles": [
@@ -3867,6 +4827,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "city-of-maple-ridge-orthoimagery--Maple-Ridge-RGB-2016",
+      "label": "2020",
+      "name": "City of Maple Ridge Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://osmfoundation.org/wiki/OGL_Canada_and_local_variants",
     "startDate": "2020",
     "tiles": [
@@ -3883,6 +4849,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "city-of-maple-ridge-orthoimagery--Maple-Ridge-RGB-2023",
+      "label": "2023",
+      "name": "City of Maple Ridge Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://osmfoundation.org/wiki/OGL_Canada_and_local_variants",
     "startDate": "2023",
     "tiles": [
@@ -3899,6 +4871,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "city-of-maple-ridge-orthoimagery--Maple-Ridge-RGB-2023",
+      "label": "2025",
+      "name": "City of Maple Ridge Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://osmfoundation.org/wiki/OGL_Canada_and_local_variants",
     "startDate": "2025",
     "tiles": [
@@ -3911,6 +4889,12 @@
     "attributionText": "Collier County Property Appraiser’s Office, City of Marco Island",
     "attributionUrl": "https://www.cityofmarcoisland.com/info-tech/page/gis-servicesmaps",
     "endDate": "2023",
+    "group": {
+      "id": "city-of-marco-island-orthoimagery",
+      "label": "2023",
+      "name": "City of Marco Island Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
@@ -3923,6 +4907,12 @@
     "attributionText": "Collier County Property Appraiser’s Office, City of Marco Island",
     "attributionUrl": "https://www.cityofmarcoisland.com/info-tech/page/gis-servicesmaps",
     "endDate": "2024",
+    "group": {
+      "id": "city-of-marco-island-orthoimagery",
+      "label": "2024",
+      "name": "City of Marco Island Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
     "tiles": [
@@ -3983,6 +4973,12 @@
       "EPSG:6438"
     ],
     "endDate": "2021-01-05",
+    "group": {
+      "id": "martin-county-orthoimagery",
+      "label": "2021",
+      "name": "Martin County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2020-12-18",
     "tiles": [
@@ -4001,6 +4997,12 @@
       "EPSG:6438"
     ],
     "endDate": "2022-01-14",
+    "group": {
+      "id": "martin-county-orthoimagery",
+      "label": "2022",
+      "name": "Martin County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022-01-14",
     "tiles": [
@@ -4019,6 +5021,12 @@
       "EPSG:6438"
     ],
     "endDate": "2023-01-06",
+    "group": {
+      "id": "martin-county-orthoimagery",
+      "label": "2023",
+      "name": "Martin County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023-01-06",
     "tiles": [
@@ -4037,6 +5045,12 @@
       "EPSG:6438"
     ],
     "endDate": "2024-03-15",
+    "group": {
+      "id": "martin-county-orthoimagery",
+      "label": "2024",
+      "name": "Martin County Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023-12-15",
     "tiles": [
@@ -4049,6 +5063,12 @@
     "attributionText": "MassGIS",
     "attributionUrl": "https://www.mass.gov/info-details/massgis-data-2021-aerial-imagery",
     "endDate": "2021-04-24",
+    "group": {
+      "id": "massgis-aerial-imagery",
+      "label": "2021",
+      "name": "MassGIS Aerial Imagery",
+      "order": 0
+    },
     "icon": "https://www.mass.gov/files/styles/organization_logo/public/2017-05/massgis_logo_401x300.png",
     "licenseUrl": "https://www.mass.gov/service-details/massgis-frequently-asked-questions",
     "startDate": "2021-03-17",
@@ -4062,6 +5082,12 @@
     "attributionText": "MassGIS",
     "attributionUrl": "https://www.mass.gov/info-details/massgis-data-2023-aerial-imagery",
     "endDate": "2023-04-28",
+    "group": {
+      "id": "massgis-aerial-imagery",
+      "label": "2023",
+      "name": "MassGIS Aerial Imagery",
+      "order": 1
+    },
     "icon": "https://www.mass.gov/files/styles/organization_logo/public/2017-05/massgis_logo_401x300.png",
     "licenseUrl": "https://www.mass.gov/service-details/massgis-frequently-asked-questions",
     "startDate": "2023-03-20",
@@ -4075,6 +5101,12 @@
     "attributionText": "MassGIS",
     "attributionUrl": "https://www.mass.gov/info-details/massgis-data-2025-aerial-imagery",
     "endDate": "2025-04-23",
+    "group": {
+      "id": "massgis-aerial-imagery",
+      "label": "2025",
+      "name": "MassGIS Aerial Imagery",
+      "order": 2
+    },
     "icon": "https://www.mass.gov/files/styles/organization_logo/public/2017-05/massgis_logo_401x300.png",
     "licenseUrl": "https://www.mass.gov/info-details/massgis-frequently-asked-questions",
     "startDate": "2025-03-18",
@@ -4191,6 +5223,12 @@
       "EPSG:3742"
     ],
     "endDate": "2015",
+    "group": {
+      "id": "mesa-county-gis-naip",
+      "label": "2015",
+      "name": "Mesa County GIS NAIP",
+      "order": 0
+    },
     "icon": "https://gis.mesacounty.us/globalassets/images/county-logos/mesa-county-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/co/Mesa_County_Data.pdf",
     "startDate": "2015",
@@ -4207,6 +5245,12 @@
       "EPSG:3742"
     ],
     "endDate": "2017-10-24",
+    "group": {
+      "id": "mesa-county-gis-naip",
+      "label": "2017",
+      "name": "Mesa County GIS NAIP",
+      "order": 1
+    },
     "icon": "https://gis.mesacounty.us/globalassets/images/county-logos/mesa-county-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/co/Mesa_County_Data.pdf",
     "startDate": "2017-08-26",
@@ -4223,6 +5267,12 @@
       "EPSG:3742"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "mesa-county-gis-naip",
+      "label": "2019",
+      "name": "Mesa County GIS NAIP",
+      "order": 2
+    },
     "icon": "https://gis.mesacounty.us/globalassets/images/county-logos/mesa-county-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/co/Mesa_County_Data.pdf",
     "startDate": "2019",
@@ -4239,6 +5289,12 @@
       "EPSG:3742"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "mesa-county-gis-valleywide",
+      "label": "2018",
+      "name": "Mesa County GIS Valleywide",
+      "order": 0
+    },
     "icon": "https://gis.mesacounty.us/globalassets/images/county-logos/mesa-county-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/co/Mesa_County_Data.pdf",
     "startDate": "2018",
@@ -4255,6 +5311,12 @@
       "EPSG:3742"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "mesa-county-gis-valleywide",
+      "label": "2020",
+      "name": "Mesa County GIS Valleywide",
+      "order": 1
+    },
     "icon": "https://gis.mesacounty.us/globalassets/images/county-logos/mesa-county-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/co/Mesa_County_Data.pdf",
     "startDate": "2020",
@@ -4274,6 +5336,12 @@
       "EPSG:4326"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "mesa-county-gis-valleywide",
+      "label": "2022",
+      "name": "Mesa County GIS Valleywide",
+      "order": 2
+    },
     "icon": "https://gis.mesacounty.us/globalassets/images/county-logos/mesa-county-logo.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/co/Mesa_County_Data.pdf",
     "startDate": "2022",
@@ -4356,6 +5424,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021-03-04",
+    "group": {
+      "id": "mecklenburg-county-orthoimagery",
+      "label": "2021",
+      "name": "Mecklenburg County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
     "startDate": "2021-01-30",
@@ -4373,6 +5447,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-02-28",
+    "group": {
+      "id": "mecklenburg-county-orthoimagery",
+      "label": "2022",
+      "name": "Mecklenburg County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
     "startDate": "2022-01-04",
@@ -4390,6 +5470,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023-01-20",
+    "group": {
+      "id": "mecklenburg-county-orthoimagery",
+      "label": "2023",
+      "name": "Mecklenburg County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
     "startDate": "2023-01-09",
@@ -4407,6 +5493,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-01-02",
+    "group": {
+      "id": "mecklenburg-county-orthoimagery",
+      "label": "2024",
+      "name": "Mecklenburg County Orthoimagery",
+      "order": 3
+    },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
     "startDate": "2023-12-31",
@@ -4424,6 +5516,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025-01-20",
+    "group": {
+      "id": "mecklenburg-county-orthoimagery",
+      "label": "2025",
+      "name": "Mecklenburg County Orthoimagery",
+      "order": 4
+    },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
     "startDate": "2024-12-26",
@@ -4498,6 +5596,12 @@
       "EPSG:6438"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "miami-dade-county-orthoimagery",
+      "label": "2021",
+      "name": "Miami-Dade County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.miamidade.gov/resources/global/images/md-logo-color.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
@@ -4517,6 +5621,12 @@
       "EPSG:6438"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "miami-dade-county-orthoimagery",
+      "label": "2026",
+      "name": "Miami-Dade County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.miamidade.gov/resources/global/images/md-logo-color.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2026",
@@ -4565,6 +5675,12 @@
     "attributionText": "Municipality of Anchorage GIS",
     "attributionUrl": "https://moa-muniorg.hub.arcgis.com/",
     "endDate": "2021-06",
+    "group": {
+      "id": "moa-aerial-imagery",
+      "label": "2021",
+      "name": "MOA Aerial Imagery",
+      "order": 0
+    },
     "icon": "https://cdn.ancgis.com/documents/logos/MOA.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/ak/MOA.pdf",
     "startDate": "2021-06",
@@ -4578,6 +5694,12 @@
     "attributionText": "Municipality of Anchorage GIS",
     "attributionUrl": "https://moa-muniorg.hub.arcgis.com/",
     "endDate": "2024",
+    "group": {
+      "id": "moa-aerial-imagery",
+      "label": "2024",
+      "name": "MOA Aerial Imagery",
+      "order": 1
+    },
     "icon": "https://cdn.ancgis.com/documents/logos/MOA.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/ak/MOA.pdf",
     "startDate": "2024",
@@ -4595,6 +5717,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "city-of-modesto-orthoimagery",
+      "label": "2023",
+      "name": "City of Modesto Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.modestogov.com/ImageRepository/Document?documentID=15610",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
@@ -4612,6 +5740,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "city-of-modesto-orthoimagery",
+      "label": "2024",
+      "name": "City of Modesto Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.modestogov.com/ImageRepository/Document?documentID=15610",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -4629,6 +5763,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "city-of-modesto-orthoimagery",
+      "label": "2025",
+      "name": "City of Modesto Orthoimagery",
+      "order": 2
+    },
     "icon": "https://www.modestogov.com/ImageRepository/Document?documentID=15610",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025",
@@ -4646,6 +5786,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "city-of-modesto-orthoimagery",
+      "label": "2026",
+      "name": "City of Modesto Orthoimagery",
+      "order": 3
+    },
     "icon": "https://www.modestogov.com/ImageRepository/Document?documentID=15610",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2026",
@@ -4665,6 +5811,12 @@
       "EPSG:26853"
     ],
     "endDate": "2022-03",
+    "group": {
+      "id": "monongalia-county-aerial-imagery",
+      "label": "2022",
+      "name": "Monongalia County Aerial Imagery",
+      "order": 0
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=139419f0738246bb8b9afcfb08bbe46c",
     "startDate": "2022-03",
@@ -4684,6 +5836,12 @@
       "EPSG:26853"
     ],
     "endDate": "2023-03",
+    "group": {
+      "id": "monongalia-county-aerial-imagery",
+      "label": "2023",
+      "name": "Monongalia County Aerial Imagery",
+      "order": 1
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=e6a94894347742eea621a34a6db65263",
     "startDate": "2023-03",
@@ -4703,6 +5861,12 @@
       "EPSG:26853"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "monongalia-county-aerial-imagery",
+      "label": "2024",
+      "name": "Monongalia County Aerial Imagery",
+      "order": 2
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=766a378e4a0e4bd5927c8f5e44dde20e",
     "startDate": "2024",
@@ -4722,6 +5886,12 @@
       "EPSG:26853"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "monongalia-county-aerial-imagery",
+      "label": "2025",
+      "name": "Monongalia County Aerial Imagery",
+      "order": 3
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=95406db15a0b4ff6b9bf11dbfdf128c4",
     "startDate": "2025",
@@ -4741,6 +5911,12 @@
       "EPSG:26853"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "monongalia-county-aerial-imagery",
+      "label": "2026",
+      "name": "Monongalia County Aerial Imagery",
+      "order": 4
+    },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=42c57728fc30477088734bf4797b7d34",
     "startDate": "2026",
@@ -4758,6 +5934,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "monroe-county-orthoimagery",
+      "label": "2023",
+      "name": "Monroe County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.arcgis.com/sharing/rest/community/groups/8587bed3e2fc4ea9be860a1b9e6d7f30/info/MC_Seal_65x65.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
@@ -4775,6 +5957,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "monroe-county-orthoimagery",
+      "label": "2024",
+      "name": "Monroe County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.arcgis.com/sharing/rest/community/groups/8587bed3e2fc4ea9be860a1b9e6d7f30/info/MC_Seal_65x65.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
@@ -4858,6 +6046,12 @@
       "EPSG:3857"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "msb-aerial-imagery-area-2",
+      "label": "2020",
+      "name": "MSB Aerial Imagery - Area 2",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Alaska/Matanuska-Susitna_Borough/MSB_Aerial_Imagery",
     "startDate": "2020",
     "tiles": [
@@ -4890,6 +6084,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "msb-aerial-imagery-core-area",
+      "label": "2022",
+      "name": "MSB Aerial Imagery - Core Area",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Alaska/Matanuska-Susitna_Borough/MSB_Aerial_Imagery",
     "startDate": "2022",
     "tiles": [
@@ -4906,6 +6106,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "msb-aerial-imagery-area-2",
+      "label": "2023",
+      "name": "MSB Aerial Imagery - Area 2",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Alaska/Matanuska-Susitna_Borough/MSB_Aerial_Imagery",
     "startDate": "2023",
     "tiles": [
@@ -4922,6 +6128,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "msb-aerial-imagery-core-area",
+      "label": "2025",
+      "name": "MSB Aerial Imagery - Core Area",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Alaska/Matanuska-Susitna_Borough/MSB_Aerial_Imagery",
     "startDate": "2025",
     "tiles": [
@@ -5115,6 +6327,12 @@
     "attributionText": "NOAA National Geodetic Survey",
     "attributionUrl": "https://www.ngs.noaa.gov/",
     "endDate": "2023",
+    "group": {
+      "id": "noaa-ngs-east-coast-imagery",
+      "label": "2023",
+      "name": "NOAA NGS East Coast Imagery",
+      "order": 0
+    },
     "icon": "https://www.noaa.gov/themes/custom/noaa_guswds/images/noaa_digital_logo.svg",
     "licenseUrl": "https://www.ngs.noaa.gov/disclaimer.html",
     "startDate": "2023",
@@ -5128,6 +6346,12 @@
     "attributionText": "NOAA National Geodetic Survey",
     "attributionUrl": "https://www.ngs.noaa.gov/",
     "endDate": "2024",
+    "group": {
+      "id": "noaa-ngs-east-coast-imagery",
+      "label": "2024",
+      "name": "NOAA NGS East Coast Imagery",
+      "order": 1
+    },
     "icon": "https://www.noaa.gov/themes/custom/noaa_guswds/images/noaa_digital_logo.svg",
     "licenseUrl": "https://www.ngs.noaa.gov/disclaimer.html",
     "startDate": "2024",
@@ -5434,6 +6658,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-06-10",
+    "group": {
+      "id": "nrcs-american-samoa-imagery",
+      "label": "2022",
+      "name": "NRCS American Samoa Imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2018-04-07",
@@ -5452,6 +6682,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-07-18",
+    "group": {
+      "id": "nrcs-american-samoa-imagery",
+      "label": "2024",
+      "name": "NRCS American Samoa Imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2019-06-07",
@@ -5470,6 +6706,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-06-03",
+    "group": {
+      "id": "nrcs-northern-mariana-islands-imagery",
+      "label": "2022",
+      "name": "NRCS Northern Mariana Islands Imagery",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2012-03-12",
@@ -5488,6 +6730,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-08-08",
+    "group": {
+      "id": "nrcs-northern-mariana-islands-imagery",
+      "label": "2024",
+      "name": "NRCS Northern Mariana Islands Imagery",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2019-12-26",
@@ -5631,6 +6879,12 @@
       "EPSG:3857"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "oakland-county-orthoimagery",
+      "label": "2020",
+      "name": "Oakland County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://oaklandcountyblog.com/wp-content/uploads/2014/10/oakland-county-2_trees-logo.png",
     "licenseUrl": "https://www.oakgov.com/government/open-data-agreement",
     "startDate": "2020",
@@ -5648,6 +6902,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "oakland-county-orthoimagery",
+      "label": "2023",
+      "name": "Oakland County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://oaklandcountyblog.com/wp-content/uploads/2014/10/oakland-county-2_trees-logo.png",
     "licenseUrl": "https://www.oakgov.com/government/open-data-agreement",
     "startDate": "2023",
@@ -5665,6 +6925,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "oakland-county-orthoimagery",
+      "label": "2025",
+      "name": "Oakland County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://oaklandcountyblog.com/wp-content/uploads/2014/10/oakland-county-2_trees-logo.png",
     "licenseUrl": "https://www.oakgov.com/government/open-data-agreement",
     "startDate": "2025",
@@ -5690,6 +6956,12 @@
     "attributionText": "Okaloosa County, FL GIS",
     "attributionUrl": "https://myokaloosa.com/gis_homepage",
     "endDate": "2019",
+    "group": {
+      "id": "okaloosa-county-orthoimagery",
+      "label": "2019",
+      "name": "Okaloosa County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2013",
     "tiles": [
@@ -5706,6 +6978,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "okaloosa-county-orthoimagery",
+      "label": "2022",
+      "name": "Okaloosa County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2013",
     "tiles": [
@@ -5801,6 +7079,12 @@
     "attributionText": "State of Oregon",
     "attributionUrl": "https://geohub.oregon.gov/",
     "endDate": "2022-09",
+    "group": {
+      "id": "oregon-statewide-imagery-program",
+      "label": "2022",
+      "name": "Oregon Statewide Imagery Program",
+      "order": 0
+    },
     "icon": "https://www.oregon.gov/assets/branding/logo.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2022-05",
@@ -5819,6 +7103,12 @@
       "EPSG:4326"
     ],
     "endDate": "2024-08",
+    "group": {
+      "id": "oregon-statewide-imagery-program",
+      "label": "2024",
+      "name": "Oregon Statewide Imagery Program",
+      "order": 1
+    },
     "icon": "https://www.oregon.gov/assets/branding/logo.png",
     "licenseUrl": "https://www.usda.gov/policies-and-links/",
     "startDate": "2024-06",
@@ -5847,6 +7137,12 @@
     "attributionText": "Osceola County, FL",
     "attributionUrl": "https://www.osceola.org/",
     "endDate": "2025-02-10",
+    "group": {
+      "id": "osceola-county-orthoimagery",
+      "label": "2025",
+      "name": "Osceola County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.osceola.org/core/fileparse.php/2731/urlt/logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024-12-15",
@@ -5860,6 +7156,12 @@
     "attributionText": "Osceola County, FL",
     "attributionUrl": "https://www.osceola.org/",
     "endDate": "2026-01-07",
+    "group": {
+      "id": "osceola-county-orthoimagery",
+      "label": "2026",
+      "name": "Osceola County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.osceola.org/core/fileparse.php/2731/urlt/logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025-12-22",
@@ -6073,6 +7375,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "pagis-orthophotography",
+      "label": "2018",
+      "name": "PAgis Orthophotography",
+      "order": 0
+    },
     "icon": "http://www.pagis.org/wp-content/uploads/2019/10/Home2.gif",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Arkansas/PAgis",
     "startDate": "2018",
@@ -6091,6 +7399,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "pagis-orthophotography",
+      "label": "2021",
+      "name": "PAgis Orthophotography",
+      "order": 1
+    },
     "icon": "http://www.pagis.org/wp-content/uploads/2019/10/Home2.gif",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Arkansas/PAgis",
     "startDate": "2021",
@@ -6108,6 +7422,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021-02-02",
+    "group": {
+      "id": "palm-beach-county-orthoimagery",
+      "label": "2021",
+      "name": "Palm Beach County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021-01-05",
     "tiles": [
@@ -6124,6 +7444,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-01-29",
+    "group": {
+      "id": "palm-beach-county-orthoimagery",
+      "label": "2022",
+      "name": "Palm Beach County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022-01-14",
     "tiles": [
@@ -6136,6 +7462,12 @@
     "attributionText": "Palm Beach County",
     "attributionUrl": "http://maps.co.palm-beach.fl.us/cwgis/mygeonav.html",
     "endDate": "2023",
+    "group": {
+      "id": "palm-beach-county-orthoimagery",
+      "label": "2023",
+      "name": "Palm Beach County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
@@ -6151,6 +7483,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "palm-beach-county-orthoimagery",
+      "label": "2024",
+      "name": "Palm Beach County Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
     "tiles": [
@@ -6166,6 +7504,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "palm-beach-county-orthoimagery",
+      "label": "2025",
+      "name": "Palm Beach County Orthoimagery",
+      "order": 4
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
     "tiles": [
@@ -6181,6 +7525,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "palm-beach-county-orthoimagery",
+      "label": "2026",
+      "name": "Palm Beach County Orthoimagery",
+      "order": 5
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2026",
     "tiles": [
@@ -6293,6 +7643,12 @@
     "attributionText": "City of Philadelphia",
     "attributionUrl": "https://www.opendataphilly.org/dataset/aerial-photography",
     "endDate": "2024",
+    "group": {
+      "id": "philadelphia-orthoimagery-3in",
+      "label": "2024",
+      "name": "Philadelphia Orthoimagery (3in)",
+      "order": 0
+    },
     "licenseUrl": "https://opendataphilly.org/organizations/city-of-philadelphia/",
     "startDate": "2024",
     "tiles": [
@@ -6305,6 +7661,12 @@
     "attributionText": "City of Philadelphia",
     "attributionUrl": "https://www.opendataphilly.org/dataset/aerial-photography",
     "endDate": "2025",
+    "group": {
+      "id": "philadelphia-orthoimagery-3in",
+      "label": "2025",
+      "name": "Philadelphia Orthoimagery (3in)",
+      "order": 1
+    },
     "licenseUrl": "https://opendataphilly.org/organizations/city-of-philadelphia/",
     "startDate": "2025",
     "tiles": [
@@ -6317,6 +7679,12 @@
     "attributionText": "Pinellas County",
     "attributionUrl": "https://new-pinellas-egis.opendata.arcgis.com/",
     "endDate": "2023",
+    "group": {
+      "id": "pinellas-county-orthoimagery",
+      "label": "2023",
+      "name": "Pinellas County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://pinellas.gov/wp-content/uploads/2020/10/cropped-favicon@4x-192x192.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
@@ -6330,6 +7698,12 @@
     "attributionText": "Pinellas County",
     "attributionUrl": "https://new-pinellas-egis.opendata.arcgis.com/",
     "endDate": "2024",
+    "group": {
+      "id": "pinellas-county-orthoimagery",
+      "label": "2024",
+      "name": "Pinellas County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://pinellas.gov/wp-content/uploads/2020/10/cropped-favicon@4x-192x192.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
@@ -6343,6 +7717,12 @@
     "attributionText": "Pinellas County",
     "attributionUrl": "https://new-pinellas-egis.opendata.arcgis.com/",
     "endDate": "2025",
+    "group": {
+      "id": "pinellas-county-orthoimagery",
+      "label": "2025",
+      "name": "Pinellas County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://pinellas.gov/wp-content/uploads/2020/10/cropped-favicon@4x-192x192.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
@@ -6468,6 +7848,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021-11-03",
+    "group": {
+      "id": "rhode-island-aerial-photo",
+      "label": "Fall 2021",
+      "name": "Rhode Island Aerial Photo",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2021-08-13",
     "tiles": [
@@ -6485,6 +7871,12 @@
       "EPSG:4326"
     ],
     "endDate": "2022-04-23",
+    "group": {
+      "id": "rhode-island-aerial-photo",
+      "label": "Spring 2022",
+      "name": "Rhode Island Aerial Photo",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2022-04-02",
     "tiles": [
@@ -6502,6 +7894,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023-03",
+    "group": {
+      "id": "rhode-island-aerial-photo",
+      "label": "Spring 2023",
+      "name": "Rhode Island Aerial Photo",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2023-03",
     "tiles": [
@@ -6519,6 +7917,12 @@
       "EPSG:4326"
     ],
     "endDate": "2024-03",
+    "group": {
+      "id": "rhode-island-aerial-photo",
+      "label": "Spring 2024",
+      "name": "Rhode Island Aerial Photo",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2024-03",
     "tiles": [
@@ -6536,6 +7940,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025-04",
+    "group": {
+      "id": "rhode-island-aerial-photo",
+      "label": "Spring 2025",
+      "name": "Rhode Island Aerial Photo",
+      "order": 4
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2025-04",
     "tiles": [
@@ -6553,6 +7963,12 @@
       "EPSG:4326"
     ],
     "endDate": "2026-03",
+    "group": {
+      "id": "rhode-island-aerial-photo",
+      "label": "Spring 2026",
+      "name": "Rhode Island Aerial Photo",
+      "order": 5
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2026-03",
     "tiles": [
@@ -6569,6 +7985,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "city-of-roseville-orthoimagery",
+      "label": "2023",
+      "name": "City of Roseville Orthoimagery",
+      "order": 0
+    },
     "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_7964838/Image/Roseville-230.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
@@ -6586,6 +8008,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "city-of-roseville-orthoimagery",
+      "label": "2024",
+      "name": "City of Roseville Orthoimagery",
+      "order": 1
+    },
     "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_7964838/Image/Roseville-230.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -6603,6 +8031,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "city-of-roseville-orthoimagery",
+      "label": "2025",
+      "name": "City of Roseville Orthoimagery",
+      "order": 2
+    },
     "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_7964838/Image/Roseville-230.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025",
@@ -6620,6 +8054,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "city-of-roseville-orthoimagery",
+      "label": "2026",
+      "name": "City of Roseville Orthoimagery",
+      "order": 3
+    },
     "icon": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_7964838/Image/Roseville-230.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2026",
@@ -6656,6 +8096,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2021",
+    "group": {
+      "id": "saint-johns-county-natural-color-orthoimagery",
+      "label": "2021",
+      "name": "Saint Johns County Natural Color Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
     "tiles": [
@@ -6668,6 +8114,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2024",
+    "group": {
+      "id": "saint-johns-county-natural-color-orthoimagery",
+      "label": "2024",
+      "name": "Saint Johns County Natural Color Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
     "tiles": [
@@ -6680,6 +8132,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2025",
+    "group": {
+      "id": "saint-johns-county-natural-color-orthoimagery",
+      "label": "2025",
+      "name": "Saint Johns County Natural Color Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
     "tiles": [
@@ -6692,6 +8150,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2026",
+    "group": {
+      "id": "saint-johns-county-natural-color-orthoimagery",
+      "label": "2026",
+      "name": "Saint Johns County Natural Color Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2026",
     "tiles": [
@@ -6704,6 +8168,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2021",
+    "group": {
+      "id": "saint-johns-county-infrared-orthoimagery",
+      "label": "2021",
+      "name": "Saint Johns County Infrared Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
     "tiles": [
@@ -6716,6 +8186,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2024",
+    "group": {
+      "id": "saint-johns-county-infrared-orthoimagery",
+      "label": "2024",
+      "name": "Saint Johns County Infrared Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
     "tiles": [
@@ -6728,6 +8204,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2025",
+    "group": {
+      "id": "saint-johns-county-infrared-orthoimagery",
+      "label": "2025",
+      "name": "Saint Johns County Infrared Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
     "tiles": [
@@ -6740,6 +8222,12 @@
     "attributionText": "Saint Johns County GIS",
     "attributionUrl": "https://www.sjcfl.us/GIS/index.aspx",
     "endDate": "2026",
+    "group": {
+      "id": "saint-johns-county-infrared-orthoimagery",
+      "label": "2026",
+      "name": "Saint Johns County Infrared Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2026",
     "tiles": [
@@ -6752,6 +8240,12 @@
     "attributionText": "Saint Lucie County Property Appraiser’s Office",
     "attributionUrl": "https://www.paslc.gov/",
     "endDate": "2021",
+    "group": {
+      "id": "saint-lucie-county-orthoimagery",
+      "label": "2021",
+      "name": "Saint Lucie County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
     "tiles": [
@@ -6764,6 +8258,12 @@
     "attributionText": "Saint Lucie County Property Appraiser’s Office",
     "attributionUrl": "https://www.paslc.gov/",
     "endDate": "2023",
+    "group": {
+      "id": "saint-lucie-county-orthoimagery",
+      "label": "2023",
+      "name": "Saint Lucie County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
@@ -6776,6 +8276,12 @@
     "attributionText": "Saint Lucie County Property Appraiser’s Office",
     "attributionUrl": "https://www.paslc.gov/",
     "endDate": "2024",
+    "group": {
+      "id": "saint-lucie-county-orthoimagery",
+      "label": "2024",
+      "name": "Saint Lucie County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
     "tiles": [
@@ -6788,6 +8294,12 @@
     "attributionText": "Saint Lucie County Property Appraiser’s Office",
     "attributionUrl": "https://www.paslc.gov/",
     "endDate": "2026",
+    "group": {
+      "id": "saint-lucie-county-orthoimagery",
+      "label": "2026",
+      "name": "Saint Lucie County Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2026",
     "tiles": [
@@ -6804,6 +8316,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "san-bernardino-county-orthoimagery",
+      "label": "2023",
+      "name": "San Bernardino County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
@@ -6821,6 +8339,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "san-bernardino-county-orthoimagery",
+      "label": "2024",
+      "name": "San Bernardino County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -6838,6 +8362,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "san-bernardino-county-orthoimagery",
+      "label": "2025",
+      "name": "San Bernardino County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025",
@@ -6855,6 +8385,12 @@
       "EPSG:3857"
     ],
     "endDate": "2026",
+    "group": {
+      "id": "san-bernardino-county-orthoimagery",
+      "label": "2026",
+      "name": "San Bernardino County Orthoimagery",
+      "order": 3
+    },
     "icon": "https://main.sbcounty.gov/wp-content/uploads/sites/80/OpenData/SBC-pw-logo.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2026",
@@ -6868,6 +8404,12 @@
     "attributionText": "City and County of San Francisco",
     "attributionUrl": "https://www.sf.gov/",
     "endDate": "2022",
+    "group": {
+      "id": "san-francisco-orthoimagery",
+      "label": "2022",
+      "name": "San Francisco Orthoimagery",
+      "order": 0
+    },
     "icon": "https://media.api.sf.gov/original_images/Lockup_CCSF_Black.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2022",
@@ -6881,6 +8423,12 @@
     "attributionText": "City and County of San Francisco",
     "attributionUrl": "https://www.sf.gov/",
     "endDate": "2022",
+    "group": {
+      "id": "san-francisco-orthoimagery-cir",
+      "label": "2022",
+      "name": "San Francisco Orthoimagery CIR",
+      "order": 0
+    },
     "icon": "https://media.api.sf.gov/original_images/Lockup_CCSF_Black.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2022",
@@ -6894,6 +8442,12 @@
     "attributionText": "City and County of San Francisco",
     "attributionUrl": "https://www.sf.gov/",
     "endDate": "2023",
+    "group": {
+      "id": "san-francisco-orthoimagery",
+      "label": "2023",
+      "name": "San Francisco Orthoimagery",
+      "order": 1
+    },
     "icon": "https://media.api.sf.gov/original_images/Lockup_CCSF_Black.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
@@ -6907,6 +8461,12 @@
     "attributionText": "City and County of San Francisco",
     "attributionUrl": "https://www.sf.gov/",
     "endDate": "2023",
+    "group": {
+      "id": "san-francisco-orthoimagery-cir",
+      "label": "2023",
+      "name": "San Francisco Orthoimagery CIR",
+      "order": 1
+    },
     "icon": "https://media.api.sf.gov/original_images/Lockup_CCSF_Black.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
@@ -6920,6 +8480,12 @@
     "attributionText": "City and County of San Francisco",
     "attributionUrl": "https://www.sf.gov/",
     "endDate": "2024",
+    "group": {
+      "id": "san-francisco-orthoimagery",
+      "label": "2024",
+      "name": "San Francisco Orthoimagery",
+      "order": 2
+    },
     "icon": "https://media.api.sf.gov/original_images/Lockup_CCSF_Black.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -6933,6 +8499,12 @@
     "attributionText": "City and County of San Francisco",
     "attributionUrl": "https://www.sf.gov/",
     "endDate": "2024",
+    "group": {
+      "id": "san-francisco-orthoimagery-cir",
+      "label": "2024",
+      "name": "San Francisco Orthoimagery CIR",
+      "order": 2
+    },
     "icon": "https://media.api.sf.gov/original_images/Lockup_CCSF_Black.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -6946,6 +8518,12 @@
     "attributionText": "City and County of San Francisco",
     "attributionUrl": "https://www.sf.gov/",
     "endDate": "2025",
+    "group": {
+      "id": "san-francisco-orthoimagery",
+      "label": "2025",
+      "name": "San Francisco Orthoimagery",
+      "order": 3
+    },
     "icon": "https://media.api.sf.gov/original_images/Lockup_CCSF_Black.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025",
@@ -7057,6 +8635,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020-01-11",
+    "group": {
+      "id": "sandag-aerial-imagery",
+      "label": "2020",
+      "name": "SANDAG Aerial Imagery",
+      "order": 0
+    },
     "icon": "https://gis.sandag.org/images/sandag_sangis_combo_logo.png",
     "licenseUrl": "https://gis.sandag.org/sdgis/rest/services/Imagery/SD2020/ImageServer/info/metadata",
     "startDate": "2019-12-22",
@@ -7076,6 +8660,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "sandag-aerial-imagery",
+      "label": "2023",
+      "name": "SANDAG Aerial Imagery",
+      "order": 1
+    },
     "icon": "https://gis.sandag.org/images/sandag_sangis_combo_logo.png",
     "licenseUrl": "https://gis.sandag.org/sdgis/rest/services/Imagery/SD2023_9inch/ImageServer/info/metadata",
     "startDate": "2023",
@@ -7093,6 +8683,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-03-11",
+    "group": {
+      "id": "santa-clara-county-orthoimagery--Santa_Clara_County_22w",
+      "label": "Winter 2022",
+      "name": "Santa Clara County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://files.santaclaracounty.gov/2023-07/county-seal-black_0.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2021-11-22",
@@ -7110,6 +8706,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023-04-25",
+    "group": {
+      "id": "santa-clara-county-orthoimagery--Santa_Clara_County_23s",
+      "label": "Spring 2023",
+      "name": "Santa Clara County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://files.santaclaracounty.gov/2023-07/county-seal-black_0.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023-02-20",
@@ -7127,6 +8729,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-03-14",
+    "group": {
+      "id": "santa-clara-county-orthoimagery--Santa_Clara_County_23s",
+      "label": "Spring 2024",
+      "name": "Santa Clara County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://files.santaclaracounty.gov/2023-07/county-seal-black_0.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024-03-08",
@@ -7144,6 +8752,12 @@
       "EPSG:3857"
     ],
     "endDate": "2024-01-07",
+    "group": {
+      "id": "santa-clara-county-orthoimagery--Santa_Clara_County_22w",
+      "label": "Winter 2024",
+      "name": "Santa Clara County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://files.santaclaracounty.gov/2023-07/county-seal-black_0.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023-11-20",
@@ -7161,6 +8775,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025-01-28",
+    "group": {
+      "id": "santa-clara-county-orthoimagery--Santa_Clara_County_22w",
+      "label": "Winter 2025",
+      "name": "Santa Clara County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://files.santaclaracounty.gov/2023-07/county-seal-black_0.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024-11-21",
@@ -7178,6 +8798,12 @@
       "EPSG:3857"
     ],
     "endDate": "2022-09",
+    "group": {
+      "id": "city-of-santa-rosa-orthoimagery",
+      "label": "2022",
+      "name": "City of Santa Rosa Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.srcity.org/ImageRepository/Document?documentID=32",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2022-09",
@@ -7195,6 +8821,12 @@
       "EPSG:3857"
     ],
     "endDate": "2025-04",
+    "group": {
+      "id": "city-of-santa-rosa-orthoimagery",
+      "label": "2025",
+      "name": "City of Santa Rosa Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.srcity.org/ImageRepository/Document?documentID=32",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025-04",
@@ -7208,6 +8840,12 @@
     "attributionText": "Santa Rosa County",
     "attributionUrl": "https://santarosa.fl.gov/",
     "endDate": "2022",
+    "group": {
+      "id": "santa-rosa-county-orthoimagery",
+      "label": "2022",
+      "name": "Santa Rosa County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2022",
     "tiles": [
@@ -7220,6 +8858,12 @@
     "attributionText": "Santa Rosa County",
     "attributionUrl": "https://santarosa.fl.gov/",
     "endDate": "2025",
+    "group": {
+      "id": "santa-rosa-county-orthoimagery",
+      "label": "2025",
+      "name": "Santa Rosa County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
     "tiles": [
@@ -7232,6 +8876,12 @@
     "attributionText": "Sarasota County GIS",
     "attributionUrl": "https://data-sarco.opendata.arcgis.com/",
     "endDate": "2025-01-03",
+    "group": {
+      "id": "sarasota-county-orthoimagery",
+      "label": "2025",
+      "name": "Sarasota County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024-12-06",
     "tiles": [
@@ -7244,6 +8894,12 @@
     "attributionText": "Sarasota County GIS",
     "attributionUrl": "https://data-sarco.opendata.arcgis.com/",
     "endDate": "2026-01-03",
+    "group": {
+      "id": "sarasota-county-orthoimagery",
+      "label": "2026",
+      "name": "Sarasota County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025-12-06",
     "tiles": [
@@ -7269,6 +8925,12 @@
     "attributionText": "Seminole County GIS",
     "attributionUrl": "https://maps2.scpafl.org/SCPAExternal/",
     "endDate": "2021",
+    "group": {
+      "id": "seminole-county-orthoimagery",
+      "label": "2021",
+      "name": "Seminole County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
     "tiles": [
@@ -7281,6 +8943,12 @@
     "attributionText": "Seminole County GIS",
     "attributionUrl": "https://maps2.scpafl.org/SCPAExternal/",
     "endDate": "2023",
+    "group": {
+      "id": "seminole-county-orthoimagery",
+      "label": "2023",
+      "name": "Seminole County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023",
     "tiles": [
@@ -7293,6 +8961,12 @@
     "attributionText": "Seminole County GIS",
     "attributionUrl": "https://maps2.scpafl.org/SCPAExternal/",
     "endDate": "2024",
+    "group": {
+      "id": "seminole-county-orthoimagery",
+      "label": "2024",
+      "name": "Seminole County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024",
     "tiles": [
@@ -7305,6 +8979,12 @@
     "attributionText": "Seminole County GIS",
     "attributionUrl": "https://maps2.scpafl.org/SCPAExternal/",
     "endDate": "2025",
+    "group": {
+      "id": "seminole-county-orthoimagery",
+      "label": "2025",
+      "name": "Seminole County Orthoimagery",
+      "order": 3
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2025",
     "tiles": [
@@ -7353,6 +9033,12 @@
       "EPSG:2285"
     ],
     "endDate": "2020-07-13",
+    "group": {
+      "id": "snohomish-county-orthoimagery",
+      "label": "2020",
+      "name": "Snohomish County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Seal_of_Snohomish_County%2C_Washington.svg/320px-Seal_of_Snohomish_County%2C_Washington.svg.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/wa/Snohomish.pdf",
     "startDate": "2020-04-13",
@@ -7371,6 +9057,12 @@
       "EPSG:2285"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "snohomish-county-orthoimagery",
+      "label": "2022",
+      "name": "Snohomish County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Seal_of_Snohomish_County%2C_Washington.svg/320px-Seal_of_Snohomish_County%2C_Washington.svg.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/wa/Snohomish.pdf",
     "startDate": "2022",
@@ -7389,6 +9081,12 @@
       "EPSG:2285"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "snohomish-county-orthoimagery",
+      "label": "2024",
+      "name": "Snohomish County Orthoimagery",
+      "order": 2
+    },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Seal_of_Snohomish_County%2C_Washington.svg/320px-Seal_of_Snohomish_County%2C_Washington.svg.png",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/wa/Snohomish.pdf",
     "startDate": "2024",
@@ -7402,6 +9100,12 @@
     "attributionText": "Solano County",
     "attributionUrl": "https://www.solanocounty.gov/",
     "endDate": "2022",
+    "group": {
+      "id": "solano-county-orthoimagery--Solano_CA_2022",
+      "label": "2022",
+      "name": "Solano County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.solanocounty.gov/static/CF_Main_Color_logo_3x.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2022",
@@ -7415,6 +9119,12 @@
     "attributionText": "Solano County",
     "attributionUrl": "https://www.solanocounty.gov/",
     "endDate": "2023",
+    "group": {
+      "id": "solano-county-orthoimagery--Solano_CA_2023",
+      "label": "2023",
+      "name": "Solano County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.solanocounty.gov/static/CF_Main_Color_logo_3x.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2023",
@@ -7428,6 +9138,12 @@
     "attributionText": "Solano County",
     "attributionUrl": "https://www.solanocounty.gov/",
     "endDate": "2024",
+    "group": {
+      "id": "solano-county-orthoimagery--Solano_CA_2023",
+      "label": "2024",
+      "name": "Solano County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.solanocounty.gov/static/CF_Main_Color_logo_3x.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2024",
@@ -7441,6 +9157,12 @@
     "attributionText": "Solano County",
     "attributionUrl": "https://www.solanocounty.gov/",
     "endDate": "2025",
+    "group": {
+      "id": "solano-county-orthoimagery--Solano_CA_2022",
+      "label": "2025",
+      "name": "Solano County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.solanocounty.gov/static/CF_Main_Color_logo_3x.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/California#Publicly_Available_Data",
     "startDate": "2025",
@@ -7541,6 +9263,12 @@
       "EPSG:3857"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "suan-juan-county-aerials",
+      "label": "2019",
+      "name": "Suan Juan County Aerials",
+      "order": 0
+    },
     "icon": "https://www.sanjuancountywa.gov/ImageRepository/Document?documentID=21774",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/wa/SanJuan.pdf",
     "startDate": "2019",
@@ -7559,6 +9287,12 @@
       "EPSG:2285"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "suan-juan-county-aerials",
+      "label": "2022",
+      "name": "Suan Juan County Aerials",
+      "order": 1
+    },
     "icon": "https://www.sanjuancountywa.gov/ImageRepository/Document?documentID=21774",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/wa/SanJuan.pdf",
     "startDate": "2022",
@@ -7577,6 +9311,12 @@
       "EPSG:2285"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "suan-juan-county-aerials",
+      "label": "2023",
+      "name": "Suan Juan County Aerials",
+      "order": 2
+    },
     "icon": "https://www.sanjuancountywa.gov/ImageRepository/Document?documentID=21774",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/wa/SanJuan.pdf",
     "startDate": "2023",
@@ -7595,6 +9335,12 @@
       "EPSG:2285"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "suan-juan-county-aerials",
+      "label": "2025",
+      "name": "Suan Juan County Aerials",
+      "order": 3
+    },
     "icon": "https://www.sanjuancountywa.gov/ImageRepository/Document?documentID=21774",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/wa/SanJuan.pdf",
     "startDate": "2025",
@@ -7688,6 +9434,12 @@
   },
   "US-TIGER-Roads-2018": {
     "endDate": "2018",
+    "group": {
+      "id": "tiger-roads",
+      "label": "2018",
+      "name": "TIGER Roads",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/TIGER",
     "startDate": "2018",
@@ -7701,6 +9453,12 @@
   },
   "US-TIGER-Roads-2019": {
     "endDate": "2019",
+    "group": {
+      "id": "tiger-roads",
+      "label": "2019",
+      "name": "TIGER Roads",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/TIGER",
     "startDate": "2019",
@@ -7714,6 +9472,12 @@
   },
   "US-TIGER-Roads-2020": {
     "endDate": "2020",
+    "group": {
+      "id": "tiger-roads",
+      "label": "2020",
+      "name": "TIGER Roads",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/TIGER",
     "startDate": "2020",
@@ -7727,6 +9491,12 @@
   },
   "US-TIGER-Roads-2021": {
     "endDate": "2021",
+    "group": {
+      "id": "tiger-roads",
+      "label": "2021",
+      "name": "TIGER Roads",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/TIGER",
     "startDate": "2021",
@@ -7740,6 +9510,12 @@
   },
   "US-TIGER-Roads-2022": {
     "endDate": "2022",
+    "group": {
+      "id": "tiger-roads",
+      "label": "2022",
+      "name": "TIGER Roads",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/TIGER",
     "startDate": "2022",
@@ -7753,6 +9529,12 @@
   },
   "US-TIGER-Roads-2023": {
     "endDate": "2023",
+    "group": {
+      "id": "tiger-roads",
+      "label": "2023",
+      "name": "TIGER Roads",
+      "order": 5
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/TIGER",
     "startDate": "2023",
@@ -7935,6 +9717,12 @@
       "EPSG:6438"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "volusia-county-orthoimagery",
+      "label": "2021",
+      "name": "Volusia County Orthoimagery",
+      "order": 0
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2021",
     "tiles": [
@@ -7953,6 +9741,12 @@
       "EPSG:6438"
     ],
     "endDate": "2023-02-27",
+    "group": {
+      "id": "volusia-county-orthoimagery",
+      "label": "2023",
+      "name": "Volusia County Orthoimagery",
+      "order": 1
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2023-01-14",
     "tiles": [
@@ -7970,6 +9764,12 @@
       "EPSG:6438"
     ],
     "endDate": "2024-01",
+    "group": {
+      "id": "volusia-county-orthoimagery",
+      "label": "2024",
+      "name": "Volusia County Orthoimagery",
+      "order": 2
+    },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
     "startDate": "2024-01",
     "tiles": [
@@ -8029,6 +9829,12 @@
       "EPSG:3857"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "wood-county-orthoimagery",
+      "label": "2020",
+      "name": "Wood County Orthoimagery",
+      "order": 0
+    },
     "icon": "https://www.woodcountyohio.gov/ImageRepository/Document?documentID=70",
     "licenseUrl": "https://engineergis.co.wood.oh.us/arcgis/rest/services/Imagery/Wood_2020_rgb_20x/ImageServer",
     "startDate": "2020",
@@ -8046,6 +9852,12 @@
       "EPSG:3857"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "wood-county-orthoimagery",
+      "label": "2023",
+      "name": "Wood County Orthoimagery",
+      "order": 1
+    },
     "icon": "https://www.woodcountyohio.gov/ImageRepository/Document?documentID=70",
     "licenseUrl": "https://gis1.oit.ohio.gov/OGRIPWeb/WebContent/OSIP/OSIP%20III%20RFP%200A1177.pdf#page=26",
     "startDate": "2023",

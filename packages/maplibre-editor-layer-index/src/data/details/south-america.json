@@ -123,6 +123,12 @@
       "EPSG:31984"
     ],
     "endDate": "2017-01-16",
+    "group": {
+      "id": "fortaleza-ortofoto",
+      "label": "2016",
+      "name": "Fortaleza Ortofoto",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/south-america/br/Fortaleza.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Autoriza%C3%A7%C3%A3o_IDE_SEFIN_Fortaleza.png",
     "startDate": "2016-12-20",
@@ -142,6 +148,12 @@
       "EPSG:31984"
     ],
     "endDate": "2023-07",
+    "group": {
+      "id": "fortaleza-ortofoto",
+      "label": "2023",
+      "name": "Fortaleza Ortofoto",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/south-america/br/Fortaleza.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Autoriza%C3%A7%C3%A3o_IDE_SEFIN_Fortaleza.png",
     "startDate": "2023-07",
@@ -188,6 +200,12 @@
       "EPSG:3857"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "caba-ortofotos",
+      "label": "2017",
+      "name": "CABA ortofotos",
+      "order": 0
+    },
     "icon": "https://buenosaires.gob.ar/inicio/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Solicitud-de-permiso-para-usar-datos-de-BA-Data-en-OpenStreetMap.png",
     "startDate": "2017",
@@ -204,6 +222,12 @@
       "EPSG:3857"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "caba-ortofotos",
+      "label": "2021",
+      "name": "CABA ortofotos",
+      "order": 1
+    },
     "icon": "https://buenosaires.gob.ar/inicio/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Solicitud-de-permiso-para-usar-datos-de-BA-Data-en-OpenStreetMap.png",
     "startDate": "2021",
@@ -687,6 +711,12 @@
       "EPSG:31983"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "rio-mosaico",
+      "label": "2019",
+      "name": "Rio Mosaico",
+      "order": 0
+    },
     "licenseUrl": "http://data.rio/",
     "startDate": "2019",
     "tiles": [
@@ -705,6 +735,12 @@
       "EPSG:31983"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "rio-mosaico",
+      "label": "2022",
+      "name": "Rio Mosaico",
+      "order": 1
+    },
     "licenseUrl": "http://data.rio/",
     "startDate": "2022",
     "tiles": [

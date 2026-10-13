@@ -21,6 +21,12 @@
       "EPSG:4326"
     ],
     "endDate": "2017",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2017",
+      "name": "eox.at cloudless",
+      "order": 0
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2017",
@@ -38,6 +44,12 @@
       "EPSG:4326"
     ],
     "endDate": "2018",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2018",
+      "name": "eox.at cloudless",
+      "order": 1
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2018",
@@ -55,6 +67,12 @@
       "EPSG:4326"
     ],
     "endDate": "2019",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2019",
+      "name": "eox.at cloudless",
+      "order": 2
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2019",
@@ -72,6 +90,12 @@
       "EPSG:4326"
     ],
     "endDate": "2020",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2020",
+      "name": "eox.at cloudless",
+      "order": 3
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2020",
@@ -89,6 +113,12 @@
       "EPSG:4326"
     ],
     "endDate": "2021",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2021",
+      "name": "eox.at cloudless",
+      "order": 4
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2021",
@@ -106,6 +136,12 @@
       "EPSG:4326"
     ],
     "endDate": "2022",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2022",
+      "name": "eox.at cloudless",
+      "order": 5
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2022",
@@ -123,6 +159,12 @@
       "EPSG:4326"
     ],
     "endDate": "2023",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2023",
+      "name": "eox.at cloudless",
+      "order": 6
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2023",
@@ -140,6 +182,12 @@
       "EPSG:4326"
     ],
     "endDate": "2024",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2024",
+      "name": "eox.at cloudless",
+      "order": 7
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2024",
@@ -157,6 +205,12 @@
       "EPSG:4326"
     ],
     "endDate": "2025",
+    "group": {
+      "id": "eox-at-cloudless",
+      "label": "2025",
+      "name": "eox.at cloudless",
+      "order": 8
+    },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
     "startDate": "2025",

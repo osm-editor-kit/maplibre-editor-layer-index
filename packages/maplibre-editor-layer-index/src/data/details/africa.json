@@ -219,6 +219,12 @@
     "attributionText": "City of Cape Town Aerial - OPENSTREETMAP USE ONLY",
     "attributionUrl": "https://www.capetown.gov.za",
     "endDate": "2016",
+    "group": {
+      "id": "city-of-cape-town-aerial",
+      "label": "2015",
+      "name": "City of Cape Town Aerial",
+      "order": 1
+    },
     "startDate": "2015",
     "tiles": [
       "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/{z}/{x}/{y}.jpg",
@@ -232,6 +238,12 @@
     "attributionText": "City of Cape Town Aerial - OPENSTREETMAP USE ONLY",
     "attributionUrl": "https://www.capetown.gov.za",
     "endDate": "2015",
+    "group": {
+      "id": "city-of-cape-town-aerial",
+      "label": "2013",
+      "name": "City of Cape Town Aerial",
+      "order": 0
+    },
     "startDate": "2013",
     "tiles": [
       "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/{z}/{x}/{y}.jpg",
@@ -251,6 +263,12 @@
       "EPSG:32734"
     ],
     "endDate": "2017-01",
+    "group": {
+      "id": "city-of-cape-town-aerial-imagery",
+      "label": "2017",
+      "name": "City of Cape Town Aerial Imagery",
+      "order": 0
+    },
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/africa/za/South_Africa_CapeTown_2017_2018_Aerial_Imagery.pdf",
     "startDate": "2017-01",
     "tiles": [
@@ -269,6 +287,12 @@
       "EPSG:32734"
     ],
     "endDate": "2018-02",
+    "group": {
+      "id": "city-of-cape-town-aerial-imagery",
+      "label": "2018",
+      "name": "City of Cape Town Aerial Imagery",
+      "order": 1
+    },
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/africa/za/South_Africa_CapeTown_2017_2018_Aerial_Imagery.pdf",
     "startDate": "2018-02",
     "tiles": [
@@ -281,6 +305,12 @@
     "attributionText": "City of Cape Town Aerial",
     "attributionUrl": "https://www.arcgis.com/sharing/rest/content/items/739759d8127f4d1f9ba8ef9019878147/info/metadata/metadata.xml?format=default&output=html",
     "endDate": "2021-03",
+    "group": {
+      "id": "city-of-cape-town-aerial-imagery",
+      "label": "2021",
+      "name": "City of Cape Town Aerial Imagery",
+      "order": 2
+    },
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/africa/za/South_Africa_CapeTown_2017_2018_Aerial_Imagery.pdf",
     "startDate": "2021-03",
     "tiles": [
@@ -299,6 +329,12 @@
       "EPSG:32734"
     ],
     "endDate": "2023-01",
+    "group": {
+      "id": "city-of-cape-town-aerial-imagery",
+      "label": "2023",
+      "name": "City of Cape Town Aerial Imagery",
+      "order": 3
+    },
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/africa/za/South_Africa_CapeTown_2017_2018_Aerial_Imagery.pdf",
     "startDate": "2023-01",
     "tiles": [
@@ -335,6 +371,12 @@
       "EPSG:32734"
     ],
     "endDate": "2025-01",
+    "group": {
+      "id": "city-of-cape-town-aerial-imagery",
+      "label": "2025",
+      "name": "City of Cape Town Aerial Imagery",
+      "order": 4
+    },
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/africa/za/South_Africa_CapeTown_2017_2018_Aerial_Imagery.pdf",
     "startDate": "2025-01",
     "tiles": [

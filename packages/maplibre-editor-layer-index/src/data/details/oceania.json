@@ -4,6 +4,12 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2023-05-12",
+    "group": {
+      "id": "actmapi-imagery--ACT202305",
+      "label": "May 2023",
+      "name": "ACTmapi Imagery",
+      "order": 0
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2022-12-27",
@@ -20,6 +26,12 @@
       "EPSG:7855"
     ],
     "endDate": "2023-09",
+    "group": {
+      "id": "actmapi-imagery--ACT202309",
+      "label": "Sep 2023",
+      "name": "ACTmapi Imagery",
+      "order": 0
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2023-09",
@@ -33,6 +45,12 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2023-11",
+    "group": {
+      "id": "actmapi-imagery--ACT202305",
+      "label": "Nov 2023",
+      "name": "ACTmapi Imagery",
+      "order": 1
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2023-11",
@@ -46,6 +64,12 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2024-02",
+    "group": {
+      "id": "actmapi-imagery--ACT202309",
+      "label": "Feb 2024",
+      "name": "ACTmapi Imagery",
+      "order": 1
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2024-02",
@@ -59,6 +83,12 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2024-09",
+    "group": {
+      "id": "actmapi-imagery--ACT202309",
+      "label": "Sep 2024",
+      "name": "ACTmapi Imagery",
+      "order": 2
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2024-09",
@@ -72,6 +102,12 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and Aerometrex",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2025-03",
+    "group": {
+      "id": "actmapi-imagery--ACT202309",
+      "label": "Mar 2025",
+      "name": "ACTmapi Imagery",
+      "order": 3
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2025-03",
@@ -85,6 +121,12 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2025-05",
+    "group": {
+      "id": "actmapi-imagery--ACT202309",
+      "label": "May 2025",
+      "name": "ACTmapi Imagery",
+      "order": 4
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2025-05",
@@ -98,6 +140,12 @@
     "attributionText": "Aerial Imagery from ACTmapi © ACT Government and Aerometrex",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2025-12",
+    "group": {
+      "id": "actmapi-imagery--ACT202305",
+      "label": "Dec 2025",
+      "name": "ACTmapi Imagery",
+      "order": 2
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2025-12",
@@ -111,6 +159,12 @@
     "attributionText": "Aerial Imagery from ACTmapi © ACT Government and Aerometrex",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2026-03",
+    "group": {
+      "id": "actmapi-imagery--ACT202309",
+      "label": "Mar 2026",
+      "name": "ACTmapi Imagery",
+      "order": 5
+    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2026-03",
@@ -149,6 +203,12 @@
     "attributionText": "City of Melbourne",
     "attributionUrl": "https://data.melbourne.vic.gov.au/explore/dataset/2019-aerial-imagery/information/",
     "endDate": "2019-02-03",
+    "group": {
+      "id": "city-of-melbourne",
+      "label": "Feb 2019",
+      "name": "City of Melbourne",
+      "order": 1
+    },
     "icon": "https://www.melbourne.vic.gov.au/themes/custom/com/images/logo.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:City_of_Melbourne_OSMF_CCBY_waiver.pdf",
     "startDate": "2019-02-02",
@@ -162,6 +222,12 @@
     "attributionText": "City of Melbourne",
     "attributionUrl": "https://data.melbourne.vic.gov.au/explore/dataset/2018-aerial-imagery-true-ortho/information/",
     "endDate": "2018-05",
+    "group": {
+      "id": "city-of-melbourne",
+      "label": "May 2018",
+      "name": "City of Melbourne",
+      "order": 0
+    },
     "icon": "https://www.melbourne.vic.gov.au/themes/custom/com/images/logo.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:City_of_Melbourne_OSMF_CCBY_waiver.pdf",
     "startDate": "2018-05",
@@ -175,6 +241,12 @@
     "attributionText": "City of Melbourne",
     "attributionUrl": "https://data.melbourne.vic.gov.au/explore/dataset/2020-aerial-imagery-true-ortho/information/",
     "endDate": "2020-05",
+    "group": {
+      "id": "city-of-melbourne",
+      "label": "May 2020",
+      "name": "City of Melbourne",
+      "order": 2
+    },
     "icon": "https://www.melbourne.vic.gov.au/themes/custom/com/images/logo.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:City_of_Melbourne_OSMF_CCBY_waiver.pdf",
     "startDate": "2020-05",
@@ -1297,6 +1369,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1970",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1970",
+      "label": "1970",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1970",
@@ -1310,6 +1388,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1971",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1971",
+      "label": "1971",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1971",
@@ -1336,6 +1420,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1975",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1975",
+      "label": "1975",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1975",
@@ -1375,6 +1465,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1980",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1975",
+      "label": "1980",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1980",
@@ -1388,6 +1484,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1982",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1970",
+      "label": "1982",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1982",
@@ -1414,6 +1516,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1984",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1984",
+      "label": "1984",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1984",
@@ -1427,6 +1535,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1986",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1986",
+      "label": "1986",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1986",
@@ -1440,6 +1554,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1989",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1970",
+      "label": "1989",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 2
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1989",
@@ -1453,6 +1573,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1990",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1990",
+      "label": "1990",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1990",
@@ -1466,6 +1592,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1991",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1986",
+      "label": "1991",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1991",
@@ -1479,6 +1611,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1993",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1993",
+      "label": "1993",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1993",
@@ -1505,6 +1643,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1996",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1971",
+      "label": "1996",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1996",
@@ -1518,6 +1662,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "1998",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1984",
+      "label": "1998",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "1998",
@@ -1531,6 +1681,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "2001",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1993",
+      "label": "2001",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "2001",
@@ -1544,6 +1700,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "2004",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_2004",
+      "label": "2004",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 0
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "2004",
@@ -1557,6 +1719,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "2005",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_2004",
+      "label": "2005",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "2005",
@@ -1570,6 +1738,12 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/",
     "endDate": "2006",
+    "group": {
+      "id": "nsw-dcs-ss-hape-imagery--NSW_DCS_SS_HAPE_Imagery_1990",
+      "label": "2006",
+      "name": "NSW DCS SS HAPE Imagery",
+      "order": 1
+    },
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://www.spatial.nsw.gov.au/copyright",
     "startDate": "2006",
