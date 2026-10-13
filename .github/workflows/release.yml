@@ -37,6 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       released: ${{ steps.plan.outputs.release }}
+      preview: ${{ steps.plan.outputs.preview }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -99,20 +100,30 @@ jobs:
           HAS_CHANGESETS: ${{ steps.pending.outputs.found }}
           VERSION_BUMP: ${{ github.event_name == 'workflow_dispatch' && inputs.version_bump || 'none' }}
           PUBLISH_ONLY: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_only || 'false' }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
+          release=false
+          publish_only=false
           if [ "$PUBLISH_ONLY" = true ]; then
-            echo "release=true" >> "$GITHUB_OUTPUT"
-            echo "publish_only=true" >> "$GITHUB_OUTPUT"
+            release=true
+            publish_only=true
           elif [ "$HAS_CHANGESETS" = true ] || [ "$ELI_CHANGESET" = true ] || [ "$VERSION_BUMP" != none ]; then
-            echo "release=true" >> "$GITHUB_OUTPUT"
-            echo "publish_only=false" >> "$GITHUB_OUTPUT"
+            release=true
           else
-            echo "release=false" >> "$GITHUB_OUTPUT"
             echo "Nothing to version or publish."
           fi
+          # The preview app follows main: redeploy on every push, not only on releases
+          # (a demo-only change has no changeset and would otherwise never go live).
+          preview=$release
+          if [ "$EVENT_NAME" = push ]; then preview=true; fi
+          {
+            echo "release=$release"
+            echo "publish_only=$publish_only"
+            echo "preview=$preview"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Lint, build, test, check exports
-        if: steps.plan.outputs.release == 'true'
+        if: steps.plan.outputs.preview == 'true'
         run: |
           bun run lint
           bun run build
@@ -172,7 +183,7 @@ jobs:
       # Secondary artifact: rebuild the demo against the just-published package version
       # and ship it to GitHub Pages (deploy job below).
       - name: Build preview app
-        if: steps.plan.outputs.release == 'true'
+        if: steps.plan.outputs.preview == 'true'
         env:
           VITE_BASE: /${{ github.event.repository.name }}/
         run: |
@@ -182,7 +193,7 @@ jobs:
           cp apps/preview/dist/index.html apps/preview/dist/404.html
 
       - name: Upload Pages artifact
-        if: steps.plan.outputs.release == 'true'
+        if: steps.plan.outputs.preview == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: apps/preview/dist
@@ -213,7 +224,7 @@ jobs:
   deploy-preview:
     name: Deploy preview (GitHub Pages)
     needs: release
-    if: needs.release.outputs.released == 'true'
+    if: needs.release.outputs.preview == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
