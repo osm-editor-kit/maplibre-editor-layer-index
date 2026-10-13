@@ -1,10 +1,16 @@
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
+import { setWorkerUrl } from 'maplibre-gl'
+import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.css'
 import { routeTree } from './routeTree.gen'
 import { parseSearch, stringifySearch } from './searchParams'
+
+// maplibre-gl 6 resolves its worker next to its own module at runtime, which a
+// bundler cannot follow — let Vite bundle the worker and hand over its URL.
+setWorkerUrl(maplibreWorkerUrl)
 
 // Vite `base` (e.g. `/maplibre-editor-layer-index/` on GitHub Pages) → router basepath.
 const basepath = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'

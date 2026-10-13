@@ -8,7 +8,7 @@ import {
   removeEditorLayer,
 } from '@osm-editor-kit/maplibre-editor-layer-index/maplibre'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
-import maplibregl, { type GeoJSONSource } from 'maplibre-gl'
+import { Map as MaplibreMap, type GeoJSONSource } from 'maplibre-gl'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   BASE_STYLE,
@@ -46,7 +46,7 @@ function RawMaplibreDemo() {
   const { open, selected } = search
 
   const container = useRef<HTMLDivElement>(null)
-  const [map, setMap] = useState<maplibregl.Map | null>(null)
+  const [map, setMap] = useState<MaplibreMap | null>(null)
   // Sources and layers can only be added once the style has loaded; listing layers
   // for the viewport does not have to wait for that.
   const [styleReady, setStyleReady] = useState(false)
@@ -65,7 +65,7 @@ function RawMaplibreDemo() {
   useEffect(() => {
     if (!container.current) return
     const shownIds = shown.current
-    const instance = new maplibregl.Map({
+    const instance = new MaplibreMap({
       container: container.current,
       style: BASE_STYLE,
       center: [search.lng, search.lat],

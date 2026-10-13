@@ -232,8 +232,10 @@ level when you zoom further in. It is **not** copied onto the style layer by def
 ## Notes
 
 - **Attribution is upstream HTML.** `attributionHtml` is passed through from ELI and is intended for
-  MapLibre's `attribution` control (safe). If you render it yourself, sanitize it first — don't feed
-  it to `dangerouslySetInnerHTML` unchecked.
+  MapLibre's `attribution` control, which sanitizes it. Use `maplibre-gl` 6.4.1 or newer: older
+  versions have a sanitizer bypass
+  ([GHSA-jrc7-96c5-q579](https://github.com/advisories/GHSA-jrc7-96c5-q579)). If you render it
+  yourself, sanitize it first — don't feed it to `dangerouslySetInnerHTML` unchecked.
 - **`check-exports` ignores three `attw` rules** (`cjs-resolves-to-esm`, `internal-resolution-error`,
   `no-resolution`) intentionally: this is an ESM-only package, so the CJS/resolution warnings don't
   apply.
