@@ -274,10 +274,66 @@ body,
   background: #6a1b9a;
 }
 
-.layer.selected {
+.entry {
+  border-radius: 8px;
+  border-left: 3px solid transparent;
+}
+
+.entry .layer {
+  border-left: none;
+}
+
+.entry:hover,
+.entry.hovered {
+  background: #f0f4ff;
+  border-left-color: #1a73e8;
+}
+
+.entry.selected {
   background: #fdeaea;
   border-left-color: #d50000;
+}
+
+.entry.selected .layer {
+  background: none;
   font-weight: 600;
+}
+
+/* Date picker of a time series: every date is one click away, never in a dropdown. */
+.variants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 0 8px 8px;
+}
+
+.variant {
+  padding: 3px 9px;
+  border: 1px solid #b6c6e3;
+  border-radius: 999px;
+  background: #fff;
+  color: #174ea6;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+
+.variant:hover {
+  border-color: #1a73e8;
+  background: #e8f0fe;
+}
+
+.variant.active {
+  border-color: #d50000;
+  background: #d50000;
+  color: #fff;
+}
+
+.variant .best {
+  margin-left: 3px;
+  font-size: 10px;
 }
 
 .map {

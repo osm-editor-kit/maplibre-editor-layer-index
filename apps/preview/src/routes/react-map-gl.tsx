@@ -3,6 +3,7 @@ import {
   getLayerHydrated,
   getRasterLayerSpec,
   getRasterSourceSpec,
+  groupLayers,
   loadCoverageFeatures,
   useEditorLayerIndex,
   type EliCategory,
@@ -195,9 +196,12 @@ function ReactMapGlDemo() {
       open: cur.includes(category) ? cur.filter((c) => c !== category) : [...cur, category],
     })
   }
-  const toggleSelect = (id: string) => {
+  // A time series shows one date at a time: picking a date swaps out its siblings,
+  // picking the active one turns the series off.
+  const toggleSelect = (id: string, siblingIds: string[] = [id]) => {
     const cur = searchRef.current.selected
-    setSearch({ selected: cur.includes(id) ? cur.filter((s) => s !== id) : [...cur, id] })
+    const rest = cur.filter((s) => !siblingIds.includes(s))
+    setSearch({ selected: cur.includes(id) ? rest : [...rest, id] })
   }
 
   const openFilter = ['in', categoryExpr, ['literal', open]] as FilterSpecification
@@ -208,9 +212,11 @@ function ReactMapGlDemo() {
     ['==', ['get', 'id'], hoveredId ?? '__none__'],
   ] as FilterSpecification
 
+  // One row per time series, filed under the category of its newest date.
+  const entries = groupLayers(layers)
   const groups = CATEGORY_GROUPS.map((g) => ({
     ...g,
-    items: layers.filter((l) => (l.category ?? 'other') === g.key),
+    items: entries.filter((e) => (e.variants[0]!.category ?? 'other') === g.key),
   })).filter((g) => g.items.length > 0)
 
   return (
@@ -218,11 +224,13 @@ function ReactMapGlDemo() {
       <aside className="sidebar">
         <p className="meta">
           {layers.length} layers in this viewport. Open a category to see coverage; click a layer to
-          load its imagery.
+          load its imagery. Layers that only differ by date share one row — pick the date below it.
         </p>
         {groups.map((group) => {
           const isOpen = open.includes(group.key)
-          const activeCount = group.items.filter((l) => selected.includes(l.id)).length
+          const activeCount = group.items.filter((e) =>
+            e.variants.some((v) => selected.includes(v.id)),
+          ).length
           return (
             <div className="group" key={group.key}>
               <button
@@ -242,29 +250,56 @@ function ReactMapGlDemo() {
               </button>
               {isOpen && (
                 <div className="group-items">
-                  {group.items.map((layer) => (
-                    <div
-                      key={layer.id}
-                      className={`layer${selected.includes(layer.id) ? ' selected' : ''}${
-                        hoveredId === layer.id ? ' hovered' : ''
-                      }`}
-                      onMouseEnter={() => setHoveredId(layer.id)}
-                      onMouseLeave={() => setHoveredId((cur) => (cur === layer.id ? null : cur))}
-                      onClick={() => toggleSelect(layer.id)}
-                    >
-                      <span className="name" title={layer.name}>
-                        {layer.name}
-                      </span>
-                      {(() => {
-                        const scope = layerScope(layer)
-                        return scope ? (
-                          <span className={`badge scope ${scope}`}>{scope}</span>
-                        ) : null
-                      })()}
-                      {layer.best && <span className="badge">best</span>}
-                      <span className="badge type">{layer.type}</span>
-                    </div>
-                  ))}
+                  {group.items.map((entry) => {
+                    const variantIds = entry.variants.map((v) => v.id)
+                    const active = entry.variants.find((v) => selected.includes(v.id))
+                    const layer = active ?? entry.defaultVariant
+                    const hovered = hoveredId !== null && variantIds.includes(hoveredId)
+                    const scope = layerScope(layer)
+                    return (
+                      <div
+                        key={entry.id}
+                        className={`entry${active ? ' selected' : ''}${hovered ? ' hovered' : ''}`}
+                      >
+                        <div
+                          className="layer"
+                          onMouseEnter={() => setHoveredId(layer.id)}
+                          onMouseLeave={() =>
+                            setHoveredId((cur) => (cur === layer.id ? null : cur))
+                          }
+                          onClick={() => toggleSelect(layer.id, variantIds)}
+                        >
+                          <span className="name" title={layer.name}>
+                            {entry.name}
+                          </span>
+                          {scope && <span className={`badge scope ${scope}`}>{scope}</span>}
+                          {!entry.grouped && layer.best && <span className="badge">best</span>}
+                          <span className="badge type">{layer.type}</span>
+                        </div>
+                        {entry.grouped && (
+                          <div className="variants" role="group" aria-label={`${entry.name} dates`}>
+                            {entry.variants.map((variant) => (
+                              <button
+                                key={variant.id}
+                                type="button"
+                                className={`variant${variant === active ? ' active' : ''}`}
+                                aria-pressed={variant === active}
+                                title={variant.best ? `${variant.name} (best)` : variant.name}
+                                onMouseEnter={() => setHoveredId(variant.id)}
+                                onMouseLeave={() =>
+                                  setHoveredId((cur) => (cur === variant.id ? null : cur))
+                                }
+                                onClick={() => toggleSelect(variant.id, variantIds)}
+                              >
+                                {variant.group!.label}
+                                {variant.best && <span className="best">★</span>}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })}
                 </div>
               )}
             </div>
