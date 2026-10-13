@@ -53,10 +53,16 @@ export function EdgeIndicator({
       setRuns([])
       return
     }
-    const update = () => setRuns(edgeRuns(map, area))
-    update()
+    // At most once per frame: `move` fires several times per frame while dragging.
+    let frame = 0
+    const update = () => {
+      cancelAnimationFrame(frame)
+      frame = requestAnimationFrame(() => setRuns(edgeRuns(map, area)))
+    }
+    setRuns(edgeRuns(map, area))
     map.on('move', update)
     return () => {
+      cancelAnimationFrame(frame)
       map.off('move', update)
     }
   }, [map, area])

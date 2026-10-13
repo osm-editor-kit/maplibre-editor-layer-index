@@ -6,7 +6,7 @@ import {
   type EliLayer,
 } from '@osm-editor-kit/maplibre-editor-layer-index/react'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import {
   Layer,
   Map,
@@ -59,13 +59,18 @@ function ReactMapGlDemo() {
   // The package matches by bounding box; the countries in view narrow that down to
   // layers that really belong here (worldwide layers always pass).
   const countryCodes = useCountriesInView(map)
-  const { layers } = useEditorLayerIndex({
+  const { layers, status } = useEditorLayerIndex({
     mapId: MAP_ID,
     filter: countryCodes.length > 0 ? { countryCodes } : undefined,
   })
   const coverage = useCoverage(layers)
   const loading = useTilesLoading(map, selected.length > 0)
   const [hoveredId, setHoveredId] = useState<string | null>(null)
+
+  // Stable objects, so the sources are only updated when the hover really changes.
+  const highlight = useMemo(() => highlightData(coverage, hoveredId), [coverage, hoveredId])
+  const bbox = useMemo(() => bboxData(hoveredId), [hoveredId])
+  const area = useMemo(() => hoveredArea(coverage, hoveredId), [coverage, hoveredId])
 
   const selectedKey = selected.join(',')
   const [selectedLayers, setSelectedLayers] = useState<EliLayer[]>([])
@@ -92,6 +97,7 @@ function ReactMapGlDemo() {
           </>
         }
         layers={layers}
+        status={status}
         open={open}
         selected={selected}
         hoveredId={hoveredId}
@@ -136,12 +142,8 @@ function ReactMapGlDemo() {
           {coverage && (
             <>
               <Source id={COVERAGE_SOURCE} type="geojson" data={coverage} />
-              <Source
-                id={HIGHLIGHT_SOURCE}
-                type="geojson"
-                data={highlightData(coverage, hoveredId)}
-              />
-              <Source id={BBOX_SOURCE} type="geojson" data={bboxData(hoveredId)} />
+              <Source id={HIGHLIGHT_SOURCE} type="geojson" data={highlight} />
+              <Source id={BBOX_SOURCE} type="geojson" data={bbox} />
               {coverageLayers(open, selected, hoveredId).map((spec) => (
                 <Layer key={spec.id} {...spec} />
               ))}
@@ -149,7 +151,7 @@ function ReactMapGlDemo() {
           )}
         </Map>
 
-        <EdgeIndicator map={map} area={hoveredArea(coverage, hoveredId)} />
+        <EdgeIndicator map={map} area={area} />
         {loading && (
           <div className="map-spinner" role="status">
             <span className="spinner" />

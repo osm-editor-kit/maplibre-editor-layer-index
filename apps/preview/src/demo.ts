@@ -184,7 +184,8 @@ export function layerScope(layer: EliLayer): 'worldwide' | 'continental' | null 
  */
 export function countriesInView(map: MaplibreMap): string[] {
   const { clientWidth, clientHeight } = map.getContainer()
-  const steps = 8
+  // Dense enough to catch small countries at country-level zooms; a lookup takes microseconds.
+  const steps = 16
   const codes = new Set<string>()
   for (let i = 0; i <= steps; i++) {
     for (let j = 0; j <= steps; j++) {
@@ -195,6 +196,9 @@ export function countriesInView(map: MaplibreMap): string[] {
   }
   return [...codes].sort()
 }
+
+/** State of the layer list: `error` when a data chunk failed to load. */
+export type ListStatus = 'loading' | 'ready' | 'error'
 
 /** Countries in view, refreshed whenever the map stops moving. */
 export function useCountriesInView(map: MaplibreMap | null): string[] {

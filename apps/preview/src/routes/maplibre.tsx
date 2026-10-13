@@ -8,24 +8,24 @@ import {
   removeEditorLayer,
 } from '@osm-editor-kit/maplibre-editor-layer-index/maplibre'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
-import type { FeatureCollection } from 'geojson'
 import maplibregl, { type GeoJSONSource } from 'maplibre-gl'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   BASE_STYLE,
   BBOX_SOURCE,
   bboxData,
   COVERAGE_SOURCE,
+  countriesInView,
   coverageLayers,
   EMPTY_FC,
   FIRST_COVERAGE_LAYER,
   HIGHLIGHT_SOURCE,
   highlightData,
   hoveredArea,
-  useCountriesInView,
   useCoverage,
   useDemoSearch,
   useTilesLoading,
+  type ListStatus,
 } from '../demo'
 import { EdgeIndicator } from '../EdgeIndicator'
 import { LayerSidebar } from '../LayerSidebar'
@@ -53,13 +53,18 @@ function RawMaplibreDemo() {
   const [layers, setLayers] = useState<EliLayer[]>([])
   const [hoveredId, setHoveredId] = useState<string | null>(null)
 
-  const countryCodes = useCountriesInView(map)
+  const [countryCodes, setCountryCodes] = useState<string[]>([])
+  const [status, setStatus] = useState<ListStatus>('loading')
   const coverage = useCoverage(layers)
   const loading = useTilesLoading(map, selected.length > 0)
+  const area = useMemo(() => hoveredArea(coverage, hoveredId), [coverage, hoveredId])
+  // Ids of the raster layers currently on the map (see the imagery effect).
+  const shown = useRef(new Set<string>())
 
   // Create the raw maplibre-gl map once, with empty sources for the coverage borders.
   useEffect(() => {
     if (!container.current) return
+    const shownIds = shown.current
     const instance = new maplibregl.Map({
       container: container.current,
       style: BASE_STYLE,
@@ -83,6 +88,7 @@ function RawMaplibreDemo() {
     return () => {
       setMap(null)
       setStyleReady(false)
+      shownIds.clear()
       instance.remove()
     }
     // Run once on mount; search is only used for the initial view.
@@ -90,58 +96,81 @@ function RawMaplibreDemo() {
   }, [])
 
   // List the layers for the viewport — the raw-JS counterpart of useEditorLayerIndex().
-  const countryKey = countryCodes.join(',')
+  // The countries in view narrow the bounding-box matches down (see LocationBanner).
   useEffect(() => {
     if (!map) return
     let latest = 0
     const refresh = () => {
       const run = ++latest
-      const filter = countryCodes.length > 0 ? { countryCodes } : undefined
-      void loadLayersInViewport(map.getBounds(), filter).then((result) => {
-        if (run === latest) setLayers(result)
-      })
+      const codes = countriesInView(map)
+      setCountryCodes((cur) => (cur.join() === codes.join() ? cur : codes))
+      setStatus('loading')
+      const filter = codes.length > 0 ? { countryCodes: codes } : undefined
+      loadLayersInViewport(map.getBounds(), filter).then(
+        (result) => {
+          if (run !== latest) return
+          setLayers(result)
+          setStatus('ready')
+        },
+        () => {
+          if (run === latest) setStatus('error')
+        },
+      )
     }
     refresh()
     map.on('moveend', refresh)
+    map.on('resize', refresh)
     return () => {
       latest = -1
       map.off('moveend', refresh)
+      map.off('resize', refresh)
     }
-    // `countryKey` stands in for the code list's content.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [map, countryKey])
+  }, [map])
 
-  // Coverage borders: push data and filters into the layers added on load.
+  // Coverage borders live in sources and layers added on load. Each effect pushes
+  // only what changed — re-setting the big coverage source on every hover is slow.
   useEffect(() => {
     if (!map || !styleReady) return
-    const setData = (id: string, data: FeatureCollection) =>
-      map.getSource<GeoJSONSource>(id)?.setData(data)
-    setData(COVERAGE_SOURCE, coverage ?? EMPTY_FC)
-    setData(HIGHLIGHT_SOURCE, highlightData(coverage, hoveredId))
-    setData(BBOX_SOURCE, bboxData(hoveredId))
+    map.getSource<GeoJSONSource>(COVERAGE_SOURCE)?.setData(coverage ?? EMPTY_FC)
+  }, [map, styleReady, coverage])
+
+  useEffect(() => {
+    if (!map || !styleReady) return
+    map.getSource<GeoJSONSource>(HIGHLIGHT_SOURCE)?.setData(highlightData(coverage, hoveredId))
+    map.getSource<GeoJSONSource>(BBOX_SOURCE)?.setData(bboxData(hoveredId))
+  }, [map, styleReady, coverage, hoveredId])
+
+  useEffect(() => {
+    if (!map || !styleReady) return
     for (const spec of coverageLayers(open, selected, hoveredId)) {
       if ('filter' in spec) map.setFilter(spec.id, spec.filter)
     }
-  }, [map, styleReady, coverage, hoveredId, open, selected])
+  }, [map, styleReady, open, selected, hoveredId])
 
   // Imagery: addEditorLayer() adds a raster source + layer, below the borders.
+  // Only the difference is applied, so layers that stay selected keep their tiles.
   const selectedKey = selected.join(',')
   useEffect(() => {
     if (!map || !styleReady) return
     let cancelled = false
-    void Promise.all(selected.map((id) => getLayerHydrated(id))).then((results) => {
-      if (cancelled) return
-      for (const layer of results) {
-        if (!layer) continue
+    for (const id of shown.current) {
+      if (selected.includes(id)) continue
+      removeEditorLayer(map, `eli-${id}`)
+      shown.current.delete(id)
+    }
+    for (const id of selected) {
+      if (shown.current.has(id)) continue
+      void getLayerHydrated(id).then((layer) => {
+        if (cancelled || !layer || shown.current.has(id)) return
         addEditorLayer(map, layer, {
           beforeId: FIRST_COVERAGE_LAYER,
           paint: { 'raster-opacity': 0.9 },
         })
-      }
-    })
+        shown.current.add(id)
+      })
+    }
     return () => {
       cancelled = true
-      for (const id of selected) removeEditorLayer(map, `eli-${id}`)
     }
     // `selectedKey` stands in for the id list's content.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -158,6 +187,7 @@ function RawMaplibreDemo() {
           </>
         }
         layers={layers}
+        status={status}
         open={open}
         selected={selected}
         hoveredId={hoveredId}
@@ -167,7 +197,7 @@ function RawMaplibreDemo() {
       />
       <div className="map">
         <div ref={container} style={{ width: '100%', height: '100%' }} />
-        <EdgeIndicator map={map} area={hoveredArea(coverage, hoveredId)} />
+        <EdgeIndicator map={map} area={area} />
         {loading && (
           <div className="map-spinner" role="status">
             <span className="spinner" />

@@ -1,16 +1,18 @@
 import {
+  getLayer,
   groupLayers,
   type EliCategory,
   type EliLayer,
 } from '@osm-editor-kit/maplibre-editor-layer-index'
 import type { ReactNode } from 'react'
-import { layerScope } from './demo'
+import { layerScope, type ListStatus } from './demo'
 import { CATEGORY_GROUPS } from './mapSearch'
 
 type Props = {
   /** One line on how this demo talks to the map. */
   intro: ReactNode
   layers: EliLayer[]
+  status: ListStatus
   open: EliCategory[]
   selected: string[]
   hoveredId: string | null
@@ -24,6 +26,7 @@ type Props = {
 export function LayerSidebar({
   intro,
   layers,
+  status,
   open,
   selected,
   hoveredId,
@@ -43,8 +46,14 @@ export function LayerSidebar({
       <p className="meta">{intro}</p>
       <ol className="howto">
         <li>
-          <strong>{layers.length} layers</strong> cover the countries in this view. Move the map and
-          the list follows.
+          {status === 'loading' && layers.length === 0 ? (
+            <strong>Loading layers…</strong>
+          ) : (
+            <>
+              <strong>{layers.length} layers</strong> cover the countries in this view.
+            </>
+          )}{' '}
+          Move the map and the list follows.
         </li>
         <li>
           <strong>Open a category</strong> to draw where each of its layers has imagery (blue
@@ -56,6 +65,32 @@ export function LayerSidebar({
           it.
         </li>
       </ol>
+      {status === 'error' && (
+        <p className="notice error" role="alert">
+          Layer details could not be loaded. Move the map to try again.
+        </p>
+      )}
+      {selected.length > 0 && (
+        // Always reachable, also when the map has moved away from a layer's coverage
+        // and its row is no longer in the list below.
+        <div className="active-layers">
+          <span className="active-title">On the map</span>
+          {selected.map((id) => (
+            <button
+              key={id}
+              type="button"
+              className="active-layer"
+              title="Remove from the map"
+              onMouseEnter={() => onHover(id)}
+              onMouseLeave={() => onHover(null)}
+              onClick={() => onToggleSelect(id, [id])}
+            >
+              <span className="name">{getLayer(id)?.name ?? id}</span>
+              <span aria-hidden="true">×</span>
+            </button>
+          ))}
+        </div>
+      )}
       {groups.map((group) => {
         const isOpen = open.includes(group.key)
         const activeCount = group.items.filter((e) =>
@@ -91,10 +126,14 @@ export function LayerSidebar({
                       key={entry.id}
                       className={`entry${active ? ' selected' : ''}${hovered ? ' hovered' : ''}`}
                     >
-                      <div
+                      <button
+                        type="button"
                         className="layer"
+                        aria-pressed={Boolean(active)}
                         onMouseEnter={() => onHover(layer.id)}
                         onMouseLeave={() => onHover(null)}
+                        onFocus={() => onHover(layer.id)}
+                        onBlur={() => onHover(null)}
                         onClick={() => onToggleSelect(layer.id, variantIds)}
                       >
                         <span className="name" title={layer.name}>
@@ -103,7 +142,7 @@ export function LayerSidebar({
                         {scope && <span className={`badge scope ${scope}`}>{scope}</span>}
                         {!entry.grouped && layer.best && <span className="badge">best</span>}
                         <span className="badge type">{layer.type}</span>
-                      </div>
+                      </button>
                       {entry.grouped && (
                         <div className="variants" role="group" aria-label={`${entry.name} dates`}>
                           {entry.variants.map((variant) => (

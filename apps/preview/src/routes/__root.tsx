@@ -39,7 +39,8 @@ function RootLayout() {
         <nav>
           <Link
             to="/react-map-gl"
-            search={DEFAULT_VIEW}
+            // Keep position, open categories and selection when switching demos.
+            search={(prev) => ({ ...DEFAULT_VIEW, ...prev })}
             activeProps={{ className: 'active' }}
             activeOptions={{ includeSearch: false }}
           >
@@ -47,7 +48,7 @@ function RootLayout() {
           </Link>
           <Link
             to="/maplibre"
-            search={DEFAULT_VIEW}
+            search={(prev) => ({ ...DEFAULT_VIEW, ...prev })}
             activeProps={{ className: 'active' }}
             activeOptions={{ includeSearch: false }}
           >
