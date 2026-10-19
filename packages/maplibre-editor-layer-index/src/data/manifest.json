@@ -10,8 +10,8 @@
     "published": 1737,
     "upstream": 1755
   },
-  "generatedAt": "2026-10-13T10:58:13.128Z",
+  "generatedAt": "2026-10-19T13:04:07.039Z",
   "source": "https://osmlab.github.io/editor-layer-index/imagery.geojson",
-  "sourceCommit": "7785898dd4f3e9d1f7432bea0cf441f15548b164",
-  "sourceVersion": "W/\"6ac9017c-665d0c\""
+  "sourceCommit": "ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba",
+  "sourceVersion": "W/\"6acfab4d-665d01\""
 }

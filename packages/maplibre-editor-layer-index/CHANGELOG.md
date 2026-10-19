@@ -1,5 +1,22 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.2.1
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`7785898`](https://github.com/osmlab/editor-layer-index/commit/7785898dd4f3e9d1f7432bea0cf441f15548b164) → [`ffddeee`](https://github.com/osmlab/editor-layer-index/commit/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba), [compare](https://github.com/osmlab/editor-layer-index/compare/7785898dd4f3e9d1f7432bea0cf441f15548b164...ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba)).
+
+  Upstream commits:
+
+  - [`8adc5a9`](https://github.com/osmlab/editor-layer-index/commit/8adc5a945f296c36c2891ac14d39923312032530) Update end_date for MD Six Inch Imagery to 2025
+  - [`fb80a35`](https://github.com/osmlab/editor-layer-index/commit/fb80a35b24891190280eacfe3569e15e761b4b66) Sync WMS sources [skip travis] ([#3078](https://github.com/osmlab/editor-layer-index/pull/3078))
+  - [`ffddeee`](https://github.com/osmlab/editor-layer-index/commit/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba) Bump urllib3 from 2.7.0 to 2.8.0 ([#3064](https://github.com/osmlab/editor-layer-index/pull/3064))
+
+  ### Updated (3)
+  - **Köln TrueDOP 2024** (`Koeln-TrueDOP-2024`) — [source](https://github.com/osmlab/editor-layer-index/blob/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba/sources/europe/de/Köln-TrueDOP-2024.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba/sources/europe/de/Köln-TrueDOP-2024.geojson)
+  - **MD Latest 6 Inch Aerial Imagery** (`mdgeodata.md.gov-MD_SixInchImagery`) — [source](https://github.com/osmlab/editor-layer-index/blob/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba/sources/north-america/us/md/MD_SixInchImagery.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba/sources/north-america/us/md/MD_SixInchImagery.geojson)
+  - **SPW(allonie) most recent aerial imagery** (`SPW_ORTHO_LAST`) — [source](https://github.com/osmlab/editor-layer-index/blob/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba/sources/europe/be/SPW_OrthoPhoto.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/ffddeeec23d9c3c0d18aa059bb70fdca7fb049ba/sources/europe/be/SPW_OrthoPhoto.geojson)
+
 ## 0.2.0
 
 ### Minor Changes
