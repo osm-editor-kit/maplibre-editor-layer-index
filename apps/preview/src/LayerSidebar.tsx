@@ -6,7 +6,45 @@ import {
 } from '@osm-editor-kit/maplibre-editor-layer-index'
 import type { ReactNode } from 'react'
 import { layerScope, type ListStatus } from './demo'
-import { CATEGORY_GROUPS } from './mapSearch'
+import { CATEGORY_GROUPS, groupOf } from './mapSearch'
+
+const BEST_TITLE = 'Best imagery for this area (ELI “best”)'
+
+/** Tooltip for ELI's historic categories; `undefined` for current imagery and maps. */
+function historicLabel(category: EliCategory | undefined): string | undefined {
+  if (category === 'historicphoto') return 'Historic imagery'
+  if (category === 'historicmap') return 'Historic map'
+  return undefined
+}
+
+/** Star marking ELI's `best` layer; the tooltip says what it means. */
+function BestMark({ className }: { className: string }) {
+  return (
+    <span className={className} role="img" title={BEST_TITLE} aria-label={BEST_TITLE}>
+      ★
+    </span>
+  )
+}
+
+/** Clock glyph for historic imagery and maps; renders nothing for other categories. */
+function HistoricMark({
+  category,
+  className,
+}: {
+  category: EliCategory | undefined
+  className: string
+}) {
+  const label = historicLabel(category)
+  if (!label) return null
+  return (
+    <span className={className} role="img" title={label} aria-label={label}>
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <circle cx="8" cy="8" r="6" />
+        <path d="M8 4.5V8l2.5 2" />
+      </svg>
+    </span>
+  )
+}
 
 type Props = {
   /** One line on how this demo talks to the map. */
@@ -38,7 +76,7 @@ export function LayerSidebar({
   const entries = groupLayers(layers)
   const groups = CATEGORY_GROUPS.map((g) => ({
     ...g,
-    items: entries.filter((e) => (e.variants[0]!.category ?? 'other') === g.key),
+    items: entries.filter((e) => groupOf(e.variants[0]!.category) === g.key),
   })).filter((g) => g.items.length > 0)
 
   return (
@@ -62,7 +100,8 @@ export function LayerSidebar({
         <li>
           <strong>Hover</strong> a layer to highlight its area in orange, <strong>click</strong> it
           to load its imagery. Layers that only differ by date share one row — pick the date below
-          it.
+          it. While imagery is on the map, only its outline is drawn (red line), so you can check
+          its seams.
         </li>
       </ol>
       {status === 'error' && (
@@ -140,7 +179,8 @@ export function LayerSidebar({
                           {entry.name}
                         </span>
                         {scope && <span className={`badge scope ${scope}`}>{scope}</span>}
-                        {!entry.grouped && layer.best && <span className="badge">best</span>}
+                        {!entry.grouped && layer.best && <BestMark className="badge best" />}
+                        <HistoricMark category={layer.category} className="badge historic" />
                         <span className="badge type">{layer.type}</span>
                       </button>
                       {entry.grouped && (
@@ -151,13 +191,14 @@ export function LayerSidebar({
                               type="button"
                               className={`variant${variant === active ? ' active' : ''}`}
                               aria-pressed={variant === active}
-                              title={variant.best ? `${variant.name} (best)` : variant.name}
+                              title={variant.name}
                               onMouseEnter={() => onHover(variant.id)}
                               onMouseLeave={() => onHover(null)}
                               onClick={() => onToggleSelect(variant.id, variantIds)}
                             >
                               {variant.group!.label}
-                              {variant.best && <span className="best">★</span>}
+                              <HistoricMark category={variant.category} className="historic" />
+                              {variant.best && <BestMark className="best" />}
                             </button>
                           ))}
                         </div>

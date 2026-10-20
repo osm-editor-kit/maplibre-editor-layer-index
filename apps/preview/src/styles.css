@@ -302,6 +302,17 @@ body,
   background: #6a1b9a;
 }
 
+.layer .badge.best {
+  color: #b07800;
+  border-color: #f0c36d;
+}
+
+.layer .badge.historic {
+  color: #8a6d3b;
+  border-color: #e4d3b0;
+  padding: 1px 3px;
+}
+
 .entry {
   border-radius: 8px;
   border-left: 3px solid transparent;
@@ -424,6 +435,25 @@ body,
 .variant .best {
   margin-left: 3px;
   font-size: 10px;
+}
+
+/* Clock glyph for historic rows and date pills: an inline SVG in the text colour. */
+.historic {
+  display: inline-flex;
+  align-items: center;
+}
+
+.historic svg {
+  width: 11px;
+  height: 11px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
+.variant .historic {
+  margin-left: 4px;
 }
 
 .map {

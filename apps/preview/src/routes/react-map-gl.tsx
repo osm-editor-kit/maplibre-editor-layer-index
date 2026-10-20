@@ -11,6 +11,7 @@ import {
   Layer,
   Map,
   MapProvider,
+  NavigationControl,
   Source,
   useMap,
   type MapLayerMouseEvent,
@@ -22,6 +23,7 @@ import {
   bboxData,
   COVERAGE_SOURCE,
   coverageLayers,
+  EMPTY_FC,
   FIRST_COVERAGE_LAYER,
   HIGHLIGHT_SOURCE,
   highlightData,
@@ -30,6 +32,7 @@ import {
   useCoverage,
   useDemoSearch,
   useTilesLoading,
+  ZOOM_CONTROL_POSITION,
 } from '../demo'
 import { EdgeIndicator } from '../EdgeIndicator'
 import { LayerSidebar } from '../LayerSidebar'
@@ -63,9 +66,9 @@ function ReactMapGlDemo() {
     mapId: MAP_ID,
     filter: countryCodes.length > 0 ? { countryCodes } : undefined,
   })
-  const coverage = useCoverage(layers)
-  const loading = useTilesLoading(map, selected.length > 0)
   const [hoveredId, setHoveredId] = useState<string | null>(null)
+  const coverage = useCoverage(layers, open, selected, hoveredId)
+  const loading = useTilesLoading(map, selected.length > 0)
 
   // Stable objects, so the sources are only updated when the hover really changes.
   const highlight = useMemo(() => highlightData(coverage, hoveredId), [coverage, hoveredId])
@@ -122,10 +125,22 @@ function ReactMapGlDemo() {
           onMouseLeave={() => setHoveredId(null)}
           onMoveEnd={(e: ViewStateChangeEvent) => persistView(e.target)}
         >
+          <NavigationControl showCompass={false} position={ZOOM_CONTROL_POSITION} />
+
           {/* react-map-gl convention: keep <Source> and <Layer> FLAT (separate
               siblings, Layer referencing the source by id) — never nested. */}
 
-          {/* Imagery for selected layers — rendered first so it sits below the borders. */}
+          {/* Coverage borders first and always mounted (empty until loaded), so the
+              imagery below can name them as its beforeId. */}
+          <Source id={COVERAGE_SOURCE} type="geojson" data={coverage ?? EMPTY_FC} />
+          <Source id={HIGHLIGHT_SOURCE} type="geojson" data={highlight} />
+          <Source id={BBOX_SOURCE} type="geojson" data={bbox} />
+          {coverageLayers(open, selected, hoveredId).map((spec) => (
+            <Layer key={spec.id} {...spec} />
+          ))}
+
+          {/* Imagery for selected layers. react-map-gl adds a <Layer> on top of the stack
+              when it mounts, whatever its place here — beforeId keeps it below the borders. */}
           {selectedLayers.map((layer) => (
             <Fragment key={layer.id}>
               <Source id={`eli-raster-${layer.id}`} {...getRasterSourceSpec(layer)} />
@@ -135,20 +150,10 @@ function ReactMapGlDemo() {
                   source: `eli-raster-${layer.id}`,
                   paint: { 'raster-opacity': 0.9 },
                 })}
+                beforeId={FIRST_COVERAGE_LAYER}
               />
             </Fragment>
           ))}
-
-          {coverage && (
-            <>
-              <Source id={COVERAGE_SOURCE} type="geojson" data={coverage} />
-              <Source id={HIGHLIGHT_SOURCE} type="geojson" data={highlight} />
-              <Source id={BBOX_SOURCE} type="geojson" data={bbox} />
-              {coverageLayers(open, selected, hoveredId).map((spec) => (
-                <Layer key={spec.id} {...spec} />
-              ))}
-            </>
-          )}
         </Map>
 
         <EdgeIndicator map={map} area={area} />

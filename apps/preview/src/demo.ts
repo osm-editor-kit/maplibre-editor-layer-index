@@ -13,7 +13,7 @@ import type {
   Map as MaplibreMap,
 } from 'maplibre-gl'
 import { useEffect, useRef, useState } from 'react'
-import type { MapSearch } from './mapSearch'
+import { coverageCategories, type MapSearch } from './mapSearch'
 
 /** Everything both demos (react-map-gl and raw maplibre-gl) share besides the map itself. */
 
@@ -23,6 +23,8 @@ export const HIGHLIGHT_SOURCE = 'eli-highlight'
 export const BBOX_SOURCE = 'eli-bbox'
 /** Lowest coverage layer — imagery is inserted below it so borders stay on top. */
 export const FIRST_COVERAGE_LAYER = 'eli-coverage-fill'
+/** Zoom buttons: top-left, the corner free of the spinner (top-right), edge note and attribution. */
+export const ZOOM_CONTROL_POSITION = 'top-left' as const
 export const EMPTY_FC: FeatureCollection = { type: 'FeatureCollection', features: [] }
 
 // Coverage geometry of a layer falls into its category (missing → "other").
@@ -35,17 +37,20 @@ const INNER_WIDTH = 9
 
 /** Style layers for coverage borders, hover highlight and the hovered bbox. */
 export function coverageLayers(
-  open: string[],
+  open: EliCategory[],
   selected: string[],
   hoveredId: string | null,
 ): LayerSpecification[] {
-  const openFilter = ['in', categoryExpr, ['literal', open]] as FilterSpecification
-  const selectedFilter = ['in', ['get', 'id'], ['literal', selected]] as FilterSpecification
-  const labelFilter = [
-    'any',
-    selectedFilter,
-    ['==', ['get', 'id'], hoveredId ?? '__none__'],
+  // Opening a group draws the borders of all its categories (Aerial also draws historic aerial).
+  // While imagery is selected only that imagery and its outline are shown, so its seams
+  // can be checked — the open groups' borders are hidden.
+  const openFilter = [
+    'in',
+    categoryExpr,
+    ['literal', selected.length > 0 ? [] : coverageCategories(open)],
   ] as FilterSpecification
+  const selectedFilter = ['in', ['get', 'id'], ['literal', selected]] as FilterSpecification
+  const labelFilter = ['==', ['get', 'id'], hoveredId ?? '__none__'] as FilterSpecification
   const inset = (width: number) => ({ 'line-width': width, 'line-offset': width / 2 })
   return [
     {
@@ -69,19 +74,21 @@ export function coverageLayers(
       filter: openFilter,
       paint: { 'line-color': '#1a73e8', 'line-width': 1.5 },
     },
+    // Selected shape: a thin cut line with a white casing, nothing that covers the
+    // imagery's edge — so you can see where the tiles really end.
     {
-      id: 'eli-coverage-selected-inner',
+      id: 'eli-coverage-selected-casing',
       source: COVERAGE_SOURCE,
       type: 'line',
       filter: selectedFilter,
-      paint: { 'line-color': '#d50000', 'line-opacity': 0.18, ...inset(INNER_WIDTH) },
+      paint: { 'line-color': '#ffffff', 'line-width': 3, 'line-opacity': 0.8 },
     },
     {
       id: 'eli-coverage-selected',
       source: COVERAGE_SOURCE,
       type: 'line',
       filter: selectedFilter,
-      paint: { 'line-color': '#d50000', 'line-width': 2.5 },
+      paint: { 'line-color': '#d50000', 'line-width': 1.25 },
     },
     {
       id: 'eli-coverage-label',
@@ -220,11 +227,22 @@ export function useCountriesInView(map: MaplibreMap | null): string[] {
   return codes
 }
 
-/** Coverage polygons for the listed layers (borders + hover/selected highlight). */
-export function useCoverage(layers: EliLayer[]): FeatureCollection | null {
+/**
+ * Coverage polygons for the listed layers (borders + hover/selected highlight).
+ * Only loaded while something draws them: with nothing open, selected or hovered,
+ * moving the map must not reload or re-set the large coverage source.
+ */
+export function useCoverage(
+  layers: EliLayer[],
+  open: string[],
+  selected: string[],
+  hoveredId: string | null,
+): FeatureCollection | null {
   const [coverage, setCoverage] = useState<FeatureCollection | null>(null)
-  const key = layers.map((l) => l.id).join(',')
+  const inUse = open.length > 0 || selected.length > 0 || hoveredId !== null
+  const key = inUse ? layers.map((l) => l.id).join(',') : null
   useEffect(() => {
+    if (key === null) return
     let cancelled = false
     loadCoverageFeatures(layers).then((fc) => {
       if (!cancelled) setCoverage(fc)
@@ -235,14 +253,15 @@ export function useCoverage(layers: EliLayer[]): FeatureCollection | null {
     // `key` stands in for the layer list's content.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key])
-  return coverage
+  return inUse ? coverage : null
 }
 
 /** True while imagery tiles are loading (only when something is selected). */
 export function useTilesLoading(map: MaplibreMap | null, active: boolean): boolean {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
-    if (!map) return
+    // Nothing selected: no imagery can be loading, so no map listeners either.
+    if (!map || !active) return
     let raf = 0
     // Defer to the next frame: maplibre fires these during synchronous source commits.
     const update = () => {
@@ -263,7 +282,8 @@ export function useTilesLoading(map: MaplibreMap | null, active: boolean): boole
       map.off('idle', update)
     }
   }, [map, active])
-  return loading
+  // A stale `true` from an earlier selection must not outlive it.
+  return active && loading
 }
 
 function pointInRing(x: number, y: number, ring: Position[]): boolean {

@@ -8,7 +8,7 @@ import {
   removeEditorLayer,
 } from '@osm-editor-kit/maplibre-editor-layer-index/maplibre'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
-import { Map as MaplibreMap, type GeoJSONSource } from 'maplibre-gl'
+import { Map as MaplibreMap, NavigationControl, type GeoJSONSource } from 'maplibre-gl'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   BASE_STYLE,
@@ -25,6 +25,7 @@ import {
   useCoverage,
   useDemoSearch,
   useTilesLoading,
+  ZOOM_CONTROL_POSITION,
   type ListStatus,
 } from '../demo'
 import { EdgeIndicator } from '../EdgeIndicator'
@@ -55,7 +56,7 @@ function RawMaplibreDemo() {
 
   const [countryCodes, setCountryCodes] = useState<string[]>([])
   const [status, setStatus] = useState<ListStatus>('loading')
-  const coverage = useCoverage(layers)
+  const coverage = useCoverage(layers, open, selected, hoveredId)
   const loading = useTilesLoading(map, selected.length > 0)
   const area = useMemo(() => hoveredArea(coverage, hoveredId), [coverage, hoveredId])
   // Ids of the raster layers currently on the map (see the imagery effect).
@@ -71,6 +72,8 @@ function RawMaplibreDemo() {
       center: [search.lng, search.lat],
       zoom: search.zoom,
     })
+    // Same zoom buttons as the react-map-gl demo (its <NavigationControl>).
+    instance.addControl(new NavigationControl({ showCompass: false }), ZOOM_CONTROL_POSITION)
     instance.on('load', () => {
       for (const id of [COVERAGE_SOURCE, HIGHLIGHT_SOURCE, BBOX_SOURCE]) {
         instance.addSource(id, { type: 'geojson', data: EMPTY_FC })
@@ -100,10 +103,9 @@ function RawMaplibreDemo() {
   useEffect(() => {
     if (!map) return
     let latest = 0
-    const refresh = () => {
+    let timer: ReturnType<typeof setTimeout> | undefined
+    const list = (codes: string[]) => {
       const run = ++latest
-      const codes = countriesInView(map)
-      setCountryCodes((cur) => (cur.join() === codes.join() ? cur : codes))
       setStatus('loading')
       const filter = codes.length > 0 ? { countryCodes: codes } : undefined
       loadLayersInViewport(map.getBounds(), filter).then(
@@ -117,13 +119,23 @@ function RawMaplibreDemo() {
         },
       )
     }
-    refresh()
-    map.on('moveend', refresh)
-    map.on('resize', refresh)
+    // The countries follow at once; the list waits until the map has settled (150 ms,
+    // the same debounce as useEditorLayerIndex()).
+    const refresh = (delay: number) => {
+      const codes = countriesInView(map)
+      setCountryCodes((cur) => (cur.join() === codes.join() ? cur : codes))
+      clearTimeout(timer)
+      timer = setTimeout(() => list(codes), delay)
+    }
+    refresh(0)
+    const onChange = () => refresh(150)
+    map.on('moveend', onChange)
+    map.on('resize', onChange)
     return () => {
+      clearTimeout(timer)
       latest = -1
-      map.off('moveend', refresh)
-      map.off('resize', refresh)
+      map.off('moveend', onChange)
+      map.off('resize', onChange)
     }
   }, [map])
 

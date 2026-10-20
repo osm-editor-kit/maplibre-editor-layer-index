@@ -26,6 +26,9 @@ There are three entry points: `/react` (hook), `/maplibre` (add and remove helpe
 `useEditorLayerIndex` returns the layers covering the current viewport and updates them when the
 map stops moving.
 
+With `maplibre-gl` 6, use `react-map-gl` 8.1.2 or newer: 8.1.1 reads a camera property that
+maplibre 6 no longer has, so the map throws on every move and jumps around when zooming.
+
 ```tsx
 import { Fragment } from 'react'
 import { Layer, Map, Source } from 'react-map-gl/maplibre'
