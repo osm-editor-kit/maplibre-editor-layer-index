@@ -1,5 +1,11 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.3.0
+
+### Minor Changes
+
+- 90243e4: Layers now carry `sourceUrl`, the GitHub page of their source file in the Editor Layer Index (`sources/…/<file>.geojson`). It is part of the lazy layer details, so the locator stays the same size. The preview links every layer row and every “On the map” chip to that file.
+
 ## 0.2.1
 
 ### Patch Changes
