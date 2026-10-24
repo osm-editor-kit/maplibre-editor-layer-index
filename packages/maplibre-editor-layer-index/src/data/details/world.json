@@ -5,6 +5,7 @@
     "attributionUrl": "https://www.cyclosm.org/",
     "icon": "https://raw.githubusercontent.com/cyclosm/cyclosm-website/master/images/logo.png",
     "licenseUrl": "https://github.com/cyclosm/cyclosm-cartocss-style/blob/master/LICENSE.md",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/CyclOSM.geojson",
     "tiles": [
       "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png",
       "https://b.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png",
@@ -29,6 +30,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2017-cloudless.geojson",
     "startDate": "2017",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2017_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -52,6 +54,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2018-cloudless.geojson",
     "startDate": "2018",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2018_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -75,6 +78,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2019-cloudless.geojson",
     "startDate": "2019",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2019_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -98,6 +102,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2020-cloudless.geojson",
     "startDate": "2020",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2020_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -121,6 +126,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2021-cloudless.geojson",
     "startDate": "2021",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2021_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -144,6 +150,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2022-cloudless.geojson",
     "startDate": "2022",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2022_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -167,6 +174,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2023-cloudless.geojson",
     "startDate": "2023",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2023_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -190,6 +198,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2024-cloudless.geojson",
     "startDate": "2024",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2024_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -213,6 +222,7 @@
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/eox.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Eox.at",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/eox.at-2025-cloudless.geojson",
     "startDate": "2025",
     "tiles": [
       "https://tiles.maps.eox.at/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=s2cloudless-2025_3857&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -224,6 +234,7 @@
     "attributionText": "Terms & Feedback",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Esri",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/EsriImageryClarity.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/EsriImagery.geojson",
     "tiles": [
       "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
       "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
@@ -236,6 +247,7 @@
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Esri",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/EsriImageryClarity.png",
     "licenseUrl": "https://github.com/osmlab/editor-layer-index/pull/358#issuecomment-361416110",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/EsriImageryClarity.geojson",
     "tiles": [
       "https://clarity.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
     ],
@@ -250,6 +262,7 @@
       "EPSG:4326"
     ],
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/GeoScribble#License",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/GeoScribbles.geojson",
     "tiles": [
       "https://geoscribble.osmz.ru/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=latest&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
@@ -260,6 +273,7 @@
     "attributionText": "© OpenStreetMap contributors, tiles courtesy of Humanitarian OpenStreetMap Team",
     "attributionUrl": "https://www.hotosm.org/",
     "icon": "https://wiki.openstreetmap.org/w/images/thumb/c/c9/Hot_logo.svg/300px-Hot_logo.svg.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-HotStyle.geojson",
     "tiles": [
       "https://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
       "https://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
@@ -273,6 +287,7 @@
     "attributionUrl": "https://basemaps.linz.govt.nz/?style=topo-raster&i=topo-raster",
     "icon": "https://basemaps.linz.govt.nz/assets/logo-linz.svg",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Contributors#LINZ",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/oceania/nz/LINZ-NZ-Topo50-Gridless-Maps.geojson",
     "tiles": [
       "https://basemaps.linz.govt.nz/v1/tiles/topo-raster/WebMercatorQuad/{z}/{x}/{y}.webp?api=d01egend5f8dv4zcbfj6z2t7rs3"
     ],
@@ -284,6 +299,7 @@
     "attributionUrl": "https://www.mapbox.com/about/maps",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/MapBoxSatellite.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Vertical_Aerial_Photographs#DigitalGlobe_.2F_MapBox",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/MapBoxSatellite.geojson",
     "tiles": [
       "https://a.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token={apikey}",
       "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token={apikey}",
@@ -296,6 +312,7 @@
     "attributionHtml": "<a href=\"https://www.mapbox.com/about/maps\" target=\"_blank\" rel=\"noopener\">Terms & Feedback</a>",
     "attributionText": "Terms & Feedback",
     "attributionUrl": "https://www.mapbox.com/about/maps",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/LocatorOverlay.geojson",
     "tiles": [
       "https://api.mapbox.com/styles/v1/openstreetmap/ckasmteyi1tda1ipfis6wqhuq/tiles/256/{z}/{x}/{y}?access_token={apikey}"
     ],
@@ -307,6 +324,7 @@
     "attributionUrl": "https://www.openstreetmap.org",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.png",
     "licenseUrl": "https://wiki.osmfoundation.org/wiki/Terms_of_Use",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-Mapnik.geojson",
     "tiles": [
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
     ],
@@ -315,6 +333,7 @@
   "OpenAerialMapMosaic": {
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenAerialMap.png",
     "licenseUrl": "http://openaerialmap.org/legal/",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenAerialMap-Mosaic.geojson",
     "tiles": [
       "https://apps.kontur.io/raster-tiler/oam/mosaic/{z}/{x}/{y}.png"
     ],
@@ -325,6 +344,7 @@
     "attributionText": "© OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "http://openptmap.de",
     "icon": "http://openptmap.de/favicon_pt.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenPTMap-overlay.geojson",
     "tiles": [
       "http://openptmap.de/tiles/{z}/{x}/{y}.png"
     ],
@@ -335,6 +355,7 @@
     "attributionText": "Rendering: OpenRailwayMap, © Map data OpenStreetMap contributors",
     "attributionUrl": "https://www.openrailwaymap.org/",
     "icon": "https://www.openrailwaymap.org/img/openrailwaymap-64.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenRailwayMap.geojson",
     "tiles": [
       "https://a.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png",
       "https://b.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png",
@@ -347,6 +368,7 @@
     "attributionText": "Rendering: OpenRailwayMap, © Map data OpenStreetMap contributors",
     "attributionUrl": "https://www.openrailwaymap.org/",
     "icon": "https://www.openrailwaymap.org/img/openrailwaymap-64.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenRailwayMapMaxspeeds.geojson",
     "tiles": [
       "https://a.tiles.openrailwaymap.org/maxspeed/{z}/{x}/{y}.png",
       "https://b.tiles.openrailwaymap.org/maxspeed/{z}/{x}/{y}.png",
@@ -359,6 +381,7 @@
     "attributionText": "Rendering: OpenRailwayMap, © Map data OpenStreetMap contributors",
     "attributionUrl": "https://www.openrailwaymap.org/",
     "icon": "https://www.openrailwaymap.org/img/openrailwaymap-64.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenRailwayMapSignalling.geojson",
     "tiles": [
       "https://a.tiles.openrailwaymap.org/signals/{z}/{x}/{y}.png",
       "https://b.tiles.openrailwaymap.org/signals/{z}/{x}/{y}.png",
@@ -371,6 +394,7 @@
     "attributionText": "© OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://www.openstreetmap.org/copyright",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenSeaMap.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenSeaMap.geojson",
     "tiles": [
       "https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png"
     ],
@@ -381,6 +405,7 @@
     "attributionText": "© OpenSnowMap.org",
     "attributionUrl": "https://www.opensnowmap.org/",
     "icon": "https://www.opensnowmap.org/pics/alpine.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenSnowMapoverlay.geojson",
     "tiles": [
       "https://www.opensnowmap.org/pistes/{z}/{x}/{y}.png"
     ],
@@ -391,6 +416,7 @@
     "attributionText": "Kartendaten: © OpenStreetMap-Mitwirkende, SRTM | Kartendarstellung: © OpenTopoMap (CC-BY-SA)",
     "attributionUrl": "https://opentopomap.org/about#verwendung",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenTopoMap.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenTopoMap.geojson",
     "tiles": [
       "https://a.tile.opentopomap.org/{z}/{x}/{y}.png",
       "https://b.tile.opentopomap.org/{z}/{x}/{y}.png",
@@ -403,6 +429,7 @@
     "attributionText": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://tools.geofabrik.de/osmi",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OSMIHighways.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OSMIAddresses.geojson",
     "tiles": [
       "https://tools.geofabrik.de/osmi/tiles/addresses/{z}/{x}/{y}.png"
     ],
@@ -413,6 +440,7 @@
     "attributionText": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://tools.geofabrik.de/osmi",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OSMIHighways.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OSMIGeometry.geojson",
     "tiles": [
       "https://tools.geofabrik.de/osmi/tiles/geometry/{z}/{x}/{y}.png"
     ],
@@ -423,6 +451,7 @@
     "attributionText": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://tools.geofabrik.de/osmi",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OSMIHighways.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OSMIHighways.geojson",
     "tiles": [
       "https://tools.geofabrik.de/osmi/tiles/highways/{z}/{x}/{y}.png"
     ],
@@ -433,6 +462,7 @@
     "attributionText": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://tools.geofabrik.de/osmi",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OSMIHighways.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OSMIMultipolygon.geojson",
     "tiles": [
       "https://tools.geofabrik.de/osmi/tiles/area/{z}/{x}/{y}.png"
     ],
@@ -443,6 +473,7 @@
     "attributionText": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://tools.geofabrik.de/osmi",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OSMIHighways.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OSMIPlaces.geojson",
     "tiles": [
       "https://tools.geofabrik.de/osmi/tiles/places/{z}/{x}/{y}.png"
     ],
@@ -453,6 +484,7 @@
     "attributionText": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://tools.geofabrik.de/osmi",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OSMIHighways.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OSMIRouting.geojson",
     "tiles": [
       "https://tools.geofabrik.de/osmi/tiles/routing/{z}/{x}/{y}.png"
     ],
@@ -463,6 +495,7 @@
     "attributionText": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://tools.geofabrik.de/osmi",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OSMIHighways.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OSMITagging.geojson",
     "tiles": [
       "https://tools.geofabrik.de/osmi/tiles/tagging/{z}/{x}/{y}.png"
     ],
@@ -474,6 +507,7 @@
     "attributionUrl": "https://www.openstreetmap.org/copyright",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.svg",
     "licenseUrl": "https://wiki.osmfoundation.org/wiki/Terms_of_Use",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-GPS.geojson",
     "tiles": [
       "https://a.gps-tile.openstreetmap.org/lines/{z}/{x}/{y}.png",
       "https://b.gps-tile.openstreetmap.org/lines/{z}/{x}/{y}.png",
@@ -486,6 +520,7 @@
     "attributionText": "© OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://www.openstreetmap.org",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-GermanStyle.geojson",
     "tiles": [
       "https://tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png"
     ],
@@ -496,6 +531,7 @@
     "attributionText": "© OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://www.openstreetmap.org/",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap(Mapniknolabels).geojson",
     "tiles": [
       "https://tiles.wmflabs.org/osm-no-labels/{z}/{x}/{y}.png"
     ],
@@ -506,6 +542,7 @@
     "attributionText": "Tiles © cquest@Openstreetmap France, data © OpenStreetMap contributors, ODBL",
     "attributionUrl": "https://www.openstreetmap.org/",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-FrenchStyle.geojson",
     "tiles": [
       "https://a.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
       "https://b.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
@@ -517,6 +554,7 @@
     "attributionHtml": "<a href=\"https://www.openstreetmap.org/\" target=\"_blank\" rel=\"noopener\">Tiles © OpenStreetMap France, data © OpenStreetMap contributors, ODbL</a>",
     "attributionText": "Tiles © OpenStreetMap France, data © OpenStreetMap contributors, ODbL",
     "attributionUrl": "https://www.openstreetmap.org/",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-BasqueStyle.geojson",
     "tiles": [
       "https://tile.openstreetmap.bzh/eu/{z}/{x}/{y}.png"
     ],
@@ -526,6 +564,7 @@
     "attributionHtml": "<a href=\"https://www.openstreetmap.org/\" target=\"_blank\" rel=\"noopener\">Tiles © OpenStreetMap France, data © OpenStreetMap contributors, ODbL</a>",
     "attributionText": "Tiles © OpenStreetMap France, data © OpenStreetMap contributors, ODbL",
     "attributionUrl": "https://www.openstreetmap.org/",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-BretonStyle.geojson",
     "tiles": [
       "https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png"
     ],
@@ -535,6 +574,7 @@
     "attributionHtml": "<a href=\"https://www.openstreetmap.org/\" target=\"_blank\" rel=\"noopener\">Tiles © OpenStreetMap France, data © OpenStreetMap contributors, ODbL</a>",
     "attributionText": "Tiles © OpenStreetMap France, data © OpenStreetMap contributors, ODbL",
     "attributionUrl": "https://www.openstreetmap.org/",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/OpenStreetMap-OccitanStyle.geojson",
     "tiles": [
       "https://tile.openstreetmap.bzh/oc/{z}/{x}/{y}.png"
     ],
@@ -545,6 +585,7 @@
     "attributionText": "© OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://öpnvkarte.de/",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/PublicTransport(PNV).png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/PublicTransport(PNV).geojson",
     "tiles": [
       "https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png"
     ],
@@ -554,6 +595,7 @@
     "attributionHtml": "<a href=\"https://qa.poole.ch\" target=\"_blank\" rel=\"noopener\">Simon Poole, Data ©OpenStreetMap contributors</a>",
     "attributionText": "Simon Poole, Data ©OpenStreetMap contributors",
     "attributionUrl": "https://qa.poole.ch",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/QANoAddress.geojson",
     "tiles": [
       "https://tile2.poole.ch/noaddress/{z}/{x}/{y}.png",
       "https://tile3.poole.ch/noaddress/{z}/{x}/{y}.png"
@@ -565,6 +607,7 @@
     "attributionText": "© Tiles: skobbler Map data: OpenStreetMap contributors",
     "attributionUrl": "https://maps.skobbler.com",
     "icon": "https://www.skobbler.com/images/skobbler_logo_josm.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/Skobbler.geojson",
     "tiles": [
       "https://tiles1-4001b3692e229e3215c9b7a73e528198.skobblermaps.com/TileService/tiles/2.0/00021210101/0/{z}/{x}/{y}.png",
       "https://tiles2-4001b3692e229e3215c9b7a73e528198.skobblermaps.com/TileService/tiles/2.0/00021210101/0/{z}/{x}/{y}.png",
@@ -578,6 +621,7 @@
     "attributionText": "Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL",
     "attributionUrl": "http://maps.stamen.com/#terrain",
     "icon": "https://stamen.com/wp-content/uploads/2016/07/stamen_compass_rose_small-01.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/StamenTerrainBackground.geojson",
     "tiles": [
       "https://stamen-tiles-a.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.jpg",
       "https://stamen-tiles-b.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.jpg",
@@ -592,6 +636,7 @@
     "attributionUrl": "https://www.thunderforest.com/terms",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/TF-OpenCycleMap.png",
     "licenseUrl": "https://thunderforest.com/terms",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/TF-OpenCycleMap.geojson",
     "tiles": [
       "https://a.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey={apikey}",
       "https://b.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey={apikey}",
@@ -604,6 +649,7 @@
     "attributionText": "Maps © Thunderforest, Data © OpenStreetMap contributors",
     "attributionUrl": "https://www.thunderforest.com/terms",
     "licenseUrl": "https://thunderforest.com/terms",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/TF-Landscape.geojson",
     "tiles": [
       "https://a.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey={apikey}",
       "https://b.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey={apikey}",
@@ -616,6 +662,7 @@
     "attributionText": "Maps © Thunderforest, Data © OpenStreetMap contributors",
     "attributionUrl": "https://www.thunderforest.com/terms",
     "licenseUrl": "https://thunderforest.com/terms",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/TF-Outdoors.geojson",
     "tiles": [
       "https://a.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey={apikey}",
       "https://b.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey={apikey}",
@@ -628,6 +675,7 @@
     "attributionText": "© waymarkedtrails.org, OpenStreetMap contributors, CC by-SA 3.0",
     "attributionUrl": "https://cycling.waymarkedtrails.org/en/help/legal",
     "icon": "https://static.waymarkedtrails.org/img/map_cycling.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/WMT-cycling.geojson",
     "tiles": [
       "https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png"
     ],
@@ -638,6 +686,7 @@
     "attributionText": "© waymarkedtrails.org, OpenStreetMap contributors, CC by-SA 3.0",
     "attributionUrl": "https://hiking.waymarkedtrails.org/en/help/legal",
     "icon": "https://static.waymarkedtrails.org/img/map_hiking.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/WMT-hiking.geojson",
     "tiles": [
       "https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png"
     ],
@@ -648,6 +697,7 @@
     "attributionText": "© waymarkedtrails.org, OpenStreetMap contributors, CC by-SA 3.0",
     "attributionUrl": "https://skating.waymarkedtrails.org/en/help/legal",
     "icon": "https://static.waymarkedtrails.org/img/map_riding.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/WMT-horseriding.geojson",
     "tiles": [
       "https://tile.waymarkedtrails.org/riding/{z}/{x}/{y}.png"
     ],
@@ -658,6 +708,7 @@
     "attributionText": "© waymarkedtrails.org, OpenStreetMap contributors, CC by-SA 3.0",
     "attributionUrl": "https://mtb.waymarkedtrails.org/en/help/legal",
     "icon": "https://static.waymarkedtrails.org/img/map_mtb.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/WMT-mtb.geojson",
     "tiles": [
       "https://tile.waymarkedtrails.org/mtb/{z}/{x}/{y}.png"
     ],
@@ -668,6 +719,7 @@
     "attributionText": "© waymarkedtrails.org, OpenStreetMap contributors, CC by-SA 3.0",
     "attributionUrl": "https://skating.waymarkedtrails.org/en/help/legal",
     "icon": "https://static.waymarkedtrails.org/img/map_skating.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/WMT-skating.geojson",
     "tiles": [
       "https://tile.waymarkedtrails.org/skating/{z}/{x}/{y}.png"
     ],
@@ -678,6 +730,7 @@
     "attributionText": "© waymarkedtrails.org, OpenStreetMap contributors, CC by-SA 3.0",
     "attributionUrl": "https://slopes.waymarkedtrails.org/en/help/legal",
     "icon": "https://static.waymarkedtrails.org/img/map_slopes.png",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/WMT-slopemap.geojson",
     "tiles": [
       "https://tile.waymarkedtrails.org/slopes/{z}/{x}/{y}.png"
     ],
@@ -687,6 +740,7 @@
     "attributionHtml": "<a href=\"https://www.openstreetmap.org/\" target=\"_blank\" rel=\"noopener\">© OpenStreetMap contributors, CC-BY-SA</a>",
     "attributionText": "© OpenStreetMap contributors, CC-BY-SA",
     "attributionUrl": "https://www.openstreetmap.org/",
+    "sourceUrl": "https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/world/WikimediaMap.geojson",
     "tiles": [
       "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png"
     ],

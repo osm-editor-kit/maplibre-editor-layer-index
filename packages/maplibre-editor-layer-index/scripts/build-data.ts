@@ -2,7 +2,7 @@ import { mkdir, readFile, unlink, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { EliContinent, EliDetailsShard, EliGeometries, EliManifest } from '../src/core/types'
-import { fetchEliSourceCommit } from './eli-github'
+import { eliSourceFileUrl, fetchEliSourceCommit, fetchEliSourcePaths } from './eli-github'
 import { fetchEli } from './fetch'
 import { transform } from './transform'
 
@@ -56,6 +56,16 @@ export async function buildData(): Promise<EliManifest> {
     console.warn('Could not resolve ELI sourceCommit (continuing):', error)
   }
 
+  console.log('Mapping layers to their ELI source files…')
+  const sourceUrls = new Map<string, string>()
+  try {
+    // Same commit as the published index, so new layers already have their file.
+    const paths = await fetchEliSourcePaths(sourceCommit ?? undefined)
+    for (const [id, path] of paths) sourceUrls.set(id, eliSourceFileUrl(path))
+  } catch (error) {
+    console.warn('Could not map ELI source files (continuing without source links):', error)
+  }
+
   console.log('Validating + transforming…')
   const {
     locatorLayers,
@@ -65,7 +75,7 @@ export async function buildData(): Promise<EliManifest> {
     byCountry,
     apiKeys,
     counts,
-  } = transform(raw)
+  } = transform(raw, sourceUrls)
 
   const detailShards = nonEmptyShards(detailsByContinent)
   const geometryShards = nonEmptyShards(geometriesByContinent)

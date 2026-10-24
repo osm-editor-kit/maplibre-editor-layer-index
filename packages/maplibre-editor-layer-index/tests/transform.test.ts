@@ -93,6 +93,16 @@ describe('transform', () => {
     expect(result.apiKeys).toEqual(['apikey'])
   })
 
+  it('adds the ELI source file URL to the details when one is known', () => {
+    const url = 'https://github.com/osmlab/editor-layer-index/blob/gh-pages/sources/berlin.geojson'
+    const result = transform(
+      collection([feature('berlin'), feature('other')]),
+      new Map([['berlin', url]]),
+    )
+    expect(result.detailsByContinent.europe.berlin!.sourceUrl).toBe(url)
+    expect(result.detailsByContinent.europe.other!.sourceUrl).toBeUndefined()
+  })
+
   it('throws on structurally invalid input (refuse to publish garbage)', () => {
     expect(() => transform({ type: 'FeatureCollection' })).toThrow()
     expect(() =>

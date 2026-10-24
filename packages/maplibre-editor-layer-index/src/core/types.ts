@@ -61,6 +61,8 @@ export type EliLayerDetails = {
   endDate?: string
   /** Set when this layer is one date of a time series, see {@link EliLayerGroup}. */
   group?: EliLayerGroup
+  /** GitHub page of the layer's source file in the Editor Layer Index repository. */
+  sourceUrl?: string
 }
 
 /**

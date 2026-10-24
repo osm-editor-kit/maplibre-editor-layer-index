@@ -1,5 +1,7 @@
 /** GitHub helpers for Editor Layer Index provenance and release notes. */
 
+import { gunzipSync } from 'node:zlib'
+
 export const ELI_REPO = 'osmlab/editor-layer-index'
 export const ELI_REPO_URL = `https://github.com/${ELI_REPO}`
 /** ELI publishes the imagery index from this branch (also the default branch). */
@@ -118,6 +120,63 @@ export async function mapSourceFilesToLayerIds(
     }),
   )
   return byId
+}
+
+/** Read the 512-byte-block ustar archive GitHub serves, calling `onFile` per regular file. */
+function readTar(bytes: Uint8Array, onFile: (path: string, contents: Uint8Array) => void): void {
+  const decoder = new TextDecoder()
+  // Header fields are NUL-terminated within their fixed width.
+  const field = (offset: number, length: number) => {
+    const raw = bytes.subarray(offset, offset + length)
+    const end = raw.indexOf(0)
+    return decoder.decode(end === -1 ? raw : raw.subarray(0, end))
+  }
+  let offset = 0
+  while (offset + 512 <= bytes.length) {
+    const name = field(offset, 100)
+    if (!name) break
+    const size = Number.parseInt(field(offset + 124, 12).trim() || '0', 8)
+    const type = field(offset + 156, 1)
+    const prefix = field(offset + 345, 155)
+    const start = offset + 512
+    if (type === '0' || type === '') {
+      onFile(prefix ? `${prefix}/${name}` : name, bytes.subarray(start, start + size))
+    }
+    offset = start + Math.ceil(size / 512) * 512
+  }
+}
+
+/**
+ * Map layer id → path of its source file in ELI (`sources/…/<file>.geojson`).
+ * The published imagery.geojson drops the path, so read it from the repo archive.
+ */
+export async function fetchEliSourcePaths(ref: string = ELI_REF): Promise<Map<string, string>> {
+  const url = `https://codeload.github.com/${ELI_REPO}/tar.gz/${encodeURIComponent(ref)}`
+  const response = await fetch(url)
+  if (!response.ok) {
+    throw new Error(`ELI archive ${url}: ${response.status} ${response.statusText}`)
+  }
+  const tar = gunzipSync(new Uint8Array(await response.arrayBuffer()))
+  const decoder = new TextDecoder()
+  const byId = new Map<string, string>()
+  readTar(tar, (archivePath, contents) => {
+    // Archive paths start with an `<repo>-<ref>/` folder.
+    const path = archivePath.slice(archivePath.indexOf('/') + 1)
+    if (!/^sources\/.+\.geojson$/i.test(path)) return
+    try {
+      const geo = JSON.parse(decoder.decode(contents)) as { properties?: { id?: string } }
+      const id = geo.properties?.id
+      if (id) byId.set(id, path)
+    } catch {
+      // Not parseable — that layer just gets no source link.
+    }
+  })
+  return byId
+}
+
+/** GitHub page of an ELI source file, e.g. `sources/europe/de/berlin/…geojson`. */
+export function eliSourceFileUrl(path: string): string {
+  return `${ELI_REPO_URL}/blob/${ELI_REF}/${path}`
 }
 
 export function shortSha(sha: string): string {
