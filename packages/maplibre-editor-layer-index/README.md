@@ -18,8 +18,8 @@ source and layer specs. Rendering and styling stay with you.
 npm i @osm-editor-kit/maplibre-editor-layer-index
 ```
 
-There are three entry points: `/react` (hook), `/maplibre` (add and remove helpers) and the root
-(everything framework-agnostic). The package is ESM; `require()` works on Node 22+.
+There are four entry points: `/react` (hook), `/maplibre` (add and remove helpers), `/oam`
+([OpenAerialMap, live](#openaerialmap-live)) and the root (everything framework-agnostic). The package is ESM; `require()` works on Node 22+.
 
 ## react-map-gl
 
@@ -231,6 +231,57 @@ const geometries = await loadGeometries() // optional, keyed by layer.geometryId
 The
 [iD integration guide](https://github.com/osm-editor-kit/maplibre-editor-layer-index/blob/main/docs/iD-integration.md)
 has a full adapter sketch with field mapping, polygons and known gaps.
+
+## OpenAerialMap (live)
+
+ELI has one OpenAerialMap layer, the worldwide mosaic by Kontur.io. The single images of
+[OpenAerialMap](https://openaerialmap.org/) (drones, planes, 360° orthos, uploaded every day) are
+in HOT's [STAC API](https://api.imagery.hotosm.org/stac/) instead. `/oam` asks that API at run
+time, so new uploads show up at once and nothing is added to the bundled data. An app that never
+imports `/oam` sends no request.
+
+```ts
+import {
+  getOamImageryUsedValue,
+  getOamRasterLayerSpec,
+  getOamRasterSourceSpec,
+  oamSourceId,
+  searchOam,
+} from '@osm-editor-kit/maplibre-editor-layer-index/oam'
+
+const controller = new AbortController()
+const { layers } = await searchOam(map.getBounds(), { limit: 50, signal: controller.signal })
+const [image] = layers // newest first
+if (image) {
+  map.addSource(oamSourceId(image), getOamRasterSourceSpec(image))
+  map.addLayer(getOamRasterLayerSpec(image))
+  getOamImageryUsedValue(image) // 'OpenAerialMap (<title>)'
+}
+```
+
+- An `OamLayer` is shaped like an `EliLayer` where the fields mean the same (`id` is
+  `oam:<item id>`, `name`, `category: 'photo'`, `bbox`, `maxzoom`, `tiles`, `attributionHtml`,
+  `startDate`), plus `oam`: provider, platform, sensor, `gsd` (m/px), footprint, thumbnail, license.
+- `getOamItem(id)` reads one image, for a shared link. `undefined` when the API does not know it.
+- Tiles come from HOT's TiTiler:
+  `…/raster/collections/openaerialmap/items/<id>/tiles/WebMercatorQuad/{z}/{x}/{y}?assets=visual`.
+  The asset is `visual` on new uploads and `data` on some old ones; the item's `renders.browse`
+  becomes TiTiler parameters, and items without one get `nodata=0` (as HOT's browser does).
+- The source is bounded to the image (`bounds`) and its `maxzoom` is the zoom where a tile pixel
+  matches an image pixel, from `gsd`. MapLibre overzooms past it.
+- `pixelRatio: 2` on `getOamRasterSourceSpec` asks for 512 px tiles (`@2x`). It is off by default:
+  every tile is rendered on HOT's server.
+- Search options: `limit` (default 50, at most 250), `datetime` (a STAC interval), `collections`
+  (default `openaerialmap`), `signal`, `fetch`, and `stacUrl` / `rasterUrl` for a mock server. A
+  view across the antimeridian is two requests.
+- Attribution is `© <provider>, OpenAerialMap, <license>` (the images are CC-BY-4.0 unless the
+  item says otherwise). Show it, as with ELI layers.
+- Browser use needs CORS. HOT's deployment turns it on for `api.imagery.hotosm.org`
+  ([ingress config](https://github.com/hotosm/k8s-infra/blob/main/apps/oam/eoapi/helm/values.yaml)).
+  `bun run oam:probe` checks it live: it asks the search and one tile with an `Origin` header and
+  exits non-zero when a header is missing.
+- There is no documented rate limit. Search when the map stops moving, not on every frame, and
+  abort the previous request.
 
 ## API overview
 

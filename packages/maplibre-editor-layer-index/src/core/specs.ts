@@ -1,5 +1,5 @@
 import { applyApiKeys, type EliApiKeys } from './apiKeys'
-import type { EliLayer } from './types'
+import type { BBox, EliLayer } from './types'
 
 /**
  * Minimal structural types for the MapLibre style specs we emit. They're
@@ -14,6 +14,8 @@ export type RasterSourceSpec = {
   scheme?: 'xyz' | 'tms'
   minzoom?: number
   maxzoom?: number
+  /** Extent with tiles, `[west, south, east, north]`; MapLibre asks for no tile outside it */
+  bounds?: BBox
   attribution?: string
 }
 

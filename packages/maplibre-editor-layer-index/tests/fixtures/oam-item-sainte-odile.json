@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "id": "1e7cb303-0c37-4904-81bf-374640b500af",
+  "collection": "openaerialmap",
+  "bbox": [7.404381675568253, 48.43728034594524, 7.4060471713065, 48.438321228139294],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [7.404381675568253, 48.43728034594524],
+        [7.4060471713065, 48.43728034594524],
+        [7.4060471713065, 48.438321228139294],
+        [7.404381675568253, 48.438321228139294],
+        [7.404381675568253, 48.43728034594524]
+      ]
+    ]
+  },
+  "properties": {
+    "gsd": 0.045,
+    "title": "Mont Sainte-Odile Abbey – selected footways – street-level 360 ortho",
+    "created": "2026-10-25T06:33:46Z",
+    "license": "CC-BY-4.0",
+    "renders": {
+      "browse": { "bidx": [1, 2, 3], "title": "Visual", "assets": ["visual"] }
+    },
+    "datetime": "2026-10-24T00:00:00Z",
+    "providers": [
+      {
+        "name": "OSM Verkehrswende",
+        "roles": ["producer", "licensor"],
+        "description": "OSM Verkehrswende"
+      }
+    ],
+    "instruments": ["GoPro MAX 2"],
+    "oam:product_type": "visual",
+    "oam:platform_type": "uav",
+    "oam:producer_name": "OSM Verkehrswende",
+    "oam:footprint_area": 6637.947274894977,
+    "oam:footprint_source": "mask"
+  },
+  "assets": {
+    "visual": {
+      "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/u-9e3531e26d7345e0/1e7cb303-0c37-4904-81bf-374640b500af/cog-sainte-odile-2026-10-24-j-flat-wall6-cog.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": ["data"]
+    },
+    "metadata": {
+      "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/u-9e3531e26d7345e0/1e7cb303-0c37-4904-81bf-374640b500af/metadata.json",
+      "type": "application/json",
+      "roles": ["metadata"]
+    },
+    "original": {
+      "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/u-9e3531e26d7345e0/1e7cb303-0c37-4904-81bf-374640b500af/sainte-odile-2026-10-24-j-flat-wall6-cog.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": ["data"]
+    },
+    "thumbnail": {
+      "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/u-9e3531e26d7345e0/1e7cb303-0c37-4904-81bf-374640b500af/thumbnail.png",
+      "type": "image/png",
+      "roles": ["thumbnail"]
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "https://api.imagery.hotosm.org/stac/collections/openaerialmap",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://api.imagery.hotosm.org/stac/collections/openaerialmap/items/1e7cb303-0c37-4904-81bf-374640b500af",
+      "type": "application/geo+json"
+    }
+  ]
+}

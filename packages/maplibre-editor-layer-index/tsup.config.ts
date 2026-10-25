@@ -23,6 +23,7 @@ export default defineConfig({
     index: 'src/index.ts',
     'react/index': 'src/react/index.ts',
     'maplibre/index': 'src/maplibre/index.ts',
+    'oam/index': 'src/oam/index.ts',
   },
   format: ['esm'],
   dts: true,

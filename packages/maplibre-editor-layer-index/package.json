@@ -9,10 +9,12 @@
     "imagery",
     "maplibre",
     "maplibre-gl",
+    "openaerialmap",
     "openstreetmap",
     "osm",
     "raster",
-    "react-map-gl"
+    "react-map-gl",
+    "stac"
   ],
   "homepage": "https://osm-editor-kit.github.io/maplibre-editor-layer-index/",
   "bugs": {
@@ -43,6 +45,10 @@
       "types": "./dist/maplibre/index.d.ts",
       "default": "./dist/maplibre/index.js"
     },
+    "./oam": {
+      "types": "./dist/oam/index.d.ts",
+      "default": "./dist/oam/index.js"
+    },
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -53,6 +59,7 @@
     "eli:fetch": "bun run scripts/fetch.ts",
     "eli:build": "bun run scripts/build-data.ts",
     "eli:changeset": "bun run scripts/write-eli-changeset.ts",
+    "oam:probe": "bun run scripts/oam-probe.ts",
     "build": "tsup",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
