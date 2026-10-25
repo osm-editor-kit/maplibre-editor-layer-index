@@ -1,11 +1,11 @@
 import {
   getLayer,
   groupLayers,
-  hydrateLayer,
   type EliCategory,
   type EliLayer,
 } from '@osm-editor-kit/maplibre-editor-layer-index'
 import type { ReactNode } from 'react'
+import eliSourcePaths from './data/eliSourcePaths.json'
 import { layerScope, type ListStatus } from './demo'
 import { CATEGORY_GROUPS, groupOf } from './mapSearch'
 
@@ -49,9 +49,14 @@ function HistoricMark({
 
 const SOURCE_TITLE = 'Open the source file in the Editor Layer Index (GitHub)'
 
-/** GitHub mark linking to the layer's ELI source file; nothing when the URL is unknown. */
-function SourceLink({ url, className }: { url: string | undefined; className: string }) {
-  if (!url) return null
+/** Layer id → `sources/…geojson`, written by the package's data build for this preview only. */
+const SOURCE_PATHS: Record<string, string | undefined> = eliSourcePaths
+
+/** GitHub mark linking to the layer's ELI source file; nothing when the file is unknown. */
+function SourceLink({ id, className }: { id: string; className: string }) {
+  const path = SOURCE_PATHS[id]
+  if (!path) return null
+  const url = `https://github.com/osmlab/editor-layer-index/blob/gh-pages/${path}`
   return (
     <a
       className={className}
@@ -138,8 +143,6 @@ export function LayerSidebar({
           <span className="active-title">On the map</span>
           {selected.map((id) => {
             const locatorRow = getLayer(id)
-            // Selected imagery is drawn, so its detail shard is loaded by now.
-            const layer = locatorRow && hydrateLayer(locatorRow)
             return (
               <span
                 key={id}
@@ -147,7 +150,7 @@ export function LayerSidebar({
                 onMouseEnter={() => onHover(id)}
                 onMouseLeave={() => onHover(null)}
               >
-                <SourceLink url={layer?.sourceUrl} className="source" />
+                <SourceLink id={id} className="source" />
                 <button
                   type="button"
                   className="remove"
@@ -216,7 +219,7 @@ export function LayerSidebar({
                           <HistoricMark category={layer.category} className="badge historic" />
                           <span className="badge type">{layer.type}</span>
                         </button>
-                        <SourceLink url={layer.sourceUrl} className="source" />
+                        <SourceLink id={layer.id} className="source" />
                       </div>
                       {entry.grouped && (
                         <div className="variants" role="group" aria-label={`${entry.name} dates`}>

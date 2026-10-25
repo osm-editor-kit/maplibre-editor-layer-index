@@ -174,11 +174,6 @@ export async function fetchEliSourcePaths(ref: string = ELI_REF): Promise<Map<st
   return byId
 }
 
-/** GitHub page of an ELI source file, e.g. `sources/europe/de/berlin/…geojson`. */
-export function eliSourceFileUrl(path: string): string {
-  return `${ELI_REPO_URL}/blob/${ELI_REF}/${path}`
-}
-
 export function shortSha(sha: string): string {
   return sha.slice(0, 7)
 }

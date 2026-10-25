@@ -60,7 +60,6 @@ function toLayerDetails(layer: EliLayer): EliLayerDetails {
     startDate: layer.startDate,
     endDate: layer.endDate,
     group: layer.group,
-    sourceUrl: layer.sourceUrl,
   }
 }
 
@@ -163,11 +162,7 @@ export type TransformResult = {
  * Throws (failing the build) if the FeatureCollection doesn't match the schema —
  * we never publish data we can't trust.
  */
-export function transform(
-  raw: unknown,
-  /** Layer id → GitHub URL of its ELI source file, see `fetchEliSourcePaths`. */
-  sourceUrls: ReadonlyMap<string, string> = new Map(),
-): TransformResult {
+export function transform(raw: unknown): TransformResult {
   const collection = eliFeatureCollectionSchema.parse(raw)
 
   const layers: EliLayer[] = []
@@ -226,7 +221,6 @@ export function transform(
       icon: feature.properties.icon,
       startDate: feature.properties.start_date,
       endDate: feature.properties.end_date,
-      sourceUrl: sourceUrls.get(feature.properties.id),
       geometryId: gid,
       bbox,
       countryCodes,
