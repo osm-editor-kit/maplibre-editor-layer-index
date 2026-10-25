@@ -113,6 +113,11 @@ function bboxIou(a: BBox, b: BBox): number {
   return intersection / (area(a) + area(b) - intersection)
 }
 
+/** Near-identical coverage: as many boxes, each overlapping its counterpart (both sorted). */
+function sameBoxes(a: BBox[], b: BBox[]): boolean {
+  return a.length === b.length && a.every((box, i) => bboxIou(box, b[i]!) >= MIN_BBOX_IOU)
+}
+
 /** Current and historic flavours of a category belong to the same series. */
 function categoryClass(category: EliCategory | undefined): string {
   if (category === 'historicphoto') return 'photo'
@@ -140,7 +145,7 @@ function clusterByArea(candidates: Candidate[]): Candidate[][] {
     for (let j = i + 1; j < candidates.length; j++) {
       const a = candidates[i]!.layer
       const b = candidates[j]!.layer
-      if (a.geometryId === b.geometryId || bboxIou(a.bbox, b.bbox) >= MIN_BBOX_IOU) {
+      if (a.geometryId === b.geometryId || sameBoxes(a.bboxes, b.bboxes)) {
         parent[find(i)] = find(j)
       }
     }

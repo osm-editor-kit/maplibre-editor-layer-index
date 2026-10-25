@@ -20,7 +20,7 @@ describe('bundled data', () => {
     expect(layers.length).toBeGreaterThan(1000)
     for (const layer of layers.slice(0, 50)) {
       expect(typeof layer.id).toBe('string')
-      expect(layer.bbox).toHaveLength(4)
+      expect(layer.bboxes.length).toBeGreaterThan(0)
       expect(Array.isArray(layer.countryCodes)).toBe(true)
       expect(Array.isArray(layer.requiresKeys)).toBe(true)
       expect(Array.isArray(layer.continents)).toBe(true)
@@ -101,5 +101,59 @@ describe('bundled data', () => {
     expect(matched.map((l) => l.id)).toContain('NRCS_Guam_2022')
     const hydrated = await loadLayersInViewport(guam)
     expect(hydrated.map((l) => l.id)).toEqual(matched.map((l) => l.id))
+  })
+})
+
+// Antimeridian regressions against the real data (NRCS Alaska showed up in Berlin).
+describe('bundled data across the antimeridian', () => {
+  const layers = getLayers()
+  const regional = layers.filter((layer) => layer.geometryId !== 'world')
+
+  it('keeps every coverage box within ±180° with west ≤ east', () => {
+    for (const layer of layers) {
+      for (const [west, south, east, north] of layer.bboxes) {
+        expect(west).toBeGreaterThanOrEqual(-180)
+        expect(east).toBeLessThanOrEqual(180)
+        expect(west).toBeLessThanOrEqual(east)
+        expect(south).toBeLessThanOrEqual(north)
+      }
+    }
+  })
+
+  it('only lets coverage that really circles the globe have a box wider than 180°', () => {
+    const wide = regional.filter((layer) => layer.bboxes.some(([w, , e]) => e - w > 180))
+    // The USGS Antarctica maps are one ring around the pole.
+    expect(wide.every((layer) => layer.countryCodes.join() === 'AQ')).toBe(true)
+  })
+
+  it('finds countries for every layer with its own coverage (no false "worldwide")', () => {
+    const missing = regional.filter((layer) => layer.countryCodes.length === 0)
+    expect(missing.map((layer) => layer.id)).toEqual([])
+    expect(getLayer('LINZ_NZ_Topo50_Gridless_Maps')?.continents).toEqual(['oceania'])
+  })
+
+  it('shows only layers that cover Germany in a Berlin view, without a country filter', () => {
+    const foreign = layersInViewport([13.0, 52.3, 13.8, 52.7])
+      .filter((layer) => layer.geometryId !== 'world' && !layer.countryCodes.includes('DE'))
+      .map((layer) => layer.id)
+    expect(foreign).toEqual([])
+  })
+
+  it('finds NRCS Alaska on the mainland and on the western Aleutians, not in Berlin', () => {
+    const inView = (bounds: [number, number, number, number]) =>
+      layersInViewport(bounds).some((layer) => layer.id === 'NRCS_Alaska_2023')
+    expect(inView([-150, 61, -149, 62])).toBe(true)
+    expect(inView([173, 52.5, 174, 53])).toBe(true)
+    expect(inView([13.0, 52.3, 13.8, 52.7])).toBe(false)
+  })
+
+  it('gives a world-copy view the same layers as the original', () => {
+    const ids = (bounds: [number, number, number, number]) =>
+      layersInViewport(bounds).map((layer) => layer.id)
+    expect(ids([13.0 - 360, 52.3, 13.8 - 360, 52.7])).toEqual(ids([13.0, 52.3, 13.8, 52.7]))
+  })
+
+  it('files French imagery under Europe only, despite its overseas regions', () => {
+    expect(getLayer('fr.ign.bdortho')?.continents).toEqual(['europe'])
   })
 })

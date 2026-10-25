@@ -142,22 +142,21 @@ export function highlightData(
   return feature ? { type: 'FeatureCollection', features: [feature] } : EMPTY_FC
 }
 
-/** The hovered layer's bounding box as a rectangle (empty when none). */
+/** The hovered layer's coverage boxes as rectangles (empty when none). */
 export function bboxData(hoveredId: string | null): FeatureCollection {
   const layer = hoveredId ? getLayer(hoveredId) : undefined
   if (!layer) return EMPTY_FC
-  const [w, rawS, e, rawN] = layer.bbox
-  // Clamp latitude to the Web Mercator limit so a whole-world bbox still renders.
-  const s = Math.max(rawS, -85.05)
-  const n = Math.min(rawN, 85.05)
   return {
     type: 'FeatureCollection',
-    features: [
-      {
-        type: 'Feature',
+    features: layer.bboxes.map(([w, rawS, e, rawN]) => {
+      // Clamp latitude to the Web Mercator limit so a whole-world bbox still renders.
+      const s = Math.max(rawS, -85.05)
+      const n = Math.min(rawN, 85.05)
+      return {
+        type: 'Feature' as const,
         properties: {},
         geometry: {
-          type: 'Polygon',
+          type: 'Polygon' as const,
           coordinates: [
             [
               [w, s],
@@ -168,19 +167,18 @@ export function bboxData(hoveredId: string | null): FeatureCollection {
             ],
           ],
         },
-      },
-    ],
+      }
+    }),
   }
 }
 
 /**
  * Coarse coverage scope. `worldwide` layers have no coverage polygon — which is
- * why they show no outline on the map. `continental` layers span a very large bbox.
+ * why they show no outline on the map. `continental` layers have a very large coverage box.
  */
 export function layerScope(layer: EliLayer): 'worldwide' | 'continental' | null {
   if (layer.geometryId === 'world' || layer.continents.includes('world')) return 'worldwide'
-  const [w, s, e, n] = layer.bbox
-  if (Math.max(e - w, n - s) >= 30) return 'continental'
+  if (layer.bboxes.some(([w, s, e, n]) => Math.max(e - w, n - s) >= 30)) return 'continental'
   return null
 }
 

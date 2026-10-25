@@ -23,7 +23,7 @@ This is a Bun-workspaces monorepo:
 
 Data is generated at release time into three tiers:
 
-- **`locator.json` (~550 KB shipped, ~75 KB gzipped)** — always loaded. Filter fields only (`bbox`, `countryCodes`,
+- **`locator.json` (~550 KB shipped, ~75 KB gzipped)** — always loaded. Filter fields only (`bboxes`, `countryCodes`,
   `continents`, zooms, …). No tile URLs, attribution, or polygon coordinates. Enough for
   sync `layersInViewport()`.
 - **`details/<continent>.json`** — lazy. Tile URLs, `urlTemplate`, attribution, icons. Loaded for
@@ -34,7 +34,10 @@ Data is generated at release time into three tiers:
 The npm package still ships **all** shards (install size is not per-region). Source maps are not
 published. JSON is inlined into ESM chunks by the build — not duplicated under `dist/data/`.
 
-Filtering is pure-arithmetic **bbox overlap** — zero runtime geo dependencies.
+Filtering is pure-arithmetic **box overlap** — zero runtime geo dependencies. Each layer has one
+coverage box, or one per area when its parts lie far apart or on both sides of the antimeridian
+(Alaska, France with its overseas regions, New Zealand), so no box spans the globe by accident.
+World copies and views across ±180° work too.
 `@rapideditor/country-coder` and `zod` are **build time only**.
 
 ## Other consumers (iD / Rapid / Leaflet)

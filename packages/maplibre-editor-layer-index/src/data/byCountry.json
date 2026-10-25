@@ -309,6 +309,7 @@
     "DV_Wegenregister",
     "fr.ign.orthoexpress.2025",
     "fr.orthohr.2015",
+    "fr.orthohr.2018",
     "lu.geoportail.opendata.basemap",
     "lu.geoportail.opendata.cadastre",
     "lu.geoportail.opendata.ortho_2019_winter",
@@ -371,8 +372,10 @@
     "osmim-imagicode-S2A_R022_N06_20151221T103009"
   ],
   "BR": [
+    "BANO",
     "BDGEx_ctm_multi",
     "BH_Ortofoto_2015",
+    "Cadastre",
     "Curitiba_Ortofoto_2019",
     "der-es",
     "Dourados_Ortofotos",
@@ -380,6 +383,10 @@
     "Fortaleza_Ortofoto_2016",
     "Fortaleza_Ortofoto_2023",
     "Fortaleza_Street_Names",
+    "fr.ign.bdortho",
+    "fr.ign.bdtopo",
+    "fr.orthohr",
+    "fr.orthohr.2021",
     "GeoPortal_DF_2015",
     "GeoPortal_DF_2016",
     "GeoPortal_DF_2019",
@@ -394,6 +401,7 @@
     "IBGE_BC250_Uso_Sustentavel",
     "IBGE_BC250_Villa",
     "jaragua-do-sul-2020",
+    "osmfr_volta",
     "rio2019",
     "rio2022",
     "sc2012",
@@ -452,6 +460,9 @@
     "Delta_2018",
     "Delta_2020",
     "Delta_2022",
+    "fr.ign.bdortho",
+    "fr.ign.bdtopo",
+    "fr.orthohr",
     "Geobase_Hydrography",
     "Geobase_Hydrography_French",
     "Geobase_Roads",
@@ -744,6 +755,8 @@
     "Erlangen-2020",
     "Erlangen-2022",
     "fr.ign.orthoexpress.2024",
+    "fr.orthohr.2021",
+    "fr.orthohr.2022",
     "Frankfurt-am-Main-2016",
     "Frankfurt-am-Main-2017",
     "Frankfurt-am-Main-2018",
@@ -920,6 +933,7 @@
     "GeoDanmark_Orthophoto_Spring_Septima",
     "Geodatastyrelsen_Cadastral_Parcels_INSPIRE",
     "gothenburg-citymap",
+    "kartverket-sjokart",
     "Klimadatastyrelsen_Screen_Map",
     "Klimadatastyrelsen_Surface_Shadow_40cm",
     "Klimadatastyrelsen_Terrain_Shadow_40cm",
@@ -944,6 +958,14 @@
     "osmim-imagicode-northsea_s2_2018",
     "osmse-generalstab"
   ],
+  "DM": [
+    "BANO",
+    "Cadastre",
+    "fr.ign.bdortho",
+    "fr.ign.bdtopo",
+    "fr.orthohr",
+    "osmfr_volta"
+  ],
   "EC": [
     "osmim-imagicode-AST_L1T_00302052007154424_20150518041444_91492",
     "osmim-imagicode-S2A_R040_N01_20160311T164128"
@@ -965,11 +987,17 @@
     "USSR-Latvia"
   ],
   "ES": [
+    "BANO",
+    "Cadastre",
     "Catastro-Spain",
     "COS2018",
+    "fr.ign.bdtopo",
     "fr.ign.mnslidarhd",
     "fr.ign.mntlidarhd",
     "fr.ign.orthoexpress.2024",
+    "fr.orthohr.2013",
+    "fr.orthohr.2021",
+    "fr.orthohr.2024",
     "geoEuskadi-basemap",
     "geoEuskadi-ORTO",
     "GRAFCAN_Express-Canary_Islands",
@@ -988,6 +1016,7 @@
     "ORTOS_DGT_2021_RGB",
     "ORTOS_DGT_2025_RGB",
     "ORTOSAT_DGT_2023_RGB",
+    "osmfr_volta",
     "PNOA-rapida",
     "PNOA-Spain",
     "PNOA-Spain-TMS",
@@ -1196,10 +1225,13 @@
   ],
   "GB": [
     "antrimnuig",
+    "BANO",
     "bartholomew_qi1940",
+    "Cadastre",
     "Code-Point_Open",
     "EA_LIDAR_DSM_1m_2022",
     "EA_LIDAR_DTM_1m_2022",
+    "fr.ign.bdtopo",
     "GSGS3906",
     "GSGS4136",
     "Hampshire-Aerial-FCIR",
@@ -1541,6 +1573,7 @@
     "fr.dpt.05.2010",
     "fr.dpt.06.2009",
     "fr.dpt.06.2020.storm.alex",
+    "fr.orthohr.2022",
     "geoimage.at",
     "GURS-buildings",
     "GURS-DOF025",
@@ -1779,6 +1812,11 @@
     "DV_OrthoPhoto_20132015_10cm",
     "DV_OrthoPhoto_Preliminary",
     "DV_Wegenregister",
+    "fr.ign.bdortho",
+    "fr.orthohr",
+    "fr.orthohr.2018",
+    "fr.orthohr.2021",
+    "fr.orthohr.2024",
     "Niedersachsen-ALKIS",
     "Niedersachsen-DOP20",
     "osmim-imagicode-northsea_s2_2016",
@@ -1859,6 +1897,7 @@
     "LINZ_NZ_Aerial_Imagery",
     "LINZ_NZ_DSM_Hillshade",
     "LINZ_NZ_Hillshade",
+    "LINZ_NZ_Topo50_Gridless_Maps",
     "LINZ_Wellington_2017"
   ],
   "PA": [
@@ -2063,6 +2102,7 @@
     "Geoportal2-PL-Streets_WMS",
     "Geoportal2-PL-telecommunications-cable_WMS",
     "Geoportal2-PL-water-pipe_WMS",
+    "kartverket-sjokart",
     "kelkkareitit",
     "kystverket-navigasjon",
     "LV_CADASTRAL",
@@ -2223,7 +2263,13 @@
     "Slovakia-Historic-Maps"
   ],
   "SR": [
-    "fr.orthohr.2021"
+    "BANO",
+    "Cadastre",
+    "fr.ign.bdortho",
+    "fr.ign.bdtopo",
+    "fr.orthohr",
+    "fr.orthohr.2021",
+    "osmfr_volta"
   ],
   "TH": [
     "osm-cambodia_laos_thailand_vietnam-bilingual"
@@ -2790,7 +2836,6 @@
     "EsriWorldImageryClarity",
     "geoscribble-latest",
     "HDM_HOT",
-    "LINZ_NZ_Topo50_Gridless_Maps",
     "Mapbox",
     "mapbox_locator_overlay",
     "MAPNIK",

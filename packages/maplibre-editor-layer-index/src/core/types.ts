@@ -40,7 +40,13 @@ export type EliLocatorLayer = {
   tileSize: number
   scheme?: 'xyz' | 'tms'
   geometryId: string
-  bbox: BBox
+  /**
+   * Coverage boxes, each within ±180° with west ≤ east. Usually one; coverage
+   * whose parts lie far apart or on both sides of the antimeridian (Alaska,
+   * France with its overseas regions, New Zealand) gets one box per area, so no
+   * box spans the globe unless the coverage does.
+   */
+  bboxes: BBox[]
   countryCodes: string[]
   requiresKeys: string[]
   /** Continents this layer is filed under (derived from countryCodes). Worldwide → ['world']. */

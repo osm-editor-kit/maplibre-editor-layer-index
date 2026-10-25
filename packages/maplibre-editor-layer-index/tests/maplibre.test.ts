@@ -27,7 +27,7 @@ const layer = {
   urlTemplate: 'https://t/{zoom}/{x}/{y}?key={apikey}',
   attributionHtml: '<a href="https://example.org">© Example provider</a>',
   geometryId: 'g',
-  bbox: [0, 0, 1, 1],
+  bboxes: [[0, 0, 1, 1]],
   countryCodes: [],
   requiresKeys: ['apikey'],
   continents: ['world'],

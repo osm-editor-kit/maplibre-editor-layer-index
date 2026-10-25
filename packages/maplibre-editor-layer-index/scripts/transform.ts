@@ -11,8 +11,8 @@ import type {
   EliShardsMeta,
 } from '../src/core/types'
 import { CONTINENTS, continentsForCountryCodes, countryToContinent } from './continents'
-import { countryCodesForGeometry } from './countries'
-import { geometryBBox, geometryId, WORLD_BBOX, WORLD_GEOMETRY_ID } from './geometry'
+import { coverageCountries, type CoverageCountries } from './countries'
+import { geometryBBoxes, geometryId, WORLD_BBOX, WORLD_GEOMETRY_ID } from './geometry'
 import { assignGroups } from './grouping'
 import { eliFeatureCollectionSchema, type EliFeature } from './schema'
 import { convertTileUrl } from './url'
@@ -76,7 +76,7 @@ function toLocatorLayer(layer: EliLayer, continents: EliContinent[]): EliLocator
     tileSize: layer.tileSize,
     scheme: layer.scheme,
     geometryId: layer.geometryId,
-    bbox: layer.bbox,
+    bboxes: layer.bboxes,
     countryCodes: layer.countryCodes,
     requiresKeys: layer.requiresKeys,
     continents,
@@ -86,6 +86,8 @@ function toLocatorLayer(layer: EliLayer, continents: EliContinent[]): EliLocator
 function shardLayers(
   layers: EliLayer[],
   geometries: EliGeometries,
+  /** Geometry id → main country of each coverage box, see {@link CoverageCountries}. */
+  mainCountryCodes: ReadonlyMap<string, string[]>,
 ): {
   locatorLayers: EliLocatorLayer[]
   detailsByContinent: Record<EliContinent, EliDetailsShard>
@@ -98,7 +100,9 @@ function shardLayers(
   const geometryContinents = new Map<string, Set<EliContinent>>()
 
   for (const layer of layers) {
-    const continents = continentsForCountryCodes(layer.countryCodes)
+    const continents = continentsForCountryCodes(
+      mainCountryCodes.get(layer.geometryId) ?? layer.countryCodes,
+    )
     locatorLayers.push(toLocatorLayer(layer, continents))
 
     const details = toLayerDetails(layer)
@@ -169,7 +173,7 @@ export function transform(raw: unknown): TransformResult {
   const geometries: EliGeometries = {}
   // Country codes are a property of the geometry, so compute once per unique
   // geometry and reuse across the (often many) layers that share it.
-  const countryCache = new Map<string, string[]>()
+  const countryCache = new Map<string, CoverageCountries>()
   const dropped: Record<string, number> = {}
 
   for (const feature of collection.features) {
@@ -185,19 +189,19 @@ export function transform(raw: unknown): TransformResult {
     const requiresKeys = extractRequiredKeys(tiles)
 
     let gid = WORLD_GEOMETRY_ID
-    let bbox = WORLD_BBOX
+    let bboxes = [WORLD_BBOX]
     let countryCodes: string[] = []
     if (feature.geometry) {
       const geometry = feature.geometry as unknown as Geometry
       gid = geometryId(geometry)
-      bbox = geometryBBox(geometry)
+      bboxes = geometryBBoxes(geometry)
       if (!geometries[gid]) geometries[gid] = geometry
       let cached = countryCache.get(gid)
       if (!cached) {
-        cached = countryCodesForGeometry(geometry)
+        cached = coverageCountries(geometry)
         countryCache.set(gid, cached)
       }
-      countryCodes = cached
+      countryCodes = cached.countryCodes
     }
 
     layers.push({
@@ -222,7 +226,7 @@ export function transform(raw: unknown): TransformResult {
       startDate: feature.properties.start_date,
       endDate: feature.properties.end_date,
       geometryId: gid,
-      bbox,
+      bboxes,
       countryCodes,
       requiresKeys,
       continents: [],
@@ -237,6 +241,7 @@ export function transform(raw: unknown): TransformResult {
   const { locatorLayers, detailsByContinent, geometriesByContinent, shardsMeta } = shardLayers(
     layers,
     geometries,
+    new Map([...countryCache].map(([gid, countries]) => [gid, countries.mainCountryCodes])),
   )
 
   // Sync continents onto full layers (locator is authoritative after sharding).

@@ -3,7 +3,7 @@
  * Fail the build if the always-loaded locator (or total published dist) grows past budget.
  * Run after `bun run build` from the package root.
  */
-import { readdir, stat } from 'node:fs/promises'
+import { readdir, readFile, stat } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -11,8 +11,11 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DIST = join(ROOT, 'dist')
 const LOCATOR_SRC = join(ROOT, 'src', 'data', 'locator.json')
 
-/** Always-loaded locator JSON should stay well under 1 MB. */
-const LOCATOR_BUDGET_BYTES = 900 * 1024
+/**
+ * Always-loaded locator, measured as shipped: tsup emits it as compact JSON, so
+ * the pretty-printed source (indentation of nested arrays) does not count.
+ */
+const LOCATOR_BUDGET_BYTES = 600 * 1024
 /** Unpacked dist (all shards) — soft ceiling; adjust if ELI grows. */
 const DIST_BUDGET_BYTES = 20 * 1024 * 1024
 
@@ -26,7 +29,9 @@ async function dirSize(path: string): Promise<number> {
   return total
 }
 
-const locatorBytes = (await stat(LOCATOR_SRC)).size
+const locatorBytes = Buffer.byteLength(
+  JSON.stringify(JSON.parse(await readFile(LOCATOR_SRC, 'utf8'))),
+)
 const distBytes = await dirSize(DIST)
 
 const fmt = (n: number) => `${(n / 1024).toFixed(0)} KB`

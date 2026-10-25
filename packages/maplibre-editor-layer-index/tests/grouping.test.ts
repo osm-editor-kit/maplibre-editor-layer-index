@@ -15,7 +15,7 @@ function layer(id: string, name: string, extra: Partial<EliLayer> = {}): EliLaye
     overlay: false,
     tileSize: 256,
     geometryId: id,
-    bbox: BERLIN,
+    bboxes: [BERLIN],
     countryCodes: ['DE'],
     requiresKeys: [],
     continents: ['europe'],
@@ -87,9 +87,9 @@ describe('assignGroups', () => {
   it('tolerates small coverage differences but keeps different areas apart', () => {
     const layers = grouped([
       layer('a', 'DOP 2019'),
-      layer('b', 'DOP 2020', { bbox: [13.0, 52.3, 13.85, 52.7] }),
-      layer('c', 'DOP 2021', { bbox: [14.0, 52.3, 14.8, 52.7] }),
-      layer('d', 'DOP 2022', { bbox: [14.0, 52.3, 14.8, 52.7] }),
+      layer('b', 'DOP 2020', { bboxes: [[13.0, 52.3, 13.85, 52.7]] }),
+      layer('c', 'DOP 2021', { bboxes: [[14.0, 52.3, 14.8, 52.7]] }),
+      layer('d', 'DOP 2022', { bboxes: [[14.0, 52.3, 14.8, 52.7]] }),
     ])
     const ids = layers.map((l) => l.group?.id)
     expect(ids[0]).toBe(ids[1])

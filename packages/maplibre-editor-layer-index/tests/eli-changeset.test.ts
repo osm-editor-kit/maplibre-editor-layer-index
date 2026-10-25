@@ -18,7 +18,7 @@ function locator(
     overlay: false,
     tileSize: 256,
     geometryId: 'world',
-    bbox: [-180, -90, 180, 90],
+    bboxes: [[-180, -90, 180, 90]],
     countryCodes: [],
     requiresKeys: [],
     continents: ['world'],

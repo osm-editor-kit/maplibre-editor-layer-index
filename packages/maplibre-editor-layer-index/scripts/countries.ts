@@ -1,44 +1,65 @@
 import * as countryCoder from '@rapideditor/country-coder'
 import type { Geometry, Position } from 'geojson'
-import { geometryBBox } from './geometry'
+import { geometryBBoxes } from './geometry'
+
+export type CoverageCountries = {
+  /** Every region code the polygon touches, sorted. Empty for worldwide coverage. */
+  countryCodes: string[]
+  /**
+   * The code with the most sample points in each coverage box, sorted. Decides
+   * which continent shards hold the layer: coarse ELI polygons overlap their
+   * neighbours along every border, and those slivers alone should not file
+   * French imagery under South America (French Guiana → BR) or Spanish imagery
+   * under Africa (MA).
+   */
+  mainCountryCodes: string[]
+}
 
 /**
  * Region codes a coverage geometry actually covers, precomputed at build time so
  * the runtime never needs country-coder. Unlike a bbox query, this samples points
- * **inside the polygon** — so e.g. TIGER (US + Pacific/Caribbean territories, whose
- * bbox spans the globe) resolves to its real countries, not every country its
- * bounding box happens to cross.
+ * **inside the polygon**, box by box — so e.g. TIGER (US + Pacific/Caribbean
+ * territories) resolves to its real countries, not every country between them.
  */
-export function countryCodesForGeometry(geometry: Geometry): string[] {
-  if (!('coordinates' in geometry)) return []
-  const [west, south, east, north] = geometryBBox(geometry)
-  const width = east - west
-  const height = north - south
+export function coverageCountries(geometry: Geometry): CoverageCountries {
+  if (!('coordinates' in geometry)) return { countryCodes: [], mainCountryCodes: [] }
+  const boxes = geometryBBoxes(geometry)
 
   // Whole-world (or near) coverage → treat as worldwide (no country list).
-  if (width >= 350 && height >= 170) return []
+  if (boxes.some(([west, south, east, north]) => east - west >= 350 && north - south >= 170)) {
+    return { countryCodes: [], mainCountryCodes: [] }
+  }
 
-  // Sample a grid across the bbox; keep a point's country only if it lies inside
+  // Sample a grid across each box; keep a point's country only if it lies inside
   // the polygon. Bounded step count keeps tiny and huge polygons both reasonable.
   const steps = 24
   const codes = new Set<string>()
-  for (let i = 0; i <= steps; i++) {
-    for (let j = 0; j <= steps; j++) {
-      const lon = west + (width * i) / steps
-      const lat = south + (height * j) / steps
-      if (!pointInGeometry([lon, lat], geometry)) continue
-      const code = countryCoder.iso1A2Code([lon, lat])
-      if (code) codes.add(code)
+  const mainCodes = new Set<string>()
+  for (const [west, south, east, north] of boxes) {
+    const hits = new Map<string, number>()
+    for (let i = 0; i <= steps; i++) {
+      for (let j = 0; j <= steps; j++) {
+        const lon = west + ((east - west) * i) / steps
+        const lat = south + ((north - south) * j) / steps
+        if (!pointInGeometry([lon, lat], geometry)) continue
+        const code = countryCoder.iso1A2Code([lon, lat])
+        if (code) hits.set(code, (hits.get(code) ?? 0) + 1)
+      }
     }
+    // Fallback for parts too small/thin for the grid to land inside: use the
+    // box centre so each part still attributes a country.
+    if (hits.size === 0) {
+      const code = countryCoder.iso1A2Code([(west + east) / 2, (south + north) / 2])
+      if (code) hits.set(code, 1)
+    }
+    let main: string | undefined
+    for (const [code, count] of hits) {
+      codes.add(code)
+      if (main === undefined || count > hits.get(main)!) main = code
+    }
+    if (main) mainCodes.add(main)
   }
-
-  // Fallback for polygons too small/thin for the grid to land inside: use the
-  // bbox centre so we still attribute at least one country.
-  if (codes.size === 0) {
-    const code = countryCoder.iso1A2Code([west + width / 2, south + height / 2])
-    if (code) codes.add(code)
-  }
-  return [...codes].sort()
+  return { countryCodes: [...codes].sort(), mainCountryCodes: [...mainCodes].sort() }
 }
 
 /** Ray-casting point-in-ring test. */

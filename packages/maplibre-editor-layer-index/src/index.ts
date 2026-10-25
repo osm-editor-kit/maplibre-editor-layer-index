@@ -26,7 +26,7 @@ export {
   type EliApiKeys,
 } from './core/apiKeys'
 
-export type { ViewportBounds } from './core/bounds'
+export { viewportBoxes, type ViewportBounds } from './core/bounds'
 
 export { continentForLngLat } from './core/continents'
 

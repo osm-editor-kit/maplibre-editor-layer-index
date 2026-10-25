@@ -1,6 +1,6 @@
 import { hasRequiredKeys, type EliApiKeys } from './apiKeys'
 import type { ViewportBounds } from './bounds'
-import { toBBox } from './bounds'
+import { viewportBoxes } from './bounds'
 import { ensureDetailsForLayers, getLayers, hydrateLayers, loadByCountry } from './data'
 import type { BBox, EliCategory, EliLayer, EliLayerType, EliLocatorLayer } from './types'
 
@@ -33,7 +33,7 @@ export type FilterOptions = {
   apiKeys?: EliApiKeys
 }
 
-/** Do two axis-aligned boxes overlap? (Longitude antimeridian wrap is not handled.) */
+/** Do two boxes overlap? Both lie within ±180° with west ≤ east, see {@link viewportBoxes}. */
 function bboxOverlaps(a: BBox, b: BBox): boolean {
   const [aw, as, ae, an] = a
   const [bw, bs, be, bn] = b
@@ -63,18 +63,21 @@ function matchesOptions(layer: EliLocatorLayer, options: FilterOptions): boolean
 }
 
 /**
- * Layers whose coverage bounding box overlaps the given viewport. Pure arithmetic
- * against the precomputed `bbox` in the locator — no geometry is loaded. Worldwide
- * layers always match. Results keep the index order (id-sorted).
+ * Layers whose coverage boxes overlap the given viewport. Pure arithmetic against
+ * the precomputed `bboxes` in the locator — no geometry is loaded. Worldwide layers
+ * always match. World copies and views across the antimeridian work: the viewport
+ * is shifted back into ±180° and split there. Results keep the index order (id-sorted).
  */
 export function layersInViewport(
   bounds: ViewportBounds,
   options: FilterOptions = {},
   layers: EliLocatorLayer[] = getLayers(),
 ): EliLocatorLayer[] {
-  const viewport = toBBox(bounds)
+  const viewport = viewportBoxes(bounds)
   return layers.filter(
-    (layer) => bboxOverlaps(layer.bbox, viewport) && matchesOptions(layer, options),
+    (layer) =>
+      layer.bboxes.some((box) => viewport.some((view) => bboxOverlaps(box, view))) &&
+      matchesOptions(layer, options),
   )
 }
 

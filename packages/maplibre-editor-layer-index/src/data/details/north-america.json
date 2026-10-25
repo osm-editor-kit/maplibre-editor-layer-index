@@ -7196,19 +7196,6 @@
     ],
     "urlTemplate": "https://imagico.de/map/osmim_tiles.php?layer=EO1A0120532016364110KF&z={zoom}&x={x}&y={-y}"
   },
-  "osmim-imagicode-greenland": {
-    "attributionHtml": "<a href=\"https://imagico.de/maps/#osmim\" target=\"_blank\" rel=\"noopener\">imagico.de OSM images for mapping</a>",
-    "attributionText": "imagico.de OSM images for mapping",
-    "attributionUrl": "https://imagico.de/maps/#osmim",
-    "endDate": "2015",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
-    "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
-    "startDate": "2013",
-    "tiles": [
-      "https://imagico.de/map/osmim_tiles.php?layer=greenland&z={z}&x={x}&y={y}"
-    ],
-    "urlTemplate": "https://imagico.de/map/osmim_tiles.php?layer=greenland&z={zoom}&x={x}&y={-y}"
-  },
   "osmim-imagicode-LC80360072014245LGN00": {
     "attributionHtml": "<a href=\"https://imagico.de/maps/#osmim\" target=\"_blank\" rel=\"noopener\">imagico.de OSM images for mapping</a>",
     "attributionText": "imagico.de OSM images for mapping",
@@ -7247,58 +7234,6 @@
       "https://imagico.de/map/osmim_tiles.php?layer=LC80770232017156LGN00&z={z}&x={x}&y={y}"
     ],
     "urlTemplate": "https://imagico.de/map/osmim_tiles.php?layer=LC80770232017156LGN00&z={zoom}&x={x}&y={-y}"
-  },
-  "osmim-imagicode-ls_polar": {
-    "attributionHtml": "<a href=\"https://imagico.de/maps/#osmim\" target=\"_blank\" rel=\"noopener\">imagico.de OSM images for mapping</a>",
-    "attributionText": "imagico.de OSM images for mapping",
-    "attributionUrl": "https://imagico.de/maps/#osmim",
-    "endDate": "2013-05-17",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
-    "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
-    "startDate": "2013-05-17",
-    "tiles": [
-      "https://imagico.de/map/osmim_tiles.php?layer=ls_polar&z={z}&x={x}&y={y}"
-    ],
-    "urlTemplate": "https://imagico.de/map/osmim_tiles.php?layer=ls_polar&z={zoom}&x={x}&y={-y}"
-  },
-  "osmim-imagicode-ls_polar2": {
-    "attributionHtml": "<a href=\"https://imagico.de/maps/#osmim\" target=\"_blank\" rel=\"noopener\">imagico.de OSM images for mapping</a>",
-    "attributionText": "imagico.de OSM images for mapping",
-    "attributionUrl": "https://imagico.de/maps/#osmim",
-    "endDate": "2016-07-17",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
-    "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
-    "startDate": "2016-07-17",
-    "tiles": [
-      "https://imagico.de/map/osmim_tiles.php?layer=ls_polar2&z={z}&x={x}&y={y}"
-    ],
-    "urlTemplate": "https://imagico.de/map/osmim_tiles.php?layer=ls_polar2&z={zoom}&x={x}&y={-y}"
-  },
-  "osmim-imagicode-ls_polar4": {
-    "attributionHtml": "<a href=\"https://imagico.de/maps/#osmim\" target=\"_blank\" rel=\"noopener\">imagico.de OSM images for mapping</a>",
-    "attributionText": "imagico.de OSM images for mapping",
-    "attributionUrl": "https://imagico.de/maps/#osmim",
-    "endDate": "2020-07-12",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
-    "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
-    "startDate": "2020-07-12",
-    "tiles": [
-      "https://imagico.de/map/osmim_tiles.php?layer=ls_polar4&z={z}&x={x}&y={y}"
-    ],
-    "urlTemplate": "https://imagico.de/map/osmim_tiles.php?layer=ls_polar4&z={zoom}&x={x}&y={-y}"
-  },
-  "osmim-imagicode-ls_polar5": {
-    "attributionHtml": "<a href=\"https://imagico.de/maps/#osmim\" target=\"_blank\" rel=\"noopener\">imagico.de OSM images for mapping</a>",
-    "attributionText": "imagico.de OSM images for mapping",
-    "attributionUrl": "https://imagico.de/maps/#osmim",
-    "endDate": "2020-07-12",
-    "icon": "https://osmlab.github.io/editor-layer-index/sources/misc/osmim-imagicode.png",
-    "licenseUrl": "https://imagico.de/map/osmim_tiles.php",
-    "startDate": "2020-07-12",
-    "tiles": [
-      "https://imagico.de/map/osmim_tiles.php?layer=ls_polar5&z={z}&x={x}&y={y}"
-    ],
-    "urlTemplate": "https://imagico.de/map/osmim_tiles.php?layer=ls_polar5&z={zoom}&x={x}&y={-y}"
   },
   "osmim-imagicode-nellesmere_ast": {
     "attributionHtml": "<a href=\"https://imagico.de/maps/#osmim\" target=\"_blank\" rel=\"noopener\">imagico.de OSM images for mapping</a>",

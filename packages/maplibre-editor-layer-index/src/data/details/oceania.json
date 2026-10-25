@@ -1028,6 +1028,17 @@
     ],
     "urlTemplate": "https://basemaps.linz.govt.nz/v1/tiles/hillshade/WebMercatorQuad/{zoom}/{x}/{y}.webp?api=d01egend5f8dv4zcbfj6z2t7rs3"
   },
+  "LINZ_NZ_Topo50_Gridless_Maps": {
+    "attributionHtml": "<a href=\"https://basemaps.linz.govt.nz/?style=topo-raster&i=topo-raster\" target=\"_blank\" rel=\"noopener\">CC BY 4.0 Land Information New Zealand</a>",
+    "attributionText": "CC BY 4.0 Land Information New Zealand",
+    "attributionUrl": "https://basemaps.linz.govt.nz/?style=topo-raster&i=topo-raster",
+    "icon": "https://basemaps.linz.govt.nz/assets/logo-linz.svg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Contributors#LINZ",
+    "tiles": [
+      "https://basemaps.linz.govt.nz/v1/tiles/topo-raster/WebMercatorQuad/{z}/{x}/{y}.webp?api=d01egend5f8dv4zcbfj6z2t7rs3"
+    ],
+    "urlTemplate": "https://basemaps.linz.govt.nz/v1/tiles/topo-raster/WebMercatorQuad/{zoom}/{x}/{y}.webp?api=d01egend5f8dv4zcbfj6z2t7rs3"
+  },
   "LINZ_Wellington_2017": {
     "attributionHtml": "<a href=\"https://www.linz.govt.nz/data/licensing-and-using-data/attributing-elevation-or-aerial-imagery-data\" target=\"_blank\" rel=\"noopener\">Sourced from LINZ CC-BY 4.0</a>",
     "attributionText": "Sourced from LINZ CC-BY 4.0",

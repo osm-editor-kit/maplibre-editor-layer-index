@@ -28,13 +28,13 @@ pinned-commit + bespoke-fetch step with a normal, governed dependency — and, a
 
 Unlike a monolithic `index.json`, the bundled data is split so consumers pay only for what they load:
 
-| File                          | Loaded when      | Contents                                                                                     |
-| ----------------------------- | ---------------- | -------------------------------------------------------------------------------------------- |
-| `locator.json`                | always (bundled) | Slim filter fields: `bbox`, `countryCodes`, `geometryId`, `continents`, … — **no tile URLs** |
-| `details/<continent>.json`    | lazy             | Per-layer `urlTemplate`, `tiles`, attribution, projections, dates                            |
-| `geometries/<continent>.json` | lazy             | Deduplicated coverage polygons keyed by `geometryId`                                         |
-| `byCountry.json`              | lazy             | ISO code → layer ids (plus a `"worldwide"` bucket)                                           |
-| `shards.json`                 | always (bundled) | Continent list and ISO→continent router metadata                                             |
+| File                          | Loaded when      | Contents                                                                                       |
+| ----------------------------- | ---------------- | ---------------------------------------------------------------------------------------------- |
+| `locator.json`                | always (bundled) | Slim filter fields: `bboxes`, `countryCodes`, `geometryId`, `continents`, … — **no tile URLs** |
+| `details/<continent>.json`    | lazy             | Per-layer `urlTemplate`, `tiles`, attribution, projections, dates                              |
+| `geometries/<continent>.json` | lazy             | Deduplicated coverage polygons keyed by `geometryId`                                           |
+| `byCountry.json`              | lazy             | ISO code → layer ids (plus a `"worldwide"` bucket)                                             |
+| `shards.json`                 | always (bundled) | Continent list and ISO→continent router metadata                                               |
 
 At runtime, `getLayers()` returns `EliLocatorLayer[]` — enough to filter by viewport or country, but
 **not** enough to build an iD imagery source (no `urlTemplate` yet). Merge in detail shards to get a
@@ -66,12 +66,12 @@ So adoption is essentially: **swap the data source in `update_imagery.js`**, kee
 
 ## What iD gains
 
-| Gain                  | How                                                                                                                                                                                                                                     |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Governed releases     | A normal npm dependency with semver, provenance, weekly auto-update — no pinned `gh-pages` commit.                                                                                                                                      |
-| Deduplicated polygons | ELI repeats identical coverage polygons across many sources. This package stores **947 unique geometries** for **1562 geometried layers** (~**1.65× fewer** polygon copies). iD currently inlines a `polygon` per source with no dedup. |
-| Precomputed metadata  | Each layer ships a precomputed `bbox`, polygon-accurate `countryCodes`, and a `geometryId` (the dedup key). Plus a `byCountry` index. iD can skip rebuilding a spatial index for the common "what's available in this country" case.    |
-| Validated, typed data | zod-validated at build (the release fails on upstream schema drift); full TypeScript types.                                                                                                                                             |
+| Gain                  | How                                                                                                                                                                                                                                                               |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Governed releases     | A normal npm dependency with semver, provenance, weekly auto-update — no pinned `gh-pages` commit.                                                                                                                                                                |
+| Deduplicated polygons | ELI repeats identical coverage polygons across many sources. This package stores **947 unique geometries** for **1562 geometried layers** (~**1.65× fewer** polygon copies). iD currently inlines a `polygon` per source with no dedup.                           |
+| Precomputed metadata  | Each layer ships precomputed coverage `bboxes` (antimeridian-safe), polygon-accurate `countryCodes`, and a `geometryId` (the dedup key). Plus a `byCountry` index. iD can skip rebuilding a spatial index for the common "what's available in this country" case. |
+| Validated, typed data | zod-validated at build (the release fails on upstream schema drift); full TypeScript types.                                                                                                                                                                       |
 
 ## Field mapping
 
@@ -243,5 +243,5 @@ correctly.
 - **Less data:** dedup collapses 1562 polygons to 947 unique; optionally reference them by
   `geometryId` to shrink `imagery.json` and the runtime index. Continent sharding keeps lazy
   consumers from downloading the full geometry/detail payload up front.
-- **Precompute:** `bbox`, polygon-accurate `countryCodes`, `geometryId`, and a `byCountry` map come
+- **Precompute:** `bboxes`, polygon-accurate `countryCodes`, `geometryId`, and a `byCountry` map come
   ready-made on the always-loaded locator; tile URLs and polygons load on demand.
