@@ -13331,9 +13331,7 @@
   "SPW_ORTHO_LAST": {
     "availableProjections": [
       "CRS:84",
-      "EPSG:3812",
       "EPSG:3857",
-      "EPSG:4258",
       "EPSG:4326",
       "EPSG:31370"
     ],

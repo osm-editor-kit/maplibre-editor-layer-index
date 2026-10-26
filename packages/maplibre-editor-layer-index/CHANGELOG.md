@@ -1,5 +1,82 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.5.1
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`ad5e99e`](https://github.com/osmlab/editor-layer-index/commit/ad5e99ea88bdfa6664fe4e8aaf0b2c4ec0699f43) → [`7deb4c0`](https://github.com/osmlab/editor-layer-index/commit/7deb4c025525bced24f9989ae0127e9f16d6b8ad), [compare](https://github.com/osmlab/editor-layer-index/compare/ad5e99ea88bdfa6664fe4e8aaf0b2c4ec0699f43...7deb4c025525bced24f9989ae0127e9f16d6b8ad)).
+
+  Upstream commits:
+
+  - [`14db4db`](https://github.com/osmlab/editor-layer-index/commit/14db4db6018bd7971c4cd8d7ca7944588fb39704) Sync WMS sources [skip travis] ([#3084](https://github.com/osmlab/editor-layer-index/pull/3084))
+  - [`049567a`](https://github.com/osmlab/editor-layer-index/commit/049567aa5d4458cd0d14ac9554d2044068dfbaef) Bump brotli from 1.2.0 to 1.2.1 ([#3082](https://github.com/osmlab/editor-layer-index/pull/3082))
+  - [`4a74e7b`](https://github.com/osmlab/editor-layer-index/commit/4a74e7b246d69f3ef9fe366fba6a9c3be8f1f22a) Remove DC ortho 2019
+  - [`081f093`](https://github.com/osmlab/editor-layer-index/commit/081f0938c22b21c2950b861aabf4f90a05bacfe8) Remove DE ortho 2012
+  - [`23924c6`](https://github.com/osmlab/editor-layer-index/commit/23924c66dd39f17470e79da64cff7b07f854b2c5) Remove Brevard FL ortho 2021
+  - [`f075a21`](https://github.com/osmlab/editor-layer-index/commit/f075a211068a8f7e52ceece3b972cf91bf2c6118) Remove Mecklenburg NC 2021
+  - [`db99ea6`](https://github.com/osmlab/editor-layer-index/commit/db99ea614710e0094a0107d6ad2a10cb3f47dcc7) Remove Bozeman MT 2021
+  - [`548f099`](https://github.com/osmlab/editor-layer-index/commit/548f0994676a004d948aedbbd7cecd7b6df9c7b8) Remove Fairfax VA 2022
+  - [`14d303b`](https://github.com/osmlab/editor-layer-index/commit/14d303b9691672657f4badf37cb787dac1285c7b) Remove Loudoun VA 2022
+  - [`05170a0`](https://github.com/osmlab/editor-layer-index/commit/05170a0954b7a04248312f9cd80e85e00671ca4e) Remove Monongalia WV 2022
+  - [`11c566f`](https://github.com/osmlab/editor-layer-index/commit/11c566f54d7b90d5fb338d67237b692fbd7a5e36) Remove Cook IL 2020
+  - [`32e1747`](https://github.com/osmlab/editor-layer-index/commit/32e17479fb53584cc3007832ef71f850fc42e4aa) Remove Cook IL 2021
+  - [`b16a756`](https://github.com/osmlab/editor-layer-index/commit/b16a7569461ca3b7e23bab6b832dfff558113ba2) Remove RI 21fall
+  - [`7deb4c0`](https://github.com/osmlab/editor-layer-index/commit/7deb4c025525bced24f9989ae0127e9f16d6b8ad) Bump aiohttp from 3.14.3 to 3.14.5 ([#3080](https://github.com/osmlab/editor-layer-index/pull/3080))
+
+  ### Updated (39)
+  - **Brevard County Orthoimagery (2022)** (`Brevard_Ortho_2022`)
+  - **Brevard County Orthoimagery (2023)** (`Brevard_Ortho_2023`)
+  - **Brevard County Orthoimagery (2024)** (`Brevard_Ortho_2024`)
+  - **Brevard County Orthoimagery (2025)** (`Brevard_Ortho_2025`)
+  - **Brevard County Orthoimagery (2026)** (`Brevard_Ortho_2026`)
+  - **City of Bozeman Aerial Photography (2023)** (`Bozeman_MT_2023`)
+  - **City of Bozeman Aerial Photography (2024)** (`Bozeman_MT_2024`)
+  - **City of Bozeman Aerial Photography (2025)** (`Bozeman_MT_2025`)
+  - **City of Bozeman Aerial Photography (2026)** (`Bozeman_MT_2026`)
+  - **Cook County Orthoimagery 2022** (`Cook_IL_2022`)
+  - **Cook County Orthoimagery 2023** (`Cook_IL_2023`)
+  - **Cook County Orthoimagery 2024** (`Cook_IL_2024`)
+  - **Cook County Orthoimagery 2025** (`Cook_IL_2025`)
+  - **DC From Above Orthophoto 2021** (`DC_From_Above_Ortho_2021`)
+  - **DC From Above Orthophoto 2023** (`DC_From_Above_Ortho_2023`)
+  - **DC From Above Orthophoto 2025** (`DC_From_Above_Ortho_2025`)
+  - **Fairfax County Orthoimagery (2023)** (`Fairfax_VA_2023`)
+  - **Fairfax County Orthoimagery (2024)** (`Fairfax_VA_2024`)
+  - **Fairfax County Orthoimagery (2025)** (`Fairfax_VA_2025`)
+  - **Fairfax County Orthoimagery (2026)** (`Fairfax_VA_2026`)
+  - **Loudoun County Orthoimagery (2022)** (`Loudoun_VA_2022`)
+  - **Loudoun County Orthoimagery (2023)** (`Loudoun_VA_2023`)
+  - **Loudoun County Orthoimagery (2024)** (`Loudoun_VA_2024`)
+  - **Loudoun County Orthoimagery (2025)** (`Loudoun_VA_2025`)
+  - **Loudoun County Orthoimagery (2026)** (`Loudoun_VA_2026`)
+  - **Mecklenburg County Orthoimagery (2022)** (`Mecklenburg_NC_2022`)
+  - **Mecklenburg County Orthoimagery (2023)** (`Mecklenburg_NC_2023`)
+  - **Mecklenburg County Orthoimagery (2024)** (`Mecklenburg_NC_2024`)
+  - **Mecklenburg County Orthoimagery (2025)** (`Mecklenburg_NC_2025`)
+  - **Monongalia County 2023 Aerial Imagery** (`Monongalia_WV_2023`)
+  - **Monongalia County 2024 Aerial Imagery** (`Monongalia_WV_2024`)
+  - **Monongalia County 2025 Aerial Imagery** (`Monongalia_WV_2025`)
+  - **Monongalia County 2026 Aerial Imagery** (`Monongalia_WV_2026`)
+  - **Rhode Island Aerial Photo (Spring 2022)** (`RIGIS_Aerial_Photo_22s`)
+  - **Rhode Island Aerial Photo (Spring 2023)** (`RIGIS_Aerial_Photo_23s`)
+  - **Rhode Island Aerial Photo (Spring 2024)** (`RIGIS_Aerial_Photo_24s`)
+  - **Rhode Island Aerial Photo (Spring 2025)** (`RIGIS_Aerial_Photo_25s`)
+  - **Rhode Island Aerial Photo (Spring 2026)** (`RIGIS_Aerial_Photo_26s`)
+  - **SPW(allonie) most recent aerial imagery** (`SPW_ORTHO_LAST`) — [source](https://github.com/osmlab/editor-layer-index/blob/7deb4c025525bced24f9989ae0127e9f16d6b8ad/sources/europe/be/SPW_OrthoPhoto.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/7deb4c025525bced24f9989ae0127e9f16d6b8ad/sources/europe/be/SPW_OrthoPhoto.geojson)
+
+  ### Removed (11)
+  - **Brevard County Orthoimagery (2021)** (`Brevard_Ortho_2021`) — `sources/north-america/us/fl/Brevard_Ortho_2021.geojson`
+  - **City of Bozeman Aerial Photography (2021)** (`Bozeman_MT_2021`) — `sources/north-america/us/mt/Bozeman_MT_2021.geojson`
+  - **Cook County Orthoimagery 2020** (`Cook_IL_2020`) — `sources/north-america/us/il/Cook_IL_2020.geojson`
+  - **Cook County Orthoimagery 2021** (`Cook_IL_2021`) — `sources/north-america/us/il/Cook_IL_2021.geojson`
+  - **DC From Above Orthophoto 2019** (`DC_From_Above_Ortho_2019`) — `sources/north-america/us/dc/DC_From_Above_Ortho_2019.geojson`
+  - **Delaware 2012 Orthophotography** (`Delaware2012Orthophotography`) — `sources/north-america/us/de/Delaware2012Orthophotography.geojson`
+  - **Fairfax County Orthoimagery (2022)** (`Fairfax_VA_2022`) — `sources/north-america/us/va/Fairfax_VA_2022.geojson`
+  - **Loudoun County Orthoimagery (2021)** (`Loudoun_VA_2021`) — `sources/north-america/us/va/Loudoun_VA_2021.geojson`
+  - **Mecklenburg County Orthoimagery (2021)** (`Mecklenburg_NC_2021`) — `sources/north-america/us/nc/Mecklenburg_NC_2021.geojson`
+  - **Monongalia County 2022 Aerial Imagery** (`Monongalia_WV_2022`) — `sources/north-america/us/wv/Monongalia_WV_2022.geojson`
+  - **Rhode Island Aerial Photo (Fall 2021)** (`RIGIS_Aerial_Photo_21f`) — `sources/north-america/us/ri/RIGIS_Aerial_Photo_21f.geojson`
+
 ## 0.5.0
 
 ### Minor Changes

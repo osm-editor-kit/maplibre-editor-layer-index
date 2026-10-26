@@ -147,30 +147,6 @@
     ],
     "urlTemplate": "https://gis.cityofberkeley.info/arcgis3/rest/services/Imagery/Orthophoto/MapServer/export?f=image&format=jpg&layers=show:4&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "Bozeman_MT_2021": {
-    "attributionHtml": "<a href=\"https://public-bozeman.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">City of Bozeman GIS Department</a>",
-    "attributionText": "City of Bozeman GIS Department",
-    "attributionUrl": "https://public-bozeman.opendata.arcgis.com/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2021-04-17",
-    "group": {
-      "id": "city-of-bozeman-aerial-photography",
-      "label": "2021",
-      "name": "City of Bozeman Aerial Photography",
-      "order": 0
-    },
-    "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
-    "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
-    "startDate": "2021-04-17",
-    "tiles": [
-      "https://gisweb.bozeman.net/image/services/COB_20210417_WGS84_WebMercator/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://gisweb.bozeman.net/image/services/COB_20210417_WGS84_WebMercator/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
   "Bozeman_MT_2023": {
     "attributionHtml": "<a href=\"https://public-bozeman.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">City of Bozeman GIS Department</a>",
     "attributionText": "City of Bozeman GIS Department",
@@ -185,7 +161,7 @@
       "id": "city-of-bozeman-aerial-photography",
       "label": "2023",
       "name": "City of Bozeman Aerial Photography",
-      "order": 1
+      "order": 0
     },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
@@ -209,7 +185,7 @@
       "id": "city-of-bozeman-aerial-photography",
       "label": "2024",
       "name": "City of Bozeman Aerial Photography",
-      "order": 2
+      "order": 1
     },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
@@ -233,7 +209,7 @@
       "id": "city-of-bozeman-aerial-photography",
       "label": "2025",
       "name": "City of Bozeman Aerial Photography",
-      "order": 3
+      "order": 2
     },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
@@ -257,7 +233,7 @@
       "id": "city-of-bozeman-aerial-photography",
       "label": "2026",
       "name": "City of Bozeman Aerial Photography",
-      "order": 4
+      "order": 3
     },
     "icon": "https://www.bozeman.net/Project/Contents/Main/_gfx/cmn/logo.svg",
     "licenseUrl": "https://www.bozeman.net/departments/information-technology/disclaimer",
@@ -284,30 +260,6 @@
     ],
     "urlTemplate": "https://imagery.geographic.texas.gov/server/services/StratMap/StratMap19_NCCIR_6in_Brazos/ImageServer/WMSServer?LAYERS=0&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
-  "Brevard_Ortho_2021": {
-    "attributionHtml": "<a href=\"https://www.brevardfl.gov/GISMapsAndApplications\" target=\"_blank\" rel=\"noopener\">Brevard County Board of County Commissioners</a>",
-    "attributionText": "Brevard County Board of County Commissioners",
-    "attributionUrl": "https://www.brevardfl.gov/GISMapsAndApplications",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:2881",
-      "EPSG:3857"
-    ],
-    "endDate": "2021",
-    "group": {
-      "id": "brevard-county-orthoimagery",
-      "label": "2021",
-      "name": "Brevard County Orthoimagery",
-      "order": 0
-    },
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
-    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
-    "startDate": "2021",
-    "tiles": [
-      "https://gis.brevardfl.gov/gissrv/rest/services/Aerial_Photo/Y2021/MapServer/export?f=image&format=jpg&layers=show,0&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
-    ],
-    "urlTemplate": "https://gis.brevardfl.gov/gissrv/rest/services/Aerial_Photo/Y2021/MapServer/export?f=image&format=jpg&layers=show,0&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
-  },
   "Brevard_Ortho_2022": {
     "attributionHtml": "<a href=\"https://www.brevardfl.gov/GISMapsAndApplications\" target=\"_blank\" rel=\"noopener\">Brevard County Board of County Commissioners</a>",
     "attributionText": "Brevard County Board of County Commissioners",
@@ -322,7 +274,7 @@
       "id": "brevard-county-orthoimagery",
       "label": "2022",
       "name": "Brevard County Orthoimagery",
-      "order": 1
+      "order": 0
     },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
@@ -346,7 +298,7 @@
       "id": "brevard-county-orthoimagery",
       "label": "2023",
       "name": "Brevard County Orthoimagery",
-      "order": 2
+      "order": 1
     },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
@@ -370,7 +322,7 @@
       "id": "brevard-county-orthoimagery",
       "label": "2024",
       "name": "Brevard County Orthoimagery",
-      "order": 3
+      "order": 2
     },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
@@ -394,7 +346,7 @@
       "id": "brevard-county-orthoimagery",
       "label": "2025",
       "name": "Brevard County Orthoimagery",
-      "order": 4
+      "order": 3
     },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
@@ -418,7 +370,7 @@
       "id": "brevard-county-orthoimagery",
       "label": "2026",
       "name": "Brevard County Orthoimagery",
-      "order": 5
+      "order": 4
     },
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_of_Brevard_County%2C_Florida.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Florida#Publicly_Available_Data",
@@ -1187,56 +1139,6 @@
     ],
     "urlTemplate": "https://ags2.colliercountyfl.gov/imagery/rest/services/CurrentOrthos/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "Cook_IL_2020": {
-    "attributionHtml": "<a href=\"https://hub-cookcountyil.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Cook County GIS</a>",
-    "attributionText": "Cook County GIS",
-    "attributionUrl": "https://hub-cookcountyil.opendata.arcgis.com/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3435",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2020",
-    "group": {
-      "id": "cook-county-orthoimagery",
-      "label": "2020",
-      "name": "Cook County Orthoimagery",
-      "order": 0
-    },
-    "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
-    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
-    "startDate": "2020",
-    "tiles": [
-      "https://gis.cookcountyil.gov/imagery/rest/services/CookOrtho2020/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
-    ],
-    "urlTemplate": "https://gis.cookcountyil.gov/imagery/rest/services/CookOrtho2020/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
-  },
-  "Cook_IL_2021": {
-    "attributionHtml": "<a href=\"https://hub-cookcountyil.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Cook County GIS</a>",
-    "attributionText": "Cook County GIS",
-    "attributionUrl": "https://hub-cookcountyil.opendata.arcgis.com/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3435",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2021",
-    "group": {
-      "id": "cook-county-orthoimagery",
-      "label": "2021",
-      "name": "Cook County Orthoimagery",
-      "order": 1
-    },
-    "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
-    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
-    "startDate": "2021",
-    "tiles": [
-      "https://gis.cookcountyil.gov/imagery/rest/services/CookOrtho2021/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
-    ],
-    "urlTemplate": "https://gis.cookcountyil.gov/imagery/rest/services/CookOrtho2021/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
-  },
   "Cook_IL_2022": {
     "attributionHtml": "<a href=\"https://hub-cookcountyil.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Cook County GIS</a>",
     "attributionText": "Cook County GIS",
@@ -1252,7 +1154,7 @@
       "id": "cook-county-orthoimagery",
       "label": "2022",
       "name": "Cook County Orthoimagery",
-      "order": 2
+      "order": 0
     },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
@@ -1277,7 +1179,7 @@
       "id": "cook-county-orthoimagery",
       "label": "2023",
       "name": "Cook County Orthoimagery",
-      "order": 3
+      "order": 1
     },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
@@ -1302,7 +1204,7 @@
       "id": "cook-county-orthoimagery",
       "label": "2024",
       "name": "Cook County Orthoimagery",
-      "order": 4
+      "order": 2
     },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
@@ -1327,7 +1229,7 @@
       "id": "cook-county-orthoimagery",
       "label": "2025",
       "name": "Cook County Orthoimagery",
-      "order": 5
+      "order": 3
     },
     "icon": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/cook_county_logo_0.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Illinois/Cook_Central",
@@ -1819,31 +1721,6 @@
     ],
     "urlTemplate": "https://gis.cuyahogacounty.us/server/rest/services/IMAGERY/2023_Spring_Ortho/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "DC_From_Above_Ortho_2019": {
-    "attributionHtml": "<a href=\"https://opendata.dc.gov/datasets/DCGIS::aerial-photography-orthophoto-2019/about\" target=\"_blank\" rel=\"noopener\">OCTO, DCGIS</a>",
-    "attributionText": "OCTO, DCGIS",
-    "attributionUrl": "https://opendata.dc.gov/datasets/DCGIS::aerial-photography-orthophoto-2019/about",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326",
-      "EPSG:26985"
-    ],
-    "endDate": "2019-04-23",
-    "group": {
-      "id": "dc-from-above-orthophoto",
-      "label": "2019",
-      "name": "DC From Above Orthophoto",
-      "order": 0
-    },
-    "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
-    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
-    "startDate": "2019-04-23",
-    "tiles": [
-      "https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Ortho2019/MapServer/WMSServer?request=getmap&version=1.3.0&service=wms&layers=0&styles=&format=image/jpeg&crs=EPSG:3857&width=256&height=256&bbox={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Ortho2019/MapServer/WMSServer?request=getmap&version=1.3.0&service=wms&layers=0&styles=&format=image/jpeg&crs={proj}&width={width}&height={height}&bbox={bbox}"
-  },
   "DC_From_Above_Ortho_2021": {
     "attributionHtml": "<a href=\"https://opendata.dc.gov/datasets/DCGIS::aerial-photography-orthophoto-2021/about\" target=\"_blank\" rel=\"noopener\">OCTO, DCGIS</a>",
     "attributionText": "OCTO, DCGIS",
@@ -1859,7 +1736,7 @@
       "id": "dc-from-above-orthophoto",
       "label": "2021",
       "name": "DC From Above Orthophoto",
-      "order": 1
+      "order": 0
     },
     "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
@@ -1884,7 +1761,7 @@
       "id": "dc-from-above-orthophoto",
       "label": "2023",
       "name": "DC From Above Orthophoto",
-      "order": 2
+      "order": 1
     },
     "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
@@ -1909,7 +1786,7 @@
       "id": "dc-from-above-orthophoto",
       "label": "2025",
       "name": "DC From Above Orthophoto",
-      "order": 3
+      "order": 2
     },
     "icon": "https://octo.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/octo/agency_content/images/OCTO-logo_Lead.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Washington_DC/DC_From_Above",
@@ -2128,18 +2005,6 @@
       "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/{z}/{y}/{x}"
     ],
     "urlTemplate": "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/{zoom}/{y}/{x}"
-  },
-  "Delaware2012Orthophotography": {
-    "attributionHtml": "<a href=\"https://firstmap.delaware.gov\" target=\"_blank\" rel=\"noopener\">Digital Aerial Solutions, LLC, FirstMap</a>",
-    "attributionText": "Digital Aerial Solutions, LLC, FirstMap",
-    "attributionUrl": "https://firstmap.delaware.gov",
-    "endDate": "2012",
-    "licenseUrl": "https://firstmap.delaware.gov/pdfs/public/DEImageryMetadata.pdf",
-    "startDate": "2012",
-    "tiles": [
-      "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/{z}/{y}/{x}"
-    ],
-    "urlTemplate": "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/{zoom}/{y}/{x}"
   },
   "Delta_2006": {
     "attributionHtml": "<a href=\"https://www.delta.ca/Open-Government-Licence\" target=\"_blank\" rel=\"noopener\">Contains information licensed under the Open Government Licence - Delta</a>",
@@ -2843,28 +2708,6 @@
     ],
     "urlTemplate": "https://gis.eurekaca.gov/server/rest/services/ImageryServices/Imagery_Aerial_2023/ImageServer/exportImage?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "Fairfax_VA_2022": {
-    "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
-    "attributionText": "Government of Fairfax County, Virginia",
-    "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857"
-    ],
-    "endDate": "2022",
-    "group": {
-      "id": "fairfax-county-orthoimagery",
-      "label": "2022",
-      "name": "Fairfax County Orthoimagery",
-      "order": 0
-    },
-    "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
-    "startDate": "2022",
-    "tiles": [
-      "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2022AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
-    ],
-    "urlTemplate": "https://www.fairfaxcounty.gov/gisimagery/rest/services/AerialPhotography/2022AerialPhotography3inch/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
-  },
   "Fairfax_VA_2023": {
     "attributionHtml": "<a href=\"https://www.fairfaxcounty.gov/maps/aerial-photography\" target=\"_blank\" rel=\"noopener\">Government of Fairfax County, Virginia</a>",
     "attributionText": "Government of Fairfax County, Virginia",
@@ -2878,7 +2721,7 @@
       "id": "fairfax-county-orthoimagery",
       "label": "2023",
       "name": "Fairfax County Orthoimagery",
-      "order": 1
+      "order": 0
     },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2023",
@@ -2900,7 +2743,7 @@
       "id": "fairfax-county-orthoimagery",
       "label": "2024",
       "name": "Fairfax County Orthoimagery",
-      "order": 2
+      "order": 1
     },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2024",
@@ -2922,7 +2765,7 @@
       "id": "fairfax-county-orthoimagery",
       "label": "2025",
       "name": "Fairfax County Orthoimagery",
-      "order": 3
+      "order": 2
     },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2025",
@@ -2944,7 +2787,7 @@
       "id": "fairfax-county-orthoimagery",
       "label": "2026",
       "name": "Fairfax County Orthoimagery",
-      "order": 4
+      "order": 3
     },
     "licenseUrl": "https://www.fairfaxcounty.gov/maps/disclaimer",
     "startDate": "2026",
@@ -4437,29 +4280,6 @@
     ],
     "urlTemplate": "https://gis.losalamosnm.us/securegis/rest/services/imagery/Orthoimagery_pictometry_1in_2025/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
-  "Loudoun_VA_2021": {
-    "attributionHtml": "<a href=\"https://geohub-loudoungis.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Loudoun County Government</a>",
-    "attributionText": "Loudoun County Government",
-    "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:2924",
-      "EPSG:3857"
-    ],
-    "endDate": "2021-03",
-    "group": {
-      "id": "loudoun-county-orthoimagery",
-      "label": "2021",
-      "name": "Loudoun County Orthoimagery",
-      "order": 0
-    },
-    "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
-    "startDate": "2021-03",
-    "tiles": [
-      "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2021_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
-    ],
-    "urlTemplate": "https://logis.loudoun.gov/image/rest/services/Aerial/COLOR_2021_CACHED/ImageServer/exportImage?f=image&format=jpg&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
-  },
   "Loudoun_VA_2022": {
     "attributionHtml": "<a href=\"https://geohub-loudoungis.opendata.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Loudoun County Government</a>",
     "attributionText": "Loudoun County Government",
@@ -4474,7 +4294,7 @@
       "id": "loudoun-county-orthoimagery",
       "label": "2022",
       "name": "Loudoun County Orthoimagery",
-      "order": 1
+      "order": 0
     },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2022-03",
@@ -4497,7 +4317,7 @@
       "id": "loudoun-county-orthoimagery",
       "label": "2023",
       "name": "Loudoun County Orthoimagery",
-      "order": 2
+      "order": 1
     },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2023-03",
@@ -4520,7 +4340,7 @@
       "id": "loudoun-county-orthoimagery",
       "label": "2024",
       "name": "Loudoun County Orthoimagery",
-      "order": 3
+      "order": 2
     },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2024-03",
@@ -4543,7 +4363,7 @@
       "id": "loudoun-county-orthoimagery",
       "label": "2025",
       "name": "Loudoun County Orthoimagery",
-      "order": 4
+      "order": 3
     },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2025-03",
@@ -4566,7 +4386,7 @@
       "id": "loudoun-county-orthoimagery",
       "label": "2026",
       "name": "Loudoun County Orthoimagery",
-      "order": 5
+      "order": 4
     },
     "licenseUrl": "https://logis.loudoun.gov/loudoun/disclaimer.html",
     "startDate": "2026-03",
@@ -5416,29 +5236,6 @@
     ],
     "urlTemplate": "https://mdgeodata.md.gov/imagery/rest/services/ThreeInch/MD_ThreeInchImagery/ImageServer/exportImage?f=image&format=jpgpng&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
-  "Mecklenburg_NC_2021": {
-    "attributionHtml": "<a href=\"https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
-    "attributionText": "Mecklenburg County GIS",
-    "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857"
-    ],
-    "endDate": "2021-03-04",
-    "group": {
-      "id": "mecklenburg-county-orthoimagery",
-      "label": "2021",
-      "name": "Mecklenburg County Orthoimagery",
-      "order": 0
-    },
-    "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
-    "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
-    "startDate": "2021-01-30",
-    "tiles": [
-      "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2021/MapServer/export?f=image&format=jpg&layers=&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
-    ],
-    "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2021/MapServer/export?f=image&format=jpg&layers=&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
-  },
   "Mecklenburg_NC_2022": {
     "attributionHtml": "<a href=\"https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
     "attributionText": "Mecklenburg County GIS",
@@ -5452,7 +5249,7 @@
       "id": "mecklenburg-county-orthoimagery",
       "label": "2022",
       "name": "Mecklenburg County Orthoimagery",
-      "order": 1
+      "order": 0
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
@@ -5475,7 +5272,7 @@
       "id": "mecklenburg-county-orthoimagery",
       "label": "2023",
       "name": "Mecklenburg County Orthoimagery",
-      "order": 2
+      "order": 1
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
@@ -5498,7 +5295,7 @@
       "id": "mecklenburg-county-orthoimagery",
       "label": "2024",
       "name": "Mecklenburg County Orthoimagery",
-      "order": 3
+      "order": 2
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
@@ -5521,7 +5318,7 @@
       "id": "mecklenburg-county-orthoimagery",
       "label": "2025",
       "name": "Mecklenburg County Orthoimagery",
-      "order": 4
+      "order": 3
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
     "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
@@ -5801,31 +5598,6 @@
     ],
     "urlTemplate": "https://gis.modestogov.com/hosting/rest/services/ExternalServices/City_of_Modesto_2026_Aerial/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "Monongalia_WV_2022": {
-    "attributionHtml": "<a href=\"https://mmagic-monco.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Monongalia Morgantown Area Geospatial Information Consortium</a>",
-    "attributionText": "Monongalia Morgantown Area Geospatial Information Consortium",
-    "attributionUrl": "https://mmagic-monco.hub.arcgis.com/",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326",
-      "EPSG:26853"
-    ],
-    "endDate": "2022-03",
-    "group": {
-      "id": "monongalia-county-aerial-imagery",
-      "label": "2022",
-      "name": "Monongalia County Aerial Imagery",
-      "order": 0
-    },
-    "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
-    "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=139419f0738246bb8b9afcfb08bbe46c",
-    "startDate": "2022-03",
-    "tiles": [
-      "https://gis.morgantownwv.gov/image/services/Imagery/Monongalia_County_2022_Aerial_Imagery/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Monongalia_County_2022_Aerial_Imagery:None&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "https://gis.morgantownwv.gov/image/services/Imagery/Monongalia_County_2022_Aerial_Imagery/ImageServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Monongalia_County_2022_Aerial_Imagery:None&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
   "Monongalia_WV_2023": {
     "attributionHtml": "<a href=\"https://mmagic-monco.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Monongalia Morgantown Area Geospatial Information Consortium</a>",
     "attributionText": "Monongalia Morgantown Area Geospatial Information Consortium",
@@ -5841,7 +5613,7 @@
       "id": "monongalia-county-aerial-imagery",
       "label": "2023",
       "name": "Monongalia County Aerial Imagery",
-      "order": 1
+      "order": 0
     },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=e6a94894347742eea621a34a6db65263",
@@ -5866,7 +5638,7 @@
       "id": "monongalia-county-aerial-imagery",
       "label": "2024",
       "name": "Monongalia County Aerial Imagery",
-      "order": 2
+      "order": 1
     },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=766a378e4a0e4bd5927c8f5e44dde20e",
@@ -5891,7 +5663,7 @@
       "id": "monongalia-county-aerial-imagery",
       "label": "2025",
       "name": "Monongalia County Aerial Imagery",
-      "order": 3
+      "order": 2
     },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=95406db15a0b4ff6b9bf11dbfdf128c4",
@@ -5916,7 +5688,7 @@
       "id": "monongalia-county-aerial-imagery",
       "label": "2026",
       "name": "Monongalia County Aerial Imagery",
-      "order": 4
+      "order": 3
     },
     "icon": "https://www.arcgis.com/sharing/rest/content/items/10723cfc30b9420f8a9a88a4fcb74e2b/resources/rsz_2county_only_no_background.png",
     "licenseUrl": "https://gis.morgantownwv.gov/portal/home/item.html?id=42c57728fc30477088734bf4797b7d34",
@@ -7774,29 +7546,6 @@
     ],
     "urlTemplate": "https://putnamcountygis.com/arcgis/services/Aerials/2023_Aerial/MapServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
-  "RIGIS_Aerial_Photo_21f": {
-    "attributionHtml": "<a href=\"http://www.planning.ri.gov/planning-areas/demographics/aerial-photographs.php\" target=\"_blank\" rel=\"noopener\">RIGIS</a>",
-    "attributionText": "RIGIS",
-    "attributionUrl": "http://www.planning.ri.gov/planning-areas/demographics/aerial-photographs.php",
-    "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326"
-    ],
-    "endDate": "2021-11-03",
-    "group": {
-      "id": "rhode-island-aerial-photo",
-      "label": "Fall 2021",
-      "name": "Rhode Island Aerial Photo",
-      "order": 0
-    },
-    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
-    "startDate": "2021-08-13",
-    "tiles": [
-      "https://maps.edc.uri.edu/rigis/rest/services/IMG/RI_202108_RGB_3in_web/ImageServer/exportImage?f=image&format=jpgpng&imageSR=3857&bboxSR=3857&bbox={bbox-epsg-3857}&size=256,256"
-    ],
-    "urlTemplate": "https://maps.edc.uri.edu/rigis/rest/services/IMG/RI_202108_RGB_3in_web/ImageServer/exportImage?f=image&format=jpgpng&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
-  },
   "RIGIS_Aerial_Photo_22s": {
     "attributionHtml": "<a href=\"https://planning.ri.gov/planning-areas/data-center/aerial-photography\" target=\"_blank\" rel=\"noopener\">RIGIS</a>",
     "attributionText": "RIGIS",
@@ -7811,7 +7560,7 @@
       "id": "rhode-island-aerial-photo",
       "label": "Spring 2022",
       "name": "Rhode Island Aerial Photo",
-      "order": 1
+      "order": 0
     },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2022-04-02",
@@ -7834,7 +7583,7 @@
       "id": "rhode-island-aerial-photo",
       "label": "Spring 2023",
       "name": "Rhode Island Aerial Photo",
-      "order": 2
+      "order": 1
     },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2023-03",
@@ -7857,7 +7606,7 @@
       "id": "rhode-island-aerial-photo",
       "label": "Spring 2024",
       "name": "Rhode Island Aerial Photo",
-      "order": 3
+      "order": 2
     },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2024-03",
@@ -7880,7 +7629,7 @@
       "id": "rhode-island-aerial-photo",
       "label": "Spring 2025",
       "name": "Rhode Island Aerial Photo",
-      "order": 4
+      "order": 3
     },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2025-04",
@@ -7903,7 +7652,7 @@
       "id": "rhode-island-aerial-photo",
       "label": "Spring 2026",
       "name": "Rhode Island Aerial Photo",
-      "order": 5
+      "order": 4
     },
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Rhode_Island/RIGIS_Aerial_Photo",
     "startDate": "2026-03",

@@ -2312,32 +2312,6 @@
         "US"
       ],
       "geometryId": "ca4e12dee4c2403c",
-      "id": "Bozeman_MT_2021",
-      "maxzoom": 19,
-      "name": "City of Bozeman Aerial Photography (2021)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -111.16263,
-          45.5802,
-          -110.95404,
-          45.75132
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "ca4e12dee4c2403c",
       "id": "Bozeman_MT_2023",
       "maxzoom": 19,
       "name": "City of Bozeman Aerial Photography (2023)",
@@ -2575,32 +2549,6 @@
       "id": "Brest_2023_2024",
       "maxzoom": 22,
       "name": "Brest Métropole Orthophoto 2023/2024",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -80.9725,
-          27.82206,
-          -80.44624,
-          28.79149
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "2f438c9c23b81b90",
-      "id": "Brevard_Ortho_2021",
-      "maxzoom": 19,
-      "name": "Brevard County Orthoimagery (2021)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -4273,58 +4221,6 @@
         "US"
       ],
       "geometryId": "122d2ba034733cc8",
-      "id": "Cook_IL_2020",
-      "maxzoom": 19,
-      "name": "Cook County Orthoimagery 2020",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -88.2938,
-          41.44142,
-          -87.49767,
-          42.17811
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "122d2ba034733cc8",
-      "id": "Cook_IL_2021",
-      "maxzoom": 19,
-      "name": "Cook County Orthoimagery 2021",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -88.2938,
-          41.44142,
-          -87.49767,
-          42.17811
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "122d2ba034733cc8",
       "id": "Cook_IL_2022",
       "maxzoom": 19,
       "name": "Cook County Orthoimagery 2022",
@@ -5682,32 +5578,6 @@
       "id": "db-inspire-2015-11",
       "name": "Deutsche Bahn VzG lines Nov 2015",
       "overlay": true,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -77.11973,
-          38.79718,
-          -76.90929,
-          38.99592
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "53092f4a925eda97",
-      "id": "DC_From_Above_Ortho_2019",
-      "maxzoom": 19,
-      "name": "DC From Above Orthophoto 2019",
-      "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
       "type": "wms"
@@ -7159,33 +7029,6 @@
       "maxzoom": 20,
       "minzoom": 4,
       "name": "Delaware Parks 2022",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "tms"
-    },
-    {
-      "bboxes": [
-        [
-          -75.78953,
-          38.45023,
-          -75.02598,
-          39.83971
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "8c91e3d06442bf49",
-      "id": "Delaware2012Orthophotography",
-      "maxzoom": 19,
-      "minzoom": 5,
-      "name": "Delaware 2012 Orthophotography",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -9241,32 +9084,6 @@
       "id": "Eureka_CA_2023",
       "maxzoom": 21,
       "name": "City of Eureka Orthoimagery (2023)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -77.53884,
-          38.6101,
-          -77.03919,
-          39.06239
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "dcae00efdbd92fdd",
-      "id": "Fairfax_VA_2022",
-      "maxzoom": 20,
-      "name": "Fairfax County Orthoimagery (2022)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -19281,33 +19098,6 @@
         "US"
       ],
       "geometryId": "cd3bde8b8a7ad5a0",
-      "id": "Loudoun_VA_2021",
-      "maxzoom": 18,
-      "minzoom": 1,
-      "name": "Loudoun County Orthoimagery (2021)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -77.98239,
-          38.83868,
-          -77.31272,
-          39.3346
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "cd3bde8b8a7ad5a0",
       "id": "Loudoun_VA_2022",
       "maxzoom": 18,
       "minzoom": 1,
@@ -21859,32 +21649,6 @@
         "US"
       ],
       "geometryId": "d660f393bcbb500a",
-      "id": "Mecklenburg_NC_2021",
-      "maxzoom": 21,
-      "name": "Mecklenburg County Orthoimagery (2021)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -81.06884,
-          35.00083,
-          -80.54096,
-          35.52381
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "d660f393bcbb500a",
       "id": "Mecklenburg_NC_2022",
       "maxzoom": 21,
       "name": "Mecklenburg County Orthoimagery (2022)",
@@ -22503,32 +22267,6 @@
       "id": "Modesto_CA_2026",
       "maxzoom": 23,
       "name": "City of Modesto Orthoimagery (2026)",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -80.43798,
-          39.4238,
-          -79.74866,
-          39.73322
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "1e7ac10a5c55d198",
-      "id": "Monongalia_WV_2022",
-      "maxzoom": 19,
-      "name": "Monongalia County 2022 Aerial Imagery",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
@@ -38366,32 +38104,6 @@
       "geometryId": "3f4b9667c85a765f",
       "id": "Rheinland-Pfalz-DOP20",
       "name": "Rheinland-Pfalz DOP20",
-      "overlay": false,
-      "requiresKeys": [],
-      "tileSize": 256,
-      "type": "wms"
-    },
-    {
-      "bboxes": [
-        [
-          -71.90758,
-          41.14605,
-          -71.11811,
-          42.01892
-        ]
-      ],
-      "best": false,
-      "category": "historicphoto",
-      "continents": [
-        "north-america"
-      ],
-      "countryCodes": [
-        "US"
-      ],
-      "geometryId": "89061125e4495ba6",
-      "id": "RIGIS_Aerial_Photo_21f",
-      "maxzoom": 21,
-      "name": "Rhode Island Aerial Photo (Fall 2021)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,
