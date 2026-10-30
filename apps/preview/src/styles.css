@@ -1,9 +1,6 @@
 :root {
   --sidebar-width: 360px;
-  font-family:
-    system-ui,
-    -apple-system,
-    sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
   color: #1a1a1a;
   /* Keep the demo light regardless of OS dark mode so text stays legible. */
   color-scheme: light;

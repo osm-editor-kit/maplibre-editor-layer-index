@@ -25,13 +25,13 @@ Keep `<Source>` and `<Layer>` **flat** (separate siblings, the layer referencing
 id) — react-map-gl's recommended pattern, not nested:
 
 ```tsx
-import { Fragment } from 'react'
-import { Layer, Map, MapProvider, Source } from 'react-map-gl/maplibre'
 import {
   getRasterLayerSpec,
   getRasterSourceSpec,
   useEditorLayerIndex,
 } from '@osm-editor-kit/maplibre-editor-layer-index/react'
+import { Fragment } from 'react'
+import { Layer, Map, MapProvider, Source } from 'react-map-gl/maplibre'
 
 function Layers() {
   const { layers, status } = useEditorLayerIndex({
