@@ -30,14 +30,14 @@ With `maplibre-gl` 6, use `react-map-gl` 8.1.2 or newer: 8.1.1 reads a camera pr
 maplibre 6 no longer has, so the map throws on every move and jumps around when zooming.
 
 ```tsx
-import { Fragment } from 'react'
-import { Layer, Map, Source } from 'react-map-gl/maplibre'
 import {
   eliSourceId,
   getRasterLayerSpec,
   getRasterSourceSpec,
   useEditorLayerIndex,
 } from '@osm-editor-kit/maplibre-editor-layer-index/react'
+import { Fragment } from 'react'
+import { Layer, Map, Source } from 'react-map-gl/maplibre'
 
 function ImageryLayers() {
   const { layers } = useEditorLayerIndex({ filter: { categories: ['photo'] } })
