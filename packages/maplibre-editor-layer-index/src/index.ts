@@ -35,7 +35,6 @@ export {
   continentsForViewport,
   ensureDetailsForContinents,
   ensureDetailsForLayers,
-  ensureDetailsForViewport,
   getGeometry,
   getLayer,
   getLayerHydrated,
@@ -51,6 +50,7 @@ export {
 } from './core/data'
 
 export {
+  ensureDetailsForViewport,
   filterLayers,
   layersForCountry,
   layersInViewport,

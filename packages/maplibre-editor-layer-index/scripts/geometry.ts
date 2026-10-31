@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto'
 import type { Geometry, Position } from 'geojson'
+import { wrapShift } from '../src/core/bounds'
 import type { BBox } from '../src/core/types'
 
 export const WORLD_GEOMETRY_ID = 'world'
@@ -28,6 +29,7 @@ function outerRings(geometry: Geometry): Position[][] {
 /**
  * Boxes of one ring. A ring that crosses the antimeridian (consecutive points
  * more than 180° apart) is unrolled past 180° and split into one box per side.
+ * Whole turns are added or removed so the west edge lands in [-180, 180).
  */
 function ringBBoxes(ring: Position[]): BBox[] {
   const crosses = ring.some((pos, i) => i > 0 && Math.abs(pos[0]! - ring[i - 1]![0]!) > 180)
@@ -44,6 +46,9 @@ function ringBBoxes(ring: Position[]): BBox[] {
     north = Math.max(north, lat)
   }
   if (!Number.isFinite(west)) return []
+  const shift = wrapShift(west)
+  west += shift
+  east += shift
   if (east <= 180) return [[west, south, east, north]]
   return [
     [west, south, 180, north],

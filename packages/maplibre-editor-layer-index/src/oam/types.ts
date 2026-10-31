@@ -22,10 +22,10 @@ export type OamLayer = {
   best: false
   overlay: false
   tileSize: 256
-  /** Where the image has pixels; sources use it as `bounds`, so no tile is asked for outside */
+  /** The item's box, where the image has pixels. West > east across the antimeridian */
   bbox: BBox
-  /** One box, as `EliLocatorLayer.bboxes` */
-  bboxes: [BBox]
+  /** One box, or two across the antimeridian (each within ±180°, west ≤ east), as `EliLocatorLayer.bboxes` */
+  bboxes: BBox[]
   /** Zoom at which one tile pixel is about one image pixel (from `gsd`, capped at 24) */
   maxzoom?: number
   /** MapLibre tile URLs (`{z}/{x}/{y}`) */

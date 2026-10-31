@@ -16,7 +16,10 @@ export type OamRasterSourceOptions = {
   pixelRatio?: 1 | 2
 }
 
-/** A MapLibre raster source for an image, bounded to its extent */
+/**
+ * A MapLibre raster source for an image, bounded to its extent. An image across the
+ * antimeridian has no `bounds`: MapLibre draws no tile for a box with west > east.
+ */
 export function getOamRasterSourceSpec(
   layer: OamLayer,
   options: OamRasterSourceOptions = {},
@@ -29,7 +32,7 @@ export function getOamRasterSourceSpec(
     type: 'raster',
     tiles,
     tileSize: layer.tileSize,
-    bounds: layer.bbox,
+    ...(layer.bboxes.length === 1 ? { bounds: layer.bbox } : {}),
     ...(layer.maxzoom !== undefined ? { maxzoom: layer.maxzoom } : {}),
     attribution: layer.attributionHtml,
   }

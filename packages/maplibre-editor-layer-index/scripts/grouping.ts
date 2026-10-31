@@ -1,4 +1,5 @@
 import type { BBox, EliCategory, EliLayer } from '../src/core/types'
+import { bboxArea } from './geometry'
 
 /**
  * Time-series grouping: layers that show the same area and differ only by capture
@@ -8,7 +9,8 @@ import type { BBox, EliCategory, EliLayer } from '../src/core/types'
  *
  * ELI has no such field, so membership is derived:
  *   1. the name minus its date part must be equal,
- *   2. the coverage must be near-identical (bbox overlap, see {@link MIN_BBOX_IOU}),
+ *   2. the coverage must be near-identical: the largest box of each layer overlaps
+ *      the other's (see {@link MIN_BBOX_IOU}), so a stray far-off box does not split a series,
  *   3. the remaining date parts must tell the members apart.
  */
 
@@ -108,14 +110,18 @@ function bboxIou(a: BBox, b: BBox): number {
   const width = Math.min(a[2], b[2]) - Math.max(a[0], b[0])
   const height = Math.min(a[3], b[3]) - Math.max(a[1], b[1])
   if (width <= 0 || height <= 0) return 0
-  const area = (box: BBox) => (box[2] - box[0]) * (box[3] - box[1])
   const intersection = width * height
-  return intersection / (area(a) + area(b) - intersection)
+  return intersection / (bboxArea(a) + bboxArea(b) - intersection)
 }
 
-/** Near-identical coverage: as many boxes, each overlapping its counterpart (both sorted). */
-function sameBoxes(a: BBox[], b: BBox[]): boolean {
-  return a.length === b.length && a.every((box, i) => bboxIou(box, b[i]!) >= MIN_BBOX_IOU)
+/** The box with the most area; the main part of a coverage, the rest are small extras. */
+function largestBox(boxes: BBox[]): BBox {
+  return boxes.reduce((best, box) => (bboxArea(box) > bboxArea(best) ? box : best))
+}
+
+/** Same main area: the largest box of each layer overlaps the other's by {@link MIN_BBOX_IOU}. */
+function sameMainArea(a: BBox[], b: BBox[]): boolean {
+  return bboxIou(largestBox(a), largestBox(b)) >= MIN_BBOX_IOU
 }
 
 /** Current and historic flavours of a category belong to the same series. */
@@ -145,7 +151,7 @@ function clusterByArea(candidates: Candidate[]): Candidate[][] {
     for (let j = i + 1; j < candidates.length; j++) {
       const a = candidates[i]!.layer
       const b = candidates[j]!.layer
-      if (a.geometryId === b.geometryId || sameBoxes(a.bboxes, b.bboxes)) {
+      if (a.geometryId === b.geometryId || sameMainArea(a.bboxes, b.bboxes)) {
         parent[find(i)] = find(j)
       }
     }

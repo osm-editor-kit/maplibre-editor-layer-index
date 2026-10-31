@@ -4,6 +4,8 @@ import { groupLayers } from '../src/core/groups'
 import type { BBox, EliLayer } from '../src/core/types'
 
 const BERLIN: BBox = [13.0, 52.3, 13.8, 52.7]
+/** A small far-off piece, like a remote island that only one year of the series covers. */
+const FAR_OFF: BBox = [-150, 61, -149.5, 61.5]
 
 function layer(id: string, name: string, extra: Partial<EliLayer> = {}): EliLayer {
   return {
@@ -98,6 +100,22 @@ describe('assignGroups', () => {
     // Same series name twice → ids disambiguated by the oldest member.
     expect(ids[0]).toBe('dop--a')
     expect(ids[2]).toBe('dop--c')
+  })
+
+  it('groups a series when one member has an extra far-off box', () => {
+    const layers = grouped([
+      layer('a', 'DOP 2019'),
+      layer('b', 'DOP 2020', { bboxes: [BERLIN, FAR_OFF] }),
+    ])
+    expect(layers.map((l) => l.group?.id)).toEqual(['dop', 'dop'])
+  })
+
+  it('keeps same-named layers apart when their main areas differ', () => {
+    const layers = grouped([
+      layer('a', 'DOP 2019'),
+      layer('b', 'DOP 2020', { bboxes: [[14.0, 52.3, 14.8, 52.7]] }),
+    ])
+    expect(layers.every((l) => l.group === undefined)).toBe(true)
   })
 
   it('does not group overlays with base layers, or members a date cannot tell apart', () => {

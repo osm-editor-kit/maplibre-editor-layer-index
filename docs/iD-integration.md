@@ -41,8 +41,9 @@ At runtime, `getLayers()` returns `EliLocatorLayer[]` — enough to filter by vi
 full `EliLayer`:
 
 - **`getLayerHydrated(id)`** — load the layer's continent shards and return one hydrated layer.
-- **`ensureDetailsForViewport(bounds)` + `hydrateLayer(row)`** — load `world` plus the regional
-  detail shard for a map view, then merge each locator row.
+- **`ensureDetailsForViewport(bounds)` + `hydrateLayer(row)`** — load the continent shards at the
+  view's centre and the detail shards of every row in view (rows are filed by country, so a view
+  can need a shard other than the centre's), then merge each locator row.
 - **`loadLayersInViewport(bounds)`** — filter synchronously, load the needed detail shards, return
   `EliLayer[]` ready for templating.
 

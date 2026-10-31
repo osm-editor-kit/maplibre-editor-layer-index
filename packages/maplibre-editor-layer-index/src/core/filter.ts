@@ -1,7 +1,14 @@
 import { hasRequiredKeys, type EliApiKeys } from './apiKeys'
 import type { ViewportBounds } from './bounds'
 import { viewportBoxes } from './bounds'
-import { ensureDetailsForLayers, getLayers, hydrateLayers, loadByCountry } from './data'
+import {
+  continentsForViewport,
+  ensureDetailsForContinents,
+  ensureDetailsForLayers,
+  getLayers,
+  hydrateLayers,
+  loadByCountry,
+} from './data'
 import type { BBox, EliCategory, EliLayer, EliLayerType, EliLocatorLayer } from './types'
 
 export type { ViewportBounds } from './bounds'
@@ -106,6 +113,19 @@ export async function layersForCountry(
     for (const id of byCountry.worldwide ?? []) ids.add(id)
   }
   return getLayers().filter((layer) => ids.has(layer.id))
+}
+
+/**
+ * Load the detail shards a map view needs: the continents at the view's centre, plus
+ * the shards of every row in view. Rows are filed by their main country, so a view
+ * can need a shard other than the centre's (the centre of Gran Canaria is in Africa,
+ * its layers are filed under europe). Then `hydrateLayers` finds every match.
+ */
+export async function ensureDetailsForViewport(bounds: ViewportBounds): Promise<void> {
+  await Promise.all([
+    ensureDetailsForContinents(continentsForViewport(bounds)),
+    ensureDetailsForLayers(layersInViewport(bounds)),
+  ])
 }
 
 /** Viewport-filter synchronously, load the matches' detail shards, then hydrate them. */

@@ -180,6 +180,17 @@ describe('geometry helpers', () => {
     ])
   })
 
+  it('wraps a ring that straddles -180° into boxes on the east side of the antimeridian', () => {
+    expect(geometryBBoxes(polygon(rect(-181, 10, -179, 12)))).toEqual([
+      [-180, 10, -179, 12],
+      [179, 10, 180, 12],
+    ])
+  })
+
+  it('shifts a ring wholly past 180° back into range', () => {
+    expect(geometryBBoxes(polygon(rect(181, 10, 182, 12)))).toEqual([[-179, 10, -178, 12]])
+  })
+
   it('merges nearby parts (mainland France + Corsica) but keeps overseas regions apart', () => {
     const boxes = geometryBBoxes(france)
     expect(boxes).toContainEqual([-5, 41.4, 9.6, 51.1])
@@ -207,6 +218,16 @@ describe('coverage countries', () => {
     const result = transform(collection([{ ...feature('topo50'), geometry: newZealand }]))
     expect(result.locatorLayers[0]!.continents).toEqual(['oceania'])
     expect(result.locatorLayers[0]!.countryCodes).toEqual(['NZ'])
+  })
+
+  it('treats global coverage split into two hemispheres as worldwide', () => {
+    const halves = multi(rect(-180, -85, 0, 85), rect(0, -85, 180, 85))
+    expect(coverageCountries(halves)).toEqual({ countryCodes: [], mainCountryCodes: [] })
+  })
+
+  it('keeps an Antarctic ring (east and west halves, low latitude band) out of worldwide', () => {
+    const ring = multi(rect(-180, -90, 0, -60), rect(0, -90, 180, -60))
+    expect(coverageCountries(ring).countryCodes).toEqual(['AQ'])
   })
 
   it('files a layer by the main country of each box, not by border slivers', () => {

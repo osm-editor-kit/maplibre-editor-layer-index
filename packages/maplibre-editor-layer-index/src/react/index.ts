@@ -121,6 +121,7 @@ export {
 export { continentForLngLat } from '../core/continents'
 export { groupLayers, type EliLayerEntry } from '../core/groups'
 export {
+  ensureDetailsForViewport,
   filterLayers,
   layersForCountry,
   layersInViewport,
@@ -133,7 +134,6 @@ export {
   continentsForViewport,
   ensureDetailsForContinents,
   ensureDetailsForLayers,
-  ensureDetailsForViewport,
   getGeometry,
   getLayer,
   getLayerHydrated,

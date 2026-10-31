@@ -268,7 +268,8 @@ if (image) {
   The asset is `visual` on new uploads and `data` on some old ones; the item's `renders.browse`
   becomes TiTiler parameters, and items without one get `nodata=0` (as HOT's browser does).
 - The source is bounded to the image (`bounds`) and its `maxzoom` is the zoom where a tile pixel
-  matches an image pixel, from `gsd`. MapLibre overzooms past it.
+  matches an image pixel, from `gsd`. MapLibre overzooms past it. An image across the antimeridian
+  has no `bounds` (MapLibre draws nothing for a box with west > east); its `bboxes` are two boxes.
 - `pixelRatio: 2` on `getOamRasterSourceSpec` asks for 512 px tiles (`@2x`). It is off by default:
   every tile is rendered on HOT's server.
 - Search options: `limit` (default 50, at most 250), `datetime` (a STAC interval), `collections`
@@ -287,21 +288,22 @@ if (image) {
 
 All of these are exported from the root entry. `/react` re-exports them next to the hook.
 
-| Export                                                     | Purpose                                                                 |
-| ---------------------------------------------------------- | ----------------------------------------------------------------------- |
-| `layersInViewport(bounds, options?)`                       | Layers overlapping a view. Synchronous, no tile URLs.                   |
-| `loadLayersInViewport(bounds, options?)`                   | The same, with tile URLs and attribution loaded.                        |
-| `filterLayers(options?)`                                   | Apply the filter options without a view.                                |
-| `layersForCountry(code)`                                   | Layers covering a country, from a precomputed lookup.                   |
-| `getLayers()` / `getLayer(id)`                             | All layers, or one by its ELI id. No tile URLs.                         |
-| `getLayerHydrated(id)`                                     | One layer with tile URLs and attribution loaded.                        |
-| `getRasterSourceSpec(layer)` / `getRasterLayerSpec(layer)` | MapLibre source and layer specs.                                        |
-| `eliSourceId(layer)`                                       | The id the specs use, `eli-<id>`.                                       |
-| `groupLayers(layers)`                                      | Collapse time series into one entry each.                               |
-| `loadCoverageFeatures(layers)`                             | Coverage polygons as a GeoJSON `FeatureCollection`, ready for a source. |
-| `getGeometry(layer)` / `loadGeometries()`                  | The coverage polygon of one layer, or all of them.                      |
-| `getImageryUsedValue(layer)`                               | The value for the `imagery_used` changeset tag, as iD writes it.        |
-| `getManifest()`                                            | Where the data came from: source, commit, date and counts.              |
+| Export                                                     | Purpose                                                                   |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `layersInViewport(bounds, options?)`                       | Layers overlapping a view. Synchronous, no tile URLs.                     |
+| `loadLayersInViewport(bounds, options?)`                   | The same, with tile URLs and attribution loaded.                          |
+| `ensureDetailsForViewport(bounds)`                         | Load the detail shards a view needs. Then `hydrateLayer` merges the rows. |
+| `filterLayers(options?)`                                   | Apply the filter options without a view.                                  |
+| `layersForCountry(code)`                                   | Layers covering a country, from a precomputed lookup.                     |
+| `getLayers()` / `getLayer(id)`                             | All layers, or one by its ELI id. No tile URLs.                           |
+| `getLayerHydrated(id)`                                     | One layer with tile URLs and attribution loaded.                          |
+| `getRasterSourceSpec(layer)` / `getRasterLayerSpec(layer)` | MapLibre source and layer specs.                                          |
+| `eliSourceId(layer)`                                       | The id the specs use, `eli-<id>`.                                         |
+| `groupLayers(layers)`                                      | Collapse time series into one entry each.                                 |
+| `loadCoverageFeatures(layers)`                             | Coverage polygons as a GeoJSON `FeatureCollection`, ready for a source.   |
+| `getGeometry(layer)` / `loadGeometries()`                  | The coverage polygon of one layer, or all of them.                        |
+| `getImageryUsedValue(layer)`                               | The value for the `imagery_used` changeset tag, as iD writes it.          |
+| `getManifest()`                                            | Where the data came from: source, commit, date and counts.                |
 
 `bounds` can be `map.getBounds()`, a `[west, south, east, north]` array or a
 `{ west, south, east, north }` object.

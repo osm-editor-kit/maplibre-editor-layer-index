@@ -106,16 +106,13 @@ export async function ensureDetailsForContinents(continents: EliContinent[]): Pr
   await Promise.all(continents.map((continent) => loadDetailShard(continent)))
 }
 
-/** Load `world` plus the regional detail shard for the viewport center. */
-export async function ensureDetailsForViewport(bounds: ViewportBounds): Promise<void> {
-  await ensureDetailsForContinents(continentsForViewport(bounds))
-}
-
 /**
  * Load the detail shards these locator rows are filed under, so every one of them
- * can be hydrated. Unlike {@link ensureDetailsForViewport} this follows the rows
- * rather than guessing a continent from the map center — the guess is wrong along
- * continent borders (Turkey, Israel, North Africa) and for views spanning two.
+ * can be hydrated. Unlike `ensureDetailsForContinents`, which loads whole continents,
+ * this loads only what the rows need. It follows the rows rather than guessing a
+ * continent from the map center, which is wrong along continent borders (Turkey,
+ * Israel, North Africa) and for views spanning two. For a map view use
+ * `ensureDetailsForViewport` (filter.ts).
  */
 export async function ensureDetailsForLayers(rows: EliLocatorLayer[]): Promise<void> {
   const needed = new Set<EliContinent>()

@@ -96,6 +96,7 @@ describe('toOamLayer', () => {
       `${RASTER}/59e62b8a3d6412ef7220a51a/tiles/WebMercatorQuad/{z}/{x}/{y}?assets=data&nodata=0`,
     )
     expect(layer.bbox).toEqual([-13.3, 8.4, -13.2, 8.5])
+    expect(layer.bboxes).toEqual([[-13.3, 8.4, -13.2, 8.5]])
     expect(layer.name).toBe('59e62b8a3d6412ef7220a51a')
     expect(layer.maxzoom).toBeUndefined()
     expect(layer.attributionHtml).toContain('DroneTeam &lt;Freetown&gt;')
@@ -106,6 +107,85 @@ describe('toOamLayer', () => {
     expect(toOamLayer(null)).toBeUndefined()
     expect(toOamLayer({ id: 'x', bbox: [0, 0, 1, 1], assets: {} })).toBeUndefined()
     expect(toOamLayer({ id: 'x', assets: legacy.assets })).toBeUndefined()
+  })
+
+  it('never throws on malformed input: it skips what it cannot read', () => {
+    const cog = 'image/tiff; application=geotiff; profile=cloud-optimized'
+    const bbox = [0, 0, 1, 1]
+    // a null or non-string href is no asset; `data` is the next one that is
+    expect(
+      toOamLayer({
+        id: 'x',
+        bbox,
+        assets: { a: null, b: 'str', c: { href: 5 }, data: { href: 'a.tif' } },
+      })?.oam.asset,
+    ).toBe('data')
+    expect(
+      toOamLayer({
+        id: 'x',
+        bbox,
+        assets: { a: null, c: { href: 5, type: cog, roles: ['data'] } },
+      }),
+    ).toBeUndefined()
+    expect(
+      toOamLayer({ id: 'x', bbox, assets: { c: { href: 'a.tif', type: cog, roles: 'data' } } }),
+    ).toBeUndefined()
+    expect(toOamLayer({ id: 'x', bbox, assets: 'nope' })).toBeUndefined()
+    expect(
+      toOamLayer({ id: 'x', bbox, assets: { data: { href: 'a.tif' } }, properties: 'nope' })?.name,
+    ).toBe('x')
+    // a geometry without coordinates, of an unknown type, or without parts has no extent
+    expect(
+      toOamLayer({ id: 'x', geometry: { type: 'Polygon' }, assets: legacy.assets }),
+    ).toBeUndefined()
+    expect(toOamLayer({ id: 'x', geometry: 'nope', assets: legacy.assets })).toBeUndefined()
+    expect(
+      toOamLayer({
+        id: 'x',
+        geometry: { type: 'Foo', coordinates: [1, 2] },
+        assets: legacy.assets,
+      }),
+    ).toBeUndefined()
+    expect(
+      toOamLayer({ id: 'x', geometry: { type: 'GeometryCollection' }, assets: legacy.assets }),
+    ).toBeUndefined()
+    expect(
+      toOamLayer({
+        id: 'x',
+        geometry: { type: 'Point', coordinates: ['a', null] },
+        assets: legacy.assets,
+      }),
+    ).toBeUndefined()
+    // broken positions are dropped, the rest still gives the extent
+    expect(
+      toOamLayer({
+        id: 'x',
+        geometry: { type: 'Polygon', coordinates: [[null, [0, 0], [1, 1]]] },
+        assets: legacy.assets,
+      })?.bbox,
+    ).toEqual([0, 0, 1, 1])
+  })
+
+  it('splits an image across the antimeridian and leaves its bounds out', () => {
+    const layer = toOamLayer({ ...legacy, bbox: [179.9, -17, -179.9, -16.9] })!
+    expect(layer.bbox).toEqual([179.9, -17, -179.9, -16.9])
+    expect(layer.bboxes).toHaveLength(2)
+    const [east, west] = layer.bboxes
+    expect(east).toEqual([179.9, -17, 180, -16.9])
+    expect(west![0]).toBe(-180)
+    expect(west![2]).toBeCloseTo(-179.9, 9)
+    expect(getOamRasterSourceSpec(layer)).not.toHaveProperty('bounds')
+    const normal = toOamLayer(sainteOdile)!
+    expect(getOamRasterSourceSpec(normal).bounds).toEqual(normal.bbox)
+  })
+
+  it('looks licences up by their own keys only', () => {
+    const layer = toOamLayer({
+      ...legacy,
+      properties: { ...legacy.properties, license: 'constructor' },
+    })!
+    expect(layer.licenseUrl).toBeUndefined()
+    expect(layer.attributionHtml).toMatch(/, constructor$/)
   })
 
   it('uses other servers when asked', () => {
@@ -224,6 +304,33 @@ describe('searchOam', () => {
     expect(
       oamSearchUrl([0, 0, 1, 1], { limit: 1000, datetime: '2024-01-01T00:00:00Z/..' }),
     ).toContain('limit=250&sortby=-properties.datetime&datetime=2024-01-01T00%3A00%3A00Z%2F..')
+  })
+
+  it('counts an image on both sides of the antimeridian once', async () => {
+    const east = oamSearchUrl([170, -10, 180, 10])
+    const west = oamSearchUrl([-180, -10, -170, 10])
+    const { fetch } = fakeFetch({
+      [east]: { features: [sainteOdile], numberMatched: 1 },
+      [west]: { features: [sainteOdile, legacy], numberMatched: 2 },
+    })
+    const result = await searchOam([170, -10, 190, 10], { fetch })
+    expect(result.layers).toHaveLength(2)
+    expect(result.matched).toBe(2)
+  })
+
+  it('falls back to the default limit for NaN or infinite values', () => {
+    for (const limit of [Number.NaN, Number.POSITIVE_INFINITY]) {
+      expect(oamSearchUrl([0, 0, 1, 1], { limit })).toContain('limit=50&')
+    }
+  })
+
+  it('takes the STAC root with or without trailing slashes', () => {
+    expect(oamSearchUrl([0, 0, 1, 1], { stacUrl: 'http://localhost:8090/stac//' })).toMatch(
+      /^http:\/\/localhost:8090\/stac\/search\?/,
+    )
+    expect(
+      toOamLayer(sainteOdile, { stacUrl: 'http://localhost:8090/stac/' })?.oam.itemUrl,
+    ).toMatch(/^http:\/\/localhost:8090\/stac\/collections\//)
   })
 
   it('throws on an error status', async () => {

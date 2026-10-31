@@ -1,6 +1,6 @@
 import { viewportBoxes, type ViewportBounds } from '../core/bounds'
-import { toOamLayer, type OamUrls } from './layer'
-import { OAM_COLLECTION, OAM_STAC_URL, type OamLayer, type StacItemCollection } from './types'
+import { oamStacRoot, toOamLayer, type OamUrls } from './layer'
+import { OAM_COLLECTION, type OamLayer, type StacItemCollection } from './types'
 
 type Fetch = (
   input: string,
@@ -30,7 +30,11 @@ export type OamSearchOptions = OamRequestOptions & {
 export type OamSearchResult = {
   /** Images that can be drawn, newest first; items without an image asset are left out */
   layers: OamLayer[]
-  /** How many items the API matched in all, when it says */
+  /**
+   * How many items the API matched in all, when it says. An image across the
+   * antimeridian is counted once; an image beyond the page limit on both sides can
+   * still count twice.
+   */
   matched?: number
 }
 
@@ -53,8 +57,10 @@ function fetchOf(options: OamRequestOptions): Fetch {
   return fetch
 }
 
-function stacRoot(options: OamUrls): string {
-  return (options.stacUrl ?? OAM_STAC_URL).replace(/\/+$/, '')
+/** Most images per request: NaN or non-finite falls back to the default */
+function clampLimit(limit: number | undefined): number {
+  if (limit === undefined || !Number.isFinite(limit)) return DEFAULT_LIMIT
+  return Math.min(MAX_LIMIT, Math.max(1, Math.trunc(limit)))
 }
 
 async function getJson(url: string, options: OamRequestOptions): Promise<unknown> {
@@ -76,14 +82,13 @@ export function oamSearchUrl(
   bbox: [number, number, number, number],
   options: OamSearchOptions = {},
 ): string {
-  const limit = Math.min(MAX_LIMIT, Math.max(1, Math.trunc(options.limit ?? DEFAULT_LIMIT)))
   const params = new URLSearchParams()
   params.set('collections', (options.collections ?? [OAM_COLLECTION]).join(','))
   params.set('bbox', bbox.map(coordinate).join(','))
-  params.set('limit', String(limit))
+  params.set('limit', String(clampLimit(options.limit)))
   params.set('sortby', '-properties.datetime')
   if (options.datetime) params.set('datetime', options.datetime)
-  return `${stacRoot(options)}/search?${params.toString()}`
+  return `${oamStacRoot(options)}/search?${params.toString()}`
 }
 
 function sortKey(layer: OamLayer): string {
@@ -114,15 +119,20 @@ export async function searchOam(
   for (const page of pages) {
     const count = page.numberMatched ?? page.context?.matched
     matched = matched === undefined || count === undefined ? undefined : matched + count
-    for (const feature of page.features ?? []) {
+    for (const feature of Array.isArray(page.features) ? page.features : []) {
       const layer = toOamLayer(feature, options)
-      if (layer && !byId.has(layer.id)) byId.set(layer.id, layer)
+      if (!layer) continue
+      if (byId.has(layer.id)) {
+        // the same image on both sides of the antimeridian was counted twice
+        if (matched !== undefined) matched -= 1
+        continue
+      }
+      byId.set(layer.id, layer)
     }
   }
-  const limit = Math.min(MAX_LIMIT, Math.max(1, Math.trunc(options.limit ?? DEFAULT_LIMIT)))
   const layers = [...byId.values()]
     .sort((a, b) => sortKey(b).localeCompare(sortKey(a)))
-    .slice(0, limit)
+    .slice(0, clampLimit(options.limit))
   return matched === undefined ? { layers } : { layers, matched }
 }
 
@@ -135,7 +145,7 @@ export async function getOamItem(
   options: OamRequestOptions & { collection?: string } = {},
 ): Promise<OamLayer | undefined> {
   const collection = options.collection ?? OAM_COLLECTION
-  const url = `${stacRoot(options)}/collections/${encodeURIComponent(collection)}/items/${encodeURIComponent(itemId)}`
+  const url = `${oamStacRoot(options)}/collections/${encodeURIComponent(collection)}/items/${encodeURIComponent(itemId)}`
   try {
     return toOamLayer(await getJson(url, options), options)
   } catch (error) {

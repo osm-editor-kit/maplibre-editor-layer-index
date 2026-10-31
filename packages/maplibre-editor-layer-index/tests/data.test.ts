@@ -1,6 +1,5 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import {
-  ensureDetailsForViewport,
   getGeometry,
   getLayer,
   getLayerHydrated,
@@ -10,7 +9,12 @@ import {
   loadCoverageFeatures,
   loadGeometries,
 } from '../src/core/data'
-import { layersForCountry, layersInViewport, loadLayersInViewport } from '../src/core/filter'
+import {
+  ensureDetailsForViewport,
+  layersForCountry,
+  layersInViewport,
+  loadLayersInViewport,
+} from '../src/core/filter'
 
 // Smoke tests against the real, committed src/data/*.json.
 describe('bundled data', () => {
@@ -101,6 +105,22 @@ describe('bundled data', () => {
     expect(matched.map((l) => l.id)).toContain('NRCS_Guam_2022')
     const hydrated = await loadLayersInViewport(guam)
     expect(hydrated.map((l) => l.id)).toEqual(matched.map((l) => l.id))
+  })
+
+  // Gran Canaria: the centre falls in the africa shard, but GRAFCAN is filed under
+  // europe. A fresh module keeps the detail cache empty, so only the viewport load can
+  // bring its shard in.
+  it('hydrates every row in view after ensureDetailsForViewport, also off the centre continent', async () => {
+    vi.resetModules()
+    const data = await import('../src/core/data')
+    const filter = await import('../src/core/filter')
+    const grancanaria = { west: -15.8, south: 27.8, east: -15.3, north: 28.2 }
+    await filter.ensureDetailsForViewport(grancanaria)
+    const rows = filter.layersInViewport(grancanaria)
+    // No layer id here: the weekly ELI refresh runs this test and ids come and go.
+    const centre = data.continentsForViewport(grancanaria)
+    expect(rows.some((l) => !l.continents.some((c) => centre.includes(c)))).toBe(true)
+    expect(data.hydrateLayers(rows).map((l) => l.id)).toEqual(rows.map((l) => l.id))
   })
 })
 

@@ -25,8 +25,11 @@ export function coverageCountries(geometry: Geometry): CoverageCountries {
   if (!('coordinates' in geometry)) return { countryCodes: [], mainCountryCodes: [] }
   const boxes = geometryBBoxes(geometry)
 
-  // Whole-world (or near) coverage → treat as worldwide (no country list).
-  if (boxes.some(([west, south, east, north]) => east - west >= 350 && north - south >= 170)) {
+  // Whole-world (or near) coverage → treat as worldwide (no country list). Its boxes
+  // can be split into hemispheres, so the widths are summed, the height is the tallest.
+  const width = boxes.reduce((sum, [west, , east]) => sum + east - west, 0)
+  const height = Math.max(...boxes.map(([, south, , north]) => north - south))
+  if (width >= 350 && height >= 170) {
     return { countryCodes: [], mainCountryCodes: [] }
   }
 

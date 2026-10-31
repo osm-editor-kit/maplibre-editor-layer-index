@@ -1,4 +1,5 @@
 import type { Geometry, Position } from 'geojson'
+import { viewportBoxes } from '../core/bounds'
 import type { BBox } from '../core/types'
 import {
   OAM_COLLECTION,
@@ -19,14 +20,23 @@ export type OamUrls = {
 /** Meters per pixel at zoom 0 on the equator, for 256 px tiles */
 const EQUATOR_RESOLUTION = 40_075_016.686 / 256
 const MAX_ZOOM = 24
-const LICENSES: Record<string, string> = {
-  'CC-BY-4.0': 'https://creativecommons.org/licenses/by/4.0/',
-  'CC-BY-SA-4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
-  'CC0-1.0': 'https://creativecommons.org/publicdomain/zero/1.0/',
-}
+const LICENSES = new Map<string, string>([
+  ['CC-BY-4.0', 'https://creativecommons.org/licenses/by/4.0/'],
+  ['CC-BY-SA-4.0', 'https://creativecommons.org/licenses/by-sa/4.0/'],
+  ['CC0-1.0', 'https://creativecommons.org/publicdomain/zero/1.0/'],
+])
 
 function trimSlash(url: string): string {
   return url.replace(/\/+$/, '')
+}
+
+/** The STAC API root without a trailing slash, default {@link OAM_STAC_URL} */
+export function oamStacRoot(urls: OamUrls = {}): string {
+  return trimSlash(urls.stacUrl ?? OAM_STAC_URL)
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value)
 }
 
 function text(value: unknown): string | undefined {
@@ -35,6 +45,13 @@ function text(value: unknown): string | undefined {
 
 function finite(value: unknown): number | undefined {
   return typeof value === 'number' && Number.isFinite(value) ? value : undefined
+}
+
+/** A STAC asset with a non-empty string `href`, else `undefined` */
+function assetOf(value: unknown): StacAsset | undefined {
+  return isRecord(value) && typeof value.href === 'string' && value.href !== ''
+    ? (value as StacAsset)
+    : undefined
 }
 
 function escapeHtml(value: string): string {
@@ -57,11 +74,14 @@ const isCog = (asset: StacAsset) =>
  * call it `image`, so no name is hard-coded beyond those two.
  */
 export function pickOamAsset(item: Pick<StacItem, 'assets'>): string | undefined {
-  const assets = item.assets ?? {}
-  if (assets.visual?.href) return 'visual'
-  if (assets.data?.href) return 'data'
-  for (const [name, asset] of Object.entries(assets)) {
-    if (asset.href && asset.roles?.includes('data') && isCog(asset)) return name
+  const assets = isRecord(item.assets) ? item.assets : {}
+  if (assetOf(assets.visual)) return 'visual'
+  if (assetOf(assets.data)) return 'data'
+  for (const [name, value] of Object.entries(assets)) {
+    const asset = assetOf(value)
+    if (asset && Array.isArray(asset.roles) && asset.roles.includes('data') && isCog(asset)) {
+      return name
+    }
   }
   return undefined
 }
@@ -116,21 +136,33 @@ function tileUrl(
   return `${path}/tiles/WebMercatorQuad/${token}/{x}/{y}?assets=${encodeURIComponent(asset)}&${params}`
 }
 
-function positionsOf(geometry: Geometry): Position[] {
-  switch (geometry.type) {
+/** The positions of a geometry; `[]` when it is malformed or of an unknown type */
+function positionsOf(geometry: unknown): Position[] {
+  if (!isRecord(geometry)) return []
+  const { type, coordinates, geometries } = geometry
+  if (type === 'GeometryCollection') {
+    return Array.isArray(geometries) ? geometries.flatMap(positionsOf) : []
+  }
+  if (!Array.isArray(coordinates)) return []
+  switch (type) {
     case 'Point':
-      return [geometry.coordinates]
+      return [coordinates as Position]
     case 'MultiPoint':
     case 'LineString':
-      return geometry.coordinates
+      return coordinates as Position[]
     case 'MultiLineString':
     case 'Polygon':
-      return geometry.coordinates.flat()
+      return (coordinates as Position[][]).flat()
     case 'MultiPolygon':
-      return geometry.coordinates.flat(2)
-    case 'GeometryCollection':
-      return geometry.geometries.flatMap(positionsOf)
+      return (coordinates as Position[][][]).flat(2)
+    default:
+      return []
   }
+}
+
+/** A position with two finite numbers, the rest of a malformed coordinate array is dropped */
+function isPosition(value: unknown): value is Position {
+  return Array.isArray(value) && finite(value[0]) !== undefined && finite(value[1]) !== undefined
 }
 
 function bboxOf(item: StacItem): BBox | undefined {
@@ -143,8 +175,8 @@ function bboxOf(item: StacItem): BBox | undefined {
     // a 3D bbox is [w, s, min height, e, n, max height]
     return b.length === 4 ? [b[0]!, b[1]!, b[2]!, b[3]!] : [b[0]!, b[1]!, b[3]!, b[4]!]
   }
-  if (!item.geometry) return undefined
-  const positions = positionsOf(item.geometry)
+  if (!isRecord(item.geometry)) return undefined
+  const positions = positionsOf(item.geometry).filter(isPosition)
   if (positions.length === 0) return undefined
   const xs = positions.map((p) => p[0]!)
   const ys = positions.map((p) => p[1]!)
@@ -198,10 +230,10 @@ export function toOamLayer(value: unknown, urls: OamUrls = {}): OamLayer | undef
   const bbox = bboxOf(item)
   if (asset === undefined || bbox === undefined) return undefined
 
-  const props = item.properties ?? {}
+  const props = isRecord(item.properties) ? item.properties : {}
   const collection = text(item.collection) ?? OAM_COLLECTION
   const rasterUrl = urls.rasterUrl ?? OAM_RASTER_URL
-  const stacUrl = trimSlash(urls.stacUrl ?? OAM_STAC_URL)
+  const stacUrl = oamStacRoot(urls)
   const params = oamRenderParams(item)
 
   const providers = Array.isArray(props.providers) ? props.providers : []
@@ -211,8 +243,8 @@ export function toOamLayer(value: unknown, urls: OamUrls = {}): OamLayer | undef
   const datetime = text(props.datetime) ?? text(props.end_datetime) ?? text(props.start_datetime)
   const gsd = finite(props.gsd)
   const license = text(props.license)
-  const licenseUrl = license ? LICENSES[license] : undefined
-  const thumbnail = item.assets?.thumbnail?.href
+  const licenseUrl = license ? LICENSES.get(license) : undefined
+  const thumbnail = assetOf(isRecord(item.assets) ? item.assets.thumbnail : undefined)?.href
 
   const attributionUrl = 'https://openaerialmap.org/'
   const credit = provider ? `${provider}, ` : ''
@@ -235,7 +267,7 @@ export function toOamLayer(value: unknown, urls: OamUrls = {}): OamLayer | undef
     overlay: false,
     tileSize: 256,
     bbox,
-    bboxes: [bbox],
+    bboxes: viewportBoxes(bbox),
     ...(gsd !== undefined ? { maxzoom: oamMaxzoom(gsd, (bbox[1] + bbox[3]) / 2) } : {}),
     tiles: [tileUrl(rasterUrl, collection, item.id, asset, params, '{z}')],
     urlTemplate: tileUrl(rasterUrl, collection, item.id, asset, params, '{zoom}'),
@@ -256,7 +288,7 @@ export function toOamLayer(value: unknown, urls: OamUrls = {}): OamLayer | undef
         ? { footprintArea: finite(props['oam:footprint_area']) }
         : {}),
       ...(license ? { license } : {}),
-      ...(item.geometry ? { footprint: item.geometry } : {}),
+      ...(isRecord(item.geometry) ? { footprint: item.geometry as Geometry } : {}),
       ...(thumbnail ? { thumbnailUrl: thumbnail } : {}),
       asset,
       itemUrl: `${stacUrl}/collections/${encodeURIComponent(collection)}/items/${encodeURIComponent(item.id)}`,

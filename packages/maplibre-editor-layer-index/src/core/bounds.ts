@@ -16,7 +16,7 @@ export function toBBox(bounds: ViewportBounds): BBox {
 }
 
 /** Whole turns to add so `lng` lands in [-180, 180), e.g. `-346.6` → `+360`. */
-function wrapShift(lng: number): number {
+export function wrapShift(lng: number): number {
   return -360 * Math.floor((lng + 180) / 360)
 }
 

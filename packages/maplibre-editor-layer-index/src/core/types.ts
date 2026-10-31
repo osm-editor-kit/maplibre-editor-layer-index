@@ -49,7 +49,10 @@ export type EliLocatorLayer = {
   bboxes: BBox[]
   countryCodes: string[]
   requiresKeys: string[]
-  /** Continents this layer is filed under (derived from countryCodes). Worldwide → ['world']. */
+  /**
+   * Continents this layer is filed under. The main country of each coverage box decides
+   * (border slivers do not count). Worldwide → ['world'].
+   */
   continents: EliContinent[]
 }
 
