@@ -12,6 +12,9 @@ Part of the [`osm-editor-kit`](https://github.com/osm-editor-kit) GitHub org (sa
 · **Live preview:** [osm-editor-kit.github.io/maplibre-editor-layer-index](https://osm-editor-kit.github.io/maplibre-editor-layer-index/)
 (redeployed on every release; header shows package version + build time).
 
+> [!NOTE]
+> Claude Opus 5.5 wrote and reviewed the code of this package. [@tordans](https://github.com/tordans) specified what it should do and tested and verified its user-facing behavior.
+
 This is a Bun-workspaces monorepo:
 
 | Path                                                                           | What                                                                                                                 |
