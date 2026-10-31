@@ -6,7 +6,7 @@ imagery layers in **[react-map-gl](https://visgl.github.io/react-map-gl/)** (pri
 **viewport filtering**; you keep full control of styling.
 
 Part of the [`osm-editor-kit`](https://github.com/osm-editor-kit) GitHub org (same family as
-[Street Space Editor](https://github.com/osmberlin/street-space-editor)).
+[Street Space Editor](https://github.com/osm-editor-kit/street-space-editor)).
 
 **Package:** [`@osm-editor-kit/maplibre-editor-layer-index`](https://npmx.dev/package/@osm-editor-kit/maplibre-editor-layer-index)
 · **Live preview:** [osm-editor-kit.github.io/maplibre-editor-layer-index](https://osm-editor-kit.github.io/maplibre-editor-layer-index/)
