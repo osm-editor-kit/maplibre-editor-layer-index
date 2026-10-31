@@ -1,1 +1,5 @@
-bun run format:check
+#!/usr/bin/env sh
+set -e
+
+bun run check
+bunx changeset status --since=origin/main

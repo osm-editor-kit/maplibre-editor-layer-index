@@ -2,13 +2,22 @@
 
 Background imagery for your map, straight from the OSM
 [Editor Layer Index](https://github.com/osmlab/editor-layer-index) (ELI): aerial photos, cadastral
-maps, historic maps and more, for **react-map-gl** and **maplibre-gl**.
-
-The package tells you **which layers cover the current view** and hands you ready-made MapLibre
-source and layer specs. Rendering and styling stay with you.
+maps, historic maps and more, for **react-map-gl** and **maplibre-gl**. The package tells you
+**which layers cover the current view** and hands you ready-made MapLibre source and layer specs;
+rendering and styling stay with you.
 
 > [!NOTE]
 > Claude Opus 5.5 wrote and reviewed the code of this package. [@tordans](https://github.com/tordans) specified what it should do and tested and verified its user-facing behavior.
+
+## Install
+
+```bash
+npm i @osm-editor-kit/maplibre-editor-layer-index
+```
+
+The package is ESM; `require()` works on Node 22+.
+
+## What it does
 
 - Refreshed weekly from ELI and released automatically.
 - Small at runtime: a ~550 KB index (~75 KB gzipped) loads up front, tile URLs and coverage polygons
@@ -17,14 +26,12 @@ source and layer specs. Rendering and styling stay with you.
 
 **[Try the live preview](https://osm-editor-kit.github.io/maplibre-editor-layer-index/)**
 
-```bash
-npm i @osm-editor-kit/maplibre-editor-layer-index
-```
+## Usage
 
 There are four entry points: `/react` (hook), `/maplibre` (add and remove helpers), `/oam`
-([OpenAerialMap, live](#openaerialmap-live)) and the root (everything framework-agnostic). The package is ESM; `require()` works on Node 22+.
+([OpenAerialMap, live](#openaerialmap-live)) and the root (everything framework-agnostic).
 
-## react-map-gl
+### react-map-gl
 
 `useEditorLayerIndex` returns the layers covering the current viewport and updates them when the
 map stops moving.
@@ -80,7 +87,7 @@ meantime.
 | `debounceMs`     | `150`       | Wait after `moveend` before recomputing.                                     |
 | `viewportFilter` | `true`      | Set to `false` to get all layers regardless of the view.                     |
 
-## maplibre-gl
+### maplibre-gl
 
 ```ts
 import { loadLayersInViewport } from '@osm-editor-kit/maplibre-editor-layer-index'
@@ -322,6 +329,12 @@ attribution, icon, dates and `group`. The spec helpers and `groupLayers` need an
 The parts are separate chunks behind dynamic `import()`, so your bundler splits them automatically.
 A map of Berlin loads the index plus the worldwide and European tile URLs, and no polygons. The npm
 package itself contains everything, so its install size is the same wherever you are.
+
+Filtering is pure-arithmetic box overlap, with zero runtime geo dependencies. Each layer has one
+coverage box, or one per area when its parts lie far apart or on both sides of the antimeridian
+(Alaska, France with its overseas regions, New Zealand), so no box spans the globe by accident.
+World copies and views across ±180° work too. `@rapideditor/country-coder` and `zod` are build
+time only.
 
 A weekly job fetches ELI's `imagery.geojson`, validates it and refuses to publish if the schema
 changed, and converts the tile URLs to MapLibre's raster format. It then deduplicates identical
