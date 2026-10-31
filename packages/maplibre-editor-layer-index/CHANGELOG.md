@@ -1,5 +1,16 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 1.0.0
+
+### Major Changes
+
+- 15f6102: First stable release. The code API now follows semantic versioning; the weekly data updates stay patch releases, so a layer id can disappear (see Versioning in the README).
+
+  Breaking: exports that only described internals are gone.
+
+  - Root: the types `EliIndex`, `EliLocatorIndex` and `EliDetailsShard`.
+  - `/oam`: `oamMaxzoom`, `oamRenderParams`, `oamSearchUrl`, `pickOamAsset`, `toOamLayer` and the types `StacAsset`, `StacItem`, `StacItemCollection`. Use `searchOam` and `getOamItem`.
+
 ## 0.5.2
 
 ### Patch Changes
