@@ -109,14 +109,6 @@ export type EliShardsMeta = {
   countryToContinent: Record<string, Exclude<EliContinent, 'world'>>
 }
 
-/**
- * Legacy monolithic index shape ({@link EliLayer}[] with details inline). Prefer
- * {@link EliLocatorIndex} + continent detail shards for new consumers.
- */
-export type EliIndex = {
-  layers: EliLayer[]
-}
-
 /** Deduplicated coverage geometries by id (continent-sharded at rest). */
 export type EliGeometries = Record<string, Geometry>
 

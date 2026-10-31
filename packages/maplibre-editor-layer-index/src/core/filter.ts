@@ -25,9 +25,9 @@ export type FilterOptions = {
   /**
    * Keep only layers whose precomputed coverage touches one of these region codes
    * (e.g. `['DE']`). Worldwide layers (no country list) always pass. This is the
-   * cheap fix for the bbox-vs-polygon overshoot: a US-only source whose bounding
-   * box spans the globe (e.g. TIGER) is dropped because its codes don't include the
-   * viewport's country. Country codes are precomputed from the actual polygon.
+   * cheap fix for the bbox-vs-polygon overshoot: a German state's box reaches into
+   * France, so its layer matches a view of Strasbourg until the view's country is
+   * given. Country codes are precomputed from the actual polygon.
    */
   countryCodes?: string[]
   /** Include worldwide layers (no coverage polygon). Default `true`. */

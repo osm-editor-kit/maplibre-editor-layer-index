@@ -12,7 +12,8 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { oamSearchUrl, toOamLayer } from '../src/oam/index'
+import { toOamLayer } from '../src/oam/layer'
+import { oamSearchUrl } from '../src/oam/search'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const ORIGIN = 'https://osm-editor-kit.github.io'

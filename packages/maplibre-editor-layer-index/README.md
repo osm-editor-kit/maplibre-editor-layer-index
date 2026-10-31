@@ -7,6 +7,9 @@ maps, historic maps and more, for **react-map-gl** and **maplibre-gl**.
 The package tells you **which layers cover the current view** and hands you ready-made MapLibre
 source and layer specs. Rendering and styling stay with you.
 
+> [!NOTE]
+> Claude Opus 5.5 wrote and reviewed the code of this package. [@tordans](https://github.com/tordans) specified what it should do and tested and verified its user-facing behavior.
+
 - Refreshed weekly from ELI and released automatically.
 - Small at runtime: a ~550 KB index (~75 KB gzipped) loads up front, tile URLs and coverage polygons
   load on demand, per continent.
@@ -116,10 +119,9 @@ Every function that returns layers, and the hook's `filter`, accepts these:
 
 ## Filtering by country
 
-The viewport filter compares bounding boxes. That is fast and needs no geometry, but a layer with a
-huge bounding box and small real coverage matches too often. US TIGER is the classic case: its
-territories sit on both sides of the antimeridian, so its box spans the globe and it shows up in
-Germany.
+The viewport filter compares bounding boxes. That is fast and needs no geometry, but a box is
+larger than the coverage inside it. Near a border that shows layers of the neighbour: the box of
+Baden-Württemberg reaches into France, so its imagery matches a view of Strasbourg.
 
 Each layer therefore carries `countryCodes`, computed at build time from its real coverage polygon.
 Pass the country of the view to drop the false matches:
@@ -127,17 +129,14 @@ Pass the country of the view to drop the false matches:
 ```ts
 import { iso1A2Code } from '@rapideditor/country-coder' // your dependency, not ours
 
-const country = iso1A2Code(map.getCenter().toArray()) // e.g. 'DE'
+const country = iso1A2Code(map.getCenter().toArray()) // e.g. 'FR'
 const layers = layersInViewport(map.getBounds(), {
   countryCodes: country ? [country] : undefined,
 })
-// TIGER (US, CA) is gone in Germany. Worldwide layers always pass.
+// Baden-Württemberg (DE) is gone in Strasbourg. Worldwide layers always pass.
 ```
 
 To list the layers of a country without a map, use `await layersForCountry('DE')`.
-
-**Limitation:** the bounding box check does not wrap at ±180°, so a layer that crosses the
-antimeridian can be missed in a view right at that seam.
 
 ## Time series
 
@@ -329,6 +328,15 @@ changed, and converts the tile URLs to MapLibre's raster format. It then dedupli
 coverage polygons and precomputes each layer's bounding box, countries and continents. Source types
 MapLibre cannot render as plain raster tiles (`bing`, `scanex`, `wms_endpoint`, `pmtiles`) are
 dropped.
+
+## Versioning
+
+The package follows [semantic versioning](https://semver.org/) for its code: the exports of the
+four entry points and their types. A breaking change there is a major release.
+
+The data is not part of that promise. The weekly patch releases add, change and remove layers as
+ELI does, so a layer id can disappear: `getLayer(id)` then returns `undefined`. Handle that when
+you store an id. `/oam` reads HOT's live API, which can change independently of this package.
 
 ## License
 

@@ -5,16 +5,13 @@ import {
   getOamRasterLayerSpec,
   getOamRasterSourceSpec,
   oamItemId,
-  oamMaxzoom,
-  oamRenderParams,
-  oamSearchUrl,
   OamRequestError,
   oamSourceId,
-  pickOamAsset,
   searchOam,
-  toOamLayer,
-  type StacItem,
 } from '../src/oam/index'
+import { oamMaxzoom, oamRenderParams, pickOamAsset, toOamLayer } from '../src/oam/layer'
+import { oamSearchUrl } from '../src/oam/search'
+import type { StacItem } from '../src/oam/types'
 // Item 1e7cb303 as the API served it on 2026-10-25, without `processing:*` and with the footprint simplified to its bbox
 import sainteOdile from './fixtures/oam-item-sainte-odile.json'
 
