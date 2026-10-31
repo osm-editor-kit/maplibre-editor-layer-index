@@ -1,5 +1,13 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 0.5.2
+
+### Patch Changes
+
+- 0bb3319: `ensureDetailsForViewport` now also loads the shards of the layers in view, so layers filed under another continent than the map centre hydrate (Gran Canaria, French Guiana, Réunion, Guam, the western Aleutians).
+
+  `/oam`: images across the antimeridian get two `bboxes` and a source without `bounds`, so they draw. A malformed STAC item is skipped instead of failing the whole search, `matched` counts an image on both sides once, and a `NaN` limit falls back to the default.
+
 ## 0.5.1
 
 ### Patch Changes
