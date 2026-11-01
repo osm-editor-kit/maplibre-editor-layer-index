@@ -36,6 +36,6 @@ export default defineConfig({
   // Keep consumer-provided libs out of the bundle. The slim locator is bundled into
   // the entry chunks; details/<continent>.json and geometries/<continent>.json are
   // reached via dynamic import() so bundlers code-split and load by map region.
-  external: ['react', 'react-map-gl', 'maplibre-gl'],
+  external: ['react', 'react-map-gl'],
   esbuildPlugins: [compactJson],
 })
