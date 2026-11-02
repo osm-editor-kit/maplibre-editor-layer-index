@@ -104,7 +104,6 @@
     "attributionText": "Arapahoe County GIS",
     "attributionUrl": "https://gis.arapahoegov.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2232",
       "EPSG:3857",
       "EPSG:4326"
@@ -135,7 +134,6 @@
     "attributionText": "City of Berkeley",
     "attributionUrl": "https://berkeleyca.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -200,7 +198,6 @@
     "attributionText": "City of Bozeman GIS Department",
     "attributionUrl": "https://public-bozeman.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -224,7 +221,6 @@
     "attributionText": "City of Bozeman GIS Department",
     "attributionUrl": "https://public-bozeman.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -265,7 +261,6 @@
     "attributionText": "Brevard County Board of County Commissioners",
     "attributionUrl": "https://www.brevardfl.gov/GISMapsAndApplications",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2881",
       "EPSG:3857"
     ],
@@ -289,7 +284,6 @@
     "attributionText": "Brevard County Board of County Commissioners",
     "attributionUrl": "https://www.brevardfl.gov/GISMapsAndApplications",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2881",
       "EPSG:3857"
     ],
@@ -313,7 +307,6 @@
     "attributionText": "Brevard County Board of County Commissioners",
     "attributionUrl": "https://www.brevardfl.gov/GISMapsAndApplications",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2881",
       "EPSG:3857"
     ],
@@ -337,7 +330,6 @@
     "attributionText": "Brevard County Board of County Commissioners",
     "attributionUrl": "https://www.brevardfl.gov/GISMapsAndApplications",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2881",
       "EPSG:3857"
     ],
@@ -361,7 +353,6 @@
     "attributionText": "Brevard County Board of County Commissioners",
     "attributionUrl": "https://www.brevardfl.gov/GISMapsAndApplications",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2881",
       "EPSG:3857"
     ],
@@ -385,7 +376,6 @@
     "attributionText": "Broward County Property Appraiser’s Office",
     "attributionUrl": "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2021",
@@ -408,7 +398,6 @@
     "attributionText": "Broward County Property Appraiser’s Office",
     "attributionUrl": "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -431,7 +420,6 @@
     "attributionText": "Broward County Property Appraiser’s Office",
     "attributionUrl": "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -454,7 +442,6 @@
     "attributionText": "Broward County Property Appraiser’s Office",
     "attributionUrl": "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -477,7 +464,6 @@
     "attributionText": "Broward County Property Appraiser’s Office",
     "attributionUrl": "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -500,7 +486,6 @@
     "attributionText": "Broward County Property Appraiser’s Office",
     "attributionUrl": "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2026",
@@ -542,7 +527,6 @@
     "attributionText": "City of Burbank",
     "attributionUrl": "https://gis.burbankca.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024-03-16",
@@ -769,7 +753,6 @@
     "attributionText": "Cattaraugus County Real Property Services",
     "attributionUrl": "https://www.cattco.org/real-property-and-gis",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2020",
@@ -792,7 +775,6 @@
     "attributionText": "Cattaraugus County Real Property Services",
     "attributionUrl": "https://www.cattco.org/real-property-and-gis",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -815,7 +797,6 @@
     "attributionText": "City and Borough of Juneau",
     "attributionUrl": "https://juneau.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2013-06-11",
@@ -831,7 +812,6 @@
     "attributionText": "City and Borough of Juneau",
     "attributionUrl": "https://juneau.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023-05-16",
@@ -847,7 +827,6 @@
     "attributionText": "City and Borough of Juneau",
     "attributionUrl": "https://juneau.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023-06-18",
@@ -863,7 +842,6 @@
     "attributionText": "Charlotte County Geographic Information Systems",
     "attributionUrl": "https://www.charlottecountyfl.gov/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2020",
@@ -885,7 +863,6 @@
     "attributionText": "Charlotte County Geographic Information Systems",
     "attributionUrl": "https://www.charlottecountyfl.gov/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -901,7 +878,6 @@
     "attributionText": "Charlotte County Geographic Information Systems",
     "attributionUrl": "https://www.charlottecountyfl.gov/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -923,7 +899,6 @@
     "attributionText": "Charlotte County Geographic Information Systems",
     "attributionUrl": "https://www.charlottecountyfl.gov/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -939,7 +914,6 @@
     "attributionText": "Charlotte County Geographic Information Systems",
     "attributionUrl": "https://www.charlottecountyfl.gov/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025-01-12",
@@ -955,7 +929,6 @@
     "attributionText": "Citrus County Property Appraiser's Office",
     "attributionUrl": "https://www.citruspa.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2020-02",
@@ -977,7 +950,6 @@
     "attributionText": "Citrus County Property Appraiser's Office",
     "attributionUrl": "https://www.citruspa.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023-02",
@@ -1012,7 +984,6 @@
     "attributionText": "City of Fairfield, State of Ohio",
     "attributionUrl": "https://www.fairfield-city.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -1112,7 +1083,6 @@
     "attributionText": "Collier County Information Technology GIS Team",
     "attributionUrl": "https://hub-collierbcc.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -1128,7 +1098,6 @@
     "attributionText": "Collier County Information Technology GIS Team",
     "attributionUrl": "https://hub-collierbcc.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -1144,7 +1113,6 @@
     "attributionText": "Cook County GIS",
     "attributionUrl": "https://hub-cookcountyil.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3435",
       "EPSG:3857",
       "EPSG:4326"
@@ -1169,7 +1137,6 @@
     "attributionText": "Cook County GIS",
     "attributionUrl": "https://hub-cookcountyil.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3435",
       "EPSG:3857",
       "EPSG:4326"
@@ -1194,7 +1161,6 @@
     "attributionText": "Cook County GIS",
     "attributionUrl": "https://hub-cookcountyil.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3435",
       "EPSG:3857",
       "EPSG:4326"
@@ -1219,7 +1185,6 @@
     "attributionText": "Cook County GIS",
     "attributionUrl": "https://hub-cookcountyil.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3435",
       "EPSG:3857",
       "EPSG:4326"
@@ -1662,7 +1627,6 @@
     "attributionText": "Connecticut Environmental Conditions Online",
     "attributionUrl": "https://cteco.uconn.edu/data/lidar/index.htm",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -1686,7 +1650,6 @@
     "attributionText": "Connecticut Environmental Conditions Online",
     "attributionUrl": "https://cteco.uconn.edu/data/lidar/index.htm",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -1851,7 +1814,6 @@
     "attributionText": "Surdex Corp, FirstMap",
     "attributionUrl": "https://firstmap.delaware.gov",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -1869,7 +1831,6 @@
     "attributionText": "FirstMap",
     "attributionUrl": "https://firstmap.delaware.gov",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "icon": "https://firstmap.delaware.gov/contentFolder/images/FirstmapLogo.jpg",
@@ -2011,7 +1972,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2034,7 +1994,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2057,7 +2016,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2080,7 +2038,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2103,7 +2060,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2126,7 +2082,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2149,7 +2104,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2172,7 +2126,6 @@
     "attributionText": "Contains information licensed under the Open Government Licence - Delta",
     "attributionUrl": "https://www.delta.ca/Open-Government-Licence",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -2212,7 +2165,6 @@
     "attributionText": "JaxGIS",
     "attributionUrl": "https://maps.coj.net/jaxgis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -2228,7 +2180,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
@@ -2276,7 +2227,6 @@
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2299,7 +2249,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2322,7 +2271,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2393,7 +2341,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2416,7 +2363,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3214",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:6347"
     ],
@@ -2439,7 +2385,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -2485,7 +2430,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326"
     ],
     "endDate": "2025",
@@ -2552,7 +2496,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -2575,7 +2518,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -2620,7 +2562,6 @@
     "attributionText": "Delaware Valley Regional Planning Commission",
     "attributionUrl": "https://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3224",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326"
     ],
     "endDate": "2025",
@@ -2696,7 +2637,6 @@
     "attributionText": "City of Eureka",
     "attributionUrl": "https://www.eurekaca.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -2713,7 +2653,6 @@
     "attributionText": "Government of Fairfax County, Virginia",
     "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -2735,7 +2674,6 @@
     "attributionText": "Government of Fairfax County, Virginia",
     "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -2757,7 +2695,6 @@
     "attributionText": "Government of Fairfax County, Virginia",
     "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -2779,7 +2716,6 @@
     "attributionText": "Government of Fairfax County, Virginia",
     "attributionUrl": "https://www.fairfaxcounty.gov/maps/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2026",
@@ -2801,7 +2737,6 @@
     "attributionText": "Florida Department of Environmental Protection",
     "attributionUrl": "https://floridadep.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:6439"
     ],
@@ -2819,7 +2754,6 @@
     "attributionText": "Florida Department of Environmental Protection",
     "attributionUrl": "https://floridadep.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:6439"
     ],
@@ -3358,7 +3292,6 @@
     "attributionText": "Henrico County Government",
     "attributionUrl": "https://henrico.gov/it/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -3381,7 +3314,6 @@
     "attributionText": "Henrico County Government",
     "attributionUrl": "https://henrico.gov/it/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -3404,7 +3336,6 @@
     "attributionText": "Henrico County Government",
     "attributionUrl": "https://henrico.gov/it/gis/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -3427,7 +3358,6 @@
     "attributionText": "Hillsborough County Zoning Information & Counseling",
     "attributionUrl": "https://www.hillsboroughcounty.org/en/about-hillsborough/open-data/geospatial-services",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023-01-06",
@@ -3516,7 +3446,6 @@
     "attributionText": "City of Irvine",
     "attributionUrl": "https://www.cityofirvine.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -3539,7 +3468,6 @@
     "attributionText": "City of Irvine",
     "attributionUrl": "https://www.cityofirvine.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -3562,7 +3490,6 @@
     "attributionText": "City of Irvine",
     "attributionUrl": "https://www.cityofirvine.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -3585,7 +3512,6 @@
     "attributionText": "City of Irvine",
     "attributionUrl": "https://www.cityofirvine.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2026",
@@ -3608,7 +3534,6 @@
     "attributionText": "Kansas 911 Coordinating Council",
     "attributionUrl": "https://www.kansas911.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2014",
@@ -3968,7 +3893,6 @@
     "attributionText": "Lee County GIS",
     "attributionUrl": "https://www.leegov.com/gis/data/aerials",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2237",
       "EPSG:3857"
     ],
@@ -3992,7 +3916,6 @@
     "attributionText": "Lee County GIS",
     "attributionUrl": "https://www.leegov.com/gis/data/aerials",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2237",
       "EPSG:3857"
     ],
@@ -4010,7 +3933,6 @@
     "attributionText": "Lee County GIS",
     "attributionUrl": "https://www.leegov.com/gis/data/aerials",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2237",
       "EPSG:3857"
     ],
@@ -4028,7 +3950,6 @@
     "attributionText": "Lee County GIS",
     "attributionUrl": "https://www.leegov.com/gis/data/aerials",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2237",
       "EPSG:3857"
     ],
@@ -4052,7 +3973,6 @@
     "attributionText": "Lee County GIS",
     "attributionUrl": "https://www.leegov.com/gis/data/aerials",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2237",
       "EPSG:3857"
     ],
@@ -4148,7 +4068,6 @@
     "attributionText": "Licking County, State of Ohio",
     "attributionUrl": "https://lickingcounty.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -4222,7 +4141,6 @@
     "attributionText": "Los Alamos County GIS Services",
     "attributionUrl": "https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2018-08",
@@ -4245,7 +4163,6 @@
     "attributionText": "Los Alamos County GIS Services",
     "attributionUrl": "https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022-08",
@@ -4268,7 +4185,6 @@
     "attributionText": "Los Alamos County GIS Services",
     "attributionUrl": "https://www.losalamosnm.us/Services/Property-and-Taxes/GIS-and-Maps/Geographic-Information-System-Services",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025-08",
@@ -4285,7 +4201,6 @@
     "attributionText": "Loudoun County Government",
     "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -4308,7 +4223,6 @@
     "attributionText": "Loudoun County Government",
     "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -4331,7 +4245,6 @@
     "attributionText": "Loudoun County Government",
     "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -4354,7 +4267,6 @@
     "attributionText": "Loudoun County Government",
     "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -4377,7 +4289,6 @@
     "attributionText": "Loudoun County Government",
     "attributionUrl": "https://geohub-loudoungis.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2924",
       "EPSG:3857"
     ],
@@ -4400,7 +4311,6 @@
     "attributionText": "Lucas County, State of Ohio",
     "attributionUrl": "https://co.lucas.oh.us/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3734",
       "EPSG:3857",
       "EPSG:4326"
@@ -4419,7 +4329,6 @@
     "attributionText": "Maine Orthoimagery Program",
     "attributionUrl": "https://www.maine.gov/geolib/programs/ortho/index.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:6348"
@@ -4523,7 +4432,6 @@
     "attributionText": "City of Manhattan Beach",
     "attributionUrl": "https://www.manhattanbeach.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -4539,7 +4447,6 @@
     "attributionText": "City of Manteca",
     "attributionUrl": "https://www.manteca.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024-10",
@@ -4562,7 +4469,6 @@
     "attributionText": "City of Manteca",
     "attributionUrl": "https://www.manteca.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -4770,7 +4676,6 @@
     "attributionText": "Marion County",
     "attributionUrl": "https://www.marionfl.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:2237"
@@ -4788,7 +4693,6 @@
     "attributionText": "Martin County",
     "attributionUrl": "https://data-mcgov.opendata.arcgis.com/datasets/2021-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:6438"
@@ -4812,7 +4716,6 @@
     "attributionText": "Martin County",
     "attributionUrl": "https://data-mcgov.opendata.arcgis.com/datasets/2022-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:6438"
@@ -4836,7 +4739,6 @@
     "attributionText": "Martin County",
     "attributionUrl": "https://data-mcgov.opendata.arcgis.com/datasets/2023-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:6438"
@@ -4860,7 +4762,6 @@
     "attributionText": "Martin County",
     "attributionUrl": "https://data-mcgov.opendata.arcgis.com/datasets/2024-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:6438"
@@ -5151,7 +5052,6 @@
     "attributionText": "Mesa County GIS",
     "attributionUrl": "https://gis.mesacounty.us/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3742",
       "EPSG:3857",
       "EPSG:4326"
@@ -5176,7 +5076,6 @@
     "attributionText": "Mesa County GIS",
     "attributionUrl": "https://gis.mesacounty.us/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3742",
       "EPSG:3857",
       "EPSG:4326"
@@ -5195,7 +5094,6 @@
     "attributionText": "MD iMAP, DoIT",
     "attributionUrl": "https://imap.maryland.gov",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2248",
       "EPSG:2893",
       "EPSG:3857",
@@ -5218,7 +5116,6 @@
     "attributionText": "MD iMAP, DoIT",
     "attributionUrl": "https://imap.maryland.gov",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2248",
       "EPSG:2893",
       "EPSG:3857",
@@ -5241,7 +5138,6 @@
     "attributionText": "Mecklenburg County GIS",
     "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022-02-28",
@@ -5264,7 +5160,6 @@
     "attributionText": "Mecklenburg County GIS",
     "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023-01-20",
@@ -5287,7 +5182,6 @@
     "attributionText": "Mecklenburg County GIS",
     "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024-01-02",
@@ -5310,7 +5204,6 @@
     "attributionText": "Mecklenburg County GIS",
     "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025-01-20",
@@ -5333,7 +5226,6 @@
     "attributionText": "Mecklenburg County GIS",
     "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2026",
@@ -5413,7 +5305,6 @@
     "attributionText": "Miami-Dade County",
     "attributionUrl": "https://gis-mdc.opendata.arcgis.com/pages/imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:6438"
@@ -5438,7 +5329,6 @@
     "attributionText": "Miami-Dade County",
     "attributionUrl": "https://gis-mdc.opendata.arcgis.com/pages/imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -5511,7 +5401,6 @@
     "attributionText": "City of Modesto",
     "attributionUrl": "https://www.modestogov.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -5534,7 +5423,6 @@
     "attributionText": "City of Modesto",
     "attributionUrl": "https://www.modestogov.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -5557,7 +5445,6 @@
     "attributionText": "City of Modesto",
     "attributionUrl": "https://www.modestogov.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -5580,7 +5467,6 @@
     "attributionText": "City of Modesto",
     "attributionUrl": "https://www.modestogov.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2026",
@@ -5703,7 +5589,6 @@
     "attributionText": "Monroe County",
     "attributionUrl": "https://www.monroecounty-fl.gov/174/GIS",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -5726,7 +5611,6 @@
     "attributionText": "Monroe County",
     "attributionUrl": "https://www.monroecounty-fl.gov/174/GIS",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -5749,7 +5633,6 @@
     "attributionText": "Montgomery County, State of Ohio",
     "attributionUrl": "https://www.mcohio.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -5799,7 +5682,6 @@
     "attributionText": "Matanuska-Susitna Borough GIS Division",
     "attributionUrl": "https://data1-msb.opendata.arcgis.com/pages/msb-aerial-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2019",
@@ -5815,7 +5697,6 @@
     "attributionText": "Matanuska-Susitna Borough GIS Division",
     "attributionUrl": "https://data1-msb.opendata.arcgis.com/pages/msb-aerial-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2020",
@@ -5837,7 +5718,6 @@
     "attributionText": "Matanuska-Susitna Borough GIS Division",
     "attributionUrl": "https://data1-msb.opendata.arcgis.com/pages/msb-aerial-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2021",
@@ -5853,7 +5733,6 @@
     "attributionText": "Matanuska-Susitna Borough GIS Division",
     "attributionUrl": "https://data1-msb.opendata.arcgis.com/pages/msb-aerial-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -5875,7 +5754,6 @@
     "attributionText": "Matanuska-Susitna Borough GIS Division",
     "attributionUrl": "https://data1-msb.opendata.arcgis.com/pages/msb-aerial-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -5897,7 +5775,6 @@
     "attributionText": "Matanuska-Susitna Borough GIS Division",
     "attributionUrl": "https://data1-msb.opendata.arcgis.com/pages/msb-aerial-imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -5947,16 +5824,13 @@
     "attributionText": "NCCGIA, NC911 Board",
     "attributionUrl": "https://www.nconemap.gov/pages/imagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:6543",
-      "EPSG:102100",
       "EPSG:32119",
       "EPSG:3857",
       "EPSG:26917",
       "EPSG:2264",
       "EPSG:3358",
-      "EPSG:3359",
       "EPSG:3404",
       "EPSG:3631",
       "EPSG:3632",
@@ -5989,10 +5863,8 @@
     "attributionText": "NCCGIA, NC911 Board",
     "attributionUrl": "https://www.nconemap.gov/datasets/nc-orthoimagery-ndvi",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2264",
       "EPSG:3358",
-      "EPSG:3359",
       "EPSG:3404",
       "EPSG:3631",
       "EPSG:3632",
@@ -6001,8 +5873,7 @@
       "EPSG:6543",
       "EPSG:26917",
       "EPSG:32019",
-      "EPSG:32119",
-      "EPSG:102100"
+      "EPSG:32119"
     ],
     "endDate": "2022",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/nc/NCOneMap.png",
@@ -6409,8 +6280,8 @@
     "attributionUrl": "https://www.nrcs.usda.gov/",
     "availableProjections": [
       "CRS:84",
-      "EPSG:4326",
-      "EPSG:3857"
+      "EPSG:3857",
+      "EPSG:4326"
     ],
     "endDate": "2023-10-19",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
@@ -6426,7 +6297,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://www.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6450,7 +6320,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://www.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6474,7 +6343,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://www.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6498,7 +6366,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://www.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6522,7 +6389,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://www.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6540,7 +6406,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://www.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6558,7 +6423,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://datagateway.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6576,7 +6440,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://datagateway.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -6594,7 +6457,6 @@
     "attributionText": "New York State Information Technology Services Geospatial Services",
     "attributionUrl": "https://data.gis.ny.gov/maps/sharegisny::nys-statewide-hillshade/about",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -6612,7 +6474,6 @@
     "attributionText": "New York State Statewide Digital Orthoimagery Program",
     "attributionUrl": "https://gis.ny.gov/orthoimagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -6630,7 +6491,6 @@
     "attributionText": "New York State Statewide Digital Orthoimagery Program",
     "attributionUrl": "https://gis.ny.gov/orthoimagery",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -6648,7 +6508,6 @@
     "attributionText": "Oakland County",
     "attributionUrl": "https://accessoakland-oakgov.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2020",
@@ -6671,7 +6530,6 @@
     "attributionText": "Oakland County",
     "attributionUrl": "https://accessoakland-oakgov.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -6694,7 +6552,6 @@
     "attributionText": "Oakland County",
     "attributionUrl": "https://accessoakland-oakgov.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -6747,7 +6604,6 @@
     "attributionText": "Okaloosa County, FL GIS",
     "attributionUrl": "https://myokaloosa.com/gis_homepage",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -6820,7 +6676,6 @@
     "attributionText": "Orange County",
     "attributionUrl": "https://data-ocpw.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -6895,7 +6750,6 @@
     "attributionText": "Osceola County, FL",
     "attributionUrl": "https://www.osceola.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "icon": "https://www.osceola.org/core/fileparse.php/2731/urlt/logo.png",
@@ -7077,7 +6931,6 @@
     "attributionText": "Pulaski Area Geographic Information System",
     "attributionUrl": "https://www.pagis.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3433",
       "EPSG:3857",
       "EPSG:4326"
@@ -7102,7 +6955,6 @@
     "attributionText": "Pulaski Area Geographic Information System",
     "attributionUrl": "https://www.pagis.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3433",
       "EPSG:4326"
     ],
@@ -7126,7 +6978,6 @@
     "attributionText": "Palm Beach County",
     "attributionUrl": "http://maps.co.palm-beach.fl.us/cwgis/mygeonav.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2021-02-02",
@@ -7148,7 +6999,6 @@
     "attributionText": "Palm Beach County",
     "attributionUrl": "http://maps.co.palm-beach.fl.us/cwgis/mygeonav.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022-01-29",
@@ -7269,7 +7119,6 @@
     "attributionText": "Pennsylvania Emergency Management Agency",
     "attributionUrl": "https://www.pema.pa.gov/911-Program/Partners/NG911-GIS/Aerial-Imagery/Pages/default.aspx",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7287,7 +7136,6 @@
     "attributionText": "Pennsylvania Department of Transportation",
     "attributionUrl": "https://data.pa.gov/Geospatial-Data/Pennsylvania-Municipality-Boundaries/xfdy-ds3u",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7444,7 +7292,6 @@
     "attributionText": "Polk County, FL",
     "attributionUrl": "https://www.polk-county.net/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -7533,7 +7380,6 @@
     "attributionText": "Putnam County, State of Ohio",
     "attributionUrl": "https://putnamcountyohio.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7551,7 +7397,6 @@
     "attributionText": "RIGIS",
     "attributionUrl": "https://planning.ri.gov/planning-areas/data-center/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7574,7 +7419,6 @@
     "attributionText": "RIGIS",
     "attributionUrl": "https://planning.ri.gov/planning-areas/data-center/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7597,7 +7441,6 @@
     "attributionText": "RIGIS",
     "attributionUrl": "https://planning.ri.gov/planning-areas/data-center/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7620,7 +7463,6 @@
     "attributionText": "RIGIS",
     "attributionUrl": "https://planning.ri.gov/planning-areas/data-center/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7643,7 +7485,6 @@
     "attributionText": "RIGIS",
     "attributionUrl": "https://planning.ri.gov/planning-areas/data-center/aerial-photography",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -7666,7 +7507,6 @@
     "attributionText": "City of Roseville",
     "attributionUrl": "https://www.roseville.ca.us/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -7689,7 +7529,6 @@
     "attributionText": "City of Roseville",
     "attributionUrl": "https://www.roseville.ca.us/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -7712,7 +7551,6 @@
     "attributionText": "City of Roseville",
     "attributionUrl": "https://www.roseville.ca.us/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -7735,7 +7573,6 @@
     "attributionText": "City of Roseville",
     "attributionUrl": "https://www.roseville.ca.us/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2026",
@@ -7997,7 +7834,6 @@
     "attributionText": "San Bernardino County",
     "attributionUrl": "https://open.sbcounty.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",
@@ -8020,7 +7856,6 @@
     "attributionText": "San Bernardino County",
     "attributionUrl": "https://open.sbcounty.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024",
@@ -8043,7 +7878,6 @@
     "attributionText": "San Bernardino County",
     "attributionUrl": "https://open.sbcounty.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -8066,7 +7900,6 @@
     "attributionText": "San Bernardino County",
     "attributionUrl": "https://open.sbcounty.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2026",
@@ -8222,7 +8055,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://data-sjcounty.opendata.arcgis.com",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2259",
       "EPSG:3857",
       "EPSG:4326"
@@ -8241,7 +8073,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://data-sjcounty.opendata.arcgis.com",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -8259,7 +8090,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://data-sjcounty.opendata.arcgis.com",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2259",
       "EPSG:3857",
       "EPSG:4326"
@@ -8278,7 +8108,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://data-sjcounty.opendata.arcgis.com",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2259",
       "EPSG:3857",
       "EPSG:4326"
@@ -8297,7 +8126,6 @@
     "attributionText": "San Mateo County",
     "attributionUrl": "https://www.smcgov.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022",
@@ -8314,7 +8142,6 @@
     "attributionText": "San Diego Association of Governments",
     "attributionUrl": "https://www.sangis.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2230",
       "EPSG:3857",
       "EPSG:4326"
@@ -8339,7 +8166,6 @@
     "attributionText": "San Diego Association of Governments",
     "attributionUrl": "https://www.sangis.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2230",
       "EPSG:3857",
       "EPSG:4326"
@@ -8364,7 +8190,6 @@
     "attributionText": "County of Santa Clara",
     "attributionUrl": "https://gis.santaclaracounty.gov/home",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022-03-11",
@@ -8387,7 +8212,6 @@
     "attributionText": "County of Santa Clara",
     "attributionUrl": "https://gis.santaclaracounty.gov/home",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023-04-25",
@@ -8410,7 +8234,6 @@
     "attributionText": "County of Santa Clara",
     "attributionUrl": "https://gis.santaclaracounty.gov/home",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024-03-14",
@@ -8433,7 +8256,6 @@
     "attributionText": "County of Santa Clara",
     "attributionUrl": "https://gis.santaclaracounty.gov/home",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2024-01-07",
@@ -8456,7 +8278,6 @@
     "attributionText": "County of Santa Clara",
     "attributionUrl": "https://gis.santaclaracounty.gov/home",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025-01-28",
@@ -8479,7 +8300,6 @@
     "attributionText": "City of Santa Rosa",
     "attributionUrl": "https://www.srcity.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2022-09",
@@ -8502,7 +8322,6 @@
     "attributionText": "City of Santa Rosa",
     "attributionUrl": "https://www.srcity.org/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025-04",
@@ -8713,7 +8532,6 @@
     "attributionText": "Snohomish County GIS",
     "attributionUrl": "https://snohomishcountywa.gov/1402/Maps-GIS",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:2285"
     ],
@@ -8737,7 +8555,6 @@
     "attributionText": "Snohomish County GIS",
     "attributionUrl": "https://snohomishcountywa.gov/1402/Maps-GIS",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:2285"
     ],
@@ -8761,7 +8578,6 @@
     "attributionText": "Snohomish County GIS",
     "attributionUrl": "https://snohomishcountywa.gov/1402/Maps-GIS",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:2285"
     ],
@@ -8861,7 +8677,6 @@
     "attributionText": "Sonoma County",
     "attributionUrl": "https://sonomacounty.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2025",
@@ -8891,7 +8706,6 @@
     "attributionText": "Strategic Mapping Program (StratMap). Balmorhea & Davis Mountain State Parks Imagery/Lidar",
     "attributionUrl": "https://tnris.org/stratmap/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -8909,7 +8723,6 @@
     "attributionText": "Strategic Mapping Program (StratMap). CapArea & McLennan Imagery",
     "attributionUrl": "https://geographic.texas.gov/stratmap/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -8967,7 +8780,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://sjcgis.maps.arcgis.com/home/index.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:2285"
     ],
@@ -8991,7 +8803,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://sjcgis.maps.arcgis.com/home/index.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:2285"
     ],
@@ -9015,7 +8826,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://sjcgis.maps.arcgis.com/home/index.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:2285"
     ],
@@ -9039,7 +8849,6 @@
     "attributionText": "San Juan County GIS",
     "attributionUrl": "https://sjcgis.maps.arcgis.com/home/index.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:2285"
     ],
@@ -9078,7 +8887,6 @@
     "attributionText": "Union County GIS",
     "attributionUrl": "https://www.unioncountync.gov/government/departments-f-p/gis-mapping",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2019",
@@ -9237,8 +9045,7 @@
     "attributionUrl": "https://naip-usdaonline.hub.arcgis.com/",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "endDate": "2025",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
@@ -9283,7 +9090,6 @@
   },
   "USGS-3DEP": {
     "availableProjections": [
-      "CRS:84",
       "EPSG:3338",
       "EPSG:3572",
       "EPSG:3573",
@@ -9354,7 +9160,6 @@
     "attributionText": "Vermont Center for Geographic Information",
     "attributionUrl": "https://vcgi.vermont.gov/data-and-programs/lidar-program",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:32145"
     ],
@@ -9444,7 +9249,6 @@
     "attributionText": "Volusia County Property Appraiser’s Office",
     "attributionUrl": "https://volusiacountyfl.maps.arcgis.com/apps/webappviewer/index.html?id=b773f4bfcadd4d9aa8b99cb599e0aec6",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:6438"
     ],
@@ -9510,7 +9314,6 @@
     "attributionText": "Wood County, State of Ohio",
     "attributionUrl": "https://www.woodcountyohio.gov",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2020",
@@ -9533,7 +9336,6 @@
     "attributionText": "Wood County, State of Ohio",
     "attributionUrl": "https://www.woodcountyohio.gov",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857"
     ],
     "endDate": "2023",

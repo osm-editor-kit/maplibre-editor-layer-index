@@ -35,8 +35,8 @@
     "availableProjections": [
       "CRS:84",
       "EPSG:3857",
-      "EPSG:31983",
-      "EPSG:4326"
+      "EPSG:4326",
+      "EPSG:31983"
     ],
     "endDate": "2015",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Autorização_BHGeo.png",
@@ -78,22 +78,19 @@
     "urlTemplate": "http://portal.der.es.gov.br/geoserver/wms?SERVICE=WMS&FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=deres-ext:TRECHOINFO&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "Dourados_Ortofotos": {
-    "attributionHtml": "<a href=\"https://geodourados.dourados.ms.gov.br\" target=\"_blank\" rel=\"noopener\">Prefeitura Municipal de Dourados - GeoDourados</a>",
+    "attributionHtml": "<a href=\"https://geoportal.dourados.ms.gov.br/\" target=\"_blank\" rel=\"noopener\">Prefeitura Municipal de Dourados - GeoDourados</a>",
     "attributionText": "Prefeitura Municipal de Dourados - GeoDourados",
-    "attributionUrl": "https://geodourados.dourados.ms.gov.br",
+    "attributionUrl": "https://geoportal.dourados.ms.gov.br/",
     "availableProjections": [
-      "CRS:84",
-      "EPSG:3857",
-      "EPSG:4326",
-      "EPSG:31981"
+      "EPSG:3857"
     ],
-    "endDate": "2018",
+    "endDate": "2018-12",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Opendata-dourados-ms.jpg",
-    "startDate": "2020",
+    "startDate": "2018-11",
     "tiles": [
-      "https://geodourados.dourados.ms.gov.br/geoserver/dourados/ows?FORMAT=image/jpeg&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=ortofoto_2018,ortofoto_2020_distritos&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://geoportal.dourados.ms.gov.br/server/rest/services/Sede_Dourados_Aerofotogrametria_novdez2018_10cm_tif/MapServer/export?f=image&format=jpg&bbox={bbox-epsg-3857}&bboxSR=EPSG:3857&imageSR=EPSG:3857&size=256,256"
     ],
-    "urlTemplate": "https://geodourados.dourados.ms.gov.br/geoserver/dourados/ows?FORMAT=image/jpeg&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=ortofoto_2018,ortofoto_2020_distritos&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://geoportal.dourados.ms.gov.br/server/rest/services/Sede_Dourados_Aerofotogrametria_novdez2018_10cm_tif/MapServer/export?f=image&format=jpg&bbox={bbox}&bboxSR={proj}&imageSR={proj}&size={width},{height}"
   },
   "Fortaleza_Base_Map": {
     "attributionHtml": "<a href=\"https://ide.sefin.fortaleza.ce.gov.br/\" target=\"_blank\" rel=\"noopener\">Prefeitura Municipal de Fortaleza</a>",
@@ -183,9 +180,6 @@
     "attributionHtml": "<a href=\"https://data.buenosaires.gob.ar/dataset/tiles-fotografia-aerea\" target=\"_blank\" rel=\"noopener\">Gobierno de la Ciudad de Buenos Aires</a>",
     "attributionText": "Gobierno de la Ciudad de Buenos Aires",
     "attributionUrl": "https://data.buenosaires.gob.ar/dataset/tiles-fotografia-aerea",
-    "availableProjections": [
-      "EPSG:3857"
-    ],
     "endDate": "2017",
     "group": {
       "id": "caba-ortofotos",
@@ -205,9 +199,6 @@
     "attributionHtml": "<a href=\"https://data.buenosaires.gob.ar/dataset/tiles-fotografia-aerea\" target=\"_blank\" rel=\"noopener\">Gobierno de la Ciudad de Buenos Aires</a>",
     "attributionText": "Gobierno de la Ciudad de Buenos Aires",
     "attributionUrl": "https://data.buenosaires.gob.ar/dataset/tiles-fotografia-aerea",
-    "availableProjections": [
-      "EPSG:3857"
-    ],
     "endDate": "2021",
     "group": {
       "id": "caba-ortofotos",
@@ -228,7 +219,6 @@
     "attributionText": "GeoPortal DF",
     "attributionUrl": "https://www.geoportal.seduh.df.gov.br/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:31983"
@@ -247,7 +237,6 @@
     "attributionText": "GeoPortal DF",
     "attributionUrl": "https://www.geoportal.seduh.df.gov.br/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:31983"
@@ -285,7 +274,6 @@
     "attributionText": "GeoPortal DF",
     "attributionUrl": "https://www.geoportal.seduh.df.gov.br/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:31983"
@@ -707,9 +695,9 @@
     "licenseUrl": "http://data.rio/",
     "startDate": "2019",
     "tiles": [
-      "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2019/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2019/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Mosaico_2019&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2019/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2019/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Mosaico_2019&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "rio2022": {
     "attributionHtml": "<a href=\"https://www.rio.rj.gov.br/web/ipp\" target=\"_blank\" rel=\"noopener\">Instituto Pereira Passos - Prefeitura da Cidade do Rio de Janeiro</a>",
@@ -731,9 +719,9 @@
     "licenseUrl": "http://data.rio/",
     "startDate": "2022",
     "tiles": [
-      "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2022/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2022/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Mosaico_2022&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2022/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://pgeo3.rio.rj.gov.br/arcgis/services/Imagens/Mosaico_2022/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Mosaico_2022&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "sc2012": {
     "attributionHtml": "<a href=\"http://sigsc.sc.gov.br\" target=\"_blank\" rel=\"noopener\">Sistema de Informações Geográficas - Governo de Santa Catarina</a>",
@@ -758,7 +746,6 @@
     "attributionText": "Prefeitura Municipal de Sobral",
     "attributionUrl": "http://seuma.sobral.ce.gov.br/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:31984"
@@ -783,16 +770,15 @@
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Itu,_S%C3%A3o_Paulo/Fontes_de_Dados#Cadastro",
     "startDate": "2019",
     "tiles": [
-      "https://urbigis.com/geoproxy/4ac1cd2049d8857b21d9ff38339f7c1SERVICE=WMS&REQUEST=GETMAP&FORMAT=image/png8&VERSION=1.3.0&LAYERS=6139ca97-1bc9-4952-a441-b68957ab222c&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://urbigis.com/geoproxy/4ac1cd2049d8857b21d9ff38339f7c1?SERVICE=WMS&REQUEST=GETMAP&STYLES=&FORMAT=image/png8&VERSION=1.3.0&LAYERS=6139ca97-1bc9-4952-a441-b68957ab222c&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://urbigis.com/geoproxy/4ac1cd2049d8857b21d9ff38339f7c1SERVICE=WMS&REQUEST=GETMAP&FORMAT=image/png8&VERSION=1.3.0&LAYERS=6139ca97-1bc9-4952-a441-b68957ab222c&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://urbigis.com/geoproxy/4ac1cd2049d8857b21d9ff38339f7c1?SERVICE=WMS&REQUEST=GETMAP&STYLES=&FORMAT=image/png8&VERSION=1.3.0&LAYERS=6139ca97-1bc9-4952-a441-b68957ab222c&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "UY-2019-orthophotos": {
     "attributionHtml": "<a href=\"https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/\" target=\"_blank\" rel=\"noopener\">AGESIC - Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento</a>",
     "attributionText": "AGESIC - Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento",
     "attributionUrl": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],

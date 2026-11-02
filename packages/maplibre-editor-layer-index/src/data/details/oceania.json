@@ -5,7 +5,7 @@
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2023-05-12",
     "group": {
-      "id": "actmapi-imagery--ACT202305",
+      "id": "actmapi-imagery",
       "label": "May 2023",
       "name": "ACTmapi Imagery",
       "order": 0
@@ -26,12 +26,6 @@
       "EPSG:7855"
     ],
     "endDate": "2023-09",
-    "group": {
-      "id": "actmapi-imagery--ACT202309",
-      "label": "Sep 2023",
-      "name": "ACTmapi Imagery",
-      "order": 0
-    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2023-09",
@@ -46,7 +40,7 @@
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2023-11",
     "group": {
-      "id": "actmapi-imagery--ACT202305",
+      "id": "actmapi-imagery",
       "label": "Nov 2023",
       "name": "ACTmapi Imagery",
       "order": 1
@@ -64,12 +58,6 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2024-02",
-    "group": {
-      "id": "actmapi-imagery--ACT202309",
-      "label": "Feb 2024",
-      "name": "ACTmapi Imagery",
-      "order": 1
-    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2024-02",
@@ -83,12 +71,6 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2024-09",
-    "group": {
-      "id": "actmapi-imagery--ACT202309",
-      "label": "Sep 2024",
-      "name": "ACTmapi Imagery",
-      "order": 2
-    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2024-09",
@@ -102,12 +84,6 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and Aerometrex",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2025-03",
-    "group": {
-      "id": "actmapi-imagery--ACT202309",
-      "label": "Mar 2025",
-      "name": "ACTmapi Imagery",
-      "order": 3
-    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2025-03",
@@ -121,12 +97,6 @@
     "attributionText": "Aerial Imagery from ACTMapi ©ACT Government and MetroMap",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2025-05",
-    "group": {
-      "id": "actmapi-imagery--ACT202309",
-      "label": "May 2025",
-      "name": "ACTmapi Imagery",
-      "order": 4
-    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2025-05",
@@ -141,7 +111,7 @@
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2025-12",
     "group": {
-      "id": "actmapi-imagery--ACT202305",
+      "id": "actmapi-imagery",
       "label": "Dec 2025",
       "name": "ACTmapi Imagery",
       "order": 2
@@ -159,12 +129,6 @@
     "attributionText": "Aerial Imagery from ACTmapi © ACT Government and Aerometrex",
     "attributionUrl": "https://www.actmapi.act.gov.au/home",
     "endDate": "2026-03",
-    "group": {
-      "id": "actmapi-imagery--ACT202309",
-      "label": "Mar 2026",
-      "name": "ACTmapi Imagery",
-      "order": 5
-    },
     "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
     "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
     "startDate": "2026-03",
@@ -172,6 +136,19 @@
       "https://act-imagery.openstreetmap.org/layer/act_aerial_imagery_202603/{z}/{x}/{y}.jpeg"
     ],
     "urlTemplate": "https://act-imagery.openstreetmap.org/layer/act_aerial_imagery_202603/{zoom}/{x}/{y}.jpeg"
+  },
+  "ACT202605": {
+    "attributionHtml": "<a href=\"https://www.actmapi.act.gov.au/home\" target=\"_blank\" rel=\"noopener\">Aerial Imagery from ACTmapi © ACT Government and Aerometrex</a>",
+    "attributionText": "Aerial Imagery from ACTmapi © ACT Government and Aerometrex",
+    "attributionUrl": "https://www.actmapi.act.gov.au/home",
+    "endDate": "2026-05",
+    "icon": "https://www.actmapi.act.gov.au/__data/assets/file/0009/1174446/favicon.ico",
+    "licenseUrl": "https://osmlab.github.io/editor-layer-index/sources/oceania/au/act/ACTmapi-Imagery.PDF",
+    "startDate": "2026-05",
+    "tiles": [
+      "https://act-imagery.openstreetmap.org/layer/act_aerial_imagery_202605/{z}/{x}/{y}.jpeg"
+    ],
+    "urlTemplate": "https://act-imagery.openstreetmap.org/layer/act_aerial_imagery_202605/{zoom}/{x}/{y}.jpeg"
   },
   "AGRI-black_and_white-2.5m": {
     "attributionHtml": "<a href=\"https://knowledge.dea.ga.gov.au/data/product/australian-geographic-reference-image/\" target=\"_blank\" rel=\"noopener\">© Commonwealth of Australia (Geoscience Australia)</a>",
@@ -209,7 +186,7 @@
       "name": "City of Melbourne",
       "order": 1
     },
-    "icon": "https://www.melbourne.vic.gov.au/themes/custom/com/images/logo.svg",
+    "icon": "https://data.melbourne.vic.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:City_of_Melbourne_OSMF_CCBY_waiver.pdf",
     "startDate": "2019-02-02",
     "tiles": [
@@ -228,7 +205,7 @@
       "name": "City of Melbourne",
       "order": 0
     },
-    "icon": "https://www.melbourne.vic.gov.au/themes/custom/com/images/logo.svg",
+    "icon": "https://data.melbourne.vic.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:City_of_Melbourne_OSMF_CCBY_waiver.pdf",
     "startDate": "2018-05",
     "tiles": [
@@ -247,7 +224,7 @@
       "name": "City of Melbourne",
       "order": 2
     },
-    "icon": "https://www.melbourne.vic.gov.au/themes/custom/com/images/logo.svg",
+    "icon": "https://data.melbourne.vic.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:City_of_Melbourne_OSMF_CCBY_waiver.pdf",
     "startDate": "2020-05",
     "tiles": [
@@ -1068,9 +1045,9 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
+      "CRS:84",
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1084,9 +1061,9 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
+      "CRS:84",
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1101,8 +1078,7 @@
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1116,9 +1092,9 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
+      "CRS:84",
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1133,8 +1109,7 @@
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1148,9 +1123,9 @@
     "attributionText": "© State of New South Wales (Spatial Services, a business unit of the Department of Customer Service NSW). For current information go to spatial.nsw.gov.au.",
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
+      "CRS:84",
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1165,8 +1140,7 @@
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1181,8 +1155,7 @@
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1197,8 +1170,7 @@
     "attributionUrl": "https://www.spatial.nsw.gov.au/products_and_services/web_services/access_web_services",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://portal.spatial.nsw.gov.au/portal//sharing/rest/content/items/10ee1f6276e746efa7f3e364ed51d67f/resources/NSWGov_Logo_RGB_Primary_FullColour_sml3-01.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:SpatialServices_NSW_OSM_Waiver_completed.pdf",
@@ -1212,7 +1184,6 @@
     "attributionText": "Main Roads Western Australia",
     "attributionUrl": "https://portal-mainroads.opendata.arcgis.com/datasets/mainroads::road-hierarchy/about",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:4283"
     ],
@@ -1240,7 +1211,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://datagateway.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -1258,7 +1228,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://datagateway.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -1782,8 +1751,7 @@
     "attributionUrl": "https://www.planningportal.nsw.gov.au/opendata/dataset/environment-planning-instrument-local-environmental-plan-land-zoning",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://www.planningportal.nsw.gov.au/sites/default/files/NSWGov_Logo_RGB_Primary_FullColour_6.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:PlanningPortal_NSW_DPIE_OSM_EmailWaiverComplete.pdf",
@@ -1897,8 +1865,7 @@
     "attributionUrl": "https://www.data.qld.gov.au/dataset/cadastral-data-queensland-series",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://www.qld.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:QLD_DNRMMRRD_Att_1_-_OSMF_Waiver.pdf",
@@ -1913,8 +1880,7 @@
     "attributionUrl": "https://www.data.qld.gov.au/dataset/cadastral-data-queensland-series",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://www.qld.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:QLD_DNRMMRRD_Att_1_-_OSMF_Waiver.pdf",
@@ -1951,8 +1917,7 @@
     "attributionUrl": "https://www.data.qld.gov.au/dataset/queensland-roads-and-tracks",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://www.qld.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:QLD_DNRMMRRD_Att_1_-_OSMF_Waiver.pdf",
@@ -1977,7 +1942,6 @@
     "attributionText": "U.S. Department of Agriculture",
     "attributionUrl": "https://datagateway.nrcs.usda.gov/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -1996,8 +1960,7 @@
     "attributionUrl": "https://discover.data.vic.gov.au/dataset/vicmap-address-address-point",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://discover.data.vic.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Vicmap_CCBYPermission_OSM_Final_Jan2018_Ltr.pdf",
@@ -2012,8 +1975,7 @@
     "attributionUrl": "https://discover.data.vic.gov.au/dataset/vicmap-elevation-contour-line-10-and-20-metres",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://discover.data.vic.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Vicmap_CCBYPermission_OSM_Final_Jan2018_Ltr.pdf",
@@ -2054,8 +2016,7 @@
     "attributionUrl": "https://discover.data.vic.gov.au/dataset/vicmap-property-property-polygon",
     "availableProjections": [
       "EPSG:3857",
-      "EPSG:4326",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "icon": "https://discover.data.vic.gov.au/favicon.ico",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/File:Vicmap_CCBYPermission_OSM_Final_Jan2018_Ltr.pdf",

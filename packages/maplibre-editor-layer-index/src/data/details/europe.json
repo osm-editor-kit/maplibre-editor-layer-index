@@ -1,7 +1,6 @@
 {
   "aachen_alkis_wms": {
     "availableProjections": [
-      "CRS:84",
       "EPSG:25832",
       "EPSG:3857",
       "EPSG:4326"
@@ -192,13 +191,13 @@
     "attributionText": "Datenquelle: dl-de/by-2-0: Landeshauptstadt München – Kommunalreferat – GeodatenService – www.geodatenservice-muenchen.de",
     "attributionUrl": "https://www.muenchen.de/rathaus/Stadtverwaltung/Kommunalreferat/geodatenservice.html",
     "availableProjections": [
+      "CRS:84",
+      "EPSG:3857",
+      "EPSG:4258",
       "EPSG:4326",
       "EPSG:25832",
-      "EPSG:4258",
-      "EPSG:32632",
-      "EPSG:3857",
       "EPSG:31468",
-      "CRS:84"
+      "EPSG:32632"
     ],
     "endDate": "2025-04",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/AktuelleLuftbilderDerLandeshauptstadtMuenchen20cm.png",
@@ -237,11 +236,12 @@
     "urlTemplate": "https://chronica.md/api/tiles/1966/data/v3/{zoom}/{x}/{y}.png"
   },
   "antrimnuig": {
-    "attributionHtml": "<a href=\"https://library.nuigalway.ie/collections/archives/depositedcollections/digitisedarchives/\" target=\"_blank\" rel=\"noopener\">James Hardiman Library, NUIG</a>",
+    "attributionHtml": "<a href=\"https://library.universityofgalway.ie/research/resources/digitalprojects/\" target=\"_blank\" rel=\"noopener\">James Hardiman Library, NUIG</a>",
     "attributionText": "James Hardiman Library, NUIG",
-    "attributionUrl": "https://library.nuigalway.ie/collections/archives/depositedcollections/digitisedarchives/",
+    "attributionUrl": "https://library.universityofgalway.ie/research/resources/digitalprojects/",
     "endDate": "1901",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/ie/IrelandCivilParishesandBaronies-MemorialAtlas.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Ireland/Background_Imagery#James_Hardiman_Library,_NUI_Galway",
     "startDate": "1901",
     "tiles": [
       "https://mapwarper.net/layers/tile/295/{z}/{x}/{y}.png"
@@ -287,6 +287,7 @@
     "attributionUrl": "https://geo.nls.uk/maps",
     "endDate": "1940",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Ireland/Background_Imagery#National_Library_of_Scotland",
     "startDate": "1940",
     "tiles": [
       "https://geo.nls.uk/maps/ireland/bartholomew/{z}/{x}/{y}.png"
@@ -389,6 +390,20 @@
       "https://wms.openstreetmap.fr/wms?LAYERS=bayonne_2019&STYLES=&FORMAT=image/jpeg&TRANSPARENT=TRUE&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
     "urlTemplate": "https://wms.openstreetmap.fr/wms?LAYERS=bayonne_2019&STYLES=&FORMAT=image/jpeg&TRANSPARENT=TRUE&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "BCN-MTM": {
+    "attributionHtml": "Ajuntament de Barcelona",
+    "attributionText": "Ajuntament de Barcelona",
+    "availableProjections": [
+      "EPSG:3857",
+      "EPSG:4326",
+      "EPSG:25831"
+    ],
+    "licenseUrl": "https://www.barcelona.cat/geoportal/ca/aplicacions/aplicacions-principals/cataleg-de-serveis",
+    "tiles": [
+      "https://geo.bcn.cat/mapproxy/service?LAYERS=MTM&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo.bcn.cat/mapproxy/service?LAYERS=MTM&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "Bedzin-PL-aerial_image": {
     "attributionHtml": "Starostwo Powiatowe w Będzinie",
@@ -677,11 +692,11 @@
     "attributionHtml": "Digitales Oberflächenmodell LIDAR 50cm © Amt für Wald des Kantons Bern",
     "attributionText": "Digitales Oberflächenmodell LIDAR 50cm © Amt für Wald des Kantons Bern",
     "availableProjections": [
-      "EPSG:21781",
-      "EPSG:3857",
+      "CRS:84",
       "EPSG:2056",
+      "EPSG:3857",
       "EPSG:4326",
-      "CRS:84"
+      "EPSG:21781"
     ],
     "endDate": "2015",
     "licenseUrl": "http://files.be.ch/bve/agi/geoportal/geo/nutzungsbedingungen/agi_dv_nutzungsbedingungen.pdf",
@@ -695,11 +710,11 @@
     "attributionHtml": "Digitales Terrainmodell LIDAR 50cm © Amt für Wald des Kantons Bern",
     "attributionText": "Digitales Terrainmodell LIDAR 50cm © Amt für Wald des Kantons Bern",
     "availableProjections": [
-      "EPSG:21781",
-      "EPSG:3857",
+      "CRS:84",
       "EPSG:2056",
+      "EPSG:3857",
       "EPSG:4326",
-      "CRS:84"
+      "EPSG:21781"
     ],
     "endDate": "2015",
     "licenseUrl": "http://files.be.ch/bve/agi/geoportal/geo/nutzungsbedingungen/agi_dv_nutzungsbedingungen.pdf",
@@ -732,7 +747,6 @@
     "attributionText": "Bundesamt für Eich- und Vermessungswesen",
     "attributionUrl": "https://www.bev.gv.at/Services/Geoinformationsdienste/INSPIRE-Geodatendienste/INSPIRE-Darstellungsdienste.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3034",
       "EPSG:3035",
       "EPSG:3857",
@@ -752,6 +766,9 @@
     "urlTemplate": "https://kataster.bev.gv.at/ortho/ows?SERVICE=WMS&REQUEST=GetMap&VERSION=2.0.0&FORMAT=image/jpeg&LAYERS=bev:RGB&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "bg-maf-orthophoto-latest": {
+    "attributionHtml": "<a href=\"https://www.mzh.government.bg/\" target=\"_blank\" rel=\"noopener\">Ministry of Agriculture and Food</a>",
+    "attributionText": "Ministry of Agriculture and Food",
+    "attributionUrl": "https://www.mzh.government.bg/",
     "licenseUrl": "https://inspireportal.egov.bg/geonetwork/srv/bul/catalog.search#/metadata/b13b693f-3702-49f4-897c-9021b84e83e3",
     "tiles": [
       "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/{z}/{x}/{y}.png"
@@ -773,7 +790,6 @@
     "attributionText": "© BKG <YEAR> dl-de/by-2-0",
     "attributionUrl": "https://www.bkg.bund.de/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3034",
       "EPSG:3035",
       "EPSG:3044",
@@ -863,6 +879,24 @@
       "https://sitmappe.comune.bologna.it/tms/tileserver/Ortofoto2025/{z}/{x}/{y}.png"
     ],
     "urlTemplate": "https://sitmappe.comune.bologna.it/tms/tileserver/Ortofoto2025/{zoom}/{x}/{y}.png"
+  },
+  "Bologna-Orthophoto-2026": {
+    "attributionHtml": "<a href=\"https://opendata.comune.bologna.it/explore/dataset/tile-server-ortofoto-comune-di-bologna/information/\" target=\"_blank\" rel=\"noopener\">© Comune di Bologna ODbL</a>",
+    "attributionText": "© Comune di Bologna ODbL",
+    "attributionUrl": "https://opendata.comune.bologna.it/explore/dataset/tile-server-ortofoto-comune-di-bologna/information/",
+    "endDate": "2026",
+    "group": {
+      "id": "bologna-ortofoto",
+      "label": "2026",
+      "name": "Bologna ortofoto",
+      "order": 4
+    },
+    "licenseUrl": "https://opendata.comune.bologna.it/explore/dataset/tile-server-ortofoto-comune-di-bologna/information/",
+    "startDate": "2026",
+    "tiles": [
+      "https://sitmappe.comune.bologna.it/tms/tileserver/Ortofoto2026/{z}/{x}/{y}.png"
+    ],
+    "urlTemplate": "https://sitmappe.comune.bologna.it/tms/tileserver/Ortofoto2026/{zoom}/{x}/{y}.png"
   },
   "Bordeaux_2012": {
     "attributionHtml": "Communauté urbaine de Bordeaux - 2012",
@@ -1023,7 +1057,6 @@
     "attributionText": "Budapest Főváros XI. Kerület Újbuda Önkormányzata",
     "attributionUrl": "https://terinfo.ujbuda.hu",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:23700"
@@ -1047,7 +1080,6 @@
     "attributionText": "Budapest Főváros XI. Kerület Újbuda Önkormányzata",
     "attributionUrl": "https://terinfo.ujbuda.hu",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:23700"
@@ -1071,7 +1103,6 @@
     "attributionText": "Budapest Főváros XI. Kerület Újbuda Önkormányzata",
     "attributionUrl": "https://terinfo.ujbuda.hu",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:23700"
@@ -1095,7 +1126,6 @@
     "attributionText": "Budapest Főváros XI. Kerület Újbuda Önkormányzata",
     "attributionUrl": "https://terinfo.ujbuda.hu",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:23700"
@@ -1119,7 +1149,6 @@
     "attributionText": "Budapest Főváros XI. Kerület Újbuda Önkormányzata",
     "attributionUrl": "https://terinfo.ujbuda.hu",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:23700"
@@ -1143,7 +1172,6 @@
     "attributionText": "Budapest Főváros XI. Kerület Újbuda Önkormányzata",
     "attributionUrl": "https://terinfo.ujbuda.hu",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:23700"
@@ -1304,6 +1332,8 @@
     "urlTemplate": "https://tms.cadastre.openstreetmap.fr/*/tout/{zoom}/{x}/{y}.png"
   },
   "Catastro-Spain": {
+    "attributionHtml": "Dirección General del Catastro",
+    "attributionText": "Dirección General del Catastro",
     "availableProjections": [
       "EPSG:4230",
       "EPSG:4326",
@@ -1321,6 +1351,7 @@
       "EPSG:25831",
       "EPSG:3857"
     ],
+    "licenseUrl": "https://www.catastro.hacienda.gob.es/webinspire/documentos/Licencia.pdf",
     "tiles": [
       "https://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&Layers=Catastro&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
@@ -1658,7 +1689,6 @@
     "attributionHtml": "Urząd Miasta Częstochowy",
     "attributionText": "Urząd Miasta Częstochowy",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2174",
       "EPSG:2175",
       "EPSG:2177",
@@ -1667,8 +1697,7 @@
       "EPSG:3330",
       "EPSG:3334",
       "EPSG:4326",
-      "EPSG:32634",
-      "EPSG:900913"
+      "EPSG:32634"
     ],
     "tiles": [
       "http://geoportal.czestochowa.um.gov.pl/isdp/scripts/isdp.dll/wms?LAYERS=ieg_budynek&STYLES=&FORMAT=image/png&TRANSPARENT=true&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -1903,7 +1932,6 @@
     "attributionText": "Sadrži podatke Državne geodetske uprave",
     "attributionUrl": "https://dgu.gov.hr/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3765",
       "EPSG:3857",
       "EPSG:4326"
@@ -1922,7 +1950,6 @@
     "attributionText": "Sadrži podatke Državne geodetske uprave",
     "attributionUrl": "https://dgu.gov.hr/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3765",
       "EPSG:3857",
       "EPSG:4326"
@@ -1941,7 +1968,6 @@
     "attributionText": "Sadrži podatke Državne geodetske uprave",
     "attributionUrl": "https://dgu.gov.hr/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3765",
       "EPSG:3857",
       "EPSG:4326"
@@ -1960,10 +1986,8 @@
     "attributionText": "Sadrži podatke Državne geodetske uprave",
     "attributionUrl": "https://dgu.gov.hr/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3765",
-      "EPSG:4326",
-      "EPSG:900913"
+      "EPSG:4326"
     ],
     "endDate": "2011",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/hr/dgu.png",
@@ -1979,7 +2003,6 @@
     "attributionText": "Sadrži podatke Državne geodetske uprave",
     "attributionUrl": "https://dgu.gov.hr/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3765",
       "EPSG:3857",
       "EPSG:4326"
@@ -2036,9 +2059,9 @@
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_Hungary/Ortofot%C3%B3k#.C3.81rv.C3.ADzi_ortofot.C3.B3_a_Dun.C3.A1r.C3.B3l",
     "startDate": "2013",
     "tiles": [
-      "http://e.tile.openstreetmap.hu/dunai-arviz-2013/{z}/{x}/{y}.jpg"
+      "https://e.tile.openstreetmap.hu/dunai-arviz-2013/{z}/{x}/{y}.jpg"
     ],
-    "urlTemplate": "http://e.tile.openstreetmap.hu/dunai-arviz-2013/{zoom}/{x}/{y}.jpg"
+    "urlTemplate": "https://e.tile.openstreetmap.hu/dunai-arviz-2013/{zoom}/{x}/{y}.jpg"
   },
   "DV_DHMV_II_HILL_25cm": {
     "attributionHtml": "© Digitaal Vlaanderen",
@@ -2136,7 +2159,6 @@
     "attributionHtml": "© Digitaal Vlaanderen",
     "attributionText": "© Digitaal Vlaanderen",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3035",
       "EPSG:3043",
       "EPSG:3812",
@@ -2308,7 +2330,6 @@
     "attributionText": "© Fiskeridirektoratet",
     "attributionUrl": "https://www.fiskeridir.no/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3575",
       "EPSG:4258",
       "EPSG:3857",
@@ -2326,8 +2347,7 @@
       "EPSG:32633",
       "EPSG:32634",
       "EPSG:32635",
-      "EPSG:32636",
-      "EPSG:54004"
+      "EPSG:32636"
     ],
     "icon": "https://www.fiskeridir.no/_/image/434a88f5-6b85-43b4-b520-75010b48a8d6:2c71df53a881af3ee11e7b6b31ab98f8c3d45bdd/width-180/favicon-96x96.png",
     "licenseUrl": "https://web.archive.org/web/20240114010218/https://lists.nuug.no/pipermail/kart/2018-January/006347.html",
@@ -2499,16 +2519,21 @@
     "urlTemplate": "https://wms.openstreetmap.fr/tms/1.0.0/paca06_2009/{zoom}/{x}/{y}"
   },
   "fr.dpt.06.2020.storm.alex": {
-    "attributionHtml": "<a href=\"https://alex.ign.fr/telecharger\" target=\"_blank\" rel=\"noopener\">IGN - Ortho express octobre 2020</a>",
+    "attributionHtml": "<a href=\"https://www.ign.fr/institut/nos-domaines-dintervention/prevention-des-risques/tempete-alex-un-avion-de-lign-photographie-les-zones-sinistrees\" target=\"_blank\" rel=\"noopener\">IGN - Ortho express octobre 2020</a>",
     "attributionText": "IGN - Ortho express octobre 2020",
-    "attributionUrl": "https://alex.ign.fr/telecharger",
+    "attributionUrl": "https://www.ign.fr/institut/nos-domaines-dintervention/prevention-des-risques/tempete-alex-un-avion-de-lign-photographie-les-zones-sinistrees",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857",
+      "EPSG:4326"
+    ],
     "endDate": "2020-10",
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
     "startDate": "2020-10",
     "tiles": [
-      "http://proxy-ign.openstreetmap.fr/alex/{z}/{x}/{y}.jpg"
+      "https://data.geopf.fr/wms-r?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=ORTHOIMAGERY.ORTHOPHOTOS.URGENCE.ALEX&STYLES=normal&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "http://proxy-ign.openstreetmap.fr/alex/{zoom}/{x}/{y}.jpg"
+    "urlTemplate": "https://data.geopf.fr/wms-r?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=ORTHOIMAGERY.ORTHOPHOTOS.URGENCE.ALEX&STYLES=normal&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "fr.dpt.13.2009": {
     "attributionHtml": "<a href=\"http://www.crige-paca.org/geoportail/geocatalogue.html?id_lot_donnee_carto=132\" target=\"_blank\" rel=\"noopener\">Ortho13, 2009</a>",
@@ -2553,11 +2578,11 @@
     "attributionUrl": "https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
     "tiles": [
-      "http://a.tile.openstreetmap.fr/bdtopo/{z}/{x}/{y}.png",
-      "http://b.tile.openstreetmap.fr/bdtopo/{z}/{x}/{y}.png",
-      "http://c.tile.openstreetmap.fr/bdtopo/{z}/{x}/{y}.png"
+      "https://a.tile.openstreetmap.fr/bdtopo/{z}/{x}/{y}.png",
+      "https://b.tile.openstreetmap.fr/bdtopo/{z}/{x}/{y}.png",
+      "https://c.tile.openstreetmap.fr/bdtopo/{z}/{x}/{y}.png"
     ],
-    "urlTemplate": "http://{switch:a,b,c}.tile.openstreetmap.fr/bdtopo/{zoom}/{x}/{y}.png"
+    "urlTemplate": "https://{switch:a,b,c}.tile.openstreetmap.fr/bdtopo/{zoom}/{x}/{y}.png"
   },
   "fr.ign.mnslidarhd": {
     "attributionHtml": "<a href=\"https://geoservices.ign.fr/lidarhd\" target=\"_blank\" rel=\"noopener\">IGN MNS LiDAR HD</a>",
@@ -2667,6 +2692,12 @@
     "attributionText": "IGN, CRAIG, Mégalis Bretagne",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2013",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2013",
+      "name": "Ortho HR",
+      "order": 0
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2013",
@@ -2681,7 +2712,7 @@
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2014",
     "group": {
-      "id": "ortho-hr",
+      "id": "ortho-hr--fr.orthohr.2014",
       "label": "2014",
       "name": "Ortho HR",
       "order": 0
@@ -2699,6 +2730,12 @@
     "attributionText": "IGN, Mégalis Bretagne",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2015",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2015",
+      "name": "Ortho HR",
+      "order": 1
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2015",
@@ -2712,6 +2749,12 @@
     "attributionText": "IGN, CRAIG, Mégalis Bretagne",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2016",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2016",
+      "name": "Ortho HR",
+      "order": 2
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2016",
@@ -2725,6 +2768,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2017",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2014",
+      "label": "2017",
+      "name": "Ortho HR",
+      "order": 1
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2017",
@@ -2738,6 +2787,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2018",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2018",
+      "name": "Ortho HR",
+      "order": 3
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2018",
@@ -2751,6 +2806,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2019",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2019",
+      "name": "Ortho HR",
+      "order": 4
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2019",
@@ -2765,10 +2826,10 @@
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2020",
     "group": {
-      "id": "ortho-hr",
+      "id": "ortho-hr--fr.orthohr.2014",
       "label": "2020",
       "name": "Ortho HR",
-      "order": 1
+      "order": 2
     },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
@@ -2783,6 +2844,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2021",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2021",
+      "name": "Ortho HR",
+      "order": 5
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2021",
@@ -2796,6 +2863,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2022",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2014",
+      "label": "2022",
+      "name": "Ortho HR",
+      "order": 3
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2022",
@@ -2809,6 +2882,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2023",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2014",
+      "label": "2023",
+      "name": "Ortho HR",
+      "order": 4
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2023",
@@ -2822,6 +2901,12 @@
     "attributionText": "IGN",
     "attributionUrl": "https://geoservices.ign.fr/documentation/donnees/ortho/bdortho",
     "endDate": "2024",
+    "group": {
+      "id": "ortho-hr--fr.orthohr.2013",
+      "label": "2024",
+      "name": "Ortho HR",
+      "order": 6
+    },
     "icon": "https://www.ign.fr/files/default/styles/thumbnail/public/2020-06/logoIGN_300x200.png",
     "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "startDate": "2024",
@@ -2850,7 +2935,6 @@
     "attributionText": "Stadtvermessungsam Frankfurt am Main",
     "attributionUrl": "http://offenedaten.frankfurt.de/dataset/wms-luftbild-2016",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:4647",
@@ -2877,7 +2961,6 @@
     "attributionText": "Stadtvermessungsam Frankfurt am Main",
     "attributionUrl": "https://offenedaten.frankfurt.de/dataset/wms-luftbild-2017",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:4647",
@@ -2904,7 +2987,6 @@
     "attributionText": "Stadtvermessungsamt Frankfurt am Main",
     "attributionUrl": "https://offenedaten.frankfurt.de/dataset/wms-luftbild-2018",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:4647",
@@ -2931,7 +3013,6 @@
     "attributionText": "Stadtvermessungsamt Frankfurt am Main",
     "attributionUrl": "https://www.offenedaten.frankfurt.de/dataset/wms-luftbilder-2019-frankfurt-am-main",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:4647",
@@ -3027,7 +3108,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3045,7 +3125,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3069,7 +3148,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3093,7 +3171,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3117,7 +3194,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3141,7 +3217,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3165,7 +3240,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3189,7 +3263,6 @@
     "attributionHtml": "Système d'information du territoire à Genève (SITG)",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:2154",
       "EPSG:3857",
@@ -3227,8 +3300,9 @@
     "urlTemplate": "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2016_EPSG3857/MapServer/tile/{zoom}/{y}/{x}"
   },
   "Geneve-orthophoto-2018": {
-    "attributionHtml": "Système d'information du territoire à Genève (SITG)",
+    "attributionHtml": "<a href=\"https://sitg.ge.ch/donnees/image-aerienne-ortho-2018-07\" target=\"_blank\" rel=\"noopener\">Système d'information du territoire à Genève (SITG)</a>",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
+    "attributionUrl": "https://sitg.ge.ch/donnees/image-aerienne-ortho-2018-07",
     "endDate": "2018",
     "group": {
       "id": "canton-de-génève-orthophoto-20cm-sitg",
@@ -3244,8 +3318,9 @@
     "urlTemplate": "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2018_EPSG3857/MapServer/tile/{zoom}/{y}/{x}"
   },
   "Geneve-orthophoto-2019": {
-    "attributionHtml": "Système d'information du territoire à Genève (SITG)",
+    "attributionHtml": "<a href=\"https://sitg.ge.ch/donnees/image-aerienne-ortho-2019-05\" target=\"_blank\" rel=\"noopener\">Système d'information du territoire à Genève (SITG)</a>",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
+    "attributionUrl": "https://sitg.ge.ch/donnees/image-aerienne-ortho-2019-05",
     "endDate": "2019",
     "group": {
       "id": "canton-de-génève-orthophoto-5cm-sitg",
@@ -3261,8 +3336,9 @@
     "urlTemplate": "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2019_EPSG3857/MapServer/tile/{zoom}/{y}/{x}"
   },
   "Geneve-orthophoto-2020": {
-    "attributionHtml": "Système d'information du territoire à Genève (SITG)",
+    "attributionHtml": "<a href=\"https://sitg.ge.ch/donnees/image-aerienne-ortho-2020-03\" target=\"_blank\" rel=\"noopener\">Système d'information du territoire à Genève (SITG)</a>",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
+    "attributionUrl": "https://sitg.ge.ch/donnees/image-aerienne-ortho-2020-03",
     "endDate": "2020",
     "group": {
       "id": "canton-de-génève-orthophoto-10cm-sitg",
@@ -3278,8 +3354,9 @@
     "urlTemplate": "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2020_EPSG3857/MapServer/tile/{zoom}/{y}/{x}"
   },
   "Geneve-orthophoto-2021": {
-    "attributionHtml": "Système d'information du territoire à Genève (SITG)",
+    "attributionHtml": "<a href=\"https://sitg.ge.ch/donnees/image-aerienne-ortho-2021-08\" target=\"_blank\" rel=\"noopener\">Système d'information du territoire à Genève (SITG)</a>",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
+    "attributionUrl": "https://sitg.ge.ch/donnees/image-aerienne-ortho-2021-08",
     "endDate": "2021",
     "group": {
       "id": "canton-de-génève-orthophoto-20cm-sitg",
@@ -3295,8 +3372,9 @@
     "urlTemplate": "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2021_EPSG3857/MapServer/tile/{zoom}/{y}/{x}"
   },
   "Geneve-orthophoto-2023": {
-    "attributionHtml": "Système d'information du territoire à Genève (SITG)",
+    "attributionHtml": "<a href=\"https://sitg.ge.ch/donnees/image-aerienne-ortho-2023-06\" target=\"_blank\" rel=\"noopener\">Système d'information du territoire à Genève (SITG)</a>",
     "attributionText": "Système d'information du territoire à Genève (SITG)",
+    "attributionUrl": "https://sitg.ge.ch/donnees/image-aerienne-ortho-2023-06",
     "endDate": "2023",
     "group": {
       "id": "canton-de-génève-orthophoto-10cm-sitg",
@@ -3310,6 +3388,18 @@
       "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2023_EPSG3857/MapServer/tile/{z}/{y}/{x}"
     ],
     "urlTemplate": "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2023_EPSG3857/MapServer/tile/{zoom}/{y}/{x}"
+  },
+  "Geneve-orthophoto-2024": {
+    "attributionHtml": "<a href=\"https://sitg.ge.ch/donnees/image-aerienne-ortho-2024-03\" target=\"_blank\" rel=\"noopener\">Système d'information du territoire à Genève (SITG)</a>",
+    "attributionText": "Système d'information du territoire à Genève (SITG)",
+    "attributionUrl": "https://sitg.ge.ch/donnees/image-aerienne-ortho-2024-03",
+    "endDate": "2024",
+    "licenseUrl": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
+    "startDate": "2024",
+    "tiles": [
+      "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2024_EPSG3857/MapServer/tile/{z}/{y}/{x}"
+    ],
+    "urlTemplate": "https://raster.sitg.ge.ch/arcgis/rest/services/ORTHOPHOTOS_2024_EPSG3857/MapServer/tile/{zoom}/{y}/{x}"
   },
   "GeoDanmark_Orthophoto_Spring_Septima": {
     "attributionHtml": "<a href=\"https://datafordeler.dk/dataoversigt/geodanmark-ortofoto/ortofoto-foraar-wms/\" target=\"_blank\" rel=\"noopener\">(CC BY 4.0) GeoDanmark</a>",
@@ -3471,25 +3561,6 @@
     ],
     "urlTemplate": "http://geodata.gov.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:Ortochis_2014&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
-  "Geodata-Gov-2016_Extended_Ortofoto_Moldova": {
-    "attributionHtml": "<a href=\"https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/409360c7-49fb-46ed-83a5-96a8bd0db77b\" target=\"_blank\" rel=\"noopener\">© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS / Moldova Extended Ortofoto 2016</a>",
-    "attributionText": "© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS / Moldova Extended Ortofoto 2016",
-    "attributionUrl": "https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/409360c7-49fb-46ed-83a5-96a8bd0db77b",
-    "availableProjections": [
-      "EPSG:4026",
-      "EPSG:4326",
-      "EPSG:3857",
-      "EPSG:900913",
-      "CRS:84"
-    ],
-    "endDate": "2016",
-    "icon": "https://geoportalinds.gov.md/geonetwork/images/logos/favicon.png",
-    "licenseUrl": "https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/409360c7-49fb-46ed-83a5-96a8bd0db77b",
-    "tiles": [
-      "http://geodata.gov.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:Moldova_2016_ratio5_transparent&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
-    ],
-    "urlTemplate": "http://geodata.gov.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:Moldova_2016_ratio5_transparent&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
   "Geodata-Gov-2016_Ortofoto_Moldova": {
     "attributionHtml": "<a href=\"https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/409360c7-49fb-46ed-83a5-96a8bd0db77b\" target=\"_blank\" rel=\"noopener\">© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS / Moldova Ortofoto 2016</a>",
     "attributionText": "© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS / Moldova Ortofoto 2016",
@@ -3513,6 +3584,20 @@
       "http://geodata.gov.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:Ortofoto_2016_RM&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
     "urlTemplate": "http://geodata.gov.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:Ortofoto_2016_RM&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+  },
+  "Geodata-Gov-2016-2020-2021_Ortofoto_Moldova": {
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857",
+      "EPSG:4026",
+      "EPSG:4326"
+    ],
+    "icon": "https://geoportalinds.gov.md/geonetwork/images/logos/favicon.png",
+    "licenseUrl": "https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/409360c7-49fb-46ed-83a5-96a8bd0db77b",
+    "tiles": [
+      "https://maps2.ingeocad.md/geoserver/orthophoto/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:md_2016-21_tr_ratio5_new2&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+    ],
+    "urlTemplate": "https://maps2.ingeocad.md/geoserver/orthophoto/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:md_2016-21_tr_ratio5_new2&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "Geodata-Gov-2020_Ortofoto_Moldova_Centru": {
     "attributionHtml": "<a href=\"https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/a2f5ecbc-7ff0-4912-9606-9bff4dff1b4a\" target=\"_blank\" rel=\"noopener\">© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS / Ortofoto Moldova, Centru 2020</a>",
@@ -3550,6 +3635,23 @@
     ],
     "urlTemplate": "http://geodata.gov.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:2021_ortofoto_moldova_sud&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
+  "Geodata-Gov-2026_Ortofoto_Moldova_Satellite": {
+    "attributionHtml": "<a href=\"https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/646c6c0a-a39d-44cc-8cba-72781971925a\" target=\"_blank\" rel=\"noopener\">© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS / Moldova Satellite Orthophoto (2025-2026)</a>",
+    "attributionText": "© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS / Moldova Satellite Orthophoto (2025-2026)",
+    "attributionUrl": "https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/646c6c0a-a39d-44cc-8cba-72781971925a",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857",
+      "EPSG:4026",
+      "EPSG:4326"
+    ],
+    "icon": "https://geoportalinds.gov.md/geonetwork/images/logos/favicon.png",
+    "licenseUrl": "https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/646c6c0a-a39d-44cc-8cba-72781971925a",
+    "tiles": [
+      "https://maps2.ingeocad.md/geoserver/orthophoto/wms?LAYERS=orthophoto:sat_ortho_2026&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://maps2.ingeocad.md/geoserver/orthophoto/wms?LAYERS=orthophoto:sat_ortho_2026&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
   "Geodata-Gov-Topographical-Linemap_Moldova_2017": {
     "attributionHtml": "<a href=\"https://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/39159969-2561-4e1f-92fb-3944f550c046\" target=\"_blank\" rel=\"noopener\">© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS</a>",
     "attributionText": "© Agenţia Geodezie, Cartografie şi Cadastru / Geoportal INDS",
@@ -3557,9 +3659,7 @@
     "availableProjections": [
       "EPSG:4026",
       "EPSG:4326",
-      "EPSG:3857",
-      "EPSG:900913",
-      "CRS:84"
+      "EPSG:3857"
     ],
     "endDate": "2017",
     "icon": "https://geoportalinds.gov.md/geonetwork/images/logos/favicon.png",
@@ -3784,22 +3884,23 @@
   "geoEuskadi-basemap": {
     "attributionHtml": "Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi",
     "attributionText": "Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi",
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.euskadi.eus/euskadiko-oinarrizko-mapa-kartografikoaren-wmts-zerbitzua/web01-a2gazter/eu/",
     "tiles": [
       "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/{z}/{y}/{x}.png"
     ],
     "urlTemplate": "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/{zoom}/{y}/{x}.png"
   },
   "geoEuskadi-ORTO": {
-    "attributionHtml": "Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi",
+    "attributionHtml": "<a href=\"https://www.geo.euskadi.eus/normativa-sobre-informacion-geografica/webgeo00-content/eu/\" target=\"_blank\" rel=\"noopener\">Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi</a>",
     "attributionText": "Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi",
+    "attributionUrl": "https://www.geo.euskadi.eus/normativa-sobre-informacion-geografica/webgeo00-content/eu/",
     "availableProjections": [
       "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:25830"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.euskadi.eus/geografikoak/euskal-autonomia-erkidegoko-ortoirudiak-bistaratzeko-zerbitzua/web01-a2garrai/eu/",
     "tiles": [
       "https://www.geo.euskadi.eus/WMS_ORTOARGAZKIAK?LAYERS=ORTO_EGUNERATUENA_MAS_ACTUALIZADA&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
@@ -3810,7 +3911,6 @@
     "attributionText": "geoimage.at",
     "attributionUrl": "http://geoimage.at",
     "availableProjections": [
-      "CRS:84",
       "EPSG:25832",
       "EPSG:25833",
       "EPSG:3034",
@@ -3843,7 +3943,6 @@
     "attributionText": "Ortho Littorale 2000 - Ministère en charge de l’environnement",
     "attributionUrl": "http://www.geocatalogue.fr/Detail.do?fileIdentifier=c86fbd16-a7c6-4053-af40-57acb684cbd7",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -3860,7 +3959,6 @@
     "attributionText": "© Typologie et usage - sentier du littoral français (métropole et outre-mer) - Ministère en charge de l’environnement - 2020",
     "attributionUrl": "http://www.geocatalogue.fr/Detail.do?fileIdentifier=0fb2abdf-2809-4c2f-9323-f016ccc116aa",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857"
     ],
@@ -3875,7 +3973,6 @@
     "attributionText": "Ortho Littorale v2 - Ministère en charge de l’environnement",
     "attributionUrl": "http://www.geocatalogue.fr/Detail.do?fileIdentifier=345b8853-8090-4b06-bc91-a5a25df9a645",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -3903,9 +4000,9 @@
     "icon": "https://wiki.openstreetmap.org/w/images/f/fd/Geoportal2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Geoportal.gov.pl",
     "tiles": [
-      "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?LAYERS=prg-adresy&STYLES=default&FORMAT=image/png&TRANSPARENT=TRUE&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?language=pol&FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=A07_Punkty_adresowe&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?LAYERS=prg-adresy&STYLES=default&FORMAT=image/png&TRANSPARENT=TRUE&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?language=pol&FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=A07_Punkty_adresowe&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "Geoportal2-PL-aerial_archival_image_WMS": {
     "attributionHtml": "<a href=\"https://www.geoportal.gov.pl/\" target=\"_blank\" rel=\"noopener\">Główny Urząd Geodezji i Kartografii</a>",
@@ -3933,7 +4030,6 @@
     "attributionText": "Główny Urząd Geodezji i Kartografii",
     "attributionUrl": "https://www.geoportal.gov.pl/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2176",
       "EPSG:2177",
       "EPSG:2178",
@@ -3959,6 +4055,26 @@
       "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:{z}&tileRow={y}&tileCol={x}"
     ],
     "urlTemplate": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:{zoom}&tileRow={y}&tileCol={x}"
+  },
+  "Geoportal2-PL-BDOT500_WMS": {
+    "attributionHtml": "<a href=\"https://www.geoportal.gov.pl/\" target=\"_blank\" rel=\"noopener\">Główny Urząd Geodezji i Kartografii</a>",
+    "attributionText": "Główny Urząd Geodezji i Kartografii",
+    "attributionUrl": "https://www.geoportal.gov.pl/",
+    "availableProjections": [
+      "EPSG:2176",
+      "EPSG:2177",
+      "EPSG:2178",
+      "EPSG:2179",
+      "EPSG:2180",
+      "EPSG:3857",
+      "EPSG:4326"
+    ],
+    "icon": "https://wiki.openstreetmap.org/w/images/f/fd/Geoportal2.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Geoportal.gov.pl",
+    "tiles": [
+      "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaBazDanychObiektowTopograficznych?BBOX={bbox-epsg-3857}&CRS=EPSG:3857&FORMAT=image/jpeg&HEIGHT=256&LAYERS=bdot&REQUEST=GetMap&SERVICE=WMS&STYLES=&VERSION=1.3.0&WIDTH=256"
+    ],
+    "urlTemplate": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaBazDanychObiektowTopograficznych?BBOX={bbox}&CRS={proj}&FORMAT=image/jpeg&HEIGHT={height}&LAYERS=bdot&REQUEST=GetMap&SERVICE=WMS&STYLES=&VERSION=1.3.0&WIDTH={width}"
   },
   "Geoportal2-PL-boundaries-of-communes_WMS": {
     "attributionHtml": "<a href=\"https://www.geoportal.gov.pl/\" target=\"_blank\" rel=\"noopener\">Główny Urząd Geodezji i Kartografii</a>",
@@ -4101,7 +4217,6 @@
     "attributionText": "Główny Urząd Geodezji i Kartografii",
     "attributionUrl": "https://www.geoportal.gov.pl/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2180",
       "EPSG:4326"
     ],
@@ -4117,7 +4232,6 @@
     "attributionText": "Główny Urząd Geodezji i Kartografii",
     "attributionUrl": "https://www.geoportal.gov.pl/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2180",
       "EPSG:4326"
     ],
@@ -4173,7 +4287,6 @@
     "attributionText": "Centralny Ośrodek Dokumentacji Geodezyjnej i Kartograficznej",
     "attributionUrl": "http://www.codgik.gov.pl/index.php/darmowe-dane/prng.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2176",
       "EPSG:2177",
       "EPSG:2178",
@@ -4214,7 +4327,6 @@
     "attributionText": "Główny Urząd Geodezji i Kartografii",
     "attributionUrl": "https://www.geoportal.gov.pl/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2176",
       "EPSG:2177",
       "EPSG:2178",
@@ -4285,9 +4397,9 @@
     "icon": "https://wiki.openstreetmap.org/w/images/f/fd/Geoportal2.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Geoportal.gov.pl",
     "tiles": [
-      "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?LAYERS=prg-ulice&STYLES=default&FORMAT=image/png&TRANSPARENT=TRUE&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?language=pol&FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=A08_Ulice_Linie&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?LAYERS=prg-ulice&STYLES=default&FORMAT=image/png&TRANSPARENT=TRUE&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej?language=pol&FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=A08_Ulice_Linie&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "Geoportal2-PL-telecommunications-cable_WMS": {
     "attributionHtml": "<a href=\"https://www.geoportal.gov.pl/\" target=\"_blank\" rel=\"noopener\">Główny Urząd Geodezji i Kartografii</a>",
@@ -4853,7 +4965,6 @@
     "attributionText": "Sadrži podatke Geografskog informacijskog sustava Grada Rijeke",
     "attributionUrl": "http://data.rijeka.hr/hr/dataset/gis-grad-rijeka",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3035",
       "EPSG:3765",
       "EPSG:3857",
@@ -4945,12 +5056,10 @@
     "attributionText": "Urząd Miasta Gliwice",
     "attributionUrl": "https://msip.gliwice.eu/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2175",
       "EPSG:2177",
       "EPSG:2180",
-      "EPSG:4326",
-      "EPSG:900913"
+      "EPSG:4326"
     ],
     "endDate": "2003",
     "group": {
@@ -5127,12 +5236,10 @@
     "attributionText": "Urząd Miasta Gliwice",
     "attributionUrl": "https://msip.gliwice.eu/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2175",
       "EPSG:2177",
       "EPSG:2180",
-      "EPSG:4326",
-      "EPSG:900913"
+      "EPSG:4326"
     ],
     "licenseUrl": "https://msip.gliwice.eu/portal-planistyczny-otwarte-dane",
     "tiles": [
@@ -5302,10 +5409,10 @@
     ],
     "urlTemplate": "https://opengeodata.goteborg.se/services/ortofoto/wms/v1?LAYERS=orto&STYLES=raster&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
-  "GRAFCAN_Express-Canary_Islands": {
-    "attributionHtml": "<a href=\"https://catalogo.idecanarias.es/geonetwork/srv/spa/catalog.search#/metadata/spagrafcan_ORTOWMS_20160101\" target=\"_blank\" rel=\"noopener\">GRAFCAN OrtoExpress</a>",
-    "attributionText": "GRAFCAN OrtoExpress",
-    "attributionUrl": "https://catalogo.idecanarias.es/geonetwork/srv/spa/catalog.search#/metadata/spagrafcan_ORTOWMS_20160101",
+  "GRAFCAN-Territorial": {
+    "attributionHtml": "<a href=\"https://www.idecanarias.es/listado_servicios/ortofoto-territorial\" target=\"_blank\" rel=\"noopener\">GRAFCAN Ortofoto Territorial</a>",
+    "attributionText": "GRAFCAN Ortofoto Territorial",
+    "attributionUrl": "https://www.idecanarias.es/listado_servicios/ortofoto-territorial",
     "availableProjections": [
       "EPSG:3857",
       "EPSG:4083",
@@ -5313,21 +5420,39 @@
       "EPSG:32627",
       "EPSG:32628"
     ],
+    "licenseUrl": "https://catalogo.idecanarias.es/geonetwork/srv/spa/catalog.search#/metadata/spagrafcan_ORTOWMS_20160101",
     "tiles": [
       "https://idecan1.grafcan.es/ServicioWMS/OrtoExpress?LAYERS=ortoexpress&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
     "urlTemplate": "https://idecan1.grafcan.es/ServicioWMS/OrtoExpress?LAYERS=ortoexpress&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
-  "GRAFCAN-Canary_Islands": {
-    "attributionHtml": "<a href=\"https://catalogo.idecanarias.es/geonetwork/srv/spa/catalog.search#/metadata/spagrafcan_ORTOURBANAWMS_20160101\" target=\"_blank\" rel=\"noopener\">GRAFCAN OrtoExpress Urbana</a>",
-    "attributionText": "GRAFCAN OrtoExpress Urbana",
-    "attributionUrl": "https://catalogo.idecanarias.es/geonetwork/srv/spa/catalog.search#/metadata/spagrafcan_ORTOURBANAWMS_20160101",
+  "GRAFCAN-Topografico": {
+    "attributionHtml": "<a href=\"https://www.idecanarias.es/listado_servicios/mapa-topografico-integrado\" target=\"_blank\" rel=\"noopener\">GRAFCAN Mapa Topográfico Integrado</a>",
+    "attributionText": "GRAFCAN Mapa Topográfico Integrado",
+    "attributionUrl": "https://www.idecanarias.es/listado_servicios/mapa-topografico-integrado",
     "availableProjections": [
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:32627",
       "EPSG:32628"
     ],
+    "licenseUrl": "https://catalogo.idecanarias.es/geonetwork/srv/spa/catalog.search#/metadata/spagrafcan_MTIWMS_20160101",
+    "tiles": [
+      "https://idecan2.grafcan.es/ServicioWMS/MTI?LAYERS=WMS_MTI&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://idecan2.grafcan.es/ServicioWMS/MTI?LAYERS=WMS_MTI&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "GRAFCAN-Urbana": {
+    "attributionHtml": "<a href=\"https://www.idecanarias.es/listado_servicios/ortofoto-urbana-de-alta-resolucion-consolidado-final\" target=\"_blank\" rel=\"noopener\">GRAFCAN Ortofoto Urbana de alta resolución</a>",
+    "attributionText": "GRAFCAN Ortofoto Urbana de alta resolución",
+    "attributionUrl": "https://www.idecanarias.es/listado_servicios/ortofoto-urbana-de-alta-resolucion-consolidado-final",
+    "availableProjections": [
+      "EPSG:3857",
+      "EPSG:4326",
+      "EPSG:32627",
+      "EPSG:32628"
+    ],
+    "licenseUrl": "https://catalogo.idecanarias.es/geonetwork/srv/spa/catalog.search#/metadata/spagrafcan_ORTOURBANAWMS_20160101",
     "tiles": [
       "https://idecan1.grafcan.es/ServicioWMS/OrtoUrb?LAYERS=OU&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
@@ -5618,6 +5743,7 @@
     "attributionText": "Glucksman Map Library, Trinity College Dublin",
     "attributionUrl": "https://wiki.openstreetmap.org/wiki/Ireland/Background_Imagery#Trinity_College_Dublin",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/ie/IrelandBritishWarOffice-GSGS3906.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Ireland/Background_Imagery#Trinity_College_Dublin",
     "tiles": [
       "https://mapwarper.net/layers/tile/101/{z}/{x}/{y}.png"
     ],
@@ -5629,6 +5755,7 @@
     "attributionUrl": "https://geo.nls.uk/maps",
     "endDate": "1943",
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/gb/NLS-OSTownPlan-Hamilton1858.png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Ireland/Background_Imagery#National_Library_of_Scotland",
     "startDate": "1941",
     "tiles": [
       "https://geo.nls.uk/maps/ireland/gsgs4136/{z}/{x}/{y}.png"
@@ -5893,7 +6020,7 @@
       "EPSG:4326",
       "EPSG:25831"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://catalegs.ide.cat/geonetwork/srv/cat/catalog.search#/metadata/mapa-base-wms",
     "tiles": [
       "https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wms?LAYERS=orto&STYLES=&SRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap"
     ],
@@ -5911,7 +6038,7 @@
       "EPSG:25831",
       "EPSG:32631"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://ide.cat/geonetwork/srv/cat/catalog.search#/metadata/orto-territorial-wms",
     "tiles": [
       "http://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?LAYERS=ortofoto_color_provisional&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
@@ -5927,7 +6054,7 @@
       "EPSG:25831",
       "EPSG:32631"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Servei-de-Mapa-Base",
     "tiles": [
       "https://geoserveis.icgc.cat/icc_mapesmultibase/utm/wms/service?LAYERS=topo&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
@@ -5937,7 +6064,6 @@
     "attributionHtml": "Infraestructura de Dades Espacials de les Illes Balears",
     "attributionText": "Infraestructura de Dades Espacials de les Illes Balears",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4230",
       "EPSG:4258",
@@ -5946,17 +6072,16 @@
       "EPSG:25831",
       "EPSG:32631"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://ideib.caib.es/cataleg/srv/cat/catalog.search#/metadata/B9DFC897-064E-4004-8DF4-1CB3C2CA8E78",
     "tiles": [
-      "https://ideib.caib.es/geoserveis/services/imatges/GOIB_Orto_IB/MapServer/WmsServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://ideib.caib.es/geoserveis/services/imatges/GOIB_Orto_IB/MapServer/WmsServer?FORMAT=image/jpeg&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://ideib.caib.es/geoserveis/services/imatges/GOIB_Orto_IB/MapServer/WmsServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://ideib.caib.es/geoserveis/services/imatges/GOIB_Orto_IB/MapServer/WmsServer?FORMAT=image/jpeg&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "IECA-CDAU-wms": {
     "attributionHtml": "Instituto de Estadística y Cartografía de Andalucía - Junta de Andalucía",
     "attributionText": "Instituto de Estadística y Cartografía de Andalucía - Junta de Andalucía",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -5968,25 +6093,25 @@
       "EPSG:25831",
       "EPSG:32629",
       "EPSG:32630",
-      "EPSG:32631",
-      "EPSG:900913"
+      "EPSG:32631"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/callejero-digital-de-andalucia-unificado-cdau",
     "tiles": [
-      "https://www.callejerodeandalucia.es/servicios/cdau/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image/png&STYLES=&TRANSPARENT=true&LAYERS=CDAU_wms&TILED=false&WIDTH=256&HEIGHT=256&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&_=0"
+      "https://www.callejerodeandalucia.es/servicios/cdau/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image/jpeg&STYLES=&TRANSPARENT=true&LAYERS=CDAU_wms&TILED=false&WIDTH=256&HEIGHT=256&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&_=0"
     ],
-    "urlTemplate": "https://www.callejerodeandalucia.es/servicios/cdau/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image/png&STYLES=&TRANSPARENT=true&LAYERS=CDAU_wms&TILED=false&WIDTH={width}&HEIGHT={height}&CRS={proj}&BBOX={bbox}&_=0"
+    "urlTemplate": "https://www.callejerodeandalucia.es/servicios/cdau/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image/jpeg&STYLES=&TRANSPARENT=true&LAYERS=CDAU_wms&TILED=false&WIDTH={width}&HEIGHT={height}&CRS={proj}&BBOX={bbox}&_=0"
   },
   "IGEAR-ortofoto": {
-    "attributionHtml": "Instituto Geográfico de Aragón - Gobierno de Aragón",
+    "attributionHtml": "<a href=\"https://idearagon.aragon.es/portal/\" target=\"_blank\" rel=\"noopener\">Instituto Geográfico de Aragón - Gobierno de Aragón</a>",
     "attributionText": "Instituto Geográfico de Aragón - Gobierno de Aragón",
+    "attributionUrl": "https://idearagon.aragon.es/portal/",
     "availableProjections": [
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:25830",
       "EPSG:25831"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://idearagon.aragon.es/portal/wms.jsp",
     "tiles": [
       "https://icearagon.aragon.es/AragonFoto?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image/png&STYLES=&TRANSPARENT=true&LAYERS=orto_reciente,spot,landsat,modis&WIDTH=256&HEIGHT=256&CRS=EPSG:3857&BBOX={bbox-epsg-3857}"
     ],
@@ -6023,7 +6148,7 @@
       "EPSG:32630",
       "EPSG:32631"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.ign.es/web/ign/portal/ide-area-nodo-ide-ign",
     "tiles": [
       "http://www.ign.es/wms-inspire/mapa-raster?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=mtn_rasterizado&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
@@ -6038,7 +6163,7 @@
       "EPSG:25829",
       "EPSG:25830"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.itacyl.es/agro-y-geo-tecnologia/descarga-datos-geograficos/fotografia-aerea",
     "tiles": [
       "http://orto.wms.itacyl.es/WMS?LAYERS=Ortofoto_CyL&STYLES=default&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
@@ -6049,7 +6174,6 @@
     "attributionText": "© Kalmar municipality",
     "attributionUrl": "http://data-kalmar.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3010",
       "EPSG:3857",
       "EPSG:4326"
@@ -6068,7 +6192,6 @@
     "attributionText": "© Kalmar municipality",
     "attributionUrl": "http://data-kalmar.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3010",
       "EPSG:3857",
       "EPSG:4326"
@@ -6087,7 +6210,6 @@
     "attributionText": "© Kalmar municipality",
     "attributionUrl": "http://data-kalmar.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3010",
       "EPSG:3857",
       "EPSG:4326"
@@ -6106,7 +6228,6 @@
     "attributionText": "© Kalmar municipality",
     "attributionUrl": "http://data-kalmar.opendata.arcgis.com/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3010",
       "EPSG:3857",
       "EPSG:4326"
@@ -6232,7 +6353,6 @@
     "attributionText": "© Kartverket",
     "attributionUrl": "https://hoydedata.no/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -6281,7 +6401,6 @@
     "attributionText": "© Kartverket",
     "attributionUrl": "https://hoydedata.no/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -6727,8 +6846,7 @@
       "EPSG:32634",
       "EPSG:32635",
       "EPSG:32636",
-      "EPSG:32661",
-      "EPSG:900913"
+      "EPSG:32661"
     ],
     "icon": "https://www.kartverket.no/public/favicons/favicon-32x32.png",
     "licenseUrl": "https://community.openstreetmap.org/t/fornyet-tillatelse-fra-kartverket/92410",
@@ -6736,16 +6854,6 @@
       "https://wms.geonorge.no/skwms1/wms.vegnett2?language=eng&FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=vegnett2&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
     "urlTemplate": "https://wms.geonorge.no/skwms1/wms.vegnett2?language=eng&FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=vegnett2&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
-  },
-  "kelkkareitit": {
-    "attributionHtml": "<a href=\"https://kelkkareitit.fi/\" target=\"_blank\" rel=\"noopener\">© Kelkkareitit.fi</a>",
-    "attributionText": "© Kelkkareitit.fi",
-    "attributionUrl": "https://kelkkareitit.fi/",
-    "icon": "https://kelkkareitit.fi/img/favicon.png",
-    "tiles": [
-      "https://tiles.kelkkareitit.fi/kelkkareitit/{z}/{x}/{y}.png"
-    ],
-    "urlTemplate": "https://tiles.kelkkareitit.fi/kelkkareitit/{zoom}/{x}/{y}.png"
   },
   "Klimadatastyrelsen_Screen_Map": {
     "attributionHtml": "<a href=\"https://datafordeler.dk/dataoversigt/skaermkortet/skaermkortet-klassisk-plus-daempet-plus-graa-wms/\" target=\"_blank\" rel=\"noopener\">(CC BY 4.0) Klimadatastyrelsen</a>",
@@ -6856,7 +6964,8 @@
       "EPSG:4258",
       "EPSG:4326",
       "EPSG:5555",
-      "EPSG:25832"
+      "EPSG:25832",
+      "EPSG:31466"
     ],
     "endDate": "2024-07-09",
     "licenseUrl": "https://www.govdata.de/dl-de/zero-2-0",
@@ -6939,6 +7048,7 @@
     "attributionHtml": "Kanton Basel-Stadt OF 2015",
     "attributionText": "Kanton Basel-Stadt OF 2015",
     "endDate": "2015",
+    "licenseUrl": "https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/geo/anwendungen/agb",
     "startDate": "2015",
     "tiles": [
       "https://mapproxy.osm.ch/tiles/KTBASELSTADT2015/EPSG900913/{z}/{x}/{y}.png?origin=nw"
@@ -7015,7 +7125,6 @@
     "attributionText": "© Kystverket",
     "attributionUrl": "https://www.kystverket.no/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:4326",
       "EPSG:3857",
       "EPSG:25833",
@@ -7174,8 +7283,11 @@
     "attributionHtml": "Urząd Miasta Łodzi",
     "attributionText": "Urząd Miasta Łodzi",
     "availableProjections": [
-      "EPSG:4326",
-      "EPSG:2177"
+      "CRS:84",
+      "EPSG:2177",
+      "EPSG:2180",
+      "EPSG:3857",
+      "EPSG:4326"
     ],
     "endDate": "2015",
     "group": {
@@ -7185,11 +7297,12 @@
       "order": 0
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/pl/dOrthophotomap2017(aerialimage).png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Pl:Permissions",
     "startDate": "2015",
     "tiles": [
-      "https://gis.mapa.lodz.pl/awiskts/services/Ortofotomapa/Ortofotomapa/MapServer/WMSServer?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://mapa.lodz.pl/3/services/OGC/ortofotomapy/MapServer/WMSServer?LAYERS=6&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://gis.mapa.lodz.pl/awiskts/services/Ortofotomapa/Ortofotomapa/MapServer/WMSServer?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://mapa.lodz.pl/3/services/OGC/ortofotomapy/MapServer/WMSServer?LAYERS=6&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "Lodz-2017": {
     "attributionHtml": "Urząd Miasta Łodzi",
@@ -7209,6 +7322,7 @@
       "order": 1
     },
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/pl/dOrthophotomap2017(aerialimage).png",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/Pl:Permissions",
     "startDate": "2017",
     "tiles": [
       "https://mapa.lodz.pl/3/services/OGC/Ortofotomapa/MapServer/WmsServer?LAYERS=0&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -7233,7 +7347,6 @@
     "attributionText": "© Loire-Atlantique ouverture des données publiques",
     "attributionUrl": "http://data2.loire-atlantique.fr/licences/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2154",
       "EPSG:3857",
       "EPSG:4326"
@@ -7294,7 +7407,6 @@
     "attributionText": "© GeoBasis-DE/LVermGeo LSA",
     "attributionUrl": "https://www.lvermgeo.sachsen-anhalt.de/de/kostenfreie_geobasisdaten_lvermgeo.html",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:25832",
@@ -7418,33 +7530,31 @@
     ],
     "urlTemplate": "https://{switch:wmts1,wmts2,wmts3}.geoportail.lu/opendata/wmts/ortho_2019_winter/GLOBAL_WEBMERCATOR_4_V3/{zoom}/{x}/{y}.jpeg"
   },
-  "lu.geoportail.opendata.ortho2021": {
+  "lu.geoportail.opendata.ortho2025": {
     "attributionHtml": "<a href=\"https://data.public.lu/en/datasets/bd-l-ortho-webservices-wms-et-wmts\" target=\"_blank\" rel=\"noopener\">Administration du Cadastre et de la Topographie</a>",
     "attributionText": "Administration du Cadastre et de la Topographie",
     "attributionUrl": "https://data.public.lu/en/datasets/bd-l-ortho-webservices-wms-et-wmts",
-    "endDate": "2021-09-23",
+    "endDate": "2025-05-13",
     "icon": "https://www.geoportail.lu/static/img/lion.png",
     "licenseUrl": "https://data.public.lu/en/datasets/bd-l-ortho-webservices-wms-et-wmts",
-    "startDate": "2021-09-03",
+    "startDate": "2025-05-10",
     "tiles": [
-      "https://wmts3.geoportail.lu/opendata/wmts/ortho_2021/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg",
-      "https://wmts4.geoportail.lu/opendata/wmts/ortho_2021/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg"
+      "https://wmts.geoportail.lu/opendata/wmts/ortho_latest/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg"
     ],
-    "urlTemplate": "https://{switch:wmts3,wmts4}.geoportail.lu/opendata/wmts/ortho_2021/GLOBAL_WEBMERCATOR_4_V3/{zoom}/{x}/{y}.jpeg"
+    "urlTemplate": "https://wmts.geoportail.lu/opendata/wmts/ortho_latest/GLOBAL_WEBMERCATOR_4_V3/{zoom}/{x}/{y}.jpeg"
   },
-  "lu.geoportail.opendata.ortholatest": {
+  "lu.geoportail.opendata.ortho2025winter": {
     "attributionHtml": "<a href=\"https://data.public.lu/en/datasets/bd-l-ortho-webservices-wms-et-wmts\" target=\"_blank\" rel=\"noopener\">Administration du Cadastre et de la Topographie</a>",
     "attributionText": "Administration du Cadastre et de la Topographie",
     "attributionUrl": "https://data.public.lu/en/datasets/bd-l-ortho-webservices-wms-et-wmts",
-    "endDate": "2022-09-23",
+    "endDate": "2025-02-19",
     "icon": "https://www.geoportail.lu/static/img/lion.png",
     "licenseUrl": "https://data.public.lu/en/datasets/bd-l-ortho-webservices-wms-et-wmts",
-    "startDate": "2022-08-10",
+    "startDate": "2025-02-01",
     "tiles": [
-      "https://wmts1.geoportail.lu/opendata/wmts/ortho_latest/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg",
-      "https://wmts2.geoportail.lu/opendata/wmts/ortho_latest/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg"
+      "https://wmts.geoportail.lu/opendata/wmts/ortho_2025_winter/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg"
     ],
-    "urlTemplate": "https://{switch:wmts1,wmts2}.geoportail.lu/opendata/wmts/ortho_latest/GLOBAL_WEBMERCATOR_4_V3/{zoom}/{x}/{y}.jpeg"
+    "urlTemplate": "https://wmts.geoportail.lu/opendata/wmts/ortho_2025_winter/GLOBAL_WEBMERCATOR_4_V3/{zoom}/{x}/{y}.jpeg"
   },
   "lu.geoportail.opendata.topo": {
     "attributionHtml": "<a href=\"https://data.public.lu/en/datasets/cartes-topographiques-services-wms-et-wmts\" target=\"_blank\" rel=\"noopener\">Administration du Cadastre et de la Topographie</a>",
@@ -7538,7 +7648,6 @@
     "attributionHtml": "Data: VZD (Valsts zemes dienests); WMS service: LVM (Latvijas valsts meži)",
     "attributionText": "Data: VZD (Valsts zemes dienests); WMS service: LVM (Latvijas valsts meži)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7555,7 +7664,6 @@
     "attributionHtml": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0) and WMS service.",
     "attributionText": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0) and WMS service.",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7572,7 +7680,6 @@
     "attributionHtml": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0) and WMS service.",
     "attributionText": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0) and WMS service.",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7589,7 +7696,6 @@
     "attributionHtml": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "attributionText": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7612,7 +7718,6 @@
     "attributionHtml": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "attributionText": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7635,7 +7740,6 @@
     "attributionHtml": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "attributionText": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7658,7 +7762,6 @@
     "attributionHtml": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "attributionText": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7673,7 +7776,6 @@
     "attributionHtml": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "attributionText": "LĢIA (Latvian Geospatial Information Agency) provided these open data (CC0). WMS service is provided by LVM (Latvian State Forestry).",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3059",
       "EPSG:3857",
       "EPSG:4326"
@@ -7754,16 +7856,16 @@
       "EPSG:4326",
       "EPSG:25830"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/wiki/ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a#Portal_de_Datos_Abiertos_del_Ayuntamiento_de_Madrid",
+    "licenseUrl": "https://geoportal.madrid.es/IDEAM_WBGEOPORTAL/dataset.iam?id=555821cd-9c3f-4043-87ed-2f3c002c2f22",
     "tiles": [
       "https://servpub.madrid.es/georaster/ORTOFOTOS/ORTOFOTO_MADRID/ows?LAYERS=ORTOFOTO_MADRID&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
     "urlTemplate": "https://servpub.madrid.es/georaster/ORTOFOTOS/ORTOFOTO_MADRID/ows?LAYERS=ORTOFOTO_MADRID&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "mainzlatestaerialimagery": {
-    "attributionHtml": "<a href=\"https://www.mainz.de/vv/oe/100140100000035141.php#tab-infos\" target=\"_blank\" rel=\"noopener\">Vermessung und Geoinformation Mainz</a>",
+    "attributionHtml": "<a href=\"https://www.mainz.de/vv/oe/sachgebiet-geographisches-informationssystem-und-kartographie\" target=\"_blank\" rel=\"noopener\">Vermessung und Geoinformation Mainz</a>",
     "attributionText": "Vermessung und Geoinformation Mainz",
-    "attributionUrl": "https://www.mainz.de/vv/oe/100140100000035141.php#tab-infos",
+    "attributionUrl": "https://www.mainz.de/vv/oe/sachgebiet-geographisches-informationssystem-und-kartographie",
     "availableProjections": [
       "EPSG:3857",
       "EPSG:4258",
@@ -7771,7 +7873,7 @@
       "EPSG:25832",
       "EPSG:31467"
     ],
-    "icon": "https://www.mainz.de/configuration.inc.php.media/27432/Logo-72px.png",
+    "icon": "https://www.mainz.de/favicon-96x96.png",
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/Mainz/amtliche_Daten_f%C3%BCr_OSM",
     "tiles": [
       "https://geodaten.mainz.de/map/service?LAYERS=Orthophoto&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -7819,7 +7921,6 @@
     "attributionText": "© Miljødirektoratet",
     "attributionUrl": "https://www.miljodirektoratet.no/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -7877,7 +7978,6 @@
     "attributionUrl": "https://www.maanmittauslaitos.fi/en",
     "availableProjections": [
       "EPSG:4326",
-      "EPSG:900913",
       "EPSG:3857",
       "EPSG:3067"
     ],
@@ -7894,7 +7994,6 @@
     "attributionUrl": "https://www.maanmittauslaitos.fi/en",
     "availableProjections": [
       "EPSG:4326",
-      "EPSG:900913",
       "EPSG:3857",
       "EPSG:3067"
     ],
@@ -7911,7 +8010,6 @@
     "attributionUrl": "https://www.maanmittauslaitos.fi/en",
     "availableProjections": [
       "EPSG:4326",
-      "EPSG:900913",
       "EPSG:3857",
       "EPSG:3067"
     ],
@@ -8223,7 +8321,6 @@
     "attributionText": "© Naturvårdsverket, CC0",
     "attributionUrl": "https://www.naturvardsverket.se/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3006",
       "EPSG:3007",
       "EPSG:3008",
@@ -8253,7 +8350,6 @@
     "attributionText": "© Naturvårdsverket, CC0",
     "attributionUrl": "https://www.naturvardsverket.se/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3006",
       "EPSG:3007",
       "EPSG:3008",
@@ -8304,8 +8400,7 @@
       "EPSG:31466",
       "EPSG:31467",
       "EPSG:31468",
-      "EPSG:31469",
-      "EPSG:900913"
+      "EPSG:31469"
     ],
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Niedersachsen/Geoportal",
     "tiles": [
@@ -9429,7 +9524,6 @@
     "attributionText": "© Sokkeldirektoratet",
     "attributionUrl": "https://www.sodir.no/en/facts/data-and-analyses/open-data/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:25829",
@@ -9539,8 +9633,7 @@
       "EPSG:31466",
       "EPSG:31467",
       "EPSG:31468",
-      "EPSG:31469",
-      "EPSG:900913"
+      "EPSG:31469"
     ],
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/North_Rine-Westphalia.png",
     "licenseUrl": "https://www.bezreg-koeln.nrw.de/system/files/media/document/file/lizenzbedingungen_geobasis_nrw.pdf",
@@ -9571,8 +9664,7 @@
       "EPSG:31466",
       "EPSG:31467",
       "EPSG:31468",
-      "EPSG:31469",
-      "EPSG:900913"
+      "EPSG:31469"
     ],
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/North_Rine-Westphalia.png",
     "licenseUrl": "https://www.bezreg-koeln.nrw.de/system/files/media/document/file/lizenzbedingungen_geobasis_nrw.pdf",
@@ -9603,8 +9695,7 @@
       "EPSG:31466",
       "EPSG:31467",
       "EPSG:31468",
-      "EPSG:31469",
-      "EPSG:900913"
+      "EPSG:31469"
     ],
     "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/North_Rine-Westphalia.png",
     "licenseUrl": "https://www.bezreg-koeln.nrw.de/system/files/media/document/file/lizenzbedingungen_geobasis_nrw.pdf",
@@ -9778,7 +9869,6 @@
     "attributionText": "© NVE",
     "attributionUrl": "https://www.nve.no/karttjenester/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:25831",
@@ -9806,7 +9896,6 @@
     "attributionText": "© NVE",
     "attributionUrl": "https://www.nve.no/karttjenester/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:25831",
@@ -9829,9 +9918,9 @@
     ],
     "urlTemplate": "https://kart.nve.no/enterprise/services/Vindkraft2/MapServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Vindkraft_konsesjon_gitt_ikke_utbygd,Vindkraft_under_bygging,Vindkraft_utbygd,Vindkraftomrade,Vindturbin&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
-  "OGDLidarZH-DOM": {
-    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Oberflächenschummerung",
-    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Oberflächenschummerung",
+  "OGDLidarZH-DOM-2014": {
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
     "availableProjections": [
       "EPSG:2056",
       "EPSG:3857",
@@ -9841,16 +9930,22 @@
       "EPSG:21781"
     ],
     "endDate": "2014",
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
+    "group": {
+      "id": "kanton-zurich-oberflächenschummerung",
+      "label": "2014",
+      "name": "Kanton Zurich, Oberflächenschummerung",
+      "order": 0
+    },
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2014",
     "tiles": [
-      "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/Lidar2014ZH?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/Lidar2014ZH?LAYERS=dom2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDLidarZH-DOM-2017": {
-    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Oberflächenschummerung",
-    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Oberflächenschummerung",
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
     "availableProjections": [
       "EPSG:2056",
       "EPSG:3857",
@@ -9860,16 +9955,47 @@
       "EPSG:21781"
     ],
     "endDate": "2017",
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
+    "group": {
+      "id": "kanton-zurich-oberflächenschummerung",
+      "label": "2017",
+      "name": "Kanton Zurich, Oberflächenschummerung",
+      "order": 1
+    },
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2017",
     "tiles": [
-      "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/Lidar2017ZH?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/Lidar2017ZH?LAYERS=dom2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
-  "OGDLidarZH-DTM": {
-    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Terrainschummerung",
-    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Terrainschummerung",
+  "OGDLidarZH-DOM-2022": {
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "availableProjections": [
+      "EPSG:2056",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:21780",
+      "EPSG:21781"
+    ],
+    "endDate": "2022",
+    "group": {
+      "id": "kanton-zurich-oberflächenschummerung",
+      "label": "2021/22",
+      "name": "Kanton Zurich, Oberflächenschummerung",
+      "order": 2
+    },
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
+    "startDate": "2021",
+    "tiles": [
+      "https://wms.zh.ch/Lidar2022ZH?LAYERS=dom2022_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://wms.zh.ch/Lidar2022ZH?LAYERS=dom2022_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "OGDLidarZH-DTM-2014": {
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
     "availableProjections": [
       "EPSG:2056",
       "EPSG:3857",
@@ -9879,16 +10005,22 @@
       "EPSG:21781"
     ],
     "endDate": "2014",
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
+    "group": {
+      "id": "kanton-zurich-terrainschummerung",
+      "label": "2014",
+      "name": "Kanton Zurich, Terrainschummerung",
+      "order": 0
+    },
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2014",
     "tiles": [
-      "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/Lidar2014ZH?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/Lidar2014ZH?LAYERS=dtm2014_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDLidarZH-DTM-2017": {
-    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Terrainschummerung",
-    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Terrainschummerung",
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
     "availableProjections": [
       "EPSG:2056",
       "EPSG:3857",
@@ -9898,12 +10030,43 @@
       "EPSG:21781"
     ],
     "endDate": "2017",
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-digitales-hohenmodell-ogd1",
+    "group": {
+      "id": "kanton-zurich-terrainschummerung",
+      "label": "2017",
+      "name": "Kanton Zurich, Terrainschummerung",
+      "order": 1
+    },
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2017",
     "tiles": [
-      "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/Lidar2017ZH?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/LidarZHWMS?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/Lidar2017ZH?LAYERS=dtm2017_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "OGDLidarZH-DTM-2022": {
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Digitales Höhenmodell",
+    "availableProjections": [
+      "EPSG:2056",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:21780",
+      "EPSG:21781"
+    ],
+    "endDate": "2022",
+    "group": {
+      "id": "kanton-zurich-terrainschummerung",
+      "label": "2021/22",
+      "name": "Kanton Zurich, Terrainschummerung",
+      "order": 2
+    },
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
+    "startDate": "2021",
+    "tiles": [
+      "https://wms.zh.ch/Lidar2022ZH?LAYERS=dtm2022_relief&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://wms.zh.ch/Lidar2022ZH?LAYERS=dtm2022_relief&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDOrthoZH2015": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2014/15 RGB",
@@ -9923,12 +10086,12 @@
       "name": "Kanton Zurich, Orthofoto ZH RGB 10cm",
       "order": 0
     },
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2014",
     "tiles": [
-      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_s_2014&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoSommer14ZH?LAYERS=ortho_s_2014&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_s_2014&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoSommer14ZH?LAYERS=ortho_s_2014&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDOrthoZH2016": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Frühjahr 2015/16 RGB",
@@ -9948,12 +10111,12 @@
       "name": "Kanton Zurich, Orthofoto ZH RGB 10cm",
       "order": 1
     },
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2015",
     "tiles": [
-      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoWinter15ZH?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoWinter15ZH?SERVICE=WMS&VERSION=1.3.0&STYLES=&REQUEST=GetMap&LAYERS=ortho_w_2015&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "OGDOrthoZH2018": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2018 RGB",
@@ -9973,12 +10136,12 @@
       "name": "Kanton Zurich, Orthofoto ZH RGB 10cm",
       "order": 2
     },
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2018",
     "tiles": [
-      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2018&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoSommer18ZH?LAYERS=ortho_s_2018&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2018&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoSommer18ZH?LAYERS=ortho_s_2018&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDOrthoZH2020": {
     "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2020 RGB",
@@ -9998,16 +10161,16 @@
       "name": "Kanton Zurich, Orthofoto ZH RGB 5cm",
       "order": 0
     },
-    "licenseUrl": "https://opendata.swiss/de/dataset/wms-orthofotos-ogd1",
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2020",
     "tiles": [
-      "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2020&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://wms.zh.ch/OrthoSommer20ZH?LAYERS=ortho_s_2020&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&STYLES=&LAYERS=ortho_s_2020&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://wms.zh.ch/OrthoSommer20ZH?LAYERS=ortho_s_2020&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDOrthoZH2021": {
-    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Frühjahr 2021 RGB 5cm",
-    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Frühjahr 2021 RGB 5cm",
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Frühjahr 2021/22 RGB 5cm",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Frühjahr 2021/22 RGB 5cm",
     "availableProjections": [
       "EPSG:2056",
       "EPSG:3857",
@@ -10016,23 +10179,23 @@
       "EPSG:21780",
       "EPSG:21781"
     ],
-    "endDate": "2021",
+    "endDate": "2022",
     "group": {
       "id": "kanton-zurich-orthofoto-zh-rgb-5cm",
-      "label": "Frühjahr 2021",
+      "label": "Frühjahr 2021/22",
       "name": "Kanton Zurich, Orthofoto ZH RGB 5cm",
       "order": 1
     },
-    "licenseUrl": "https://opendata.swiss/de/dataset/orthofoto-fruhjahr-rgb-infrarot-2021",
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2021",
     "tiles": [
-      "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/OrthoWinter21ZH?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/OrthoWinter21ZH?LAYERS=ortho_w_2021&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "OGDOrthoZH2024": {
-    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2024 RGB 5cm",
-    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2024 RGB 5cm",
+    "attributionHtml": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2024/25 RGB 5cm",
+    "attributionText": "Geographisches Informationssystem des Kantons Zürich (GIS-ZH), Orthofoto ZH Sommer 2024/25 RGB 5cm",
     "availableProjections": [
       "EPSG:2056",
       "EPSG:3857",
@@ -10041,19 +10204,19 @@
       "EPSG:21780",
       "EPSG:21781"
     ],
-    "endDate": "2024",
+    "endDate": "2025",
     "group": {
       "id": "kanton-zurich-orthofoto-zh-rgb-5cm",
-      "label": "Sommer 2024",
+      "label": "Sommer 2024/25",
       "name": "Kanton Zurich, Orthofoto ZH RGB 5cm",
       "order": 2
     },
-    "licenseUrl": "https://opendata.swiss/de/dataset/orthofoto-fruhjahr-rgb-infrarot-2021",
+    "licenseUrl": "https://geo.zh.ch/terms-of-use",
     "startDate": "2024",
     "tiles": [
-      "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://wms.zh.ch/OrthoSommer24ZH?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://wms.zh.ch/OrthoZHWMS?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://wms.zh.ch/OrthoSommer24ZH?LAYERS=ortho_s_2024&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "openlabs-geoportal-public-transport": {
     "attributionHtml": "<a href=\"https://geoportal.openlabs.cc/\" target=\"_blank\" rel=\"noopener\">Data provided by the Muncipality of Tirana hosted by Open Labs</a>",
@@ -10120,9 +10283,9 @@
       "EPSG:27562",
       "EPSG:27572"
     ],
-    "endDate": "2012-03",
+    "endDate": "2012-04",
     "licenseUrl": "https://data.grandlyon.com/portail/fr/assets/licences/ETALAB-Licence-Ouverte-v2.0.pdf",
-    "startDate": "2012-04",
+    "startDate": "2012-03",
     "tiles": [
       "https://imagerie.data.grandlyon.com/geoserver/grandlyon/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=ortho_2012&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
@@ -10190,9 +10353,9 @@
       "EPSG:27562",
       "EPSG:27572"
     ],
-    "endDate": "2022-02-15",
+    "endDate": "2022-03-31",
     "licenseUrl": "https://data.grandlyon.com/portail/fr/assets/licences/ETALAB-Licence-Ouverte-v2.0.pdf",
-    "startDate": "2022-03-31",
+    "startDate": "2022-02-15",
     "tiles": [
       "https://imagerie.data.grandlyon.com/geoserver/grandlyon/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=ortho_2022&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
@@ -12054,7 +12217,6 @@
     "attributionHtml": "PNOA",
     "attributionText": "PNOA",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4080",
       "EPSG:4081",
@@ -12072,7 +12234,7 @@
       "EPSG:32630",
       "EPSG:32631"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.ign.es/web/ign/portal/ide-area-nodo-ide-ign",
     "tiles": [
       "https://wms-pnoa.idee.es/pnoa-provisionales?LAYERS=OrtoimagenRapida&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
@@ -12098,7 +12260,7 @@
       "EPSG:32630",
       "EPSG:32631"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.ign.es/web/ign/portal/ide-area-nodo-ide-ign",
     "tiles": [
       "http://www.ign.es/wms-inspire/pnoa-ma?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=OI.OrthoimageCoverage&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
@@ -12107,7 +12269,7 @@
   "PNOA-Spain-TMS": {
     "attributionHtml": "PNOA",
     "attributionText": "PNOA",
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://www.ign.es/web/ign/portal/ide-area-nodo-ide-ign",
     "tiles": [
       "https://tms-pnoa-ma.idee.es/1.0.0/pnoa-ma/{z}/{x}/{y}.jpeg"
     ],
@@ -12117,7 +12279,6 @@
     "attributionHtml": "Zarząd Geodezji i Katastru Miejskiego GEOPOZ",
     "attributionText": "Zarząd Geodezji i Katastru Miejskiego GEOPOZ",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2177",
       "EPSG:3857",
       "EPSG:4326"
@@ -12350,12 +12511,12 @@
     "attributionText": "Rennes Ville et Métropole, IGN, SDE35, Megalis Bretagne",
     "attributionUrl": "https://public.sig.rennesmetropole.fr/geonetwork/srv/fre/catalog.search#/metadata/b5b958de-9407-4822-9ca5-abb1c57659b7",
     "availableProjections": [
+      "CRS:84",
       "EPSG:2154",
       "EPSG:3857",
       "EPSG:3948",
-      "EPSG:4326",
       "EPSG:4258",
-      "CRS:84"
+      "EPSG:4326"
     ],
     "endDate": "2021-09-02",
     "licenseUrl": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
@@ -12364,6 +12525,30 @@
       "https://public.sig.rennesmetropole.fr/geoserver/raster/ows?LAYERS=ortho2021&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
     "urlTemplate": "https://public.sig.rennesmetropole.fr/geoserver/raster/ows?LAYERS=ortho2021&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DGM": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">©GeoBasis-DE / LVermGeoRP<YEAR>, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "©GeoBasis-DE / LVermGeoRP<YEAR>, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/shade1m.fcgi?LAYERS=rp_shade1m&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/shade1m.fcgi?LAYERS=rp_shade1m&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "Rheinland-Pfalz-DOP20": {
     "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">©GeoBasis-DE / LVermGeoRP<YEAR>, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
@@ -12388,6 +12573,270 @@
       "https://geo4.service24.rlp.de/wms/rp_dop20.fcgi?LAYERS=rp_dop20&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
     "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_dop20.fcgi?LAYERS=rp_dop20&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2016": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2016, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2016, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2016",
+    "group": {
+      "id": "rheinland-pfalz-historisches-dop20--Rheinland-Pfalz-DOP20-2016",
+      "label": "2016",
+      "name": "Rheinland-Pfalz historisches DOP20",
+      "order": 0
+    },
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2016",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2016&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2016&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2017": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2017, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2017, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2017",
+    "group": {
+      "id": "rheinland-pfalz-historisches-dop20--Rheinland-Pfalz-DOP20-2017",
+      "label": "2017",
+      "name": "Rheinland-Pfalz historisches DOP20",
+      "order": 0
+    },
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2017",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2017&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2017&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2018": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2018, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2018, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2018",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2018",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2018&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2018&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2019": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2019, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2019, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2019",
+    "group": {
+      "id": "rheinland-pfalz-historisches-dop20--Rheinland-Pfalz-DOP20-2017",
+      "label": "2019",
+      "name": "Rheinland-Pfalz historisches DOP20",
+      "order": 1
+    },
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2019",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2019&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2019&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2020": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2020, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2020, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2020",
+    "group": {
+      "id": "rheinland-pfalz-historisches-dop20--Rheinland-Pfalz-DOP20-2016",
+      "label": "2020",
+      "name": "Rheinland-Pfalz historisches DOP20",
+      "order": 1
+    },
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2020",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2020&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2020&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2021": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2021, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2021, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2021",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2021",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2021&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2021&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2022": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2022, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2022, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2022",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2022",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2022&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2022&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2023": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2023, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2023, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2023",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2023",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2023&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2023&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+  },
+  "Rheinland-Pfalz-DOP20-2024": {
+    "attributionHtml": "<a href=\"https://www.lvermgeo.rlp.de/\" target=\"_blank\" rel=\"noopener\">© GeoBasis-DE / LVermGeoRP 2024, dl-de/by-2-0, www.lvermgeo.rlp.de</a>",
+    "attributionText": "© GeoBasis-DE / LVermGeoRP 2024, dl-de/by-2-0, www.lvermgeo.rlp.de",
+    "attributionUrl": "https://www.lvermgeo.rlp.de/",
+    "availableProjections": [
+      "EPSG:3034",
+      "EPSG:3035",
+      "EPSG:3044",
+      "EPSG:3857",
+      "EPSG:4258",
+      "EPSG:4326",
+      "EPSG:4647",
+      "EPSG:5652",
+      "EPSG:25832",
+      "EPSG:31466",
+      "EPSG:31467"
+    ],
+    "endDate": "2024",
+    "group": {
+      "id": "rheinland-pfalz-historisches-dop20--Rheinland-Pfalz-DOP20-2016",
+      "label": "2024",
+      "name": "Rheinland-Pfalz historisches DOP20",
+      "order": 2
+    },
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/europe/de/Rheinland-Pfalz-DOP20.jpg",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/DE:Permissions/2025-lvermggeo-rlp",
+    "startDate": "2024",
+    "tiles": [
+      "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2024&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    ],
+    "urlTemplate": "https://geo4.service24.rlp.de/wms/rp_hkdop20.fcgi?LAYERS=rp_dop20_rgb_2024&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "riksantikvaren-kulturminner": {
     "attributionHtml": "<a href=\"https://riksantikvaren.no/databaser-digitale-tjenester-og-registre/\" target=\"_blank\" rel=\"noopener\">© Riksantikvaren</a>",
@@ -12632,36 +13081,30 @@
     "attributionText": "© Statistiska Centralbyrån, CC0",
     "attributionUrl": "https://scb.se/",
     "availableProjections": [
-      "EPSG:3005",
       "EPSG:3006",
-      "EPSG:4258",
-      "EPSG:4326",
-      "EPSG:3021"
+      "EPSG:4326"
     ],
-    "icon": "https://scb.se/StyleguideAssets/scb/img/Start/favicon-32x32.png",
+    "icon": "https://www.scb.se/img/scb-icon-192.png",
     "licenseUrl": "https://scb.se/vara-tjanster/oppna-data/",
     "tiles": [
-      "http://geodata.scb.se/geoserver/stat/Verksamhetsomraden/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=stat:Verksamhetsomraden.2015&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://geodata.scb.se/geoserver/stat/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Verksamhetsomraden_2015&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "http://geodata.scb.se/geoserver/stat/Verksamhetsomraden/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=stat:Verksamhetsomraden.2015&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://geodata.scb.se/geoserver/stat/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Verksamhetsomraden_2015&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "scb-settlements": {
     "attributionHtml": "<a href=\"https://scb.se/\" target=\"_blank\" rel=\"noopener\">© Statistiska Centralbyrån, CC0</a>",
     "attributionText": "© Statistiska Centralbyrån, CC0",
     "attributionUrl": "https://scb.se/",
     "availableProjections": [
-      "EPSG:3005",
       "EPSG:3006",
-      "EPSG:4258",
-      "EPSG:4326",
-      "EPSG:3021"
+      "EPSG:4326"
     ],
-    "icon": "https://scb.se/StyleguideAssets/scb/img/Start/favicon-32x32.png",
+    "icon": "https://www.scb.se/img/scb-icon-192.png",
     "licenseUrl": "https://scb.se/vara-tjanster/oppna-data/",
     "tiles": [
-      "http://geodata.scb.se/geoserver/stat/Smaorter/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=stat:Smaorter.2015&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+      "https://geodata.scb.se/geoserver/stat/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Smaorter_2015&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
-    "urlTemplate": "http://geodata.scb.se/geoserver/stat/Smaorter/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=stat:Smaorter.2015&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+    "urlTemplate": "https://geodata.scb.se/geoserver/stat/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Smaorter_2015&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
   "scb-urban": {
     "attributionHtml": "<a href=\"https://scb.se/\" target=\"_blank\" rel=\"noopener\">© Statistiska Centralbyrån, CC0</a>",
@@ -12674,7 +13117,7 @@
       "EPSG:4326",
       "EPSG:3021"
     ],
-    "icon": "https://scb.se/StyleguideAssets/scb/img/Start/favicon-32x32.png",
+    "icon": "https://www.scb.se/img/scb-icon-192.png",
     "licenseUrl": "https://scb.se/vara-tjanster/oppna-data/",
     "tiles": [
       "http://geodata.scb.se/geoserver/stat/Tatorter/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Tatorter_2020&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
@@ -12782,7 +13225,7 @@
       "EPSG:25830",
       "EPSG:32630"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://geoportal.navarra.es/es/idena/servicios",
     "tiles": [
       "https://idena.navarra.es/ogc/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=catastro&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
     ],
@@ -12802,11 +13245,11 @@
       "EPSG:25830",
       "EPSG:32630"
     ],
-    "licenseUrl": "https://wiki.openstreetmap.org/w/index.php?title=ES:Fuentes_de_datos_potenciales_de_Espa%C3%B1a/Servidores_WMS",
+    "licenseUrl": "https://geoportal.navarra.es/es/idena/servicios",
     "tiles": [
-      "http://idena.navarra.es/ogc/ows?LAYERS=IDENA:ortofoto_maxima_actualidad&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "http://idena.navarra.es/ogc/ows?LAYERS=ortofoto_maxima_actualidad&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "http://idena.navarra.es/ogc/ows?LAYERS=IDENA:ortofoto_maxima_actualidad&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "http://idena.navarra.es/ogc/ows?LAYERS=ortofoto_maxima_actualidad&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "skolverket-schools": {
     "attributionHtml": "<a href=\"https://www.skolverket.se/\" target=\"_blank\" rel=\"noopener\">© Skolverket</a>",
@@ -12872,7 +13315,6 @@
     "attributionHtml": "Kanton Solothurn, Orthofoto 2014 RGB",
     "attributionText": "Kanton Solothurn, Orthofoto 2014 RGB",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -12889,7 +13331,6 @@
     "attributionHtml": "Kanton Solothurn, Orthofoto 2015 RGB",
     "attributionText": "Kanton Solothurn, Orthofoto 2015 RGB",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -12912,7 +13353,6 @@
     "attributionHtml": "Kanton Solothurn, Orthofoto 2016 RGB",
     "attributionText": "Kanton Solothurn, Orthofoto 2016 RGB",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -12929,7 +13369,6 @@
     "attributionHtml": "Kanton Solothurn, Orthofoto 2017 RGB",
     "attributionText": "Kanton Solothurn, Orthofoto 2017 RGB",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -12952,7 +13391,6 @@
     "attributionHtml": "DOM Relief 2014 - Auflösung 50cm, WMS Solothurn (SOGIS)",
     "attributionText": "DOM Relief 2014 - Auflösung 50cm, WMS Solothurn (SOGIS)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -12969,7 +13407,6 @@
     "attributionHtml": "DTM Relief 2014 - Auflösung 50cm, WMS Solothurn (SOGIS)",
     "attributionText": "DTM Relief 2014 - Auflösung 50cm, WMS Solothurn (SOGIS)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -12986,7 +13423,6 @@
     "attributionHtml": "Kanton Solothurn, DSM Relief 2018, WMS Solothurn (SOGIS)",
     "attributionText": "Kanton Solothurn, DSM Relief 2018, WMS Solothurn (SOGIS)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -13003,7 +13439,6 @@
     "attributionHtml": "Kanton Solothurn, DTM Relief 2018, WMS Solothurn (SOGIS)",
     "attributionText": "Kanton Solothurn, DTM Relief 2018, WMS Solothurn (SOGIS)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -13020,7 +13455,6 @@
     "attributionHtml": "Kanton Solothurn, DSM Relief 2019, WMS Solothurn (SOGIS)",
     "attributionText": "Kanton Solothurn, DSM Relief 2019, WMS Solothurn (SOGIS)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -13037,7 +13471,6 @@
     "attributionHtml": "Kanton Solothurn, DTM Relief 2019, WMS Solothurn (SOGIS)",
     "attributionText": "Kanton Solothurn, DTM Relief 2019, WMS Solothurn (SOGIS)",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326"
@@ -13083,7 +13516,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC0-1.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3034",
       "EPSG:3035",
       "EPSG:3044",
@@ -13111,7 +13543,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC0-1.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3034",
       "EPSG:3035",
       "EPSG:3044",
@@ -13139,7 +13570,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC0-1.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3034",
       "EPSG:3035",
       "EPSG:3044",
@@ -13167,7 +13597,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC0-1.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3034",
       "EPSG:3035",
       "EPSG:3044",
@@ -13195,7 +13624,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC-BY 4.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -13240,7 +13668,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC-BY 4.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -13291,7 +13718,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC-BY 4.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -13312,7 +13738,6 @@
     "attributionText": "© Autonome Provinz Bozen/Provincia Autonoma di Bolzano CC-BY 4.0",
     "attributionUrl": "https://geoservices.buergernetz.bz.it/geokatalog/",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4258",
       "EPSG:4326",
@@ -13324,14 +13749,16 @@
     "licenseUrl": "https://geoportal.buergernetz.bz.it/veroeffentlichungen.asp?publ_action=300&publ_image_id=394227",
     "startDate": "2014",
     "tiles": [
-      "https://geoservices.buergernetz.bz.it/mapproxy/p_bz-Orthoimagery/wms?LAYERS=Aerial-2015-RGB,Aerial-2014-RGB&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+      "https://geoservices.buergernetz.bz.it/mapproxy/p_bz-Orthoimagery/wms?LAYERS=Aerial-2014-RGB&STYLES=&CRS=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/jpeg&WIDTH=256&HEIGHT=256&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
     ],
-    "urlTemplate": "https://geoservices.buergernetz.bz.it/mapproxy/p_bz-Orthoimagery/wms?LAYERS=Aerial-2015-RGB,Aerial-2014-RGB&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
+    "urlTemplate": "https://geoservices.buergernetz.bz.it/mapproxy/p_bz-Orthoimagery/wms?LAYERS=Aerial-2014-RGB&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/jpeg&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
   },
   "SPW_ORTHO_LAST": {
     "availableProjections": [
       "CRS:84",
+      "EPSG:3812",
       "EPSG:3857",
+      "EPSG:4258",
       "EPSG:4326",
       "EPSG:31370"
     ],
@@ -13344,7 +13771,6 @@
   },
   "SPW_PICC": {
     "availableProjections": [
-      "CRS:84",
       "EPSG:3812",
       "EPSG:3857",
       "EPSG:4258",
@@ -13765,9 +14191,9 @@
     "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_Hungary/Ortofot%C3%B3k#Szeged",
     "startDate": "2011",
     "tiles": [
-      "http://e.tile.openstreetmap.hu/szeged-2011-10cm/{z}/{x}/{y}.png"
+      "https://e.tile.openstreetmap.hu/szeged-2011-10cm/{z}/{x}/{y}.png"
     ],
-    "urlTemplate": "http://e.tile.openstreetmap.hu/szeged-2011-10cm/{zoom}/{x}/{y}.png"
+    "urlTemplate": "https://e.tile.openstreetmap.hu/szeged-2011-10cm/{zoom}/{x}/{y}.png"
   },
   "tampere-aerial-2022": {
     "attributionHtml": "<a href=\"https://www.tampere.fi/en\" target=\"_blank\" rel=\"noopener\">© City of Tampere</a>",
@@ -13878,7 +14304,6 @@
     "attributionText": "tiris.tirol.gv.at",
     "attributionUrl": "https://tiris.tirol.gv.at",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3035",
       "EPSG:3044",
       "EPSG:3045",
@@ -13907,7 +14332,6 @@
     "attributionText": "tiris.tirol.gv.at",
     "attributionUrl": "https://tiris.tirol.gv.at",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3035",
       "EPSG:3044",
       "EPSG:3045",
@@ -13936,7 +14360,6 @@
     "attributionText": "tiris.tirol.gv.at",
     "attributionUrl": "https://tiris.tirol.gv.at",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3034",
       "EPSG:3035",
       "EPSG:3044",
@@ -13966,7 +14389,6 @@
     "attributionText": "tiris.tirol.gv.at",
     "attributionUrl": "https://tiris.tirol.gv.at",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3035",
       "EPSG:3044",
       "EPSG:3045",
@@ -13995,7 +14417,6 @@
     "attributionText": "tiris.tirol.gv.at",
     "attributionUrl": "https://tiris.tirol.gv.at",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3035",
       "EPSG:3044",
       "EPSG:3045",
@@ -14327,7 +14748,6 @@
     "attributionText": "© Trafikverket, CC0",
     "attributionUrl": "https://www.trafikverket.se",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3006",
       "EPSG:3007",
       "EPSG:3008",
@@ -15293,14 +15713,12 @@
   },
   "viersen_alkis_wms": {
     "availableProjections": [
-      "CRS:84",
       "EPSG:25831",
       "EPSG:25832",
       "EPSG:25833",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:4647",
-      "EPSG:900913",
       "EPSG:5649",
       "EPSG:5650",
       "EPSG:5651",
@@ -15576,7 +15994,6 @@
     "attributionText": "Stadt Wien",
     "attributionUrl": "https://data.wien.gv.at",
     "availableProjections": [
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326",
       "EPSG:31254",
@@ -15589,10 +16006,8 @@
       "EPSG:31294",
       "EPSG:31295",
       "EPSG:31296",
-      "EPSG:31297",
       "EPSG:32632",
-      "EPSG:32633",
-      "EPSG:102100"
+      "EPSG:32633"
     ],
     "icon": "https://www.wien.gv.at/layout-a/logo/wappen-klein.gif",
     "licenseUrl": "https://digitales.wien.gv.at/ogd-nutzungsbedingungen",
@@ -15808,7 +16223,6 @@
     "attributionHtml": "Urząd Miasta Zabrza",
     "attributionText": "Urząd Miasta Zabrza",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2177",
       "EPSG:4326"
     ],
@@ -15841,8 +16255,8 @@
     "attributionText": "Stadt Zürich Open Government Data",
     "availableProjections": [
       "CRS:84",
-      "EPSG:3857",
       "EPSG:2056",
+      "EPSG:3857",
       "EPSG:4326"
     ],
     "endDate": "2013",
@@ -15874,7 +16288,6 @@
     "availableProjections": [
       "EPSG:3857",
       "EPSG:4326",
-      "CRS:84",
       "EPSG:21781",
       "EPSG:2056"
     ],
@@ -15892,7 +16305,6 @@
     "availableProjections": [
       "EPSG:21781",
       "EPSG:2056",
-      "CRS:84",
       "EPSG:3857",
       "EPSG:4326"
     ],
@@ -15911,8 +16323,7 @@
       "EPSG:21781",
       "EPSG:3857",
       "EPSG:4326",
-      "EPSG:2056",
-      "CRS:84"
+      "EPSG:2056"
     ],
     "endDate": "2018",
     "licenseUrl": "https://www.zg.ch/behoerden/direktion-des-innern/geoportal/geodaten-einbinden/wms",
@@ -15927,13 +16338,12 @@
     "attributionText": "GIS Kanton Zug",
     "availableProjections": [
       "EPSG:3857",
-      "CRS:84",
       "EPSG:4326",
       "EPSG:21781",
       "EPSG:2056"
     ],
     "endDate": "2019",
-    "licenseUrl": "https://www.zg.ch/behoerden/direktion-des-innern/geoportal/geodaten-einbinden/wms",
+    "licenseUrl": "https://zg.ch/de/planen-bauen/geoinformation/geoinformationen-nutzen/nutzungsbedingungen",
     "startDate": "2019",
     "tiles": [
       "https://services.geo.zg.ch/ows/Orthofotos?LAYERS=zg.orthofoto_2019_kt_zg&STYLES=default&FORMAT=image/jpeg&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap"
@@ -15944,7 +16354,6 @@
     "attributionHtml": "GIS Kanton Zug",
     "attributionText": "GIS Kanton Zug",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326",
@@ -15962,7 +16371,6 @@
     "attributionHtml": "GIS Kanton Zug",
     "attributionText": "GIS Kanton Zug",
     "availableProjections": [
-      "CRS:84",
       "EPSG:2056",
       "EPSG:3857",
       "EPSG:4326",

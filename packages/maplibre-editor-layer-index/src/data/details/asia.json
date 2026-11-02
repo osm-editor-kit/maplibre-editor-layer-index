@@ -5,6 +5,15 @@
     ],
     "urlTemplate": "https://tiles.openaerialmap.org/5d25d7bf161a790005c03e6e/0/5d25d7bf161a790005c03e6f/{zoom}/{x}/{y}.png"
   },
+  "Georgia-Orthophoto-plans": {
+    "endDate": "2022",
+    "licenseUrl": "https://wiki.openstreetmap.org/wiki/WikiProject_Georgia_Abkhazia_South-Ossetia#Comment_about_data_from_the_National_Agency_of_Public_Registry_and_other_state_structures",
+    "startDate": "2000",
+    "tiles": [
+      "https://nt0.napr.gov.ge/NGCache?x={x}&y={y}&z={z}&l=ORTHO_GEORGIA_4"
+    ],
+    "urlTemplate": "https://nt0.napr.gov.ge/NGCache?x={x}&y={y}&z={zoom}&l=ORTHO_GEORGIA_4"
+  },
   "gsi.go.jp_airphoto": {
     "attributionHtml": "<a href=\"https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html\" target=\"_blank\" rel=\"noopener\">GSI Japan</a>",
     "attributionText": "GSI Japan",
