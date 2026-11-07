@@ -23,8 +23,8 @@
     "@types/geojson": "^7946.0.16",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.1.2",
+    "@vitejs/plugin-react": "^6.2.1",
     "typescript": "^5.7.2",
-    "vite": "^8.3.3"
+    "vite": "^8.3.5"
   }
 }
