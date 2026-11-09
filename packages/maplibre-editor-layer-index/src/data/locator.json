@@ -21943,6 +21943,32 @@
         "US"
       ],
       "geometryId": "d660f393bcbb500a",
+      "id": "Mecklenburg_NC_2026",
+      "maxzoom": 19,
+      "name": "Mecklenburg County Orthoimagery (2026)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bboxes": [
+        [
+          -81.06884,
+          35.00083,
+          -80.54096,
+          35.52381
+        ]
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "d660f393bcbb500a",
       "id": "Mecklenburg_NC_Latest",
       "maxzoom": 21,
       "name": "Mecklenburg County Orthoimagery (Latest)",

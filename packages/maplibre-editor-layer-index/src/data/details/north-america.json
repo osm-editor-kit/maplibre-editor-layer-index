@@ -5134,9 +5134,9 @@
     "urlTemplate": "https://mdgeodata.md.gov/imagery/rest/services/ThreeInch/MD_ThreeInchImagery/ImageServer/exportImage?f=image&format=jpgpng&imageSR={wkid}&bboxSR={wkid}&bbox={bbox}&size={width},{height}"
   },
   "Mecklenburg_NC_2022": {
-    "attributionHtml": "<a href=\"https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
+    "attributionHtml": "<a href=\"https://maps.mecklenburgcountync.gov/openmapping/\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
     "attributionText": "Mecklenburg County GIS",
-    "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
+    "attributionUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "availableProjections": [
       "EPSG:3857"
     ],
@@ -5148,7 +5148,7 @@
       "order": 0
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
-    "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
+    "licenseUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "startDate": "2022-01-04",
     "tiles": [
       "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2022/MapServer/export?f=image&format=jpg&layers=&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
@@ -5156,9 +5156,9 @@
     "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2022/MapServer/export?f=image&format=jpg&layers=&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "Mecklenburg_NC_2023": {
-    "attributionHtml": "<a href=\"https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
+    "attributionHtml": "<a href=\"https://maps.mecklenburgcountync.gov/openmapping/\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
     "attributionText": "Mecklenburg County GIS",
-    "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
+    "attributionUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "availableProjections": [
       "EPSG:3857"
     ],
@@ -5170,7 +5170,7 @@
       "order": 1
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
-    "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
+    "licenseUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "startDate": "2023-01-09",
     "tiles": [
       "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2023/MapServer/export?f=image&format=jpg&layers=&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
@@ -5178,9 +5178,9 @@
     "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2023/MapServer/export?f=image&format=jpg&layers=&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "Mecklenburg_NC_2024": {
-    "attributionHtml": "<a href=\"https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
+    "attributionHtml": "<a href=\"https://maps.mecklenburgcountync.gov/openmapping/\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
     "attributionText": "Mecklenburg County GIS",
-    "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
+    "attributionUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "availableProjections": [
       "EPSG:3857"
     ],
@@ -5192,7 +5192,7 @@
       "order": 2
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
-    "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
+    "licenseUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "startDate": "2023-12-31",
     "tiles": [
       "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2024/MapServer/export?f=image&format=jpg&layers=&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
@@ -5200,9 +5200,9 @@
     "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2024/MapServer/export?f=image&format=jpg&layers=&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "Mecklenburg_NC_2025": {
-    "attributionHtml": "<a href=\"https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
+    "attributionHtml": "<a href=\"https://maps.mecklenburgcountync.gov/openmapping/\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
     "attributionText": "Mecklenburg County GIS",
-    "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
+    "attributionUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "availableProjections": [
       "EPSG:3857"
     ],
@@ -5214,28 +5214,50 @@
       "order": 3
     },
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
-    "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
+    "licenseUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "startDate": "2024-12-26",
     "tiles": [
       "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2025/MapServer/export?f=image&format=jpg&layers=&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
     "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2025/MapServer/export?f=image&format=jpg&layers=&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
-  "Mecklenburg_NC_Latest": {
-    "attributionHtml": "<a href=\"https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
+  "Mecklenburg_NC_2026": {
+    "attributionHtml": "<a href=\"https://maps.mecklenburgcountync.gov/openmapping/\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
     "attributionText": "Mecklenburg County GIS",
-    "attributionUrl": "https://www.mecknc.gov/LUESA/GIS/Pages/GIS-Data-Center.aspx",
+    "attributionUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
+    "availableProjections": [
+      "EPSG:3857"
+    ],
+    "endDate": "2026",
+    "group": {
+      "id": "mecklenburg-county-orthoimagery",
+      "label": "2026",
+      "name": "Mecklenburg County Orthoimagery",
+      "order": 4
+    },
+    "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
+    "licenseUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
+    "startDate": "2026",
+    "tiles": [
+      "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2026/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox-epsg-3857}&imageSR=3857&bboxSR=3857&size=256,256"
+    ],
+    "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2026/ImageServer/exportImage?f=image&format=jpgpng&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&size={width},{height}"
+  },
+  "Mecklenburg_NC_Latest": {
+    "attributionHtml": "<a href=\"https://maps.mecklenburgcountync.gov/openmapping/\" target=\"_blank\" rel=\"noopener\">Mecklenburg County GIS</a>",
+    "attributionText": "Mecklenburg County GIS",
+    "attributionUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "availableProjections": [
       "EPSG:3857"
     ],
     "endDate": "2026",
     "icon": "https://blog.mecknc.gov/wp-content/uploads/2017/11/Blue_Wide_Logo-768x766.jpg",
-    "licenseUrl": "https://maps.mecknc.gov/openmapping/data.html",
+    "licenseUrl": "https://maps.mecklenburgcountync.gov/openmapping/",
     "startDate": "2026",
     "tiles": [
-      "https://meckaerial.mecklenburgcountync.gov/server/rest/services/Aerial_Latest/ImageServer?f=image&format=jpg&layers=&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
+      "https://meckaerial.mecklenburgcountync.gov/server/rest/services/Aerial_Latest/ImageServer/exportImage?f=image&format=jpg&layers=&bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256"
     ],
-    "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/Aerial_Latest/ImageServer?f=image&format=jpg&layers=&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
+    "urlTemplate": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/Aerial_Latest/ImageServer/exportImage?f=image&format=jpg&layers=&bbox={bbox}&bboxSR={wkid}&imageSR={wkid}&size={width},{height}"
   },
   "Mercer_OH_2021": {
     "attributionHtml": "<a href=\"https://www.mercercountyohio.org/\" target=\"_blank\" rel=\"noopener\">Mercer County, State of Ohio</a>",

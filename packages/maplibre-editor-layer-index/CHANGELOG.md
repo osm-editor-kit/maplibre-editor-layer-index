@@ -1,5 +1,25 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 1.0.2
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`a13161d`](https://github.com/osmlab/editor-layer-index/commit/a13161d8f6dbbcb0a892ba0a83853ef9fce16b53) → [`9d2097a`](https://github.com/osmlab/editor-layer-index/commit/9d2097a8393fe198b654075335fb39f78173d1b2), [compare](https://github.com/osmlab/editor-layer-index/compare/a13161d8f6dbbcb0a892ba0a83853ef9fce16b53...9d2097a8393fe198b654075335fb39f78173d1b2)).
+
+  Upstream commits:
+  - [`0f76860`](https://github.com/osmlab/editor-layer-index/commit/0f768603446840547a22e7e9160dce9addb93e39) Bump pytest from 9.1.1 to 9.2.0 ([#3105](https://github.com/osmlab/editor-layer-index/pull/3105))
+  - [`9d2097a`](https://github.com/osmlab/editor-layer-index/commit/9d2097a8393fe198b654075335fb39f78173d1b2) Add Mecklenburg County, NC 2026 Imagery + fixes for older years ([#3106](https://github.com/osmlab/editor-layer-index/pull/3106))
+
+  ### Added (1)
+  - **Mecklenburg County Orthoimagery (2026)** (`Mecklenburg_NC_2026`) — [source](https://github.com/osmlab/editor-layer-index/blob/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2026.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2026.geojson)
+
+  ### Updated (5)
+  - **Mecklenburg County Orthoimagery (2022)** (`Mecklenburg_NC_2022`) — [source](https://github.com/osmlab/editor-layer-index/blob/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2022.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2022.geojson)
+  - **Mecklenburg County Orthoimagery (2023)** (`Mecklenburg_NC_2023`) — [source](https://github.com/osmlab/editor-layer-index/blob/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2023.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2023.geojson)
+  - **Mecklenburg County Orthoimagery (2024)** (`Mecklenburg_NC_2024`) — [source](https://github.com/osmlab/editor-layer-index/blob/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2024.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2024.geojson)
+  - **Mecklenburg County Orthoimagery (2025)** (`Mecklenburg_NC_2025`) — [source](https://github.com/osmlab/editor-layer-index/blob/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2025.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_2025.geojson)
+  - **Mecklenburg County Orthoimagery (Latest)** (`Mecklenburg_NC_Latest`) — [source](https://github.com/osmlab/editor-layer-index/blob/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_Latest.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/9d2097a8393fe198b654075335fb39f78173d1b2/sources/north-america/us/nc/Mecklenburg_NC_Latest.geojson)
+
 ## 1.0.1
 
 ### Patch Changes
