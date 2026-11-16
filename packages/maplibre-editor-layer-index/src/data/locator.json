@@ -15360,7 +15360,7 @@
         ]
       ],
       "best": false,
-      "category": "photo",
+      "category": "historicphoto",
       "continents": [
         "north-america"
       ],
@@ -15371,6 +15371,32 @@
       "id": "Hennepin_Ortho_2025",
       "maxzoom": 19,
       "name": "Hennepin County Orthoimagery (2025)",
+      "overlay": false,
+      "requiresKeys": [],
+      "tileSize": 256,
+      "type": "wms"
+    },
+    {
+      "bboxes": [
+        [
+          -93.7709,
+          44.78525,
+          -93.17243,
+          45.24869
+        ]
+      ],
+      "best": false,
+      "category": "photo",
+      "continents": [
+        "north-america"
+      ],
+      "countryCodes": [
+        "US"
+      ],
+      "geometryId": "e36b717638fa6c86",
+      "id": "Hennepin_Ortho_2026",
+      "maxzoom": 19,
+      "name": "Hennepin County Orthoimagery (2026)",
       "overlay": false,
       "requiresKeys": [],
       "tileSize": 256,

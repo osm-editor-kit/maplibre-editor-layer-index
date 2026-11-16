@@ -1,5 +1,21 @@
 # @osm-editor-kit/maplibre-editor-layer-index
 
+## 1.0.3
+
+### Patch Changes
+
+- Update Editor Layer Index data ([`9d2097a`](https://github.com/osmlab/editor-layer-index/commit/9d2097a8393fe198b654075335fb39f78173d1b2) → [`1bfbd5f`](https://github.com/osmlab/editor-layer-index/commit/1bfbd5f1af485530abd2991b776c7ddf2c0ae3b7), [compare](https://github.com/osmlab/editor-layer-index/compare/9d2097a8393fe198b654075335fb39f78173d1b2...1bfbd5f1af485530abd2991b776c7ddf2c0ae3b7)).
+
+  Upstream commits:
+  - [`bb92960`](https://github.com/osmlab/editor-layer-index/commit/bb92960d20a1a327ad0bd836d68e25c30bda4db6) Bump peter-evans/create-pull-request from 8.1.1 to 8.1.2 ([#3109](https://github.com/osmlab/editor-layer-index/pull/3109))
+  - [`1bfbd5f`](https://github.com/osmlab/editor-layer-index/commit/1bfbd5f1af485530abd2991b776c7ddf2c0ae3b7) Add new annual source for US MN Hennepin Ortho 2026 ([#3115](https://github.com/osmlab/editor-layer-index/pull/3115))
+
+  ### Added (1)
+  - **Hennepin County Orthoimagery (2026)** (`Hennepin_Ortho_2026`) — [source](https://github.com/osmlab/editor-layer-index/blob/1bfbd5f1af485530abd2991b776c7ddf2c0ae3b7/sources/north-america/us/mn/Hennepin_Ortho_2026.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/1bfbd5f1af485530abd2991b776c7ddf2c0ae3b7/sources/north-america/us/mn/Hennepin_Ortho_2026.geojson)
+
+  ### Updated (1)
+  - **Hennepin County Orthoimagery (2025)** (`Hennepin_Ortho_2025`) — [source](https://github.com/osmlab/editor-layer-index/blob/1bfbd5f1af485530abd2991b776c7ddf2c0ae3b7/sources/north-america/us/mn/Hennepin_Ortho_2025.geojson) · [history](https://github.com/osmlab/editor-layer-index/commits/1bfbd5f1af485530abd2991b776c7ddf2c0ae3b7/sources/north-america/us/mn/Hennepin_Ortho_2025.geojson)
+
 ## 1.0.2
 
 ### Patch Changes

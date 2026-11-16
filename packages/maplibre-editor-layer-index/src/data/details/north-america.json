@@ -3287,6 +3287,31 @@
     ],
     "urlTemplate": "https://gis.hennepin.us/arcgis/services/Imagery/UTM_Aerial_2025/MapServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
   },
+  "Hennepin_Ortho_2026": {
+    "attributionHtml": "<a href=\"https://gis-hennepin.hub.arcgis.com/\" target=\"_blank\" rel=\"noopener\">Hennepin County GIS</a>",
+    "attributionText": "Hennepin County GIS",
+    "attributionUrl": "https://gis-hennepin.hub.arcgis.com/",
+    "availableProjections": [
+      "CRS:84",
+      "EPSG:3857",
+      "EPSG:4326",
+      "EPSG:26915"
+    ],
+    "endDate": "2026-04",
+    "group": {
+      "id": "hennepin-county-orthoimagery",
+      "label": "2026",
+      "name": "Hennepin County Orthoimagery",
+      "order": 6
+    },
+    "icon": "https://www.hennepin.us/branding-assets/img/h-logo-blue.png",
+    "licenseUrl": "https://metrogis.org/getmedia/3847b6d1-9609-4223-8f1c-591a7780fabb/HennepinCountyResolution_2014_02_11.pdf.aspx",
+    "startDate": "2026-04",
+    "tiles": [
+      "https://gis.hennepin.us/arcgis/services/Imagery/UTM_Aerial_2026/MapServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}"
+    ],
+    "urlTemplate": "https://gis.hennepin.us/arcgis/services/Imagery/UTM_Aerial_2026/MapServer/WMSServer?FORMAT=image/jpeg&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=0&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"
+  },
   "Henrico_VA_2024": {
     "attributionHtml": "<a href=\"https://henrico.gov/it/gis/\" target=\"_blank\" rel=\"noopener\">Henrico County Government</a>",
     "attributionText": "Henrico County Government",
